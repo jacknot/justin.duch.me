@@ -24,6 +24,23 @@ const converter = new showdown.Converter({extensions:
 	['youtube', footnotes, showdownHighlight, 'prettify']});
 const articleDir = './_articles';
 
+function getPostData(data) {
+	// Because there is no metadata extension, we need to read the lines
+	let lines = data.split('\n');
+	let metadataString = lines.slice(1,7);
+
+	return {
+		slug: fileName,
+		title: metadataString[0].split(':')[1].trim(),
+		category: metadataString[1].split(':')[1].trim(),
+		date: metadataString[2].split(':')[1].trim(),
+		thumbnail: metadataString[3].split(':')[1].trim(),
+		tags: metadataString[4].split(':')[1].trim(),
+		description: metadataString[5].split(':')[1].trim(),
+		html:	converter.makeHtml(lines.slice(8,lines.length).join('\n')),
+	}
+}
+
 function scanAndImportArticles() { 
 	return new Promise(resolve => {
 		let newArticle = null;
@@ -39,20 +56,7 @@ function scanAndImportArticles() {
 				let fileName = file.split('.')[0];
 
 				let data = fs.readFileSync(filePath, {encoding: 'utf-8'});
-				let lines = data.split('\n');
-				let metadataString = lines.slice(1,7);
-
-				// Because there is no metadata extension, we need to read the lines
-				let post = {
-					slug: fileName,
-					title: metadataString[0].split(':')[1].trim(),
-					category: metadataString[1].split(':')[1].trim(),
-					date: metadataString[2].split(':')[1].trim(),
-					thumbnail: metadataString[3].split(':')[1].trim(),
-					tags: metadataString[4].split(':')[1].trim(),
-					description: metadataString[5].split(':')[1].trim(),
-					html:	converter.makeHtml(lines.slice(8,lines.length).join('\n')),
-				}
+				let post = getPostData(data);
 
 				let key = 'article:' + fileName;
 				client.set(key, JSON.stringify(post));
