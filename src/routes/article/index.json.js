@@ -8,6 +8,7 @@ export function get(req, res) {
 				slug: post.slug,
 				date: post.date,
 				thumbnail: post.thumbnail,
+				category: post.category,
 			};
 		}));
 

@@ -102,7 +102,7 @@
 		position: ${fixed ? 'fixed' : 'absolute'};
 		${position}: 0;
 		width: ${width}px;
-		z-index: ${inverted ? 3 : 1};
+		z-index: ${inverted ? 1 : 10};
 	`;
 
 	onMount(() => {

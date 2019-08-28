@@ -48,6 +48,14 @@
 
 	.info {
 		padding: 1em;
+		position: relative;
+		width: 100%;
+	}
+
+	.info small {
+		position: absolute;
+		bottom: 1em;
+		right: 1em;
 	}
 </style>
 
@@ -69,7 +77,7 @@
 			</div>
 			<div class="info">
 				<h4>{post.title}</h4>
-				<small>{post.date}</small>
+				<small>from {post.category} on {post.date}</small>
 			</div>
 		</div>
 	</a>
