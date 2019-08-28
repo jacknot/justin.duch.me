@@ -1,0 +1,8 @@
+{
+	"background_color": "#ffffff",
+	"theme_color": "#333333",
+	"name": "blog",
+	"short_name": "blog",
+	"display": "minimal-ui",
+	"start_url": "/",
+}
