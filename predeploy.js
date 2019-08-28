@@ -30,7 +30,6 @@ function getPostData(data) {
 	let metadataString = lines.slice(1,7);
 
 	return {
-		slug: fileName,
 		title: metadataString[0].split(':')[1].trim(),
 		category: metadataString[1].split(':')[1].trim(),
 		date: metadataString[2].split(':')[1].trim(),
@@ -56,7 +55,7 @@ function scanAndImportArticles() {
 				let fileName = file.split('.')[0];
 
 				let data = fs.readFileSync(filePath, {encoding: 'utf-8'});
-				let post = getPostData(data);
+				let post = {...getPostData(data), fileName};
 
 				let key = 'article:' + fileName;
 				client.set(key, JSON.stringify(post));
