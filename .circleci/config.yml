@@ -1,13 +1,9 @@
 version: 2.1
-
 orbs:
   cypress: cypress-io/cypress@1
-
 workflows:
   build:
     jobs:
       - cypress/run:
-        yarn: true
-        cache-key: 'yarn-packages-{{ arch }}-{{ checksum "yarn.lock" }}'
-        command: yarn test
-
+          yarn: true
+          command: yarn test
