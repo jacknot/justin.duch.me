@@ -26,6 +26,7 @@ jobs:
       - save_cache:
           key: v1-dependencies-{{ checksum "package.json" }}
           paths:
+            - ~/.cache  ## cache both yarn and Cypress!
 
       # run tests!
       - run: yarn test
