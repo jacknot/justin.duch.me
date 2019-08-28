@@ -11,17 +11,18 @@ const footnotes = require('showdown-footnotes'),
 require('showdown-youtube');
 require('showdown-prettify');
 
+const { PORT, NODE_ENV, REDIS_HOST } = process.env;
+const dev = NODE_ENV !== 'production';
+const redisHost = REDIS_HOST || '127.0.0.1';
+
 const redis = require('redis');
 const redisScan = require('node-redis-scan');
-const client = redis.createClient();
+const client = redis.createClient(6379, redisHost);
 const scanner = new redisScan(client);
 
 const converter = new showdown.Converter({extensions: 
 	['youtube', footnotes, showdownHighlight, 'prettify']});
 const articleDir = './_articles';
-
-const { PORT, NODE_ENV } = process.env;
-const dev = NODE_ENV !== 'production';
 
 function scanAndImportArticles() { 
 	return new Promise(resolve => {
