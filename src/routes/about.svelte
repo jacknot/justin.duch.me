@@ -1,7 +1,6 @@
 <script>
 	let time = Math.round((new Date - new Date('2000-02-08T03:00:00')) / 1000);
 
-	import Scroller from '@sveltejs/svelte-scroller';
 	setInterval(() => { time += 1 }, 1000);
 </script>
 
