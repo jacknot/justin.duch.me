@@ -60,15 +60,14 @@
 
 		width: 100%;
 		height: 2px;
-		background: rgba(0,0,0,0.0);
-	}
 
-	[slot="background"] progress::-webkit-progress-value {
-		background: #000;
+		border: none;
+		background: transparent;
+		color: #000;
 	}
 
 	[slot="background"] progress::-moz-progress-bar {
-		background: rgba(0,0,0,0.0);
+		background: #000;
 	}
 
 	[slot="background"] progress::-webkit-progress-value {
@@ -76,7 +75,7 @@
 	}
 
 	[slot="background"] progress::-webkit-progress-bar {
-		background: rgba(0,0,0,0.0);
+		background: transparent;
 	}
 
 	/*
