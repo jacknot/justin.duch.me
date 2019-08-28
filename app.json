@@ -1,7 +1,11 @@
 {
+	"name": "blog.justinduch.com",
 	"scripts": {
 		"dokku": {
 			"predeploy": “yarn predeploy”
 		}
-	}
+	},
+	"	addons": [
+		"dokku-redis"
+	],
 }
