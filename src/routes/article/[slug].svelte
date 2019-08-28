@@ -15,6 +15,9 @@
 
 <script>
 	export let post;
+  	import Scroller from '../../components/Scroller.svelte';
+
+	let progress;
 
 	function toTop() {
 		document.body.scrollTop = 0; // For Safari
@@ -38,11 +41,42 @@
 	}
 
 	.footer {
-		padding-top: 2em;
+		padding: 2em 0;
 	}
 
 	.text-decorate {
 		cursor: pointer;
+	}
+
+	[slot="background"] {
+		width: 100%;
+		bottom: 1px;
+	}
+
+	[slot="background"] progress {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+
+		width: 100%;
+		height: 2px;
+		background: rgba(0,0,0,0.0);
+	}
+
+	[slot="background"] progress::-webkit-progress-value {
+		background: #000;
+	}
+
+	[slot="background"] progress::-moz-progress-bar {
+		background: rgba(0,0,0,0.0);
+	}
+
+	[slot="background"] progress::-webkit-progress-value {
+		background: #000;
+	}
+
+	[slot="background"] progress::-webkit-progress-bar {
+		background: rgba(0,0,0,0.0);
 	}
 
 	/*
@@ -106,19 +140,27 @@
 	<title>{post.title}</title>
 </svelte:head>
 
-<div class='content'>
+<div class="content">
 	<img src='https://beanpuppy.sirv.com/blog/thumbnails/{post.thumbnail}' alt='thumbnail' class='thumbnail'/>
 	<h1>{post.title}</h1>
 
-	<div class='info-line'>
-		<small>from {post.category} on {post.date}</small>
-		<small><a href=".">&#8617 back</a></small>
-	</div>
+	<Scroller top={0.2} bottom={0.99} bind:progress>
+		<div slot="background">
+			<progress value={progress || 0}></progress>
+		</div>
 
-	{@html post.html}
+		<div slot="foreground">
+			<div class='info-line'>
+				<small>from {post.category} on {post.date}</small>
+				<small><a href=".">&#8617 back</a></small>
+			</div>
 
-	<div class='info-line footer'>
-		<small on:click={toTop} class="text-decorate">back to top</small>
-		<small><a href='https://github.com/beanpuppy/blog.justinduch.com/_articles/{post.slug}.md'>see a mistake? edit it here.</a></small>
-	</div>
+			{@html post.html}
+
+			<div class='info-line footer'>
+				<small on:click={toTop} class="text-decorate">back to top</small>
+				<small><a href='https://github.com/beanpuppy/blog.justinduch.com/edit/master/_articles/{post.slug}.md'>see a mistake? edit it here.</a></small>
+			</div>
+		</div>
+	</Scroller>
 </div>

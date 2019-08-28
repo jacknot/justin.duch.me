@@ -1,3 +1,10 @@
+<script>
+	let time = Math.round((new Date - new Date('2000-02-08T03:00:00')) / 1000);
+
+	import Scroller from '@sveltejs/svelte-scroller';
+	setInterval(() => { time += 1 }, 1000);
+</script>
+
 <svelte:head>
 	<title>sur</title>
 </svelte:head>
@@ -12,3 +19,4 @@
 <p><strong>How many mechanical keyboards do you have?</strong> <br> Five.</p>
 <p><strong>Cute boys or girls?</strong> <br> Both.</p>
 <p><strong>Where's the body?</strong> <br> Behind the windmill.</p>
+<p><strong>How old are you?</strong> <br> {time} seconds.</p>
