@@ -7,6 +7,9 @@ jobs:
       - image: circleci/node:12.9.0
       - image: circleci/redis:5.0.5
       - image: cypress/base:8
+        environment:
+          ## this enables colors in the output
+          TERM: xterm
 
     working_directory: ~/repo
 
@@ -26,7 +29,8 @@ jobs:
       - save_cache:
           key: v1-dependencies-{{ checksum "package.json" }}
           paths:
-            - ~/.cache  ## cache both yarn and Cypress!
+            - ~/.yarn
+            - ~/.cache
 
       # run tests!
       - run: yarn test
