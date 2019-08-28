@@ -2,12 +2,12 @@
 // we don't want to create an `/article/posts` route — the leading
 // underscore tells Sapper not to do that.
 //
-const { REDIS_HOST } = process.env;
-const redisHost = REDIS_HOST || '127.0.0.1';
+const { REDIS_URL } = process.env;
+const redisUrl = REDIS_URL || 'redis://127.0.0.1:6379';
 
 const redis = require('redis');
 const redisScan = require('node-redis-scan');
-const client = redis.createClient(6379, redisHost);
+const client = redis.createClient(redisUrl);
 const scanner = new redisScan(client);
 
 const {promisify} = require('util');

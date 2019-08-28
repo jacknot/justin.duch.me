@@ -11,13 +11,13 @@ const footnotes = require('showdown-footnotes'),
 require('showdown-youtube');
 require('showdown-prettify');
 
-const { PORT, NODE_ENV, REDIS_HOST } = process.env;
+const { PORT, NODE_ENV, REDIS_URL } = process.env;
 const dev = NODE_ENV !== 'production';
-const redisHost = REDIS_HOST || '127.0.0.1';
+const redisUrl = REDIS_URL || 'redis://127.0.0.1:6379';
 
 const redis = require('redis');
 const redisScan = require('node-redis-scan');
-const client = redis.createClient(6379, redisHost);
+const client = redis.createClient(redisUrl);
 const scanner = new redisScan(client);
 
 const converter = new showdown.Converter({extensions: 
