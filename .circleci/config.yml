@@ -48,7 +48,7 @@ jobs:
       - run:
           name: Deploy to Dokku
           command: |
-            ssh -o "StrictHostKeyChecking no" dokku@blog.justinduch.com:blog
+            ssh -o "StrictHostKeyChecking no" dokku@blog.justinduch.com
             git remote add dokku dokku@blog.justinduch.com:blog
             git push dokku master
 
