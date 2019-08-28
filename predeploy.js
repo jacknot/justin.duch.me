@@ -11,7 +11,7 @@ const footnotes = require('./src/showdown/footnotes'),
 require('showdown-youtube');
 require('showdown-prettify');
 
-const { PORT, NODE_ENV, REDIS_URL } = process.env;
+const { PORT, NODE_ENV, REDIS_URL, SENDGRID_API_KEY } = process.env;
 const dev = NODE_ENV !== 'production';
 const redisUrl = REDIS_URL || 'redis://127.0.0.1:6379';
 
@@ -23,6 +23,9 @@ const scanner = new redisScan(client);
 const converter = new showdown.Converter({extensions: 
 	['youtube', footnotes, showdownHighlight, 'prettify']});
 const articleDir = './_articles';
+
+const mail = require('@sendgrid/mail');
+mail.setApiKey(SENDGRID_API_KEY);
 
 function getPostData(data) {
 	// Because there is no metadata extension, we need to read the lines
@@ -75,11 +78,39 @@ function scanAndImportArticles() {
 	});
 }
 
+function getSubscribers() {
+	return new Promise(resolve => {
+		scanner.scan('email:*', (err, keys) => {
+			resolve(keys);
+		});
+	});
+}
+
+async function sendEmails() {
+	let email_keys = await getSubscribers();
+	let url = `https://blog.justinduch.com/article/${newArticle.slug}`
+
+	email_keys.forEach(key => {
+		let [email, unsub_token] = key.split(':').slice(1,3);
+		let unsub_url = `https://blog.justinduch.com/unsubscribe/${unsub_token}`
+		let body = `${url}</br>${unsub_url}`
+
+		const msg = {
+			to: email,
+			from: 'noreply@justinduch.com',
+			subject: 'New Article',
+			html: body,
+		};
+
+		mail.send(msg);
+	});
+}
+
 (async () => {
 	let newArticle = await scanAndImportArticles();
 
 	if (newArticle && !dev) {
-		// TODO: send email
+		await sendEmails();
 	}
 
 	process.exit();

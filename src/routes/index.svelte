@@ -1,6 +1,6 @@
 <script context="module">
 	export function preload({ params, query }) {
-		return this.fetch(`article.json`).then(r => r.json()).then(posts => {
+		return this.fetch('article.json').then(r => r.json()).then(posts => {
 			posts.sort(function(a, b){
 				return new Date(b.date) - new Date(a.date);
 			});
