@@ -51,13 +51,13 @@ function scanAndImportArticles() {
 
 			// Read posts again and import them
 			fs.readdirSync(articleDir).forEach(file => {
-				let filePath = path.join(articleDir, file);
-				let fileName = file.split('.')[0];
+				let filepath = path.join(articleDir, file);
+				let filename = file.split('.')[0];
 
-				let data = fs.readFileSync(filePath, {encoding: 'utf-8'});
-				let post = {...getPostData(data), fileName};
+				let data = fs.readFileSync(filepath, {encoding: 'utf-8'});
+				let post = {...getPostData(data), slug: filename};
 
-				let key = 'article:' + fileName;
+				let key = 'article:' + filename;
 				client.set(key, JSON.stringify(post));
 
 				// Check if is new article
