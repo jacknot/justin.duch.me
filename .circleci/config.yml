@@ -30,7 +30,6 @@ jobs:
       - save_cache:
           key: v1-deps-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
-          paths:
             - ~/.yarn
             - ~/.cache
 
