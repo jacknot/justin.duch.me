@@ -1,6 +1,6 @@
 /*
  * Builds post database in redis and sends email if new
-*/
+ */
 
 const fs = require('fs');
 const path = require('path');
