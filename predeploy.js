@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 const showdown = require('showdown');
-const footnotes = require('showdown-footnotes'),
+const footnotes = require('./src/showdown/footnotes'),
 	showdownHighlight = require("showdown-highlight");
 require('showdown-youtube');
 require('showdown-prettify');
@@ -56,6 +56,10 @@ function scanAndImportArticles() {
 
 				let data = fs.readFileSync(filepath, {encoding: 'utf-8'});
 				let post = {...getPostData(data), slug: filename};
+
+				// replace footnote tags will full path because I don't know how to change
+				// the base url.
+				post.html = post.html.replace(/#footnote/g, `article/${post.slug}/#footnote`);
 
 				let key = 'article:' + filename;
 				client.set(key, JSON.stringify(post));

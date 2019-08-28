@@ -11,10 +11,6 @@
 		justify-content: space-between;
 	}
 
-	.bigborder {
-		border-bottom: 1px solid rgba(0,0,0,1);
-	}
-
 	ul {
 		margin: 0;
 		padding: 0;
@@ -60,7 +56,7 @@
 	}
 </style>
 
-<nav class='{segment === "article" ? "bigborder" : ""}'>
+<nav>
 	<ul>
 		<li><a class="title" href='.'>blog &nbsp |</a></li>
 		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
