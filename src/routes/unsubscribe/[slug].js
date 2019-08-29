@@ -9,14 +9,16 @@ const scanner = new redisScan(client);
 const {promisify} = require('util');
 const delAsync = promisify(client.del).bind(client);
 
-export async function del(req, res) {
+export function del(req, res) {
 	let { slug } = req.params;
+	let success = false;
 
 	scanner.scan(`email:*:${slug}`, async (err, keys) => {
 		for (const key of keys) {
 			await delAsync(key);
+			success = true;
 		}
-	});
 
-	res.end(JSON.stringify({success: true}));
+		res.end(JSON.stringify({success}));
+	});
 }

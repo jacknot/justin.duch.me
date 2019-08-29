@@ -20,7 +20,9 @@
 </svelte:head>
 
 {#if success}
+	<h3>au revoir</h3>
 	<p>unsubscribed</p>
 {:else}
-	<p>an error occured</p>
+	<h3>error</h3>
+	<p>invalid code</p>
 {/if}
