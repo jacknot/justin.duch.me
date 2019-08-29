@@ -86,31 +86,48 @@ function getSubscribers() {
 	});
 }
 
-async function sendEmails() {
-	let email_keys = await getSubscribers();
-	let url = `https://blog.justinduch.com/article/${newArticle.slug}`
+async function sendEmails(article) {
+	return new Promise(async resolve => {
+		let email_keys = await getSubscribers();
+		let url = `https://blog.justinduch.com/article/${article.slug}`
 
-	email_keys.forEach(key => {
-		let [email, unsub_token] = key.split(':').slice(1,3);
-		let unsub_url = `https://blog.justinduch.com/unsubscribe/${unsub_token}`
-		let body = `${url}</br>${unsub_url}`
+		let count = email_keys.length;
 
-		const msg = {
-			to: email,
-			from: 'noreply@justinduch.com',
-			subject: 'New Article',
-			html: body,
-		};
+		email_keys.forEach(key => {
+			let [email, unsub_token] = key.split(':').slice(1,3);
+			let unsub_url = `https://blog.justinduch.com/unsubscribe/${unsub_token}`;
+			let body = `
+				<p>Hey there,</p>
+				<p>Here's a new article to read: ${url}</p></br>
+				<p>Enjoy.</p></br>
+				<small>If you want to unsubscribe click here: ${unsub_url}</small>
+			`;
 
-		mail.send(msg);
+			const msg = {
+				to: email,
+				from: 'noreply@justinduch.com',
+				subject: 'New Article',
+				text: 'New Article!',
+				html: body,
+			};
+
+			mail.send(msg)
+				.then(() => {
+					count -= 1;
+					if (!count) { resolve(); }
+				})
+				.catch(err => {
+					if (!count) { resolve(); }
+				});
+		});
 	});
 }
 
 (async () => {
 	let newArticle = await scanAndImportArticles();
 
-	if (newArticle && !dev) {
-		await sendEmails();
+	if (newArticle) {
+		await sendEmails(newArticle);
 	}
 
 	process.exit();
