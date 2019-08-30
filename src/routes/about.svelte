@@ -35,28 +35,6 @@
 </script>
 
 <style>
-	input {
-		color: rgb(33, 33, 33);
-		border-top-width: 0px;
-		border-right-width: 0px;
-		border-bottom-width: 1px;
-		border-left-width: 0px;
-		border-bottom-color: #000;
-		width: 100%;
-		font-size: 15px;
-		font-weight: 400;
-		padding-top: 8px;
-		padding-right: 2px;
-		padding-bottom: 4px;
-		padding-left: 3px;
-		box-shadow: none;
-	}
-
-	.subscribe {
-		cursor: pointer;
-		text-decoration: underline;
-	}
-
 	.error {
 		color: red;
 	}
@@ -92,7 +70,7 @@
 <input bind:value={email} required />
 
 {#if !subscribed}
-	<span class="subscribe" on:click={subscribe}>subscribe</span>
+	<button class="subscribe" on:click={subscribe}>subscribe</button>
 {:else}
 	<span>subscribed!</span>
 {/if}

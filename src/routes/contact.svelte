@@ -16,6 +16,6 @@
 		<textarea class="form-control" rows="5" name="message" required="" placeholder="Message"></textarea>
 	</div>
 	<div class="contact-form-btn-wrapper">
-		<button class="btn btn-default btn-submit" type="submit">Send your Message</button>
+		<button class="btn btn-default btn-submit" type="submit">send</button>
 	</div>
 </form>
