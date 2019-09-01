@@ -103,6 +103,7 @@
 		${position}: 0;
 		width: ${width}px;
 		z-index: ${inverted ? 1 : 10};
+		display: ${progress >= bottom ? 'none' : 'block'};
 	`;
 
 	onMount(() => {

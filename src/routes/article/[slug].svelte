@@ -57,10 +57,8 @@
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		appearance: none;
-
 		width: 100%;
 		height: 2px;
-
 		border: none;
 		background: transparent;
 		color: #000;
@@ -143,7 +141,7 @@
 	<img src='https://beanpuppy.sirv.com/blog/thumbnails/{post.thumbnail}' alt='thumbnail' class='thumbnail'/>
 	<h1>{post.title}</h1>
 
-	<Scroller top={0.2} bottom={0.99} bind:progress>
+	<Scroller top={0} bottom={1} position="bottom" bind:progress>
 		<div slot="background">
 			<progress value={progress || 0}></progress>
 		</div>
