@@ -50,12 +50,15 @@
 		padding: 1em;
 		position: relative;
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 
-	.info small {
-		position: absolute;
-		bottom: 1em;
-		right: 1em;
+	.info .feet {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
 	}
 </style>
 
@@ -77,7 +80,10 @@
 			</div>
 			<div class="info">
 				<h4>{post.title}</h4>
-				<small>from {post.category} on {post.date}</small>
+				<div class="feet">
+					<small>{post.readtime}</small>
+					<small>from {post.category} on {post.date}</small>
+				</div>
 			</div>
 		</div>
 	</a>

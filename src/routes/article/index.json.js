@@ -9,6 +9,7 @@ export function get(req, res) {
 				date: post.date,
 				thumbnail: post.thumbnail,
 				category: post.category,
+				readtime: post.readtime,
 			};
 		}));
 

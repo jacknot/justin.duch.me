@@ -10,6 +10,7 @@ const footnotes = require('./src/showdown/footnotes'),
 	showdownHighlight = require("showdown-highlight");
 require('showdown-youtube');
 require('showdown-prettify');
+const readingTime = require('reading-time');
 
 const { PORT, NODE_ENV, REDIS_URL, SENDGRID_API_KEY } = process.env;
 const dev = NODE_ENV !== 'production';
@@ -20,7 +21,7 @@ const redisScan = require('node-redis-scan');
 const client = redis.createClient(redisUrl);
 const scanner = new redisScan(client);
 
-const converter = new showdown.Converter({extensions: 
+const converter = new showdown.Converter({extensions:
 	['youtube', footnotes, showdownHighlight, 'prettify']});
 const articleDir = './_articles';
 
@@ -31,6 +32,7 @@ function getPostData(data) {
 	// Because there is no metadata extension, we need to read the lines
 	let lines = data.split('\n');
 	let metadataString = lines.slice(1,7);
+	let body = lines.slice(8,lines.length).join('\n')
 
 	return {
 		title: metadataString[0].split(':')[1].trim(),
@@ -39,11 +41,12 @@ function getPostData(data) {
 		thumbnail: metadataString[3].split(':')[1].trim(),
 		tags: metadataString[4].split(':')[1].trim(),
 		description: metadataString[5].split(':')[1].trim(),
-		html:	converter.makeHtml(lines.slice(8,lines.length).join('\n')),
+		readtime: readingTime(body).text,
+		html:	converter.makeHtml(body),
 	}
 }
 
-function scanAndImportArticles() { 
+function scanAndImportArticles() {
 	return new Promise(resolve => {
 		let newArticle = null;
 
@@ -105,7 +108,7 @@ async function sendEmails(article) {
 
 			const msg = {
 				to: email,
-				from: 'noreply@justinduch.com',
+				from: 'Justin Duch <noreply@justinduch.com>',
 				subject: 'New Article',
 				text: 'New Article!',
 				html: body,
