@@ -21,8 +21,12 @@ const redisScan = require('node-redis-scan');
 const client = redis.createClient(redisUrl);
 const scanner = new redisScan(client);
 
-const converter = new showdown.Converter({extensions:
-	['youtube', footnotes, showdownHighlight, 'prettify']});
+const converter = new showdown.Converter({
+	tables: true,
+	strikethrough: true,
+	extensions: ['youtube', footnotes, showdownHighlight, 'prettify']
+});
+
 const articleDir = './_articles';
 
 const mail = require('@sendgrid/mail');
