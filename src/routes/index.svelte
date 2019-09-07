@@ -35,12 +35,6 @@
 		height: auto;
 	}
 
-	@media (max-width: 420px) {
-		.container .image {
-			display: none;
-		}
-	}
-
 	.thumbnail {
 		width: 100%;
 		height: 100%;
@@ -59,6 +53,28 @@
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
+	}
+
+	@media (max-width: 600px) {
+		.container {
+			flex-direction: column;
+			height: auto;
+		}
+
+		.image {
+			width: 100%;
+			max-width: 100% !important;
+		}
+
+		.info {
+			width: auto;
+		}
+	}
+
+	@media (max-width: 345px) {
+		.feet {
+			flex-direction: column;
+		}
 	}
 </style>
 
