@@ -79,7 +79,7 @@
 </style>
 
 <svelte:head>
-	<title>maison</title>
+	<title>accueil</title>
 </svelte:head>
 
 <h2>beinvenue</h2>
