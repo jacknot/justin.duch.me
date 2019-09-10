@@ -27,7 +27,7 @@ const converter = new showdown.Converter({
 	extensions: ['youtube', footnotes, showdownHighlight, 'prettify']
 });
 
-const articleDir = './_articles';
+const postsDir = './_posts';
 
 const mail = require('@sendgrid/mail');
 mail.setApiKey(SENDGRID_API_KEY);
@@ -60,8 +60,8 @@ function scanAndImportArticles() {
 			keys.forEach(key => client.del(key));
 
 			// Read posts again and import them
-			fs.readdirSync(articleDir).forEach(file => {
-				let filepath = path.join(articleDir, file);
+			fs.readdirSync(postsDir).forEach(file => {
+				let filepath = path.join(postsDir, file);
 				let filename = file.split('.')[0];
 
 				let data = fs.readFileSync(filepath, {encoding: 'utf-8'});
