@@ -20,7 +20,7 @@ export function get(req, res) {
 			'Content-Type': 'application/json'
 		});
 
-		let quote = tags[Math.floor((Math.random() * tags.length) + 1)];
+		let quote = tags[Math.floor((Math.random() * tags.length))];
 
 		res.end(JSON.stringify({quote: quote}));
 	});
