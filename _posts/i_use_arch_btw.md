@@ -1,5 +1,5 @@
 ---
-title: How To Subtly Include The Fact You Use Arch Linux Into Everday Conversation
+title: How To Subtly Include The Fact You Use Arch Linux Into Everyday Conversation
 category: miscellaneous
 date: 2019-09-06
 thumbnail: arch-thumb.png
