@@ -65,9 +65,9 @@
 	</ul>
 
 	<ul>
-		<li><a class="navbar-link navbar-social-icon" aria-label="Github" rel="noopener" href="https://github.com/beanpuppy"><i class="fab fa-github"></i></a></li>
-		<li><a class="navbar-link navbar-social-icon" aria-label="Instagram" rel="noopener" href="https://www.instagram.com/beanpup.py/"><i class="fab fa-instagram"></i></a></li>
-		<li><a class="navbar-link navbar-social-icon" aria-label="Twitter" rel="noopener" href="https://twitter.com/beanpup_py"><i class="fab fa-twitter"></i></a></li>
-		<li><a class="navbar-link navbar-social-icon" aria-label="Mastodon" rel="noopener" href="https://eldritch.cafe/@beanpup_py"><i class="fab fa-mastodon"></i></a></li>
+		<li><a class="navbar-link navbar-social-icon" aria-label="Github" href="https://github.com/beanpuppy"><i class="fab fa-github"></i></a></li>
+		<li><a class="navbar-link navbar-social-icon" aria-label="Instagram" href="https://www.instagram.com/beanpup.py/"><i class="fab fa-instagram"></i></a></li>
+		<li><a class="navbar-link navbar-social-icon" aria-label="Twitter" href="https://twitter.com/beanpup_py"><i class="fab fa-twitter"></i></a></li>
+		<li><a class="navbar-link navbar-social-icon" aria-label="Mastodon" rel="me" href="https://eldritch.cafe/@beanpup_py"><i class="fab fa-mastodon"></i></a></li>
 	</ul>
 </nav>
