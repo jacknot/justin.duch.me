@@ -1,7 +1,7 @@
 ---
 title: I Teach You, A Person Of The Alt-Right, How To Properly Conceal Your Nazism
 category: miscellaneous
-date: 2019-09-06
+date: 2019-09-30
 thumbnail: steganography-thumb.png
 tags: altright,steganography,nlp
 description:
