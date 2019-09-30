@@ -16,9 +16,9 @@ jobs:
     steps:
       - checkout
 
-      - run:
-          name: Cypress Dependencies
-          command: sudo apt-get install xvfb libgtk-3-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2
+      # - run:
+      #     name: Cypress Dependencies
+      #     command: sudo apt-get install xvfb libgtk-3-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2
 
       # Download and cache dependencies
       - restore_cache:
@@ -38,7 +38,7 @@ jobs:
             - ~/.cache
 
       # run tests!
-      - run: yarn test
+      # - run: yarn test
 
   deploy:
     docker:
