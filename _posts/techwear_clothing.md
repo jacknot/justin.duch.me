@@ -63,7 +63,7 @@ Merino is the common material in this field, merino wool is wicking and a natura
 
 This is everyone's favourite part. We will now look at what brands provide Techwear clothes and what style they will fit into. With this guide all you will need to do next is mortgage your house, sell your right kidney, and sacrifice your first born and you will be ready to feed the capitalist machine, further accelerating our descent into a dystopian society. But you'll look cool doing it, so it's all worth. And just because I'm so nice, I'll even give you an idea of how many kidneys you'll have to sell in order to afford each style, although keep in mind that this is a very general idea from my own experience of kidney selling, and that you may find that a 1 kidney style can have items that would need 12 kidneys.
 
- #### Outdoors
+#### Outdoors
 
 Heavily centered on protecting you from your environment wherever you may be: hiking, camping, snow sports, etc. Outdoors are made reliable, functional, inexpensive because of its abundance, and made stylish for us wear while in our less extreme urban environments. Look towards brand names like Arc’teryx, REI, Patagonia, The North Face, and Columbia for getting outdoor gear.
 
@@ -104,8 +104,3 @@ For the enthusiasts, and those with deep pockets who might want to chase after b
 Utilitarian or some brands in this category might fall into the communities favorite term "Techninja" which is centered around the futuristic dystopian military outlook. Utilitarian as a whole center themselves around this push for an ever-greater liberation in movements, incorporating various storage options, increasing ease of use, the addition of extra bells and whistles like Acronym’s gravity pocket, and often using the latest materials to come out of the woodworks. In case you haven't figured it out yet: this is the best one.
 
 **General Price:** 5 Kidneys
-
-
-
-
-

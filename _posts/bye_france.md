@@ -25,7 +25,7 @@ French people speaking French, climate change will do that for me. But I must
 stop non French people from learning French. How you ask? Well let me tell
 you.
 
-## Première Partie: De-legitmise the French Language
+## Première Partie: De-legitimise the French Language
 
 A very simple misinformation campaign condemning French should do the trick.
 We've seen this strategy used by the CCP in China to attack Hong Kong by
