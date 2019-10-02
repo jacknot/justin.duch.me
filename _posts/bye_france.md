@@ -37,7 +37,7 @@ other all Western languages] is actually a Chinese dialect".[^3] This
 revolutionary discovery supported by HARD EVIDENCE completely invalidates
 French as it's just a worse version of Mandarin.
 
-## Parte Deux: Stop All French Cultural Exports
+## Part Deux: Stop All French Cultural Exports
 
 When I was a boy, I went to the baker to buy a baguette because it was the
 only bread that reminded me of a dick. I didn't expect to finish it as I don't
@@ -57,7 +57,7 @@ someone only armed with a dream, supposed to stop this? I know I said I would
 let climate change take care of France but that was only because I don't have
 any nukes. Unless...?
 
-## Parte Trois: Become World Leader
+## Part Trois: Become World Leader
 
 Unfortunately, wikiHow doesn't have a article on becoming a world leader so
 I'm kinda in the dark here. However, I've thought of a loophole! Do you
@@ -74,7 +74,7 @@ environment so much that the Earth will eventually become uninhabitable.
 Great! Now that we have a monopoly on the toilet paper industry and more money
 than every country in the EU combined, we can continue our plan.
 
-## Parte Quatre: Bye Bye France
+## Part Quatre: Bye Bye France
 
 While researching the most comfortable toilet paper material, we built a
 nuclear fission plant (for tax evasion purposes of course) in Zimbabwe (so we
@@ -83,7 +83,7 @@ know were this is going.
 
 > Au revoir France.
 
-## Parte Cinq: We're Not Done Yet
+## Part Cinq: We're Not Done Yet
 
 With French being an extinct language, you can be sure some pesky linguist
 from the future is going to try and re-discover it. We can't let this happen!
