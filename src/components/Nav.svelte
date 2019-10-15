@@ -6,9 +6,13 @@
 	nav {
 		border-bottom: 1px solid rgba(0,0,0,0.1);
 		font-weight: 300;
-		padding: 0 1em;
 		display: flex;
 		justify-content: space-between;
+		margin-bottom: 1em;
+	}
+
+	.nav-highlight {
+		border-bottom: 1px solid rgba(0,0,0);
 	}
 
 	ul {
@@ -49,6 +53,11 @@
 		display: block;
 	}
 
+	.title {
+		color: black;
+		font-weight: bold;
+	}
+
 	@media (max-width: 360px) {
 		.title {
 			display: none;
@@ -56,12 +65,11 @@
 	}
 </style>
 
-<nav>
+<nav class='{segment === "article" ? "nav-highlight" : ""}'>
 	<ul>
-		<li><a class="title" href='.'>blog &nbsp |</a></li>
-		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
-		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
-		<li><a class='{segment === "contact" ? "selected" : ""}' href='contact'>contact</a></li>
+		<li><a class="title" href='.'>ici ¿uᴉʇsnɾ</a></li>
+		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>accueil</a></li>
+		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>a propos</a></li>
 	</ul>
 
 	<ul>

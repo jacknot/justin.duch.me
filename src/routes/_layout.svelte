@@ -15,10 +15,8 @@
 	}
 </style>
 
-<Nav {segment} />
-
 <main>
+	<Nav {segment} />
 	<slot></slot>
+	<Footer />
 </main>
-
-<Footer />

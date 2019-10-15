@@ -41,7 +41,7 @@
 </style>
 
 <svelte:head>
-	<title>sur</title>
+	<title>a propos</title>
 </svelte:head>
 
 <h2>whoami</h2>
