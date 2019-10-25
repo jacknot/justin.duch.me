@@ -58,7 +58,7 @@
 		font-weight: bold;
 	}
 
-	@media (max-width: 360px) {
+	@media (max-width: 414px) {
 		.title {
 			display: none;
 		}

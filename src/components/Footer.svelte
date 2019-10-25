@@ -18,7 +18,7 @@
 <footer>
 	<small>justin duch © {year}</small>
 	<small>
-		the content for this site is <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>.
-		the <a href="https://github.com/beanpuppy/blog.justinduch.com">code</a> for this site is GPL-3.0
+		the content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
+		the <a href="https://github.com/beanpuppy/blog.justinduch.com">code</a> for this site is MIT
 	</small>
 </footer>
