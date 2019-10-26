@@ -122,7 +122,7 @@ Another piece of cake. Many boys will be impressed with someone who uses Arch
 Linux so you can just start with that.
 
 * **You:** "Hey did you know that I use Arch Linux?"
-* **Them:** ![image-alternative](https://beanpuppy.sirv.com/blog/img/smash.png)
+* **Them:** ![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/smash.png)
 
 And that's all! Now you know how to include Arch Linux into every single
 conversation scenario! I hope you'll be able to put this information into good

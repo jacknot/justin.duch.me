@@ -62,7 +62,7 @@ cursor to the end of a word and `yaw` yanks the word under the cursor.
 
 In contrast, look at this keyboard shortcut cheat sheet for VS Code:
 
-![image-alternative](https://beanpuppy.sirv.com/blog/img/vscode-keys.png)
+![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/vscode-keys.png)
 
 This is all there is. The entire dictionary of VS Code. Every sentence that
 could possibly said is right here (unless you install some more plugins, like

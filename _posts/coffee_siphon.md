@@ -29,7 +29,7 @@ That's probably enough anecdote for today, let's start!
 
 Here's what you need:
 
-![image-alternative](https://beanpuppy.sirv.com/blog/img/coffee-01.png)
+![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/coffee-01.png)
 
 * Coffee siphon + filter.
 * Butane burner.
@@ -52,29 +52,29 @@ top part rest on the bottom part at an angle. I don't know why, I think it's
 so it's quicker to seal when we actually want to. After that put the butane
 burner under it and light it up.
 
-![image-alternative](https://beanpuppy.sirv.com/blog/img/coffee-02.png)
+![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/coffee-02.png)
 
 Keep the heat at like max or something and wait until the water starts to
 bubble. When it does, seal the bottom part with the top part and turn the heat
 down on the butane burner. If you did it correctly the water should be moving
 from the bottom part to the top part. This is because of physics I think.
 
-![image-alternative](https://beanpuppy.sirv.com/blog/img/coffee-03.png)
+![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/coffee-03.png)
 
 After all the water has gone to the top part, dump the coffee grounds in and
 stir it for like ten seconds or something. I think you could also have the
 coffee grounds in there from the start, but I've always put them in after.
 
-![image-alternative](https://beanpuppy.sirv.com/blog/img/coffee-04.png)
+![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/coffee-04.png)
 
 After like two minutes, turn off the butane burner. Now the coffee should be
 going to the bottom part, like this:
 
-![image-alternative](https://beanpuppy.sirv.com/blog/img/coffee-05.png)
+![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/coffee-05.png)
 
 Now you can take the top part off and pour the coffee into a cup.
 
-![image-alternative](https://beanpuppy.sirv.com/blog/img/coffee-06.png)
+![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/coffee-06.png)
 
 I put milk in my one. I used to drink it black, but that was because I didn't
 know you could put milk in coffee.

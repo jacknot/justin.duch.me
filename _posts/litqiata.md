@@ -91,4 +91,4 @@ If you want to see the source code it's [here][].
 
 ----
 
-[^1]: ![rust-bag](https://beanpuppy.sirv.com/blog/img/rust-bag.png)
+[^1]: ![rust-bag](https://cdn.halcyonnouveau.xyz/blog/img/rust-bag.png)

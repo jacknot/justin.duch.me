@@ -1,8 +1,8 @@
 {
   "name": "blog.justinduch.com",
   "description": "Blog",
-  "version": "0.0.1",
-  "license": "GPL-3.0",
+  "version": "0.1.0",
+  "license": "MIT",
   "author": "Justin Duch <justin@justinduch.com>",
   "scripts": {
     "dev": "sapper dev",

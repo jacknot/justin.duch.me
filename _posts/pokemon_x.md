@@ -82,6 +82,6 @@ have liked a little more effort in these pieces.
 It wasn't all doom and gloom though. There was one piece of dialogue that I
 enjoyed.
 
-![image](https://beanpuppy.sirv.com/blog/img/pokemon-dialogue.png)
+![image](https://cdn.halcyonnouveau.xyz/blog/img/pokemon-dialogue.png)
 
 Well said little girl whose name I've forgotten.
