@@ -24,17 +24,23 @@ The first thing everyone should always do everywhere no matter where they are, o
 
 Use the python module `venv` to create a virtual environment called env (or anything else you prefer).
 
-    [user@okcomputer]$ python -m venv env
+```bash
+[user@okcomputer]$ python -m venv env
+```
 
 And that's how you create a Python virtual environment. Now we want to install the `aiohttp` and `gunicorn` modules.
 
 Source the environment:
 
-    [user@okcomputer]$ source env/bin/activate
+```bash
+[user@okcomputer]$ source env/bin/activate
+```
 
 Install the modules:
 
-    (env) [user@okcomputer]$ pip install aiohttp gunicorn
+```bash
+(env) [user@okcomputer]$ pip install aiohttp gunicorn
+```
 
 That's all we need to get started for now. You can install any other libraries you want into the environment with pip.
 
@@ -45,9 +51,9 @@ With our new Python environment we are ready to create an aiohttp app! If you do
 For this guide are writing a simple aiohttp application which we will call `myapp.py`.
 
 ```python
-from aiohttp import web async
+from aiohttp import web
 
-def index(request):
+async def index(request):
     return web.Response(text="I work!")
 
 async def factory():
@@ -60,9 +66,11 @@ This is all we need to create a page that displays I work!. `factory` is our cor
 
 Now we should test if Gunicorn is able to serve the project. We do this by name of the entry point (module) i.e. `myapp`, and the name of the app or application factory, i.e. `factory`, along with other Gunicorn settings provided as command line flags or in your config file. We will also use a custom worker subclass that aiohttp provides. The end result should look like this:
 
-    (env) [user@okcomputer]$ gunicorn myapp:factory --bind 0.0.0.0:8080 --worker-class aiohttp.GunicornWebWorker
+```bash
+(env) [user@okcomputer]$ gunicorn myapp:factory --bind 0.0.0.0:8080 --worker-class aiohttp.GunicornWebWorker
+```
 
-Here we've also bound it to `0.0.0.0:8080`, so now you can visit your sever's IP address in the browser appended with 8080 and you should see I work!.
+Here we've also bound it to `0.0.0.0:8080`, so now you can visit your server's IP address in the browser appended with 8080 and you should see I work!.
 
 When you have confirmed that it works, you can close Gunicorn and deactivate the virtual environment.
 
@@ -90,8 +98,10 @@ In the `[Service]` we map out the working directory and set the PATH environment
 
 Now we can start and enable the service:
 
-    [user@okcomputer]$ sudo systemctl start myapp.service
-    [user@okcomputer]$ sudo systemctl enable myapp.service
+```bash
+[user@okcomputer]$ sudo systemctl start myapp.service
+[user@okcomputer]$ sudo systemctl enable myapp.service
+```
 
 ### 0x400: Nginx Conf
 

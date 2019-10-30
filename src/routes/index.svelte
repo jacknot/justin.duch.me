@@ -92,7 +92,7 @@
 	<a rel='prefetch' href='article/{post.slug}'>
 		<div class="container">
 			<div class="image">
-				<img src='https://beanpuppy.sirv.com/blog/thumbnails/{post.thumbnail}' alt='thumbnail' class='thumbnail'/>
+				<img src='https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}' alt='thumbnail' class='thumbnail'/>
 			</div>
 			<div class="info">
 				<h4>{post.title}</h4>
