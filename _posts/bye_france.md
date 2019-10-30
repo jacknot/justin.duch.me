@@ -33,7 +33,7 @@ reporting that speaking Cantonese can cause nasal and sinus cancer.[^2]
 
 We could taken even more work from China when a group from the First
 China International Frontier Education Summit "concluded that English [and
-other all Western languages] is actually a Chinese dialect".[^3] This
+all other Western languages] is actually a Chinese dialect".[^3] This
 revolutionary discovery supported by HARD EVIDENCE completely invalidates
 French as it's just a worse version of Mandarin.
 
