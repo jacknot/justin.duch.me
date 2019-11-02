@@ -1,4 +1,6 @@
 <script>
+	import { FormField } from 'prisme-components-svelte';
+
 	let time = Math.round((new Date - new Date('2000-02-08T03:00:00+10:00')) / 1000);
 	setInterval(() => { time += 1 }, 1000);
 
@@ -77,7 +79,7 @@
 	<small class="error">{error}</small>
 {/if}
 
-<input bind:value={email} required />
+<FormField bind:value={email} />
 
 {#if !subscribed}
 	<button class="subscribe" on:click={subscribe}>subscribe</button>

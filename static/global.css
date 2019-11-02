@@ -1,9 +1,13 @@
 body {
 	margin: 0;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif !important;
 	font-size: 14px;
 	line-height: 1.5;
 	color: #333;
+}
+
+input {
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,40 +47,6 @@ code {
 	background-color: #f0f0f0;
 	padding: 0.2em 0.4em;
 	border-radius: 2px;
-}
-
-input {
-	color: rgb(33, 33, 33);
-	border-top-width: 0px;
-	border-right-width: 0px;
-	border-bottom-width: 1px;
-	border-left-width: 0px;
-	border-bottom-color: #000;
-	width: 100%;
-	font-size: 15px;
-	font-weight: 400;
-	padding-top: 8px;
-	padding-right: 2px;
-	padding-bottom: 4px;
-	padding-left: 3px;
-	box-shadow: none;
-}
-
-textarea {
-	color: rgb(33, 33, 33);
-	border-top-width: 0px;
-	border-right-width: 0px;
-	border-bottom-width: 1px;
-	border-left-width: 0px;
-	border-bottom-color: #000;
-	width: 100%;
-	font-size: 15px;
-	font-weight: 400;
-	padding-top: 8px;
-	padding-right: 2px;
-	padding-bottom: 4px;
-	padding-left: 3px;
-	box-shadow: none;
 }
 
 @media (min-width: 400px) {

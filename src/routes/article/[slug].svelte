@@ -138,7 +138,7 @@
 </svelte:head>
 
 <div class="content">
-	<img src='https://beanpuppy.sirv.com/blog/thumbnails/{post.thumbnail}' alt='thumbnail' class='thumbnail'/>
+	<img src='https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}' alt='thumbnail' class='thumbnail'/>
 	<h1>{post.title}</h1>
 
 	<Scroller top={0} bottom={1} position="bottom" bind:progress>

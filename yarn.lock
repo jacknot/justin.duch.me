@@ -2663,6 +2663,11 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
+prisme-components-svelte@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/prisme-components-svelte/-/prisme-components-svelte-0.1.1.tgz#6b4d1d721e8b79ddc48732378dd2dd6191fa33af"
+  integrity sha512-MS7DOjb2FUnovu+J8QhYd01bsqcvYA24bp1cEKmuUaeLqI/e9eDLd0/cebrsms4jZcO/kPNzITbQkVGoHs3hIg==
+
 private@^0.1.6:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"

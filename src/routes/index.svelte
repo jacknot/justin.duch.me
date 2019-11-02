@@ -1,4 +1,6 @@
 <script context="module">
+	import { Card } from 'prisme-components-svelte';
+
 	export function preload({ params, query }) {
 		return this.fetch('article.json').then(r => r.json()).then(posts => {
 			posts.sort(function(a, b){
@@ -20,11 +22,8 @@
 	}
 
 	.container {
-		box-shadow: 0 0 2px 0 rgba(0,0,0,.08),0 2px 8px 0 rgba(0,0,0,.16);
-		margin-bottom: 1em;
 		display: flex;
-		height: 8em;
-		transition: all .5s ease;
+		height: 100%;
 	}
 
 	.container .image {
@@ -90,17 +89,19 @@
 			the user hovers over the link or taps it, instead of
 			waiting for the 'click' event -->
 	<a rel='prefetch' href='article/{post.slug}'>
-		<div class="container">
-			<div class="image">
-				<img src='https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}' alt='thumbnail' class='thumbnail'/>
-			</div>
-			<div class="info">
-				<h4>{post.title}</h4>
-				<div class="feet">
-					<small>{post.readtime}</small>
-					<small>from {post.category} on {post.date}</small>
+		<Card bs="md" m="0 0 1em 0" h="8em">
+			<div class="container">
+				<div class="image">
+					<img src='https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}' alt='thumbnail' class='thumbnail'/>
+				</div>
+				<div class="info">
+					<h4>{post.title}</h4>
+					<div class="feet">
+						<small>{post.readtime}</small>
+						<small>from {post.category} on {post.date}</small>
+					</div>
 				</div>
 			</div>
-		</div>
+		</Card>
 	</a>
 {/each}
