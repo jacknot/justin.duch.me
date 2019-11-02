@@ -50,8 +50,8 @@
 <p>I am a person with opinions. Sometimes I publish those opinions to the internet. Here are a few of my opinions so you know what you're getting into:</p>
 <ul>
 	<li>Garbage men and pick-up artists should change names.</li>
-	<li>Red pandas > normal pandas.</li>
-	<li>Stone Ocean is best JoJo part.</li>
+	<li>Anyone who calls a red panda a "lesser" panda should return to the dumpster they came from.</li>
+	<li>Stone Ocean is the best JoJo part.</li>
 	<li>The bourgeoisie are destroying our planet.</li>
 </ul>
 <small><strong>Disclamer:</strong> One of these is actually a fact, not an opinion.</small>

@@ -61,8 +61,8 @@ any nukes. Unless...?
 
 Unfortunately, wikiHow doesn't have a article on becoming a world leader so
 I'm kinda in the dark here. However, I've thought of a loophole! Do you
-remember this famous quote from the book Dune: *"Those who control the spice
-control the universe"*? Herbert was of course referencing to LATE-STAGE
+remember this famous quote from the book Dune: *"He who controls the spice
+controls the universe"*? Herbert was of course referencing to LATE-STAGE
 CAPITALISM.
 
 THAT'S RIGHT! THIS IS JUST ANOTHER POST OF ME SHITTING ON CAPITALISM!
