@@ -22,7 +22,7 @@ components and then behaves as if the power button has just been pressed.
 
 [Source](https://superuser.com/questions/294681/how-does-a-computer-restart-itself)
 
-## Why are pandas so fat when they dont eat anything with nutritional value?
+## Why are pandas so fat when they don't eat anything with nutritional value?
 
 You will notice that pandas don’t eat just any part of the bamboo, but
 specialize in leaves found toward the ends of the growing part of the plant.
