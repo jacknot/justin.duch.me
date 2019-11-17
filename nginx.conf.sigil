@@ -12,7 +12,7 @@ server {
   access_log  {{ $.NGINX_LOG_ROOT }}/{{ $.APP }}-access.log;
   error_log   {{ $.NGINX_LOG_ROOT }}/{{ $.APP }}-error.log;
 {{ if (and (eq $listen_port "80") ($.SSL_INUSE)) }}
-  return 301 https://$host$request_uri;
+  return 301 https://$server_name$request_uri;
 {{ else }}
   location    / {
 
