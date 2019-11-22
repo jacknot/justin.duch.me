@@ -157,7 +157,7 @@
 
 			<div class='info-line footer'>
 				<small on:click={toTop} class="text-decorate">back to top</small>
-				<small><a href='https://github.com/beanpuppy/blog.justinduch.com/edit/master/_articles/{post.slug}.md'>see a mistake? edit it here.</a></small>
+				<small><a href='https://github.com/beanpuppy/blog.justinduch.com/edit/master/_posts/{post.slug}.md'>see a mistake? edit it here.</a></small>
 			</div>
 		</div>
 	</Scroller>
