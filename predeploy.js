@@ -12,8 +12,7 @@ require('showdown-youtube');
 require('showdown-prettify');
 const readingTime = require('reading-time');
 
-const { PORT, NODE_ENV, REDIS_URL, SENDGRID_API_KEY } = process.env;
-const dev = NODE_ENV !== 'production';
+const { REDIS_URL, SENDGRID_API_KEY } = process.env;
 const redisUrl = REDIS_URL || 'redis://127.0.0.1:6379';
 
 const redis = require('redis');
