@@ -1,4 +1,5 @@
 <script>
+	// Yes, I'm too lazy to update this every year.
 	let year = (new Date()).getFullYear();
 </script>
 
@@ -16,9 +17,9 @@
 </style>
 
 <footer>
-	<small>justin duch © {year}</small>
+	<small>Justin Duch © {year}</small>
 	<small>
-		the content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
-		the <a href="https://github.com/beanpuppy/blog.justinduch.com">code</a> for this site is MIT
+		The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>;
+		The <a href="https://github.com/beanpuppy/blog.justinduch.com">code</a> for this site is MIT.
 	</small>
 </footer>

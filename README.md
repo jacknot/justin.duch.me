@@ -33,6 +33,8 @@ yarn dev
 
 The site is now available at `http://localhost:3000`.
 
+Run `yarn predeploy` to populate with articles.
+
 ## License
 
 ### Content
