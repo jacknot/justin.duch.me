@@ -54,7 +54,15 @@
 		width: 100%;
 	}
 
+	a {
+		height: 8em;
+	}
+
 	@media (max-width: 600px) {
+		a {
+			height: 10em;
+		}
+
 		.container {
 			flex-direction: column;
 			height: auto;
@@ -89,7 +97,7 @@
 			the user hovers over the link or taps it, instead of
 			waiting for the 'click' event -->
 	<a rel='prefetch' href='article/{post.slug}'>
-		<Card bs="md" m="0 0 1em 0" h="8em">
+		<Card bs="md" m="0 0 1em 0" h="100%">
 			<div class="container">
 				<div class="image">
 					<img src='https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}' alt='thumbnail' class='thumbnail'/>
