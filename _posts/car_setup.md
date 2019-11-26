@@ -9,13 +9,6 @@ description:
 
 Forza Horizon 4 is being released tomorrow (for Ultimate Edition owners), so while I endure this endless wait, let's look at how to setup your car, except we are actually going to look at the Assetto Corsa Competizione setup page because I can't actually see the FH4 page (it's probably better anyway). This is also the first post I've put in the engineering tab after the 5 months that this blog has been active. Neat.
 
-#### Table of Contents
-
-* [Tyres](#0x100-tyres)
-* [Electronics](#0x200-electronics)
-* [Mechanical Grip](#0x300-mechanical-grip)
-* [Aero](#0x400-aero)
-
 ### 0x100: Tyres
 
 #### PSI

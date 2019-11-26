@@ -11,11 +11,6 @@ description:
 
 [Spotify Playlist Depression Score](https://playlistdepressionscore.com) is a web application I built to determine how depressing a playlist is from it's songs. This article explains how I built it and how it works. As of writing, SPDS is on it's 1.0 release, so keep in mind that there are a lot of improvement to be made, and that this article may not always be up to date. To view the most up to date changes, go through the [changelog on GitHub](https://github.com/beanpuppy/spds/releases) or view all SPDS articles through the [#SPDS tag.](/tag/spds)
 
-#### Table of Contents
-
-* [The Architecture](#0x100-the-architecture)
-* [The Logic](#0x200-the-logic)
-
 ### 0x100: The Architecture
 
 A big change from the development of this blog is the use of Flask as the web framework. This decision was almost entirely made by the fact that I had no idea how to use sessions in Simplerr at that time (although as it turns out they are functionally the same). This wasn't detrimental in any way, but if I was bothered to redo the application I wouldn't be using Flask.

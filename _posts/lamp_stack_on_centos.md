@@ -9,13 +9,6 @@ description:
 
 Welcome to the first post of my blog! This article will teach you how to set up a LAMP Linux(CentOS), Apache, MySQL, Python web server from scratch, just like how I did to get this blog running. This guide will go through everything and not all of it may apply to your circumstance, so feel free to skip ahead using the table of contents.
 
-#### Table of Contents
-
- * [The DNS and Web Server](#0x100-the-dns-and-web-server)
- * [Initial Server Setup](#0x200-initial-server-setup)
- * [AMP'ed up](#0x300-amped-up)
- * [The Apache Config](#0x400-the-apache-config)
-
 ### 0x100: the DNS and web server
 
 The DNS (Domain Name System) is a system that resolves a server's domain name eg. blog.justinduch.com into an IP address. In order for your pngage to be viewable, you must point your domain name to the webserver.

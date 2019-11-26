@@ -9,12 +9,6 @@ description:
 
 If you're anything like me, then one of your favorite things is seeing how much tech people can shove into absolutely anything because this leads us to two things: more IoT devices which act as a source of comedy where you laugh at their terrible security practices, and a closer look at our dystopian future where we will buy wiretaps to buy cat food on Amazon (oh wait, we already do that). Thankfully you can't hack clothes as nobody has put the internet inside of them (not giving you any ideas), and all the tech in Techwear is mainly based upon advanced materials and functionality, that is technicality instead of technology. This article should serve as an introduction to the only fashion style where a >$1000 price tag is actually justifiable.
 
-#### Table of Contents
-
-* [Construction](#0x100-construction)
-* [Clothes](#0x200-clothes)
-* [Styles/Brands](#0x300-stylesbrands)
-
 ### 0x100: Construction
 
 The most important part of Techwear is obviously: the tech. This section will go through the main parts of what makes Techwear so... techy. While there are many innovations currently being made such as Volleback's jacket made out of *HECKING GRAPHENE* (no seriously look it up, it's amazing), we will mainly be focusing on the more common parts of Techware you will see - waterproof breathable fabrics.

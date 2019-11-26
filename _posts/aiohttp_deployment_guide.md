@@ -11,13 +11,6 @@ In this guide we will be setting up a basic aiohttp app using Gunicorn and Nginx
 
 This guide assumes you are using Python3 and a Linux operating system with Systemd as the init system (e.g Ubuntu, CentOS, ...).
 
-#### Table of Contents
-
-* [Python Venv](#0x100-python-venv)
-* [Aiohttp](#0x200-aiohttp)
-* [Systemd Unit](#0x300-systemd-unti)
-* [Nginx Conf](#0x400-nginx-conf)
-
 ### 0x100: Python Venv
 
 The first thing everyone should always do everywhere no matter where they are, or who they with, or where they come from, or where they are going, is set up a virtual environment for Python. If you're app doesn't use a virtual environment, you're an idiot and you should create one ***RIGHT NOW.*** Here's how:

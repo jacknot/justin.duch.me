@@ -9,12 +9,6 @@ description:
 
 This is going to be a very short penetration test mainly focusing on low hanging fruit, mostly because I don't care very much for what I've made - they were all created to serve a specific goal of allowing me to learn something new instead of actually being useful. In fact, this blog is the only thing I still maintain and all the others will probably be turned off at some point and to be honest, I seriously doubt I will find any exploits. While security wasn't a main focus when creating these applications, I believe (or at least I hope) I wasn't stupid enough to leave myself vulnerable to any of the basic exploits I will attempt here today. Although there is only one way to find out, so let's get on with it.
 
-#### Table of Contents
-
-* [SPDS](#)
-* [Viperidae](#)
-* [Blog](#)
-
 ### 0x100: SPDS
 
 [Spotfiy Playlist Depression Score (SPDS)](/article/spds_release) is an application that rates how depressing your Spotify playlist is. This was my first foray into the JavaScript framework world with AngularJS, so let's start off with some basic XSS.
