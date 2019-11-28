@@ -26,6 +26,8 @@ h1 {
 
 a {
 	color: inherit;
+	font-weight: 100;
+	text-decoration: none;
 }
 
 button {

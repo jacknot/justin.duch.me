@@ -63,7 +63,7 @@
 <h2>FAQ</h2>
 <p><strong>How many mechanical keyboards do you have?</strong> <br> Five.</p>
 <p><strong>Cute boys or girls?</strong> <br> Both.</p>
-<p><strong><a href="/article/i_use_arch_btw" target="_blank">What Operating System do you use?</a></strong> <br> NodeJS.</p>
+<p><strong>What Operating System do you use?</strong> <br> <a href="/article/i_use_arch_btw" target="_blank">NodeJS.</a></p>
 <p><strong>How old are you?</strong> <br> {time} seconds.</p>
 <p><strong>Where were you on Sunday 22 November 2015?</strong> <br> At a friend's house.</p>
 <p><strong>Are these questions actually frequently asked?</strong> <br> Yes.</p>
