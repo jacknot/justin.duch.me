@@ -1,7 +1,7 @@
 <script>
 	import { FormField } from 'prisme-components-svelte';
 
-	let time = Math.round((new Date - new Date('2000-02-08T03:00:00+10:00')) / 1000);
+	let time = Math.round((new Date - new Date('2000-02-08T22:00:00+10:00')) / 1000);
 	setInterval(() => { time += 1 }, 1000);
 
 	let email = '';
