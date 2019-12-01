@@ -30,7 +30,7 @@ which are [all in markdown][]. I removed all the markdown formatting first
 because I just wanted to get plain text samples first before experimenting
 with whether it could also create correct markdown using this script:
 
-[all in markdown]: https://github.com/beanpuppy/blog.justinduch.com/tree/master/_articles
+[all in markdown]: https://github.com/beanpuppy/blog.justinduch.com/tree/master/_posts
 
 ```python
 #!/usr/bin/env python
