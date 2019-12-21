@@ -53,11 +53,9 @@ Here’s the abstract if you don’t know what it’s about:
 NLP is a field I’m very interested in, so I’ve been trying to read papers to get a better understanding of it. I didn’t understand all of it, but just searching up new terms was enough for me to be able to get through it.
 
 ---
-It’s time to reveal what the “Best Thing of the Decade” is!
-
-<Pretend there’s a drum roll here>
-
-IT’S…!
+Wow! It’s now time to reveal what the “Best Thing of the Decade” is!
 
 ## Pokemon Bidoof Version (2019)
 [I don’t know what you expected](https://www.gbahacks.com/2019/04/bidoof-version.html). The waifu list was a rouse, my real love is for Bidoof.
+
+Incidentally, this is also the best thing of the year so that's pretty cool.
