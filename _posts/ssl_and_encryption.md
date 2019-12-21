@@ -11,13 +11,6 @@ TLS (Transfer Layer Security) / SSL (Secure Socket Layer) are standard, cryptogr
 
 This article is technically a continuation of my [last article](/article/lamp_stack_on_centos) where we set up a CentOs7 server with Apache, and will go through explaining SSL aswell as setting it up our sever.
 
-#### table of contents
-
-* [TLS/SSL?](#0x100-tlsssl)
-* [A Primer on Encryption and SSL](#0x200-a-primer-on-encryption-and-ssl)
-* [The SSL Certificate](#0x300-the-ssl-certificate)
-* [Let's Encrypt](#0x400-lets-encrypt)
-
 ### 0x100: TLS/SSL?
 
 The terms SSL and TLS are often used interchangeably or in conjunction with each other (TLS/SSL), but one is in fact the predecessor of the other — SSL 3.0 served as the basis for TLS 1.0 which, as a result, is sometimes referred to as SSL 3.1.

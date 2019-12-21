@@ -15,13 +15,6 @@ Obviously this was a terrible idea that came from my original plans to have the 
 
 Right before I wrote this article, I mapped the old site on the Wayback Machine so you could go and [look at all 8 pages here.](https://web.archive.org/web/20180529040508/https://blog.justinduch.com) You can also see the source code up to the final commit before this redesign [here.](https://github.com/apt-helion/blog/tree/484e9c3d808e08ab41605a3c8a36c4793ba49274) I've also included some pictures in case you were to lazy to click on those.
 
-#### table of contents
-
-* [The Looks](#0x100-the-looks)
-* [The Logic](#0x200-the-logic)
-* [The Redesign](#0x300-the-redesign)
-* [What's Next](#0x400-whats-next)
-
 ### 0x100: The Looks
 
 There isn't too much to say here apart from: 'it isn't very nice'. It was my first time using CSS grid in any real capacity, and while I do like it - probably more than Bootstrap, I wasn't able to do very much with my more limited CSS knowledge. You can see I had my original plans in mind while desiging it, with all it's plain-ness, but not a good minimalist plain, the bad, uninteresting plain.
