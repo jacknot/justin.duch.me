@@ -68,6 +68,7 @@
 <p><strong>Where were you on Sunday 22 November 2015?</strong> <br> At a friend's house.</p>
 <p><strong>Are these questions actually frequently asked?</strong> <br> Yes.</p>
 <p><strong>UwU?</strong> <br> NO!</p>
+<p><strong>Where is your RSS feed?</strong> <br> <a href="/api/feed" target="_blank">Here.</a></p>
 
 <br>
 <h2>Subscribe</h2>

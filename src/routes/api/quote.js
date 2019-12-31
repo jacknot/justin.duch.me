@@ -1,9 +1,7 @@
 // Route to get a random quote from any article
 import scanPosts from './../article/_posts.js';
 
-export function get(req, res) {
-	let quotes = [];
-
+export function get(_, res) {
 	scanPosts().then(posts => {
 		// Get random post first
 		let post = posts[Math.floor((Math.random() * posts.length))];
