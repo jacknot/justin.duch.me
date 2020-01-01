@@ -55,7 +55,7 @@ They’re fascists.
 
 That’s not a joke or anything about the Google guy above. I genuinely believe they are and I don’t think it’s much of a stretch to call them that, considering they’re posting on r/Ask_TheDonald. But a common theme with fascists is that they really, **really** don’t like anything that goes against the tradition.
 
-Now explaining that is going to need a whole other post for me, because I’ll start talking about postmodernism, deconstructing traditions and what not, which is not what this post is about at all so I’ll write about on another day.
+Now explaining that is going to need a whole other post for me, because I’ll start talking about postmodernism, deconstructing traditions and what not, which is not what this post is about at all so I’ll write it about on another day.
 
 If you are curious however, the video essay [“Who’s Afraid of Modern Art: Vandalism, Video Games, and Fascism”](https://www.youtube.com/watch?v=v5DqmTtCPiQ) by Jacob Geller is pretty good. It has nothing to do with linguistics, but I’m sure you could make your own links from watching it.
 
