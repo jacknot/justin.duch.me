@@ -1,8 +1,13 @@
 <script>
+	import { stores } from "@sapper/app"
+
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/Footer.svelte';
+	import PageLoadingBar from '../components/PageLoadingBar.svelte';
 
 	export let segment;
+
+	const { preloading } = stores();
 </script>
 
 <style>
@@ -15,8 +20,12 @@
 	}
 </style>
 
+<PageLoadingBar {preloading}/>
+
+{#if !$preloading}
 <main>
 	<Nav {segment} />
 	<slot></slot>
 	<Footer />
 </main>
+{/if}
