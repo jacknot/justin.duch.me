@@ -34,8 +34,8 @@ mail.setApiKey(SENDGRID_API_KEY);
 function getPostData(data) {
 	// Because there is no metadata extension, we need to read the lines
 	let lines = data.split('\n');
-	let metadataString = lines.slice(1,7);
-	let body = lines.slice(8,lines.length).join('\n')
+	let metadataString = lines.slice(1, 7);
+	let body = lines.slice(8, lines.length).join('\n')
 
 	return {
 		title: metadataString[0].split(':')[1].trim(),
@@ -54,7 +54,7 @@ function scanAndImportArticles() {
 		let newArticle = null;
 
 		// Get old posts
-		scanner.scan('article:*', (err, keys) => {
+		scanner.scan('article:*', (_, keys) => {
 			// Remove old posts
 			keys.forEach(key => client.del(key));
 
@@ -86,7 +86,7 @@ function scanAndImportArticles() {
 
 function getSubscribers() {
 	return new Promise(resolve => {
-		scanner.scan('email:*', (err, keys) => {
+		scanner.scan('email:*', (_, keys) => {
 			resolve(keys);
 		});
 	});
@@ -95,12 +95,12 @@ function getSubscribers() {
 async function sendEmails(article) {
 	return new Promise(async resolve => {
 		let email_keys = await getSubscribers();
-		let url = `https://blog.justinduch.com/article/${article.slug}`
+		let url = `https://blog.justinduch.com/article/${article.slug}`;
 
 		let count = email_keys.length;
 
 		email_keys.forEach(key => {
-			let [email, unsub_token] = key.split(':').slice(1,3);
+			let [email, unsub_token] = key.split(':').slice(1, 3);
 			let unsub_url = `https://blog.justinduch.com/unsubscribe/${unsub_token}`;
 			let body = `
 				<p>Hey there,</p>
@@ -112,8 +112,8 @@ async function sendEmails(article) {
 			const msg = {
 				to: email,
 				from: 'Justin Duch <noreply@justinduch.com>',
-				subject: 'New Article',
-				text: 'New Article!',
+				subject: 'New Post',
+				text: 'New Post!',
 				html: body,
 			};
 
@@ -122,7 +122,7 @@ async function sendEmails(article) {
 					count -= 1;
 					if (!count) { resolve(); }
 				})
-				.catch(err => {
+				.catch(() => {
 					if (!count) { resolve(); }
 				});
 		});
