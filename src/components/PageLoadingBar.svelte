@@ -1,8 +1,8 @@
 <script>
     export let preloading;
     export let height = '3px';
-    export let color1 = '#000';
-    export let color2 = '#b5b5b5';
+    export let color1 = '#fff';
+    export let color2 = '#000';
 
     $: style = `background-color: ${color1}; height: ${height}`
     $: inner_style = `background-color: ${color2}`
