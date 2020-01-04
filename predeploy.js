@@ -123,6 +123,7 @@ async function sendEmails(article) {
 					if (!count) { resolve(); }
 				})
 				.catch(() => {
+					count -= 1;
 					if (!count) { resolve(); }
 				});
 		});
