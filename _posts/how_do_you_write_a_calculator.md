@@ -13,7 +13,7 @@ This is something I haven't done in a while. We're gonna look at code I wrote wh
 
 Before we start I'd like to make one thing clear: I said it was a group project, but I did all the work. I mean that with no exaggeration, I did **all** of the work - all the code is by me. This isn't to diss on the other three people in the group, we decided it as a group because (and please excuse my brag) I was leagues ahead of everyone else in the class and they would just slow me down. As such, "our" calculator received full marks.
 
-But make no mistake, while I was better than everyone else I was still a 16 year old. Looking back at it know it's pretty bad, I did a few things just to flex on everyone. Things like this:
+But make no mistake, while I was better than everyone else I was still a 16 year old. Looking back at it now it's pretty bad, I did a few things just to flex on everyone. Things like this:
 
 ![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/cal_form_2.png)
 
