@@ -23,7 +23,7 @@ Do you actually think people like MrBeast actually care about the environment? H
 
 So what should they be doing instead? Well first I want you to understand that we’re kinda fucked. We’ve done too much damage to the planet and no amount of tree planting or electric car buying is going to help. Please read this [document](https://docs.google.com/document/d/13hjFQnyRHfQiSZ2fHD4jjvudaPOR99WwZHwdImylD_4/edit) to fully understand the extent this, it’s kinda long but if you don’t want to read about something that will severely affect you and everyone you know… then you’re just kind of an idiot.
 
-Okay back to the topic, so what should they be doing? The first and most obvious thing would be to stop doing stupid shit for YouTube views and focus on something more productive. There’s a section near the end of the document you should have read that explains some of the things we should be doing. Will all their influence, they could promote those things more.
+Okay back to the topic, so what should they be doing? The first and most obvious thing would be to stop doing stupid shit for YouTube views and focus on something more productive. There’s a section near the end of the document you should have read that explains some of the things we should be doing. With all their influence, they could promote those things more.
 
 Of course doing stuff like that would most likely destroy their career. But I don’t really care, I’d rather be able to live to see my 30s than watch a video of some guy sit in a pool of slime for 24 hours.
 
