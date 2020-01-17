@@ -1,46 +1,9 @@
 <script>
-	import { FormField } from 'prisme-components-svelte';
+	import SubscribeForm from '../components/SubscribeForm.svelte';
 
 	let time = Math.round((new Date - new Date('2000-02-08T22:00:00+10:00')) / 1000);
 	setInterval(() => { time += 1 }, 1000);
-
-	let email = '';
-	let subscribed = false;
-	let error = '';
-
-	async function subscribe() {
-		if (email) {
-			let re = /^\S+@\S+$/;
-
-			if (!re.test(email)) {
-				error = 'invalid email';
-				return;
-			}
-
-			const res = await fetch('subscribe', {
-				method: 'POST',
-				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({email})
-			});
-
-			const content = await res.json();
-
-			if (content.email) {
-				subscribed = true;
-				error = '';
-				email = '';
-			}
-		} else {
-			error = 'email is required';
-		}
-	}
 </script>
-
-<style>
-	.error {
-		color: red;
-	}
-</style>
 
 <svelte:head>
 	<title>a propos</title>
@@ -71,19 +34,5 @@
 <p><strong>Where is your RSS feed?</strong> <br> <a href="/api/feed" target="_blank">Here.</a></p>
 
 <br>
-<h2>Subscribe</h2>
-<p>Want to get an email every time I post something? Enter your email address below.</p>
-<small>I promise I won't spam you.</small>
 
-{#if error }
-	<br>
-	<small class="error">{error}</small>
-{/if}
-
-<FormField bind:value={email} />
-
-{#if !subscribed}
-	<button class="subscribe" on:click={subscribe}>subscribe</button>
-{:else}
-	<span>subscribed!</span>
-{/if}
+<SubscribeForm />
