@@ -3,14 +3,13 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/t1ljsut41hs52ey1?svg=true)](https://ci.appveyor.com/project/beanpuppy/blog-justinduch-com)
 [![CircleCI](https://circleci.com/gh/beanpuppy/blog.justinduch.com.svg?style=svg)](https://circleci.com/gh/beanpuppy/blog.justinduch.com)
 [![Maintainability](https://api.codeclimate.com/v1/badges/1c68876e520c257b3bd5/maintainability)](https://codeclimate.com/github/beanpuppy/blog.justinduch.com/maintainability)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/beanpuppy/blog.justinduch.com) 
 
 Bienvenue.
 
 ## About
 
 Source code for [https://blog.justinduch.com](https://blog.justinduch.com).
-
-Built with SvelteJS/Sapper. Was previously built in [Python](https://github.com/beanpuppy/blog).
 
 ## Development
 
