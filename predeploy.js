@@ -45,7 +45,7 @@ function getPostData(data) {
 		tags: metadataString[4].split(':')[1].trim(),
 		description: metadataString[5].split(':')[1].trim(),
 		readtime: readingTime(body).text,
-		html:	converter.makeHtml(body),
+		html: converter.makeHtml(body),
 	}
 }
 
