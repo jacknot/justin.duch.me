@@ -76,6 +76,7 @@ function scanAndImportArticles() {
 				// Check if is new article
 				if (keys.indexOf(key) === -1) {
 					newArticle = post;
+					console.log(`Imported '${post.title}'.`);
 				}
 			});
 
@@ -133,7 +134,7 @@ async function sendEmails(article) {
 (async () => {
 	let newArticle = await scanAndImportArticles();
 
-	if (newArticle) {
+	if (newArticle && SENDGRID_API_KEY) {
 		await sendEmails(newArticle);
 	}
 
