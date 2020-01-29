@@ -121,11 +121,16 @@
 		font-size: 4em;
 		line-height: 0.1em;
 		margin-right: 0.25em;
-		vertical-align: -0.4em;
+		vertical-align: -0.6em;
+	}
+
+	.content :global(blockquote):after {
+		content: close-quote;
+		font-size: 1px;
 	}
 
 	.content :global(blockquote) :global(p) {
-		display: inline;
+		display: block;
 	}
 
 	.content :global(img) {
