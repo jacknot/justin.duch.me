@@ -212,7 +212,7 @@ Is this fake news? The professor “John Yoo” does in fact say these things, t
 
 I’m not a legal expert or anything, but I don’t think bribery is a “legitimate act”.
 
-But seriously, does this count as fake news? He says the stuff that they’re reporting on. If you report on bullshit, does that make your report bullshit? I didn’t listen to very much of the audio part, but I dont't think they ever say Yoo was correct in anything he talked about, only that he **said** it.
+But seriously, does this count as fake news? He says the stuff that they’re reporting on. If you report on bullshit, does that make your report bullshit? I didn’t listen to very much of the audio part, but I don't think they ever say Yoo is correct, only that he **said** it.
 
 Don't get me wrong, I'm not trying to defend Breitbart or anything. I'm genuinely curious as to whether you can consider this fake news. Like maybe it is fake news because they aren't calling Yoo out on the fact that it's bullshit?
 
