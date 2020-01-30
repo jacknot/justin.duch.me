@@ -39,18 +39,20 @@
 	<p><a href="https://eldritch.cafe/@beanpup_py"><i class="fab fa-mastodon"></i> Mastodon</a></p>
 	<p><a href="https://myanimelist.net/profile/beanpup_py"><i class="fa fa-film"></i> MyAnimeList</a></p>
 	<p><a href="https://curiouscat.me/beanpup_py"><i class="fa fa-cat"></i> Curious Cat</a></p>
+	<p><a href="https://music.apple.com/profile/beanpup_py"><i class="fa fa-music"></i> Apple Music</a></p>
 </div>
 
 <br>
 <h2>faq</h2>
 <p><strong>How many mechanical keyboards do you have?</strong> <br> Five.</p>
 <p><strong>Cute boys or girls?</strong> <br> Both.</p>
-<p><strong>What Operating System do you use?</strong> <br> <a href="/article/i_use_arch_btw" target="_blank">NodeJS.</a></p>
+<p><strong>Are you actually okay with people stalking you?</strong> <br> I hardly use social media, there isn't much to stalk. This site is a better representation of me then all of those combined.</p>
 <p><strong>How old are you?</strong> <br> {time} seconds.</p>
+<p><strong>What Operating System do you use?</strong> <br> <a href="/article/i_use_arch_btw" target="_blank">NodeJS.</a></p>
 <p><strong>Where were you on Sunday 22 November 2015?</strong> <br> At a friend's house.</p>
 <p><strong>Are these questions actually frequently asked?</strong> <br> Yes.</p>
 <p><strong>UwU?</strong> <br> NO!</p>
+<p><strong>Why not?</strong> <br> &gt;:(</p>
 
 <br>
-
 <SubscribeForm />
