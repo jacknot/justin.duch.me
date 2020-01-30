@@ -37,6 +37,7 @@
 	<p><a href="https://www.instagram.com/beanpup.py/"><i class="fab fa-instagram"></i> Instagram</a></p>
 	<p><a href="https://twitter.com/beanpup_py"><i class="fab fa-twitter"></i> Twitter</a></p>
 	<p><a href="https://eldritch.cafe/@beanpup_py"><i class="fab fa-mastodon"></i> Mastodon</a></p>
+	<p><a href="https://myanimelist.net/profile/beanpup_py"><i class="fa fa-film"></i> MyAnimeList</a></p>
 	<p><a href="https://curiouscat.me/beanpup_py"><i class="fa fa-cat"></i> Curious Cat</a></p>
 </div>
 
