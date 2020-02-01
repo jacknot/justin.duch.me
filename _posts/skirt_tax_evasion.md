@@ -12,11 +12,9 @@ love more than capitalism?
 
 Money.
 
-Today I am going to teach you how to do tax evasion by using [this skirt]
+Today I am going to teach you how to do tax evasion by using ~~this~~ a skirt
 I bought as an example. Specifically, we are going to overstate our deductions
 because I think it's more interesting than lying about your income.
-
-[this skirt]: https://rosen-store.com/products/yohji-yamamoto-ys-asymmetrical-wool-skirt-yoh-1193
 
 Just as a disclaimer, THIS ISN'T ACTUAL TAX ADVICE GO TO AN ACCOUNTANT.
 However, I did get good grades in high school business studies as well as
@@ -24,8 +22,8 @@ legal studies so I think I know what I'm talking about. I won't give you my
 actual grades, but believe me when I say it's good.
 
 Anyway, the first thing to do when you overstate your deductions is to make
-sure you can claim it as a deduction. So with that all said: *"can you claim
-designer skirts as a tax deduction?"*
+sure you can claim it as a deduction. So with that all said: "can you claim
+designer skirts as a tax deduction?"
 
 No.
 
