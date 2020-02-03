@@ -35,25 +35,41 @@
 </script>
 
 <style>
+	div {
+		display: inline-block;
+		width: 100%;
+	}
+
+	div :global(input) {
+		width: 99%;
+		margin-bottom: 10px;
+	}
+
 	.error {
 		color: red;
+	}
+
+	button {
+		float: right;
 	}
 </style>
 
 
-<h3>Subscribe</h3>
-<p>Want to get an email every time I post something? Enter your email address below.</p>
-<small>I promise I won't spam you.</small>
+<div>
+	<h3>Subscribe</h3>
+	<p>Want to get an email every time I post something? Enter your email address below.</p>
+	<small>I promise I won't spam you.</small>
 
-{#if error }
-	<br>
-	<small class="error">{error}</small>
-{/if}
+	{#if error }
+		<br>
+		<small class="error">{error}</small>
+	{/if}
 
-<FormField bind:value={email} />
+	<FormField bind:value={email} />
 
-{#if !subscribed}
-	<button class="subscribe" on:click={subscribe} disabled={loading}>{loading ? 'please wait' : 'subscribe'}</button>
-{:else}
-	<small>success! check your email inbox for to confirm verification!</small>
-{/if}
+	{#if !subscribed}
+		<button class="subscribe" on:click={subscribe} disabled={loading}>{loading ? 'please wait' : 'subscribe'}</button>
+	{:else}
+		<small>success! check your email inbox for to confirm verification!</small>
+	{/if}
+</div>
