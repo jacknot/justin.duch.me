@@ -6,9 +6,14 @@
 </script>
 
 <style>
+	.links {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
 	.links > p {
-		padding-left: 1em;
-		margin: 4px;
+		margin: 10px;
 	}
 </style>
 
@@ -33,13 +38,14 @@
 <h2>links</h2>
 <p>Want to stalk me around the Internet? Here's a handly list.</p>
 <div class="links">
-	<p><a href="https://github.com/beanpuppy"><i class="fab fa-github"></i> GitHub</a></p>
-	<p><a href="https://www.instagram.com/beanpup.py/"><i class="fab fa-instagram"></i> Instagram</a></p>
-	<p><a href="https://twitter.com/beanpup_py"><i class="fab fa-twitter"></i> Twitter</a></p>
-	<p><a href="https://eldritch.cafe/@beanpup_py"><i class="fab fa-mastodon"></i> Mastodon</a></p>
-	<p><a href="https://myanimelist.net/profile/beanpup_py"><i class="fa fa-film"></i> MyAnimeList</a></p>
-	<p><a href="https://curiouscat.me/beanpup_py"><i class="fa fa-cat"></i> Curious Cat</a></p>
-	<p><a href="https://music.apple.com/profile/beanpup_py"><i class="fa fa-music"></i> Apple Music</a></p>
+	<p><a target="blank" href="https://github.com/beanpuppy"><i class="fab fa-github"></i> GitHub</a></p>
+	<p><a target="blank" href="https://www.instagram.com/beanpup.py/"><i class="fab fa-instagram"></i> Instagram</a></p>
+	<p><a target="blank" href="https://twitter.com/beanpup_py"><i class="fab fa-twitter"></i> Twitter</a></p>
+	<p><a target="blank" href="https://eldritch.cafe/@beanpup_py"><i class="fab fa-mastodon"></i> Mastodon</a></p>
+	<p><a target="blank" href="https://myanimelist.net/profile/beanpup_py"><i class="fa fa-film"></i> MyAnimeList</a></p>
+	<p><a target="blank" href="https://curiouscat.me/beanpup_py"><i class="fa fa-cat"></i> Curious Cat</a></p>
+	<p><a target="blank" href="https://music.apple.com/profile/beanpup_py"><i class="fa fa-music"></i> Apple Music</a></p>
+	<p><a target="blank" href="https://www.hackthebox.eu/profile/65491"><i class="fa fa-cube"></i> Hack The Box</a></p>
 </div>
 
 <br>
@@ -48,11 +54,9 @@
 <p><strong>Cute boys or girls?</strong> <br> Both.</p>
 <p><strong>Are you actually okay with people stalking you?</strong> <br> I hardly use social media, there isn't much to stalk. This site is a better representation of me then all of those combined.</p>
 <p><strong>How old are you?</strong> <br> {time} seconds.</p>
-<p><strong>What Operating System do you use?</strong> <br> <a href="/article/i_use_arch_btw" target="_blank">NodeJS.</a></p>
+<p><strong>What Operating System do you use?</strong> <br> <a href="/article/i_use_arch_btw">NodeJS.</a></p>
 <p><strong>Where were you on Sunday 22 November 2015?</strong> <br> At a friend's house.</p>
-<p><strong>Are these questions actually frequently asked?</strong> <br> Yes.</p>
-<p><strong>UwU?</strong> <br> NO!</p>
-<p><strong>Why not?</strong> <br> &gt;:(</p>
+<p><strong>I can‘t tell when you‘re joking or being serious.</strong> <br> Questions only please.</p>
 
 <br>
 <SubscribeForm />
