@@ -140,6 +140,11 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	.content :global(a):hover {
+		color: #484848;
+		background-color: #eeeeee;
+	}
 </style>
 
 <svelte:head>
