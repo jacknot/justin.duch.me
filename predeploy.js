@@ -7,9 +7,9 @@ const path = require('path');
 
 const showdown = require('showdown');
 const footnotes = require('./src/showdown/footnotes'),
+	prettify = require('./src/showdown/prettify'),
 	showdownHighlight = require("showdown-highlight");
 require('showdown-youtube');
-require('showdown-prettify');
 const readingTime = require('reading-time');
 
 const { REDIS_URL, SENDGRID_API_KEY } = process.env;
@@ -23,7 +23,7 @@ const scanner = new redisScan(client);
 const converter = new showdown.Converter({
 	tables: true,
 	strikethrough: true,
-	extensions: ['youtube', footnotes, showdownHighlight, 'prettify']
+	extensions: ['youtube', footnotes, showdownHighlight, prettify]
 });
 
 const postsDir = './_posts';

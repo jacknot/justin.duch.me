@@ -47,9 +47,9 @@ Nobody is going to use Bitcoin when they know it could become practically worthl
 
 Ah, I can hear the cryptocurrency evangelists screaming at me now.
 
-“Justin you dumb shit, if you don’t like volatility use a stable coin tied to a FIAT currency. If you’re scared of fraud, you can run auditing tools on the ledger to detect it.”
+“Justin you dumb shit, if you don’t like volatility use a stable coin tied to a fiat currency. If you’re scared of fraud, you can run auditing tools on the ledger to detect it.”
 
-But hey, you know what else is tied to a stable FIAT currency and is audited to prevent fraud?
+But hey, you know what else is tied to a stable fiat currency and is audited to prevent fraud?
 
 **FIAT CURRENCY.**
 
