@@ -26,7 +26,7 @@ While this would mean I wouldn’t be in complete control over the database, it 
 Anyway, since I can’t really do anything here’s a few things you can do:
 
 * **Use RSS:** Did you know I have a RSS feed? Click the RSS icon on the top right.
-* **Create an email only for newsletters:** This is a good idea in general. There’s a few services you could use like [Newslettrs](https://newslettrs.app) to help.
+* **Create an email only for newsletters:** This is a good idea in general. There’s a few services you could use like [Newslettrs](https://newslettrs.app) or [SimpleLogin](https://simplelogin.io) to help.
 * **Learn mind reading:** Whenever I publish a post, I think about it. So if you’re reading my mind you’d know.
 
 That’s all from me. This has been a short post because I’m busy moving. It’s a giant pain to try and think of all the services I’ve signed up to where I have to change my address, and then change them. I swear we need some kind of user identity protocol.
