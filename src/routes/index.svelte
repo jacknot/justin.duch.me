@@ -55,14 +55,10 @@
 	}
 
 	a {
-		height: 8em;
+		padding: 0;
 	}
 
 	@media (max-width: 600px) {
-		a {
-			height: 10em;
-		}
-
 		.container {
 			flex-direction: column;
 			height: auto;
