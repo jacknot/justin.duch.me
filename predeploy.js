@@ -111,11 +111,11 @@ async function sendEmails(article) {
       let [email, unsub_token] = key.split(":").slice(1, 3);
       let unsub_url = `https://blog.justinduch.com/unsubscribe/${unsub_token}`;
       let body = `
-				<p>Hey there,</p>
-				<p>Here's a new article to read: ${url}</p></br>
-				<p>Enjoy.</p></br>
-				<small>If you want to unsubscribe click here: ${unsub_url}</small>
-			`;
+        <p>Hey there,</p>
+        <p>Here's a new article to read: ${url}</p></br>
+        <p>Enjoy.</p></br>
+        <small>If you want to unsubscribe click here: ${unsub_url}</small>
+      `;
 
       const msg = {
         to: email,
