@@ -26,6 +26,10 @@
 		height: 100%;
 	}
 
+	:global(.darkmode--activated) .container {
+		border: 1px solid rgb(225,225,225,0.3);
+	}
+
 	.container .image {
 		flex: 1 1 auto;
 		border-radius: 5px 0 0 5px;

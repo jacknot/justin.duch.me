@@ -115,6 +115,10 @@
 		quotes: "\201C""\201D""\2018""\2019";
 	}
 
+	:global(.darkmode--activated) .content :global(blockquote) {
+		background: #0f0f0f;
+	}
+
 	.content :global(blockquote):before {
 		color: #ccc;
 		content: open-quote;
@@ -145,6 +149,29 @@
 		color: #484848;
 		background-color: #eeeeee;
 	}
+
+	.content :global(table) {
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	.content :global(th), .content :global(td) {
+		text-align: left;
+		padding: 8px;
+	}
+
+	.content :global(tr):nth-child(even) {
+		background-color: #f9f9f9;
+	}
+
+	:global(.darkmode--activated) .content :global(tr):nth-child(even) {
+		background-color: #0f0f0f;
+	}
+
+	:global(.darkmode--activated) :global(td),
+	:global(.darkmode--activated) :global(th) {
+		color: #fff;
+	}
 </style>
 
 <svelte:head>
@@ -170,7 +197,11 @@
 
 			<div class='info-line footer'>
 				<small on:click={toTop} class="text-decorate">back to top</small>
-				<small><a href='https://github.com/beanpuppy/blog.justinduch.com/edit/master/_posts/{post.slug}.md'>see a mistake? edit it here.</a></small>
+				<small>
+					<a href='https://github.com/beanpuppy/blog.justinduch.com/edit/master/_posts/{post.slug}.md'>
+						see a mistake? edit it here.
+					</a>
+				</small>
 			</div>
 		</div>
 	</Scroller>

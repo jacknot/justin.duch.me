@@ -31,11 +31,26 @@ h1 {
   font-weight: 700;
 }
 
+.darkmode--activated h1,
+.darkmode--activated h2,
+.darkmode--activated h3,
+.darkmode--activated h4,
+.darkmode--activated h5,
+.darkmode--activated h6 {
+  color: #fff;
+}
+
 a {
   color: inherit;
   font-weight: 100;
   text-decoration: none;
   padding: 1px;
+}
+
+.darkmode--activated p,
+.darkmode--activated li,
+.darkmode--activated a {
+  color: #fff;
 }
 
 button {

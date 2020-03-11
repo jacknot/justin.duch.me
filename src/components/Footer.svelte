@@ -1,6 +1,4 @@
 <script>
-	import { Link } from 'prisme-components-svelte';
-
 	// Yes, I'm too lazy to update this every year.
 	let year = (new Date()).getFullYear();
 </script>
@@ -16,12 +14,17 @@
 	small {
 		padding-top: 1em;
 	}
+
+	a:hover {
+		color: #484848;
+		background-color: #eeeeee;
+	}
 </style>
 
 <footer>
 	<small>Justin Duch © {year}</small>
 	<small>
-		The content for this site is <Link href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</Link>.
-		The <Link href="https://github.com/beanpuppy/blog.justinduch.com">code</Link> for this site is <Link href="https://opensource.org/licenses/MIT">MIT</Link>.
+		The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
+		The <a href="https://github.com/beanpuppy/blog.justinduch.com">code</a> for this site is <a href="https://opensource.org/licenses/MIT">MIT</a>.
 	</small>
 </footer>

@@ -1,4 +1,6 @@
 <script>
+	import { onMount } from 'svelte';
+
 	export let segment;
 </script>
 
@@ -11,8 +13,16 @@
 		margin-bottom: 1em;
 	}
 
+	:global(.darkmode--activated) nav {
+		border-bottom: 1px solid rgba(225,225,225,0.5);
+	}
+
 	.nav-highlight {
 		border-bottom: 1px solid rgba(0,0,0);
+	}
+
+	:global(.darkmode--activated) .nav-highlight {
+		border-bottom: 1px solid rgba(225,225,225);
 	}
 
 	ul {
@@ -47,6 +57,10 @@
 		bottom: -1px;
 	}
 
+	:global(.darkmode--activated) .selected::after {
+		background-color: rgba(225,225,225);
+	}
+
 	a {
 		text-decoration: none;
 		padding: 1em 0.5em;
@@ -56,6 +70,10 @@
 	.title {
 		color: black;
 		font-weight: bold;
+	}
+
+	:global(.darkmode--activated) .title {
+		color: white;
 	}
 
 	@media (max-width: 414px) {

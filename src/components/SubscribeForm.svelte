@@ -49,8 +49,19 @@
 		color: red;
 	}
 
-	button {
-		float: right;
+	:global(.darkmode--activated) button {
+		background-color: #000;
+		color: white;
+	}
+
+	:global(.darkmode--activated) :global(input) {
+		color: #fff !important;
+		background-color: #000;
+	}
+
+	.bottom {
+		display: flex;
+		justify-content: space-between;
 	}
 </style>
 
@@ -60,16 +71,14 @@
 	<p>Want to get an email every time I post something? Enter your email address below.</p>
 	<small>I promise I won't spam you.</small>
 
-	{#if error }
-		<br>
-		<small class="error">{error}</small>
-	{/if}
-
 	<FormField bind:value={email} />
 
-	{#if !subscribed}
-		<button class="subscribe" on:click={subscribe} disabled={loading}>{loading ? 'please wait' : 'subscribe'}</button>
-	{:else}
-		<small>success! check your email inbox for to confirm verification!</small>
-	{/if}
+	<div class="bottom">
+		<small class="error">{error}</small>
+		{#if !subscribed}
+			<button class="subscribe" on:click={subscribe} disabled={loading}>{loading ? 'please wait' : 'subscribe'}</button>
+		{:else}
+			<small>success! check your email inbox for to confirm verification!</small>
+		{/if}
+	</div>
 </div>

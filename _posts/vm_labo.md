@@ -17,11 +17,12 @@ I've also created another box in the network to carry out any pen testing I may 
 
 Anyway here's the list of the boxes.
 
-|| OS || IP || HOSTNAME ||
-|| Windows 7 x86 || 192.168.1.70 || RIOTDIVISION ||
-|| Windows 10 x64 || 192.168.1.50 || ROSEN ||
-|| Lubuntu 10.14 x64 || 192.168.1.100 || ANDWANDER ||
-|| Parrot 4.4 x64 || 192.168.1.20 || ACRONYM ||
+| OS | IP | HOSTNAME |
+| == | == | ======== |
+| Windows 7 x86 | 192.168.1.70 | RIOTDIVISION |
+| Windows 10 x64 | 192.168.1.50 | ROSEN |
+| Lubuntu 10.14 x64 | 192.168.1.100 | ANDWANDER |
+| Parrot 4.4 x64 | 192.168.1.20 | ACRONYM |
 
 And yes, I did name them after clothing companies. What did you expect? This is a fashion blog after all.
 
