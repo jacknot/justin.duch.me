@@ -6,7 +6,7 @@ class Darkmode {
         const time = (options && options.time) || '0.3s';
         const mixColor = (options && options.mixColor) || '#fff';
         const backgroundColor = (options && options.backgroundColor) || '#fff';
-        const buttonColorDark = (options && options.buttonColorDark) || '#100f2c';
+        const buttonColorDark = (options && options.buttonColorDark) || '#000';
         const buttonColorLight = (options && options.buttonColorLight) || '#fff';
         const label = (options && options.label) || '';
         /* eslint-disable */

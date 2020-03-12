@@ -78,6 +78,18 @@
 		background: transparent;
 	}
 
+	:global(.darkmode--activated) [slot="background"] progress {
+		color: #fff;
+	}
+
+	:global(.darkmode--activated) [slot="background"] progress::-moz-progress-bar {
+		background: #fff;
+	}
+
+	:global(.darkmode--activated) [slot="background"] progress::-webkit-progress-value {
+		background: #fff;
+	}
+
 	/*
 		By default, CSS is locally scoped to the component,
 		and any unused styles are dead-code-eliminated.
