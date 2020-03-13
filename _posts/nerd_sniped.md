@@ -340,7 +340,7 @@ Vote Bernie.
 
 [^1]: https://en.wikipedia.org/wiki/Crater_Critters
 
-[^2]: https://en.wikipedia.org/wiki/Disney_pin_trading
+[^2]: https://en.wikipedia.org/wiki/Disney\_pin_trading
 
 [^3]: https://www.howmuchisit.org/harley-davidson-cost
 
