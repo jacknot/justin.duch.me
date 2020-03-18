@@ -304,7 +304,7 @@ That’s all the ones I care about, so here’s them all in a table:
 | Rubber duck | Null |
 | Video games | $16.95 |
 
-This brings us to a total of **$6,331.46 + $43.69 (Nice) + $85.69 (Nice) + Null** (USD). I said before that we could extrapolate the rest of the list from this, so since this is probably only ~1/4 of it all, we’ll just multiply it by 4.
+This brings us to a total of **$31,376,460.84 + $43.69 (Nice) + $85.69 (Nice) + Null** (USD). I said before that we could extrapolate the rest of the list from this, so since this is probably only ~1/4 of it all, we’ll just multiply it by 4.
 
 This gets us **$125,505,843.36 + (4  x  $43.69 (Nice)) + (4 x $85.69 (Nice)) + 4 x Null** (USD).
 

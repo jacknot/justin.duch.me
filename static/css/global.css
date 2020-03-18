@@ -50,7 +50,7 @@ a {
 .darkmode--activated p,
 .darkmode--activated li,
 .darkmode--activated a {
-  color: #fff;
+  color: #ddd;
 }
 
 button {
