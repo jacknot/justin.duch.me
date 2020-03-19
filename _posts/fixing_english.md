@@ -1,6 +1,6 @@
 ---
 title: I Have Fixed The English Language And Await My Nobel Prize In Linguistics
-category: miscellaneous
+category: linguistics
 date: 2019-11-27
 thumbnail: fixing-english-thumb.png
 tags: english

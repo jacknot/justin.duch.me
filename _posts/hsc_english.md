@@ -1,9 +1,9 @@
 ---
 title: Please Use This Post As The Related Text For Your English Essay In The HSC
-category: miscellaneous
+category: linguistics
 date: 2020-01-01
 thumbnail: hsc-english-thumb.png
-tags: hsc,english,linguistics
+tags: hsc,english
 description:
 ---
 

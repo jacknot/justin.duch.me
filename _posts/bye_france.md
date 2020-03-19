@@ -1,6 +1,6 @@
 ---
 title: Quebec Wants To Preserve The French Language, I Want To Destroy It
-category: miscellaneous
+category: linguistics
 date: 2019-10-02
 thumbnail: bye-france-thumb.png
 tags: ohno

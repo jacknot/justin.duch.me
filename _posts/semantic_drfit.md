@@ -1,6 +1,6 @@
 ---
 title: What The Right Gets Wrong About Semantic Drift (And Linguistics In General)
-category: miscellaneous
+category: linguistics
 date: 2019-12-21
 thumbnail: semantic-drift-thumb.png
 tags: semantics

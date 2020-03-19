@@ -1,6 +1,6 @@
 ---
 title: A Written Guide To Adobe After Effects But It's A Phonetic Transcription [Addendum]
-category: miscellaneous
+category: linguistics
 date: 2019-11-25
 thumbnail: after-effects-ipa-addendum-thumb.png
 tags: ipa

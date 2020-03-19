@@ -13,6 +13,8 @@
 </script>
 
 <script>
+	import { onMount } from 'svelte';
+
 	export let posts;
 </script>
 
@@ -39,7 +41,7 @@
 	}
 
 	.thumbnail {
-		width: 100%;
+		width: 235px;
 		height: 100%;
 	}
 
@@ -73,6 +75,10 @@
 			max-width: 100% !important;
 		}
 
+		.thumbnail {
+			width: 100%;
+		}
+
 		.info {
 			width: auto;
 		}
@@ -100,7 +106,11 @@
 		<Card bs="md" m="0 0 1em 0" h="100%">
 			<div class="container">
 				<div class="image">
-					<img src='https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}' alt='thumbnail' class='thumbnail'/>
+					<img
+					    src='https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=435&h=274'
+					    alt='thumbnail'
+					    class='thumbnail'
+					/>
 				</div>
 				<div class="info">
 					<h4>{post.title}</h4>
