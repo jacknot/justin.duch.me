@@ -32,7 +32,7 @@
 	}
 
 	img {
-		width: 235px;
+		width: 35%;
 		height: 137px;
 	}
 
