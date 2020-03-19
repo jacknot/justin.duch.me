@@ -13,14 +13,13 @@
 </script>
 
 <script>
-	import { onMount } from 'svelte';
-
 	export let posts;
 </script>
 
 <style>
 	a {
 		text-decoration: none;
+		padding: 0;
 	}
 
 	.container {
@@ -32,17 +31,9 @@
 		border: 1px solid rgb(225,225,225,0.3);
 	}
 
-	.container .image {
-		flex: 1 1 auto;
-		border-radius: 5px 0 0 5px;
-		display: block;
-		max-width: 35%;
-		height: auto;
-	}
-
-	.thumbnail {
+	img {
 		width: 235px;
-		height: 100%;
+		height: 137px;
 	}
 
 	.info {
@@ -60,23 +51,15 @@
 		width: 100%;
 	}
 
-	a {
-		padding: 0;
-	}
-
 	@media (max-width: 600px) {
 		.container {
 			flex-direction: column;
 			height: auto;
 		}
 
-		.image {
+		img {
 			width: 100%;
-			max-width: 100% !important;
-		}
-
-		.thumbnail {
-			width: 100%;
+			height: 100%;
 		}
 
 		.info {
@@ -105,13 +88,10 @@
 	<a rel='prefetch' href='article/{post.slug}'>
 		<Card bs="md" m="0 0 1em 0" h="100%">
 			<div class="container">
-				<div class="image">
-					<img
-					    src='https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=435&h=274'
-					    alt='thumbnail'
-					    class='thumbnail'
-					/>
-				</div>
+				<img
+					src='https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=435&h=274'
+					alt='{post.thumbnail}'
+				/>
 				<div class="info">
 					<h4>{post.title}</h4>
 					<div class="feet">

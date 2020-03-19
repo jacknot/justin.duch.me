@@ -1,6 +1,4 @@
 <script>
-	import { onMount } from 'svelte';
-
 	export let segment;
 </script>
 
@@ -87,7 +85,7 @@
 	<ul>
 		<li><a class="title" href='.'>ici ¿uᴉʇsnɾ</a></li>
 		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>accueil</a></li>
-		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>a propos</a></li>
+		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>à propos</a></li>
 	</ul>
 
 	<ul>
