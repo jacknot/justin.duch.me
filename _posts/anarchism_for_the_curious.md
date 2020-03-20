@@ -41,13 +41,13 @@ Lots of people have heard the phrase: “communism is when the workers own the m
 
 Instead the USSR is better described as “state capitalist”, which is where the ”state undertakes commercial (i.e. for-profit) economic activity and where the means of production are organized and managed as state-owned business enterprises…“[^2]
 
-Because of this confusion, communism has been split into “anarcho-communism” and “authoritarian communism”, where the USSR is authoritarian communist. Even though by **definition** you can’t be authoritarian and communist at the same time, I don’t think it’s worth the effort to try and argue(^5) about this (especially it seems to be accepted by the majority of people) and we will accept that “authoritarian communism” is a real thing that just means “state capitalism”.
+Because of this confusion, communism has been split into “anarcho-communism” and “authoritarian communism”, where the USSR is authoritarian communist. Even though by **definition** you can’t be authoritarian and communist at the same time, I don’t think it’s worth the effort to try and argue(^3) about this (especially it seems to be accepted by the majority of people) and we will accept that “authoritarian communism” is a real thing that just means “state capitalism”.
 
-(^5): Jokes, I’m not done. Let’s talk about “anarcho-capitalism”, which is yet another oxymoron. How would you dismantle hierarchies if businesses are fucking built on them??!!? IT MAKES NO SENSE. You can’t be an anarchist and capitalist at the same time! Just stick to “libertarian” please.
+(^3): Jokes, I’m not done. Let’s talk about “anarcho-capitalism”, which is yet another oxymoron. How would you dismantle hierarchies if businesses are fucking built on them??!!? IT MAKES NO SENSE. You can’t be an anarchist and capitalist at the same time! Just stick to “libertarian” please.
 
-This means from now on we should be using the term “anarcho-communism”, so we don’t get confused with the other communisms(^6). I’m also going to shorten anarcho-communism to ancom, because I hate typing the entire thing.
+This means from now on we should be using the term “anarcho-communism”, so we don’t get confused with the other communisms(^4). I’m also going to shorten anarcho-communism to ancom, because I hate typing the entire thing.
 
-(^6): And so we don’t get confused with “anarcho-capitalism”, WHICH ISN’T A THING. I’ll accept “authoritarian communism”, I can see why people would think it could be a thing. But “anarcho-capitalism”? No. Fuck off with that bourgeois propaganda.
+(^4): And so we don’t get confused with “anarcho-capitalism”, WHICH ISN’T A THING. I’ll accept “authoritarian communism”, I can see why people would think it could be a thing. But “anarcho-capitalism”? No. Fuck off with that bourgeois propaganda.
 
 Anyway back to the main point.
 
