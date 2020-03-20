@@ -237,6 +237,10 @@
 				transition: opacity 0.5s;
 		}
 
+		.content :global(.footnote-body) {
+				opacity: 1;
+		}
+
 		:global(.darkmode--activated) .content :global(.foot-tooltip){
 				color: #bbb;
 				background-color: #222;
