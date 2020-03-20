@@ -70,8 +70,14 @@ function scanAndImportArticles() {
         let data = fs.readFileSync(filepath, { encoding: "utf-8" });
         let post = { ...getPostData(data), slug: filename };
 
-        // replace footnote tags will full path because I don't know how to change
+        // replace reference tags will full path because I don't know how to change
         // the base url.
+        post.html = post.html.replace(
+          /#reference/g,
+          `article/${post.slug}/#reference`
+        );
+
+        // and footnotes
         post.html = post.html.replace(
           /#footnote/g,
           `article/${post.slug}/#footnote`

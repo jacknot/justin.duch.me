@@ -7,7 +7,9 @@ tags: anarchism
 description:
 ---
 
-When I was a wee lad (like 4 years ago), I had a geography teacher who was a very overt libertarian. He’d occasionally[^1] talk about the usual libertarian spiel, about how the free market provides “freedom of choice”, and “incentivises creativity”. The basic stuff you’d expect from a libertarian.
+When I was a wee lad (like 4 years ago), I had a geography teacher who was a very overt libertarian. He’d occasionally(^1) talk about the usual libertarian spiel, about how the free market provides “freedom of choice”, and “incentivises creativity”. The basic stuff you’d expect from a libertarian.
+
+(^1): Don’t worry, I still got to learn about geography, he wasn’t a bad teacher.
 
 During these years I didn’t have much interest in anything outside of programming and video games, so I didn’t think much to it and just thought “oh that makes sense, I guess”. I wasn’t into politics much, I much preferred video games like Metal Gear Solid that definitely isn’t political at all.
 
@@ -23,11 +25,13 @@ That’s why I’m putting this into an easy to digest blog post, so you don’t
 
 But first, we gotta talk about definitions. I find this the biggest hurdle when discussing it with other people, where we say the same words, but we’re actually talking about different things.
 
-During legal studies, I was taught that anarchy meant “a state of lawlessness”. So when I learnt that people where “anarchists”, I assumed that they were people who wanted a world with no laws, which in my head, looked like the post apocalyptic wastelands of Fallout[^2].
+During legal studies, I was taught that anarchy meant “a state of lawlessness”. So when I learnt that people where “anarchists”, I assumed that they were people who wanted a world with no laws, which in my head, looked like the post apocalyptic wastelands of Fallout.(^2)
+
+(^2): I’ve already told you that literally half of my interests at that time was video games. They were pretty much all I thought about.
 
 So that was completely wrong.
 
-Wikipedia calls anarchism a “political movement that is highly skeptical towards authority and rejects all unjust forms of hierarchy. It calls for the abolition of the state which it holds to be undesirable, unnecessary and harmful.”[^3] This is already a fine definition, but I think it needs something to be added and can also be shortened.
+Wikipedia calls anarchism a “political movement that is highly skeptical towards authority and rejects all unjust forms of hierarchy. It calls for the abolition of the state which it holds to be undesirable, unnecessary and harmful.”[^1] This is already a fine definition, but I think it needs something to be added and can also be shortened.
 
 As far as I’m concerned, anarchism is a “stateless, **classless** society which rejects all forms of hierarchy”. The Wikipedia definition only mentions the state as a hierarchy, but you can have a hierarchy without a government (the state) in libertarianism, which is divided by classes.
 
@@ -35,11 +39,15 @@ You may be thinking: “hey this all sounds pretty familiar”, and it should be
 
 Lots of people have heard the phrase: “communism is when the workers own the means of production”. That seems to be most basic and commonly accepted definition, but then people go on to say “the USSR was communist”, which is incorrect if you go by the previous definition. I think it’s pretty clear that the USSR (state) controlled the means of production instead of the people.
 
-Instead the USSR is better described as “state capitalist”, which is where the ”state undertakes commercial (i.e. for-profit) economic activity and where the means of production are organized and managed as state-owned business enterprises…“[^4]
+Instead the USSR is better described as “state capitalist”, which is where the ”state undertakes commercial (i.e. for-profit) economic activity and where the means of production are organized and managed as state-owned business enterprises…“[^2]
 
-Because of this confusion, communism has been split into “anarcho-communism” and “authoritarian communism”, where the USSR is authoritarian communist. Even though by **definition** you can’t be authoritarian and communist at the same time, I don’t think it’s worth the effort to try and argue[^5] about this (especially it seems to be accepted by the majority of people) and we will accept that “authoritarian communism” is a real thing that just means “state capitalism”.
+Because of this confusion, communism has been split into “anarcho-communism” and “authoritarian communism”, where the USSR is authoritarian communist. Even though by **definition** you can’t be authoritarian and communist at the same time, I don’t think it’s worth the effort to try and argue(^5) about this (especially it seems to be accepted by the majority of people) and we will accept that “authoritarian communism” is a real thing that just means “state capitalism”.
 
-This means from now on we should be using the term “anarcho-communism”, so we don’t get confused with the other communisms[^6]. I’m also going to shorten anarcho-communism to ancom, because I hate typing the entire thing.
+(^5): Jokes, I’m not done. Let’s talk about “anarcho-capitalism”, which is yet another oxymoron. How would you dismantle hierarchies if businesses are fucking built on them??!!? IT MAKES NO SENSE. You can’t be an anarchist and capitalist at the same time! Just stick to “libertarian” please.
+
+This means from now on we should be using the term “anarcho-communism”, so we don’t get confused with the other communisms(^6). I’m also going to shorten anarcho-communism to ancom, because I hate typing the entire thing.
+
+(^6): And so we don’t get confused with “anarcho-capitalism”, WHICH ISN’T A THING. I’ll accept “authoritarian communism”, I can see why people would think it could be a thing. But “anarcho-capitalism”? No. Fuck off with that bourgeois propaganda.
 
 Anyway back to the main point.
 
@@ -123,20 +131,12 @@ Although a failure due to its hopeless military situation, Karl Marx in “The C
 
 As at the time Paris had around 2 million occupants, I find the Commune to be a good example for how an anarcho-communism could work. Even with intense military pressure, they managed achieve a workable society, although short lived.
 
-So that’s all from me. Tune in next time when we talk about the politics of the anime “[That Time I Got Reincarnated as a Slime](https://myanimelist.net/anime/37430/Tensei_shitara_Slime_Datta_Ken)”![^7]
+So that’s all from me. Tune in next time when we talk about the politics of the anime “[That Time I Got Reincarnated as a Slime](https://myanimelist.net/anime/37430/Tensei_shitara_Slime_Datta_Ken)”!(^7)
+
+(^7): I am actually going to do this. Maybe not next time, but eventually.
 
 ---
 
-[^1]: Don’t worry, I still got to learn about geography, he wasn’t a bad teacher.
+[^1]: https://en.wikipedia.org/wiki/Anarchism
 
-[^2]: I’ve already told you that literally half of my interests at that time was video games. They were pretty much all I thought about.
-
-[^3]: https://en.wikipedia.org/wiki/Anarchism
-
-[^4]: https://en.wikipedia.org/wiki/State_capitalism
-
-[^5]: Jokes, I’m not done. Let’s talk about “anarcho-capitalism”, which is yet another oxymoron. How would you dismantle hierarchies if businesses are fucking built on them??!!? IT MAKES NO SENSE. You can’t be an anarchist and capitalist at the same time! Just stick to “libertarian” please.
-
-[^6]: And so we don’t get confused with “anarcho-capitalism”, WHICH ISN’T A THING. I’ll accept “authoritarian communism”, I can see why people would think it could be a thing. But “anarcho-capitalism”? No. Fuck off with that bourgeois propaganda.
-
-[^7]: I am actually going to do this. Maybe not next time, but eventually.
+[^2]: https://en.wikipedia.org/wiki/State_capitalism
