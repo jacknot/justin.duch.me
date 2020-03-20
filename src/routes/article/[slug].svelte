@@ -43,7 +43,8 @@
 				let footnoteId = this.id;
 
 				if (currentDiv) {
-						parent.removeChild(currentDiv);
+						let currentDivParent = currentDiv.parentNode;
+						currentDivParent.removeChild(currentDiv);
 						currentDiv = null;
 				}
 
