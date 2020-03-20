@@ -53,6 +53,9 @@
 				}
 
 				let footHtml = document.getElementById(`${footnoteId}-body`).innerHTML;
+				// Content as "(1) This is a footnote" becuase that's how it's shown with JS disabled
+				// We have JS enabled so we remove the "(1)"
+				footHtml = footHtml.replace(/^\(([\d\w]+)\)\s*(.*)$/mg, (str, name, content) => content);
 
 				currentId = footnoteId;
 				currentDiv = document.createElement("div");
@@ -222,7 +225,10 @@
 				background-color: #f9f9f9;
 		}
 
-		.content :global(.foot-tooltip){
+		/*
+		 * .footnote-body is shown when JS is disabled and you can't click on it
+		 */
+		.content :global(.foot-tooltip), .content :global(.footnote-body) {
 				color: #555;
 				background-color: #ddd;
 				padding: 5px 10px;
