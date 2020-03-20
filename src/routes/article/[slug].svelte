@@ -230,6 +230,7 @@
 		 */
 		.content :global(.foot-tooltip), .content :global(.footnote-body) {
 				color: #555;
+				font-size: smaller;
 				background-color: #ddd;
 				padding: 5px 10px;
 				border-radius: 10px;
