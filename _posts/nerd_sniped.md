@@ -247,7 +247,7 @@ He did not buy it, and instead made an even more overpowered one.
 I find people who collect rubber ducks to be weirdos. I’m not doing this one.
 
 ### Video Games
-This is probably the only accurate item in this entire blog. That’s because I have first hand experience with it.
+This is probably the only accurate item in this entire post. That’s because I have first hand experience with it.
 
 According to SteamDB, I have 678 games on Steam, with an average price of US$16.95. Now 678 isn’t as big as most hardcore collectors, but it’s still a lot more than most people, so I think it’s pretty accurate.
 

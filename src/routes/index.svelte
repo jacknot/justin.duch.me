@@ -2,18 +2,52 @@
 	import { Card } from 'prisme-components-svelte';
 
 	export function preload({ params, query }) {
-		return this.fetch('article.json').then(r => r.json()).then(posts => {
-			posts.sort(function(a, b){
-				return new Date(b.date) - new Date(a.date);
+		return this.fetch(`article.json`)
+			.then(r => r.json()).then(posts => {
+				return { posts };
 			});
-
-			return { posts };
-		});
 	}
 </script>
 
 <script>
-	export let posts;
+	import { onMount } from 'svelte';
+
+	export let posts = [];
+
+	const threshold = 500;
+	const increment = 15;
+
+	// Is initially all posts to work with JS disabled, we slice it after
+	let visiblePosts = posts;
+
+	let hasMore = true;
+	let start = 0;
+	let end = increment;
+
+	$: if (!hasMore) {
+		window.removeEventListener("scroll", onScroll);
+		window.removeEventListener("resize", onScroll);
+	}
+
+	const onScroll = e => {
+		if (
+			(window.innerHeight + window.scrollY) >= (document.body.offsetHeight - threshold)
+			&& hasMore
+		) {
+			start += increment;
+			end += increment;
+
+			visiblePosts = [...visiblePosts, ...posts.splice(start, end)];
+			hasMore = posts.length > end;
+		}
+	};
+
+	onMount(() => {
+		visiblePosts = posts.splice(start, end);
+
+		window.addEventListener("scroll", onScroll);
+		window.addEventListener("resize", onScroll);
+	});
 </script>
 
 <style>
@@ -80,7 +114,7 @@
 
 <h2>beinvenue</h2>
 
-{#each posts as post}
+{#each visiblePosts as post}
 	<!-- we're using the non-standard `rel=prefetch` attribute to
 			tell Sapper to load the data for the page as soon as
 			the user hovers over the link or taps it, instead of
