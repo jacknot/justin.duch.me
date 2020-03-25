@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import { FormField } from 'prisme-components-svelte';
 
 	const re = /^\S+@\S+$/;
@@ -32,9 +33,19 @@
 
 		loading = false;
 	}
+
+	onMount(() => {
+		// Stay hidden when JS is disabled because it doesn't work
+		let form = document.getElementById('subform');
+		form.style.display = 'block';
+	});
 </script>
 
 <style>
+	#subform {
+		display: none;
+	}
+
 	div {
 		display: inline-block;
 		width: 100%;
@@ -66,17 +77,8 @@
 </style>
 
 
-<div>
+<div id="subform">
 	<h3>Subscribe</h3>
-
-	<noscript>
-		<p>
-			<small class="error">
-				Sorry, but this does not work with JavaScript disabled.
-				I respect you as a person, but I am not bothered to make a new form for you.
-			</small>
-		</p>
-	</noscript>
 
 	<p>Want to get an email every time I post something? Enter your email address below.</p>
 	<small>I promise I won't spam you.</small>

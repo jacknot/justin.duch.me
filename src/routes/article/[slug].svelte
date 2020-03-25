@@ -19,22 +19,11 @@
 		import { onMount } from 'svelte';
 		import Scroller from '../../components/Scroller.svelte';
 
+		export let post;
+
 		let progress;
 		let currentDiv;
 		let currentId;
-
-		onMount(() => {
-				let bodies = document.getElementsByClassName("footnote-body");
-				let links = document.getElementsByClassName("footnote-link");
-
-				for (let b of bodies) {
-						b.style.display = "none";
-				}
-
-				for (let l of links) {
-						l.onclick = toggleFootnote;
-				}
-		});
 
 		function toggleFootnote(event) {
 				event.preventDefault();
@@ -74,7 +63,18 @@
 				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 		}
 
-		export let post;
+		onMount(() => {
+				let bodies = document.getElementsByClassName("footnote-body");
+				let links = document.getElementsByClassName("footnote-link");
+
+				for (let b of bodies) {
+						b.style.display = "none";
+				}
+
+				for (let l of links) {
+						l.onclick = toggleFootnote;
+				}
+		});
 </script>
 
 <style>

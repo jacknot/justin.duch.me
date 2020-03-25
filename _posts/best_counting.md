@@ -65,7 +65,7 @@ We are going to skip 20-50 because from 61-99, base 20 is used and we are follow
 
 Now we multiply the biggest unit to get the hundreds, making 400: “quatre cent” (11) and adding our tens we get 499: “quatre cent quatre-vingt-dix-neuf” (33)(^4).
 
-(^4): Au fait, you should start seeing the pattern I’m referencing numbers by now. It will mostly be: `<numeric number>: “<number in words>” (<length of number in words>)`
+(^4): Au fait, you should start seeing the pattern I’m referencing numbers by now. It will mostly be: [numeric number]: “[number in words]” (length of number in words)
 
 With that we can add the multipliers for a million: “millions”, and a thousand: “mille” to make 499,499,499: “**quatre cent quatre-vingt-dix-neuf millions quatre cent quatre-vingt-dix-neuf mille quatre cent quatre-vingt-dix-neuf**” (116).
 

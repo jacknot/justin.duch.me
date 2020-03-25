@@ -1,50 +1,71 @@
 <script context="module">
-	import { Card } from 'prisme-components-svelte';
+	export const threshold = 1000;
+	export const increment = 15;
 
 	export function preload({ params, query }) {
-		return this.fetch(`article.json`)
-			.then(r => r.json()).then(posts => {
-				return { posts };
+		let page = parseInt(query.page);
+		let start = page ? increment * (page - 1) : 0;
+		let end = start + increment;
+
+		return this.fetch(`article.json?start=${start}&end=${end}`)
+			.then(r => r.json()).then(data => {
+				return {...data, start, end, page};
 			});
 	}
 </script>
 
 <script>
 	import { onMount } from 'svelte';
+	import { Card } from 'prisme-components-svelte';
 
-	export let posts = [];
+	export let posts;
+	export let next;
+	export let start;
+	export let end;
+	export let page;
 
-	const threshold = 500;
-	const increment = 15;
+	function debounce(func, wait, immediate) {
+		let timeout;
 
-	// Is initially all posts to work with JS disabled, we slice it after
-	let visiblePosts = posts;
+		return function() {
+			let context = this, args = arguments;
 
-	let hasMore = true;
-	let start = 0;
-	let end = increment;
+			let later = function() {
+				timeout = null;
+				if (!immediate) func.apply(context, args);
+			};
 
-	$: if (!hasMore) {
-		window.removeEventListener("scroll", onScroll);
-		window.removeEventListener("resize", onScroll);
-	}
+			let callNow = immediate && !timeout;
 
-	const onScroll = e => {
+			clearTimeout(timeout);
+			timeout = setTimeout(later, wait);
+
+			if (callNow) func.apply(context, args);
+		};
+	};
+
+	const onScroll = debounce(e => {
 		if (
 			(window.innerHeight + window.scrollY) >= (document.body.offsetHeight - threshold)
-			&& hasMore
+			&& next
 		) {
 			start += increment;
 			end += increment;
 
-			visiblePosts = [...visiblePosts, ...posts.splice(start, end)];
-			hasMore = posts.length > end;
+			fetch(`article.json?start=${start}&end=${end}`)
+				.then(r => r.json()).then(data => {
+					posts = [...posts, ...data.posts];
+					next = data.next;
+
+					if (!next) {
+						window.removeEventListener("scroll", onScroll);
+						window.removeEventListener("resize", onScroll);
+					}
+				});
 		}
-	};
+	}, 50);
 
 	onMount(() => {
-		visiblePosts = posts.splice(start, end);
-
 		window.addEventListener("scroll", onScroll);
 		window.addEventListener("resize", onScroll);
 	});
@@ -54,6 +75,10 @@
 	a {
 		text-decoration: none;
 		padding: 0;
+	}
+
+	h2, .page-indicator {
+		margin-bottom: 10px;
 	}
 
 	.container {
@@ -79,10 +104,21 @@
 		justify-content: space-between;
 	}
 
-	.info .feet {
+	.space-yo {
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
+		align-items: center;
+	}
+
+	.finish {
+		box-shadow: 0 0 2px 0 rgba(0,0,0,.08), 0 2px 8px 0 rgba(0,0,0,.16);
+		padding: 5px;
+		text-align: center;
+	}
+
+	:global(.darkmode--activated) .finish {
+		border: 1px solid rgb(225,225,225,0.3);
 	}
 
 	@media (max-width: 600px) {
@@ -100,35 +136,32 @@
 			width: auto;
 		}
 	}
-
-	@media (max-width: 345px) {
-		.feet {
-			flex-direction: column;
-		}
-	}
 </style>
 
 <svelte:head>
 	<title>accueil</title>
 </svelte:head>
 
-<h2>beinvenue</h2>
+<div class="space-yo">
+	<h2>beinvenue</h2>
+	{#if page}
+		<small class="page-indicator">page: {page}</small>
+	{/if}
+</div>
 
-{#each visiblePosts as post}
+{#each posts as post}
 	<!-- we're using the non-standard `rel=prefetch` attribute to
 			tell Sapper to load the data for the page as soon as
 			the user hovers over the link or taps it, instead of
 			waiting for the 'click' event -->
-	<a rel='prefetch' href='article/{post.slug}'>
+	<a rel="prefetch" href="article/{post.slug}">
 		<Card bs="md" m="0 0 1em 0" h="100%">
 			<div class="container">
-				<img
-					src='https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=435&h=274'
-					alt='{post.thumbnail}'
-				/>
+				<img src='https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=435&h=274' alt='{post.thumbnail}' />
+
 				<div class="info">
 					<h4>{post.title}</h4>
-					<div class="feet">
+					<div class="space-yo">
 						<small>{post.readtime}</small>
 						<small>from {post.category} on {post.date}</small>
 					</div>
@@ -137,3 +170,22 @@
 		</Card>
 	</a>
 {/each}
+
+{#if !next}
+	<h5 class="finish">la fin</h5>
+{/if}
+
+<noscript>
+	<div class="space-yo">
+		<div>
+			{#if page !== 1 && !isNaN(page)}
+				<a href="/?page={page - 1}">back</a>
+			{/if}
+		</div>
+		<div>
+			{#if next}
+				<a href="/?page={isNaN(page) ? 2 : page + 1}">next</a>
+			{/if}
+		</div>
+	</div>
+</noscript>
