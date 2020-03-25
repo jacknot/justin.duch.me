@@ -59,7 +59,7 @@ Digits and numbers from zero to sixteen are specific words and the biggest one i
 
 Seventeen to nineteen are regular numbers, named after ten followed by a hyphen and the unit. Compared to English, this should be better as we only got two word numbers on our tens after 21. Our new numbers are: “dix-sept” [10+7], “dix-huit” [10+8], and “dix-neuf” [10+9], all the same length of 8. These are also all tied with 14: “quatorze” (8) to be the biggest.
 
-We are going to skip 20-50 because from 61-99, base 20 is used and we are following our “two words are bigger than one” rule. This makes 70: “soixante-dix” [60+10], 80: “quatre-vingts” [4*20], and 90: “quatre-vingt-dix” [4*20+10]. The biggest of which is “quatre-vignt-dix”(^3). Combined with a unit, the biggest tens we can make is 94, 97, 98, and 99, but we’ll use 99: “quatre-vingt-dix-neuf” (21).
+We are going to skip 20-50 because from 61-99, base 20 is used and we are following our “two words are bigger than one” rule. This makes 70: “soixante-dix” [60+10], 80: “quatre-vingts” [4\*20], and 90: “quatre-vingt-dix” [4\*20+10]. The biggest of which is “quatre-vignt-dix”(^3). Combined with a unit, the biggest tens we can make is 94, 97, 98, and 99, but we’ll use 99: “quatre-vingt-dix-neuf” (21).
 
 (^3): Although it could have been “quatre-vignts” if any of the numbers from one to nine were bigger than eleven to nineteen.
 
