@@ -53,7 +53,6 @@
 <h2>faq</h2>
 <p><strong>How many mechanical keyboards do you have?</strong> <br> Five.</p>
 <p><strong>Cute boys or girls?</strong> <br> Both.</p>
-<p><strong>Are you actually okay with people stalking you?</strong> <br> I hardly use social media, there isn't much to stalk. This site is a better representation of me then all of those combined.</p>
 <p><strong>How old are you?</strong> <br> {time} seconds.</p>
 <p><strong>What Operating System do you use?</strong> <br> <a href="/article/i_use_arch_btw">NodeJS.</a></p>
 <p><strong>Where were you on Sunday 22 November 2015?</strong> <br> At a friend's house.</p>
