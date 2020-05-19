@@ -1,6 +1,4 @@
 <script>
-	import SubscribeForm from '../components/SubscribeForm.svelte';
-
 	let time = Math.round((new Date - new Date('2000-02-08T22:00:00+10:00')) / 1000);
 	setInterval(() => { time += 1 }, 1000);
 </script>
@@ -57,6 +55,3 @@
 <p><strong>What Operating System do you use?</strong> <br> <a href="/article/i_use_arch_btw">NodeJS.</a></p>
 <p><strong>Where were you on Sunday 22 November 2015?</strong> <br> At a friend's house.</p>
 <p><strong>I can‘t tell when you‘re joking or being serious.</strong> <br> Questions only please.</p>
-
-<br>
-<SubscribeForm />

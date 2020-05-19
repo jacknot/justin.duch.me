@@ -1,5 +1,5 @@
 /*
- * Builds post database in redis and sends email if new
+ * Builds post database in redis
  */
 
 const fs = require("fs");
@@ -27,9 +27,6 @@ const converter = new showdown.Converter({
 });
 
 const postsDir = "./_posts";
-
-const mail = require("@sendgrid/mail");
-mail.setApiKey(SENDGRID_API_KEY);
 
 function getPostData(data) {
   // Because there is no metadata extension, we need to read the lines
@@ -98,63 +95,8 @@ function scanAndImportArticles() {
   });
 }
 
-function getSubscribers() {
-  return new Promise(resolve => {
-    scanner.scan("email:*", (_, keys) => {
-      resolve(keys);
-    });
-  });
-}
-
-async function sendEmails(article) {
-  return new Promise(async resolve => {
-    let email_keys = await getSubscribers();
-    let url = `https://blog.justinduch.com/article/${article.slug}`;
-
-    let count = email_keys.length;
-
-    email_keys.forEach(key => {
-      let [email, unsub_token] = key.split(":").slice(1, 3);
-      let unsub_url = `https://blog.justinduch.com/unsubscribe/${unsub_token}`;
-      let body = `
-        <p>Hey there,</p>
-        <p>Here's a new article to read: ${url}</p></br>
-        <p>Enjoy.</p></br>
-        <small>If you want to unsubscribe click here: ${unsub_url}</small>
-      `;
-
-      const msg = {
-        to: email,
-        from: "Justin Duch <noreply@justinduch.com>",
-        subject: "New Post",
-        text: "New Post!",
-        html: body
-      };
-
-      mail
-        .send(msg)
-        .then(() => {
-          count -= 1;
-          if (!count) {
-            resolve();
-          }
-        })
-        .catch(() => {
-          count -= 1;
-          if (!count) {
-            resolve();
-          }
-        });
-    });
-  });
-}
-
 (async () => {
-  let newArticle = await scanAndImportArticles();
-
-  if (newArticle && SENDGRID_API_KEY) {
-    await sendEmails(newArticle);
-  }
+  await scanAndImportArticles();
 
   process.exit();
 })();
