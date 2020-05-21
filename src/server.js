@@ -3,7 +3,7 @@ import polka from 'polka';
 import compression from 'compression';
 import * as sapper from '@sapper/server';
 
-const cors = require('cors')({ origin:true });
+const cors = require('cors')({ origin: true });
 const { json } = require('body-parser');
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV !== 'production';

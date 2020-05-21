@@ -1,6 +1,6 @@
 const RSS = require('rss');
 
-import { getPosts } from './../article/_posts.js';
+import { getPosts } from './../post/_posts.js';
 
 export function get(_, res) {
 	let feed = new RSS({
@@ -13,7 +13,7 @@ export function get(_, res) {
 		language: 'en',
 	});
 
-	getPosts().sort((a,b) => new Date(b.date) - new Date(a.date)).forEach(p => {
+	getPosts().sort((a, b) => new Date(b.date) - new Date(a.date)).forEach(p => {
 		feed.item({
 			title: p.title,
 			description: p.html,

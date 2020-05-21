@@ -1,5 +1,5 @@
 // Route to get a random quote from any article
-import { getPosts } from './../article/_posts.js';
+import { getPosts } from './../post/_posts.js';
 
 export function get(_, res) {
 	let posts = getPosts();
