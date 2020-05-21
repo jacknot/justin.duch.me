@@ -17,7 +17,7 @@ export function get(_, res) {
 		feed.item({
 			title: p.title,
 			description: p.html,
-			url: `https://blog.justinduch.com/article/${p.slug}`,
+			url: `https://blog.justinduch.com/post/${p.slug}`,
 			date: p.date,
 		});
 	});
