@@ -16,7 +16,6 @@ Source code for [https://blog.justinduch.com](https://blog.justinduch.com).
 
 * NodeJS 13.1.0+
 * Yarn 1.19.1+
-* Redis 5.0.6+
 
 ### Building
 

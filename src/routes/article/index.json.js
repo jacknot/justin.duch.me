@@ -1,9 +1,9 @@
-import getPosts from './_posts.js';
+import { getPosts } from './_posts.js';
 
 export function get(req, res) {
 	let { start, end } = req.query;
 
-	let posts = getPosts().sort(function(a, b){
+	let posts = getPosts(false).sort(function(a, b){
 		return new Date(b.date) - new Date(a.date);
 	});
 

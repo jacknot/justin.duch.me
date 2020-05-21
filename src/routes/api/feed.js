@@ -1,6 +1,6 @@
 const RSS = require('rss');
 
-import scanPosts from './../article/_posts.js';
+import { getPosts } from './../article/_posts.js';
 
 export function get(_, res) {
 	let feed = new RSS({
@@ -13,20 +13,18 @@ export function get(_, res) {
 		language: 'en',
 	});
 
-	scanPosts().then(posts => {
-		posts.sort((a,b) => new Date(b.date) - new Date(a.date)).forEach(p => {
-			feed.item({
-				title: p.title,
-				description: p.html,
-				url: `https://blog.justinduch.com/article/${p.slug}`,
-				date: p.date,
-			});
+	getPosts().sort((a,b) => new Date(b.date) - new Date(a.date)).forEach(p => {
+		feed.item({
+			title: p.title,
+			description: p.html,
+			url: `https://blog.justinduch.com/article/${p.slug}`,
+			date: p.date,
 		});
-
-		res.writeHead(200, {
-			'Content-Type': 'application/rss+xml'
-		});
-
-		res.end(feed.xml());
 	});
+
+	res.writeHead(200, {
+		'Content-Type': 'application/rss+xml'
+	});
+
+	res.end(feed.xml());
 }

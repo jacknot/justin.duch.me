@@ -5,7 +5,6 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/node:12.9.0
-      - image: circleci/redis:5.0.5
       - image: cypress/base:12.4.0
         environment:
           # this enables colors in the output

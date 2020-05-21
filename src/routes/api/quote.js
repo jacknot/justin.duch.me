@@ -1,26 +1,26 @@
 // Route to get a random quote from any article
-import scanPosts from './../article/_posts.js';
+import { getPosts } from './../article/_posts.js';
 
 export function get(_, res) {
-	scanPosts().then(posts => {
-		// Get random post first
-		let post = posts[Math.floor((Math.random() * posts.length))];
-		let quotes = post.html.match(/<p>(.*?)<\/p>/g).map(
-			// Remove <p> tags but keep other tags inside
-			// E.g '<p><a>hello</a></p>' -> '<a>hello</a>'
-			r => r.replace(/^<[^>]+>|<\/[^>]+>$/gm, '')
-		);
+	let posts = getPosts();
 
-		let quote = quotes[Math.floor((Math.random() * quotes.length))];
+	// Get random post first
+	let post = posts[Math.floor((Math.random() * posts.length))];
+	let quotes = post.html.match(/<p>(.*?)<\/p>/g).map(
+		// Remove <p> tags but keep other tags inside
+		// E.g '<p><a>hello</a></p>' -> '<a>hello</a>'
+		r => r.replace(/^<[^>]+>|<\/[^>]+>$/gm, '')
+	);
 
-		res.writeHead(200, {
-			'Content-Type': 'application/json'
-		});
+	let quote = quotes[Math.floor((Math.random() * quotes.length))];
 
-		res.end(JSON.stringify({
-			title: post.title,
-			post: post.slug,
-			quote
-		}));
+	res.writeHead(200, {
+		'Content-Type': 'application/json'
 	});
+
+	res.end(JSON.stringify({
+		title: post.title,
+		post: post.slug,
+		quote
+	}));
 }

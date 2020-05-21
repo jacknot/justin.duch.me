@@ -1,23 +1,18 @@
-import getPosts from './_posts.js';
+import { getPost } from './_posts.js';
 
-export function get(req, res, next) {
-	let posts = getPosts();
-	const lookup = new Map();
-
-	posts.forEach(post => {
-		lookup.set(post.slug, JSON.stringify(post));
-	});
-
+export function get(req, res) {
 	// the `slug` parameter is available because
 	// this file is called [slug].json.js
 	const { slug } = req.params;
 
-	if (lookup.has(slug)) {
+	let post = getPost(slug);
+
+	if (post !== null) {
 		res.writeHead(200, {
 			'Content-Type': 'application/json'
 		});
 
-		res.end(lookup.get(slug));
+		res.end(JSON.stringify(post));
 	} else {
 		res.writeHead(404, {
 			'Content-Type': 'application/json'
