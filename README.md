@@ -25,7 +25,7 @@ Source code for [https://blog.justinduch.com](https://blog.justinduch.com).
 git clone https://github.com/beanpuppy/blog.justinduch.com
 cd blog.justinduch.com
 yarn install
-yarn dev
+yarn start:dev
 ```
 
 The site is now available at `http://localhost:3000`.
