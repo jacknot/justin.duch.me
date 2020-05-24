@@ -268,12 +268,12 @@
   <title>{post.title}</title>
 </svelte:head>
 
-<div class="content">
+<div class="content h-entry">
   <img
     src="https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=672&h=410"
     alt="thumbnail"
     class="thumbnail" />
-  <h1>{post.title}</h1>
+  <h1 class="p-name">{post.title}</h1>
 
   <Scroller top={0} bottom={1} position="bottom" bind:progress>
     <div slot="background">
@@ -282,13 +282,18 @@
 
     <div slot="foreground">
       <div class="info-line">
-        <small>from {post.category} on {post.date}</small>
+        <small>
+          from {post.category} on
+          <span class="dt-published">{post.date}</span>
+        </small>
         <small>
           <a href=".">&#8617 back</a>
         </small>
       </div>
 
-      {@html post.html}
+      <div class="e-content">
+        {@html post.html}
+      </div>
 
       <div class="info-line footer">
         <small on:click={toTop} class="text-decorate">back to top</small>

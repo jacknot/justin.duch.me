@@ -65,19 +65,19 @@
 <div class="links">
   <p>
     <i class="fab fa-github" />
-    <a href="https://github.com/beanpuppy">GitHub</a>
+    <a href="https://github.com/beanpuppy" rel="me">GitHub</a>
   </p>
   <p>
     <i class="fab fa-instagram" />
-    <a href="https://www.instagram.com/beanpup.py/">Instagram</a>
+    <a href="https://www.instagram.com/beanpup.py/" rel="me">Instagram</a>
   </p>
   <p>
     <i class="fab fa-twitter" />
-    <a href="https://twitter.com/beanpup_py">Twitter</a>
+    <a href="https://twitter.com/beanpup_py" rel="me">Twitter</a>
   </p>
   <p>
     <i class="fab fa-mastodon" />
-    <a href="https://eldritch.cafe/@beanpup_py">Mastodon</a>
+    <a href="https://eldritch.cafe/@beanpup_py" rel="me">Mastodon</a>
   </p>
 </div>
 
