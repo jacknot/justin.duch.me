@@ -18,6 +18,7 @@
 <script>
   import { onMount } from "svelte";
   import { Card } from "prisme-components-svelte";
+  import Paginate from "../components/Paginate.svelte";
 
   export let posts;
   export let next;
@@ -70,8 +71,10 @@
   }, 50);
 
   onMount(() => {
-    window.addEventListener("scroll", onScroll);
-    window.addEventListener("resize", onScroll);
+    if (!page) {
+      window.addEventListener("scroll", onScroll);
+      window.addEventListener("resize", onScroll);
+    }
   });
 </script>
 
@@ -156,9 +159,9 @@
 
 {#each posts as post}
   <!-- we're using the non-standard `rel=prefetch` attribute to
-			tell Sapper to load the data for the page as soon as
-			the user hovers over the link or taps it, instead of
-			waiting for the 'click' event -->
+    tell Sapper to load the data for the page as soon as
+    the user hovers over the link or taps it, instead of
+    waiting for the 'click' event -->
   <a rel="prefetch" href="post/{post.slug}">
     <Card bs="md" m="0 0 1em 0" h="100%">
       <div class="container">
@@ -178,21 +181,14 @@
   </a>
 {/each}
 
-{#if !next}
+{#if !next && !page}
   <h5 class="finish">la fin</h5>
 {/if}
 
-<noscript>
-  <div class="space-yo">
-    <div>
-      {#if page !== 1 && !isNaN(page)}
-        <a href="/?page={page - 1}">back</a>
-      {/if}
-    </div>
-    <div>
-      {#if next}
-        <a href="/?page={isNaN(page) ? 2 : page + 1}">next</a>
-      {/if}
-    </div>
-  </div>
-</noscript>
+{#if page}
+  <Paginate {page} {next} />
+{:else}
+  <noscript>
+    <Paginate {page} {next} />
+  </noscript>
+{/if}
