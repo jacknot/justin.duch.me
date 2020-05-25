@@ -24,8 +24,6 @@
 
 <main>
   <Nav {segment} />
-  {#if !$preloading}
-    <slot />
-    <Footer />
-  {/if}
+  <slot />
+  <Footer />
 </main>
