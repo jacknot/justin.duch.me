@@ -22,10 +22,10 @@
 
 <PageLoadingBar {preloading} />
 
-{#if !$preloading}
-  <main>
-    <Nav {segment} />
+<main>
+  <Nav {segment} />
+  {#if !$preloading}
     <slot />
     <Footer />
-  </main>
-{/if}
+  {/if}
+</main>

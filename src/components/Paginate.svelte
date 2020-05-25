@@ -10,6 +10,11 @@
     width: 100%;
     align-items: center;
   }
+
+  a {
+    text-decoration: none;
+    padding: 0;
+  }
 </style>
 
 <div class="space-yo">
