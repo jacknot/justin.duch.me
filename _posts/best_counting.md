@@ -160,6 +160,6 @@ Finally, here’s the table with all the languages’ score in characters and by
 | Welsh | 444,444,446 | 102 | 102 |
 | Czech | 919,919,919 | 76 | 84 |
 
-Admittedly, there’s pretty much no difference,(^7) but we can now be confident that Czech is the “Language with the Best Counting (along with all the other languages who count just a good, but this one has the shortest string length in our scoring system)”.
+Admittedly, there’s pretty much no difference,(^7) but we can now be confident that Czech is the “Language with the Best Counting (along with all the other languages who count just as good, but this one has the shortest string length in our scoring system)”.
 
 (^7): It would be a different story if we included languages with characters always above one byte, like Japanese or Korean.
