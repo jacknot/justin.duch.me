@@ -55,7 +55,7 @@ Oh I just remembered that Cambridge Analytica was a thing. Hmm.
 
 For the unaware, "the Facebook–Cambridge Analytica data breach occurred in early 2018 when millions of Facebook users' personal data was harvested without consent by Cambridge Analytica to be predominantly used for political advertising."[^2] That was 2 years ago, I wonder if anything has happened because of it since then.
 
-According to "[The Cambridge Analytica scandal changed the world – but it didn't change Facebook](https://www.theguardian.com/technology/2019/mar/17/the-cambridge-analytica-scandal-changed-the-world-but-it-didnt-change-facebook)" from The Guardian, Facebook hasn't really changed in response and has only made some vague promises to "pivot to privacy". They also state that "The Cambridge Analytica revelations may not have changed Facebook, but they did change us. Our eyes are now open." I'm not too sure about that. I'd consider myself to be pretty well informed about these privacy issues and I literally forgot about it for two years, and I'm not even certain that the average person actually knows about this, let alone why it's such a huge deal.
+According to "[The Cambridge Analytica scandal changed the world – but it didn't change Facebook](https://www.theguardian.com/technology/2019/mar/17/the-cambridge-analytica-scandal-changed-the-world-but-it-didnt-change-facebook)" from The Guardian, Facebook hasn't really changed in response and has only made some vague promises to "pivot to privacy". They also state that the "Cambridge Analytica revelations may not have changed Facebook, but they did change us. Our eyes are now open." I'm not too sure about that. I'd consider myself to be pretty well informed about these privacy issues and I literally forgot about it for two years, so I'm not even certain that the average person actually knows about this, let alone why it's such a huge deal.
 
 Oh man, I just remembered the Panama Papers! What ever happened to those?!
 
@@ -64,4 +64,5 @@ On second thought, this is straying very far away from what this post was suppos
 ----
 
 [^1]: https://www.eff.org/deeplinks/2016/02/zero-rating-what-it-is-why-you-should-care
+
 [^2]: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
