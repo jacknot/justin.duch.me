@@ -3,7 +3,7 @@ title: I Scroll Through My Facebook Feed For The First Time
 category: miscellaneous
 date: 2020-05-29
 thumbnail: facebook-thumb.png
-tags: anarchism
+tags: facebook
 description:
 ---
 
