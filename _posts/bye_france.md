@@ -1,5 +1,5 @@
 ---
-title: Quebec Wants To Preserve The French Language, I Want To Destroy It
+title: Québec Wants To Preserve The French Language, I Want To Destroy It
 category: linguistics
 date: 2019-10-02
 thumbnail: bye-france-thumb.png
@@ -7,14 +7,14 @@ tags: ohno
 description:
 ---
 
-The Office québécois de la langue française (OQLF), or the Quebec Board of the
+The Office québécois de la langue française (OQLF), or the Québec Board of the
 French Language, is a public organization established in the province on March
 24, 1961. Part of its initial mission was to “work on the normalization of the
 language in Québec and support state intervention to carry out a global
 language policy that would consider notably the importance of socio-economic
 motivations in making French the priority language in Québec.”[^1]
 
-I find this unacceptable. French should stay in France! Quebec is in Canada so
+I find this unacceptable. French should stay in France! Québec is in Canada so
 they should be speaking CANADIAN! As someone who got their education in
 linguistics from body building forums, this deeply saddens and offends me.
 That's why I've taken it upon myself to pledge to destroy the French language
@@ -98,7 +98,7 @@ needed to reach this point ever again!
 
 Now we can sit back in our Mars habitat (for rich people only) and watch a new
 Earth grateful it has been rid of the French language. Go suck a baguette
-Quebec.
+Québec.
 
 ----
 

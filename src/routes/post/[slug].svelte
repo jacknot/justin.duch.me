@@ -59,11 +59,6 @@
     }, 0);
   }
 
-  function toTop() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  }
-
   onMount(() => {
     let bodies = document.getElementsByClassName("footnote-body");
     let links = document.getElementsByClassName("footnote-link");
@@ -93,7 +88,7 @@
   }
 
   .footer {
-    padding: 2em 0;
+    padding-top: 1em;
   }
 
   .text-decorate {
@@ -145,13 +140,13 @@
   }
 
   /*
-			 By default, CSS is locally scoped to the component,
-			 and any unused styles are dead-code-eliminated.
-			 In this page, Svelte can't know which elements are
-					 going to appear inside the {{{post.html}}} block,
-			 so we have to use the :global(...) modifier to target
-					 all elements inside .content
-		 */
+     By default, CSS is locally scoped to the component,
+     and any unused styles are dead-code-eliminated.
+     In this page, Svelte can't know which elements are
+             going to appear inside the {{{post.html}}} block,
+     so we have to use the :global(...) modifier to target
+             all elements inside .content
+ */
   .content :global(pre) {
     background-color: #f9f9f9;
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
@@ -232,8 +227,8 @@
   }
 
   /*
-		 * .footnote-body is shown when JS is disabled and you can't click on it
-		 */
+   * .footnote-body is shown when JS is disabled and you can't click on it
+   */
   .content :global(.foot-tooltip),
   .content :global(.footnote-body) {
     color: #555;
@@ -282,13 +277,13 @@
 
     <div slot="foreground">
       <div class="info-line">
+        <small>{post.readtime}</small>
+
         <small>
           from {post.category} on
           <span class="dt-published">{post.date}</span>
         </small>
-        <small>
-          <a href=".">&#8617 back</a>
-        </small>
+
       </div>
 
       <div class="e-content">
@@ -296,7 +291,9 @@
       </div>
 
       <div class="info-line footer">
-        <small on:click={toTop} class="text-decorate">back to top</small>
+        <small>
+          <a href=".">&#8617 retour à accueil</a>
+        </small>
         <small>
           <a
             href="https://github.com/beanpuppy/blog.justinduch.com/edit/master/_posts/{post.slug}.md">

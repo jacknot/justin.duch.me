@@ -38,11 +38,10 @@
   </small>
   <small>
     The content for this site is
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>
-    . The
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
+    The
     <a href="https://github.com/beanpuppy/blog.justinduch.com">code</a>
     for this site is
-    <a href="https://opensource.org/licenses/MIT">MIT</a>
-    .
+    <a href="https://opensource.org/licenses/MIT">MIT</a>.
   </small>
 </footer>

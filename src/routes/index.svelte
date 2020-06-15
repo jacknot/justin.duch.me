@@ -80,8 +80,11 @@
 
 <style>
   a {
-    text-decoration: none;
     padding: 0;
+  }
+
+  .no-underline {
+    text-decoration: none;
   }
 
   h2,
@@ -110,13 +113,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-
-  .space-yo {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
   }
 
   .finish {
@@ -152,9 +148,8 @@
 
 <div class="space-yo">
   <h2>beinvenue</h2>
-  {#if page}
-    <small class="page-indicator">page: {page}</small>
-  {/if}
+
+  <a class="underline" href="/archive">vue les archives</a>
 </div>
 
 {#each posts as post}
@@ -162,7 +157,7 @@
     tell Sapper to load the data for the page as soon as
     the user hovers over the link or taps it, instead of
     waiting for the 'click' event -->
-  <a rel="prefetch" href="post/{post.slug}">
+  <a rel="prefetch" href="post/{post.slug}" class="no-underline">
     <Card bs="md" m="0 0 1em 0" h="100%">
       <div class="container">
         <img
