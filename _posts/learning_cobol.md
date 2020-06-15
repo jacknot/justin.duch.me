@@ -94,7 +94,7 @@ You can also  `PERFORM` on a paragraph which is sort of like a function call, bu
 
 The nasty thing about all this is that when looking at a paragraph, you can’t tell anything about how it gets executed. Does it fall through to the next paragraph? You can’t tell. That’s determined dynamically at runtime. Is it a loop? Can’t tell. This is one of the things that makes large COBOL programs really hard to understand.
 
-But wait there’s more! You know the `GO TO` statement right? Well, COBOL having it wouldn’t be that big a deal since lots of low level languages have it. That’s until you read about the `ALTER` statement, which changes the target of a `GO TO` paragraph. So now on top of all the dumb stuff `GO TO` can lead to, when you  `GO TO A`, it can go to some other place based on a previous `ALTER` statement! Very cool, I love when I don’t know what my program does!
+But wait there’s more! You know the `GO TO` statement right? Well, COBOL having it wouldn’t be that big a deal since lots of old languages have it. That’s until you read about the `ALTER` statement, which changes the target of a `GO TO` paragraph. So now on top of all the dumb stuff `GO TO` can lead to, when you  `GO TO A`, it can go to some other place based on a previous `ALTER` statement! Very cool, I love when I don’t know what my program does!
 
 I think that’s all I needed to learn before I went: “yeah I don’t really want to use this language”. I can just **imagine** the horror of the legacy systems built with COBOL. I’ve had to do a bit of maintenance of an old Perl system and that was bad enough, a COBOL system would probably make it look like… uhhh… I actually can’t think of any large system I would consider well made and designed.
 
