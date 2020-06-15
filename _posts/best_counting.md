@@ -137,7 +137,7 @@ This makes 919,919,919: “**devět set devatenáct milionů devět set devaten�
 
 That’s every language I can be bothered to learn how to count in. But before we wrap things up, I’d like to talk about character encoding.
 
-As we all know, computers do stuff in terms of “0”s and “1”s where a “0” or “1” is called a “bit”. You can have a group of 8 bits to make a “byte”. Generally each, character you see on a screen is actually one byte. This is in accordance to the “[American Standard Code for Information Interchange](https://en.wikipedia.org/wiki/ASCII)" (ASCII) which is a character set that specifies which byte represents which character.
+As we all know, computers do stuff in terms of “0”s and “1”s where a “0” or “1” is called a “bit”. You can have a group of 8 bits to make a “byte”. Generally each, character you see on a screen is actually one byte. This is in accordance to the “[American Standard Code for Information Interchange](https://en.wikipedia.org/wiki/ASCII)“ (ASCII) which is a character set that specifies which byte represents which character.
 
 In ASCII, the binary “01000001” represents an uppercase “A”, and a space character is also only one byte and is “0100000” in binary. The problem with ASCII was that it only included English alphabet characters.
 

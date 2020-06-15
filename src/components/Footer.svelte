@@ -11,6 +11,10 @@
     justify-content: space-between;
   }
 
+  :global(.darkmode--activated) footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
   small {
     padding-top: 1em;
   }
