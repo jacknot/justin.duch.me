@@ -87,8 +87,7 @@
     text-decoration: none;
   }
 
-  h2,
-  .page-indicator {
+  h2 {
     margin-bottom: 10px;
   }
 

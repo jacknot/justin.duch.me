@@ -91,10 +91,6 @@
     padding-top: 1em;
   }
 
-  .text-decorate {
-    cursor: pointer;
-  }
-
   [slot="background"] {
     width: 100%;
     bottom: 1px;
