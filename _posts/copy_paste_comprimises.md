@@ -11,7 +11,7 @@ Today I woke up to an organisation-wide email telling me that "Australia is curr
 
 Ok so the government said it. Now as weird as it may seem, this is the first thing I thought when I read that: "Oh so it's probably bullshit then". Our government (but mostly a certain party) has a bad track record of calling things cyber attacks. Back in 2016 they blamed a DDoS attack on taking down the ABS Census website[^1], when in reality people where just, you know... **using it**. 
 
-Apparently we invest absolutely noting in our technology infrastructure, because these absolute mad lads went and blamed another failure on a DDoS attack earlier this year. This time it was people trying to register for Centrelink[^2], which is a little worse then people unable to fill out census forms as instead it affects people who have lost their jobs due to a certain global pandemic and need support.
+Apparently we invest absolutely nothing in our technology infrastructure, because these absolute mad lads went and blamed another failure on a DDoS attack earlier this year. This time it was people trying to register for Centrelink[^2], which is a little worse then people unable to fill out census forms as instead it affects people who have lost their jobs due to a certain global pandemic and need support.
 
 And while not directly related to cyber security, let me remind you about the NBN. What a bloody farce. Any time the Coalition starts talking about techonology (or anything, really), my brain immediately starts shutting down in fear of getting an aneurysm.
 
