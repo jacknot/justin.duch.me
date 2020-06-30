@@ -29,7 +29,7 @@ The other one is report by [Penetrum](https://penetrum.com/research) and is actu
 
 Because this is the worst "research paper" I have ever read in my entire life. After reading all 21 pages of this pure, unfiltered garbage I actually became **angry**. How could something be this bad?
 
-First of all, let's get all the "nitpicking" about presentation out of the way.(^1) On the page I linked look at the "TikTok Research" box and press the "details" button and download "Penetrum_TikTok_Security_Analysis_whitepaper.pdf". Okay, open it and tell me what the first thing you see is.
+First of all, let's get all the "nitpicking" about presentation out of the way.(^1) On the page I linked look at the "TikTok Research" box and press the "details" button and download "Penetrum\_TikTok\_Security\_Analysis\_whitepaper.pdf". Okay, open it and tell me what the first thing you see is.
 
 (^1): Presentation is actually really important in a report, I'm only calling it nitpicking to be nice.
 
