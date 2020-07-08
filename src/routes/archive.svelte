@@ -41,9 +41,7 @@
   {#each posts as post}
     <li>
       <small class="monospace">[{post.date}]</small>
-      <a rel="prefetch" href="post/{post.slug}">
-        {post.title}
-      </a>
+      <a rel="prefetch" href="post/{post.slug}">{post.title}</a>
     </li>
   {/each}
 </ul>

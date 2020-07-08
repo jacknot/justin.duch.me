@@ -99,11 +99,11 @@
   [slot="background"] progress {
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;
-    width: 100%;
-    height: 2px;
+    transform: rotate(90deg);
+    width: calc(-40px + 52vh);
+    height: 1px;
     border: none;
-    background: transparent;
+    background: #bbb;
     color: #000;
   }
 
@@ -116,11 +116,12 @@
   }
 
   [slot="background"] progress::-webkit-progress-bar {
-    background: transparent;
+    background: #bbb;
   }
 
   :global(.darkmode--activated) [slot="background"] progress {
     color: #fff;
+    background: #444;
   }
 
   :global(.darkmode--activated)
@@ -264,14 +265,15 @@
     src="https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=672&h=410"
     alt="thumbnail"
     class="thumbnail" />
-  <h1 class="p-name">{post.title}</h1>
 
-  <Scroller top={0} bottom={1} position="bottom" bind:progress>
+  <Scroller top={0} bottom={1} bind:progress>
     <div slot="background">
       <progress value={progress || 0} />
     </div>
 
     <div slot="foreground">
+      <h1 class="p-name">{post.title}</h1>
+
       <div class="info-line">
         <small>{post.readtime}</small>
 
@@ -279,7 +281,6 @@
           from {post.category} on
           <span class="dt-published">{post.date}</span>
         </small>
-
       </div>
 
       <div class="e-content">
