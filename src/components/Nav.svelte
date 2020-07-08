@@ -77,6 +77,7 @@
 
   img {
     width: 65px;
+    height: 65px;
     margin: 0 5px 5px 5px;
     content: url(/icon.svg);
   }
