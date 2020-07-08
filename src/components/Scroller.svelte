@@ -57,6 +57,12 @@
     transition: opacity 0.4s linear 0s, visibility 0.4s linear 0s;
   }
 
+  @media (max-width: 1440px) {
+    svelte-scroller-background {
+      margin-left: -400px;
+    }
+  }
+
   svelte-scroller-foreground {
     display: block;
     position: relative;
