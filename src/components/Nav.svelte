@@ -3,12 +3,17 @@
 </script>
 
 <style>
+  nav-outer {
+    display: flex;
+  }
+
   nav {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     font-weight: 300;
     display: flex;
     justify-content: space-between;
     margin-bottom: 1em;
+    width: 100%;
   }
 
   :global(.darkmode--activated) nav {
@@ -70,43 +75,43 @@
     background-color: inherit;
   }
 
-  .title {
-    color: black;
-    font-weight: bold;
+  img {
+    width: 65px;
+    margin: 0 5px 5px 5px;
+    content: url(/icon.svg);
   }
 
-  :global(.darkmode--activated) .title {
-    color: white;
-  }
-
-  @media (max-width: 414px) {
-    .title {
-      display: none;
-    }
+  :global(.darkmode--activated) img {
+    content: url(/icon-dark.svg);
   }
 </style>
 
-<nav class={segment === 'article' ? 'nav-highlight' : ''}>
-  <ul>
-    <li>
-      <a class="title" href=".">ici ¿uᴉʇsnɾ</a>
-    </li>
-    <li>
-      <a class={segment === undefined ? 'selected' : ''} href=".">accueil</a>
-    </li>
-    <li>
-      <a class={segment === 'about' ? 'selected' : ''} href="about">à propos</a>
-    </li>
-  </ul>
+<nav-outer>
+  <img
+    title="I drew this horse when I was 14 for a Pokèmon fourm."
+    alt="icon" />
 
-  <ul>
-    <li>
-      <a
-        class="navbar-link navbar-social-icon"
-        aria-label="RSS"
-        href="/api/feed">
-        <i class="fas fa-rss-square" />
-      </a>
-    </li>
-  </ul>
-</nav>
+  <nav class={segment === 'article' ? 'nav-highlight' : ''}>
+    <ul>
+      <li>
+        <a class={segment === undefined ? 'selected' : ''} href=".">accueil</a>
+      </li>
+      <li>
+        <a class={segment === 'about' ? 'selected' : ''} href="about">
+          à propos
+        </a>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <a
+          class="navbar-link navbar-social-icon"
+          aria-label="RSS"
+          href="/api/feed">
+          <i class="fas fa-rss-square" />
+        </a>
+      </li>
+    </ul>
+  </nav>
+</nav-outer>
