@@ -11,6 +11,12 @@
     justify-content: space-between;
   }
 
+  @media (max-width: 630px) {
+    footer {
+      flex-direction: column;
+    }
+  }
+
   :global(.darkmode--activated) footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
