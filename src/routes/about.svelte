@@ -84,32 +84,79 @@
 <br />
 <h2>faq</h2>
 <p>
-  <strong>How many mechanical keyboards do you have?</strong>
-  <br />
-  Five.
-</p>
-<p>
   <strong>Cute boys or girls?</strong>
   <br />
   Both.
 </p>
 <p>
-  <strong>How old are you?</strong>
+  <strong>
+    Why is does this site use a JavaScript framework? I'm a grumpy old man who
+    spends all day on Hacker News and cowers at the sight of anything resembling
+    the modern web because I'm constantly afraid of being left behind.
+  </strong>
   <br />
-  {time} seconds.
+  Wow ok, that was too much information. FYI, I've put a lot of work in making
+  it work with JavaScript disabled so just do that.
 </p>
 <p>
-  <strong>What Operating System do you use?</strong>
+  <a href="/post/i_use_arch_btw">
+    <strong>What Operating System do you use?</strong>
+  </a>
   <br />
-  <a href="/post/i_use_arch_btw">NodeJS.</a>
+  NodeJS.
 </p>
 <p>
-  <strong>Where were you on Sunday 22 November 2015?</strong>
-  <br />
-  At a friend's house.
-</p>
-<p>
-  <strong>I can‘t tell when you‘re joking or being serious.</strong>
+  <strong>I can't tell when you're joking or being serious.</strong>
   <br />
   Questions only please.
+</p>
+<p>
+  <strong>
+    Why do you have these poorly drawn pictures for every post? I'm the same
+    grumpy old man in the previous question and I only visit websites that are
+    in plaintext with no styling because I HATE the modern web. I wish this was
+    the 90s when I actually knew what was going on.
+  </strong>
+  <br />
+  You really don't need to tell me all of that. But since I have no design
+  creativity, those images are the only amount of character I know how to give
+  to this boring site.
+</p>
+<p>
+  <strong>Why is there random French everywhere?</strong>
+  <br />
+  It was originally going to be Japanese, but then I remembered that I don't
+  know any Japansese. Also I don't want people to think I'm a weeb, because I'm
+  definitely, absolutely 100% NOT.
+</p>
+<p>
+  <strong>How old are you?</strong>
+  <br />
+  {time}* seconds.
+</p>
+<p>
+  <strong>
+    I'm a person you know in real life, and I just came here to ask why didn't
+    you tell me about this site of yours? I think it's really neat and gives me
+    a lot of insight into that closed off brain of yours.
+  </strong>
+  <br />
+  Right, reading all these Pokèmon reviews will surely allow you to connect with
+  me on an emotional level. And who can forget about my loosely constructed
+  rambles about technology (a la every post) that really make you
+  <strong>feel</strong>
+  like the man behind the words.
+</p>
+<p>
+  <strong>Were your parents supportive when you came out as a weeb?</strong>
+  <br />
+  Question time is over.
+</p>
+
+<p>
+  <small>
+    * I don't have a dead man's switch to stop this timer when I die, so it
+    might be wrong.
+  </small>
+  <br />
 </p>

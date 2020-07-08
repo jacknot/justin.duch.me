@@ -97,7 +97,7 @@
   }
 
   :global(.darkmode--activated) .container {
-    border: 1px solid rgb(225, 225, 225, 0.3);
+    border: 1px solid rgb(225, 225, 225, 0.2);
   }
 
   img {

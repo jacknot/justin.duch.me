@@ -6,7 +6,7 @@
 <style>
   footer {
     margin-top: 1em;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: space-between;
   }
@@ -18,7 +18,7 @@
   }
 
   :global(.darkmode--activated) footer {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   small {
@@ -48,10 +48,11 @@
   </small>
   <small>
     The content for this site is
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
-    The
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>
+    . The
     <a href="https://github.com/beanpuppy/blog.justinduch.com">code</a>
     for this site is
-    <a href="https://opensource.org/licenses/MIT">MIT</a>.
+    <a href="https://opensource.org/licenses/MIT">MIT</a>
+    .
   </small>
 </footer>

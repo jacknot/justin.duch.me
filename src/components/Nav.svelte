@@ -8,16 +8,18 @@
   }
 
   nav {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     font-weight: 300;
     display: flex;
     justify-content: space-between;
     margin-bottom: 1em;
     width: 100%;
+    margin-left: -20px;
+    padding-left: 20px;
   }
 
   :global(.darkmode--activated) nav {
-    border-bottom: 1px solid rgba(225, 225, 225, 0.5);
+    border-bottom: 1px solid rgba(225, 225, 225, 0.2);
   }
 
   .nav-highlight {
@@ -78,7 +80,7 @@
   img {
     width: 65px;
     height: 65px;
-    margin: 0 5px 5px 5px;
+    padding: 0 5px 0 5px;
     content: url(/icon.svg);
   }
 
