@@ -68,13 +68,47 @@
     display: block;
     clear: both;
   }
+
+  progress {
+    transform: rotate(90deg);
+    width: calc(-40px + 52vh);
+    height: 1px;
+    border: none;
+    background: #bbb;
+    color: #000;
+  }
+
+  progress::-moz-progress-bar {
+    background: #000;
+  }
+
+  progress::-webkit-progress-value {
+    background: #000;
+  }
+
+  progress::-webkit-progress-bar {
+    background: #bbb;
+  }
+
+  :global(.darkmode--activated) progress {
+    color: #fff;
+    background: #444;
+  }
+
+  :global(.darkmode--activated) progress::-moz-progress-bar {
+    background: #fff;
+  }
+
+  :global(.darkmode--activated) progress::-webkit-progress-value {
+    background: #fff;
+  }
 </style>
 
 <svelte:window bind:innerHeight={wh} />
 
 <svelte-scroller-outer>
   <svelte-scroller-background class={hide_class}>
-    <slot name="background" />
+    <progress value={progress || 0} />
   </svelte-scroller-background>
 
   <svelte-scroller-foreground bind:this={foreground}>

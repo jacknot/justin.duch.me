@@ -9,7 +9,7 @@ description:
 
 Forza Horizon 4 is being released tomorrow (for Ultimate Edition owners), so while I endure this endless wait, let's look at how to setup your car, except we are actually going to look at the Assetto Corsa Competizione setup page because I can't actually see the FH4 page (it's probably better anyway). This is also the first post I've put in the engineering tab after the 5 months that this blog has been active. Neat.
 
-### 0x100: Tyres
+### Tyres
 
 #### PSI
 
@@ -27,7 +27,9 @@ Rear toe-in causes the more heavily loaded outside tire to start with a slight s
 
 The camber angle identifies how far the tire slants away from vertical when viewed directly from the front or back of the vehicle. Camber is expressed in degrees, and is said to be negative when the top of the tire tilts inward toward the center of the vehicle and positive when the top leans away from the center of the vehicle.
 
-Adjusting the camber angle will change the tyre contact patch with the track surface, where adding negative camber can improve lateral grip in sustained cornering situations, at a cost to longitudinal traction. ### 0x200: Electronics
+Adjusting the camber angle will change the tyre contact patch with the track surface, where adding negative camber can improve lateral grip in sustained cornering situations, at a cost to longitudinal traction. 
+
+### Electronics
 
 #### TC
 
@@ -37,7 +39,7 @@ Traction control (TC) limits wheel spin under power. Higher levels give more int
 
 An anti-lock braking system (ABS) keeps the wheels from locking under heavy braking. Higher levels equals more intervention, better positioning under braking, but longer braking distances.
 
-### 0x300: Mechanical Grip
+### Grip
 
 #### Anti-Roll Bars
 
@@ -61,7 +63,7 @@ Wheel rate is the spring rate (amount of weight it takes to compress a spring a 
 
 A part of a car's suspension designed to reduce oscillations and modify the dynamic movement of the car. Also known as a shock absorber. Race-oriented dampers may have separate adjustment for compression (bump) and extension (rebound). Dampers can be configured in slow speeds (slow body movements; in roll, pitch and squat), as well as fast speeds (fast suspension movements when going over bumps, kerbs, and similar undulations of the surface). In general, to improve road holding over bumps you will want to soften dampers up to the point that you get no more than one oscillation after a big bump. This means that the car goes to full compression during a bump, and then it can go to full extension before finally settling back to its normal ride height.
 
-### 0x400: Aero
+### Aero
 
 #### Ride Height
 

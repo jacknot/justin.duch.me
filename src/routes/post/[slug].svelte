@@ -91,51 +91,6 @@
     padding-top: 1em;
   }
 
-  [slot="background"] {
-    width: 100%;
-    bottom: 1px;
-  }
-
-  [slot="background"] progress {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    transform: rotate(90deg);
-    width: calc(-40px + 52vh);
-    height: 1px;
-    border: none;
-    background: #bbb;
-    color: #000;
-  }
-
-  [slot="background"] progress::-moz-progress-bar {
-    background: #000;
-  }
-
-  [slot="background"] progress::-webkit-progress-value {
-    background: #000;
-  }
-
-  [slot="background"] progress::-webkit-progress-bar {
-    background: #bbb;
-  }
-
-  :global(.darkmode--activated) [slot="background"] progress {
-    color: #fff;
-    background: #444;
-  }
-
-  :global(.darkmode--activated)
-    [slot="background"]
-    progress::-moz-progress-bar {
-    background: #fff;
-  }
-
-  :global(.darkmode--activated)
-    [slot="background"]
-    progress::-webkit-progress-value {
-    background: #fff;
-  }
-
   /*
      By default, CSS is locally scoped to the component,
      and any unused styles are dead-code-eliminated.
@@ -266,11 +221,7 @@
     alt="thumbnail"
     class="thumbnail" />
 
-  <Scroller top={0} bottom={1} bind:progress>
-    <div slot="background">
-      <progress value={progress || 0} />
-    </div>
-
+  <Scroller>
     <div slot="foreground">
       <h1 class="p-name">{post.title}</h1>
 
