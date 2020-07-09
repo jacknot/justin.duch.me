@@ -7,19 +7,19 @@
   let bottom = 1;
   let wh = 0;
   let foreground;
+  let margin = 0;
 
-  $: hide_class = progress <= 0 || progress >= 1 ? "hide" : "show";
   $: top_px = Math.round(top * wh);
   $: bottom_px = Math.round(bottom * wh);
 
-  $: top, bottom, update();
-
   onMount(() => {
-    update();
-    window.addEventListener("scroll", update);
+    updatePos();
+    updateMargin();
+    window.addEventListener("scroll", updatePos);
+    window.addEventListener('resize', updateMargin);
   });
 
-  function update() {
+  function updatePos() {
     if (!foreground) return;
 
     const fg = foreground.getBoundingClientRect();
@@ -29,17 +29,22 @@
 
     progress = (top_px - fg.top) / (foreground_height - available_space);
   }
+
+  function updateMargin() {
+    // Get margin of main so it's always near the middle
+    const p = document.getElementsByTagName("main")[0]
+    const style = p.currentStyle || window.getComputedStyle(p);
+    const m = parseInt(style.marginLeft, 10);
+
+    if (m < 350) {
+      margin = `-350px`;
+    } else {
+      margin = `-${m}px`;
+    }
+  }
 </script>
 
 <style>
-  .hide {
-    opacity: 0;
-  }
-
-  .show {
-    opacity: 1;
-  }
-
   svelte-scroller-outer {
     display: block;
     position: relative;
@@ -53,14 +58,7 @@
     align-items: center;
     height: 100vh;
     z-index: 3;
-    margin-left: -550px;
     transition: opacity 0.4s linear 0s, visibility 0.4s linear 0s;
-  }
-
-  @media (max-width: 1440px) {
-    svelte-scroller-background {
-      margin-left: -400px;
-    }
   }
 
   svelte-scroller-foreground {
@@ -113,7 +111,7 @@
 <svelte:window bind:innerHeight={wh} />
 
 <svelte-scroller-outer>
-  <svelte-scroller-background class={hide_class}>
+  <svelte-scroller-background style="margin-left: {margin}; opacity: {progress <= 0 || progress >= 1 ? '0' : '1'}">
     <progress value={progress || 0} />
   </svelte-scroller-background>
 
