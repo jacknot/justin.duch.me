@@ -1,22 +1,28 @@
 <script>
   import { onMount } from "svelte";
 
-  export let progress = 0;
+  export let readtime;
 
+  let progress = 0;
   let top = 0;
   let bottom = 1;
   let wh = 0;
   let foreground;
   let margin = 0;
+  let total_time = readtime.replace(/\D/g, "");
+  let show_time_left = true;
 
+  $: time_left =
+    progress > 0 ? total_time - Math.round(total_time * progress) : total_time;
   $: top_px = Math.round(top * wh);
   $: bottom_px = Math.round(bottom * wh);
 
   onMount(() => {
     updatePos();
     updateMargin();
+
     window.addEventListener("scroll", updatePos);
-    window.addEventListener('resize', updateMargin);
+    window.addEventListener("resize", updateMargin);
   });
 
   function updatePos() {
@@ -32,14 +38,18 @@
 
   function updateMargin() {
     // Get margin of main so it's always near the middle
-    const p = document.getElementsByTagName("main")[0]
+    const p = document.getElementsByTagName("main")[0];
     const style = p.currentStyle || window.getComputedStyle(p);
     const m = parseInt(style.marginLeft, 10);
 
-    if (m < 350) {
-      margin = `-350px`;
+    show_time_left = m > 200;
+
+    if (m < 400) {
+      margin = `-400px`;
+    } else if (m > 700) {
+      margin = `-700px`;
     } else {
-      margin = `-${m}px`;
+      margin = `-${m - 50}px`;
     }
   }
 </script>
@@ -106,13 +116,22 @@
   :global(.darkmode--activated) progress::-webkit-progress-value {
     background: #fff;
   }
+
+  small {
+    margin-left: calc((-60px + 52vh) / 2 * -1);
+    margin-top: calc((-80px + 52vh) * -1);
+  }
 </style>
 
 <svelte:window bind:innerHeight={wh} />
 
 <svelte-scroller-outer>
-  <svelte-scroller-background style="margin-left: {margin}; opacity: {progress <= 0 || progress >= 1 ? '0' : '1'}">
+  <svelte-scroller-background
+    style="margin-left: {margin}; opacity: {progress <= 0 || progress >= 1 ? '0' : '1'}">
     <progress value={progress || 0} />
+    <small style="opacity: {show_time_left ? '1' : '0'}">
+      {time_left} mins left
+    </small>
   </svelte-scroller-background>
 
   <svelte-scroller-foreground bind:this={foreground}>

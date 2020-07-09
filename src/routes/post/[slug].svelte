@@ -178,6 +178,31 @@
     background-color: #f9f9f9;
   }
 
+  .content :global(hr) {
+    text-align: center;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+  }
+
+  .content :global(hr):after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #fff;
+  }
+
+  :global(.darkmode--activated) .content :global(hr) {
+    border-top: 1px solid rgba(225, 225, 225, 0.2);
+  }
+
+  :global(.darkmode--activated) .content :global(hr):after {
+    background: #0d0d0d;
+  }
+
   /*
    * .footnote-body is shown when JS is disabled and you can't click on it
    */
@@ -221,7 +246,7 @@
     alt="thumbnail"
     class="thumbnail" />
 
-  <Scroller>
+  <Scroller readtime={post.readtime}>
     <div slot="foreground">
       <h1 class="p-name">{post.title}</h1>
 
