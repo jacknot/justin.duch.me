@@ -7,17 +7,17 @@ tags: apple,arm,risc
 description:
 ---
 
-The experience curve is a model expressing the relationship between experience producing a good and efficiency of production. It refers to the effect that firms learn from doing, which means that the higher the cumulative volume of production, the lower the direct cost per new unit produced.
+The experience curve is a model expressing the relationship between experience producing a good and efficiency of production[^1]. It refers to the effect that firms learn from doing, which means that the higher the cumulative volume of production, the lower the direct cost per new unit produced.
 
 Back in the 1980's - 1990's Apple, along with Power PC, Sun, and other engineering workstation manufacturers had embraced the Reduced Instruction Set Computing (RISC) architecture. These were much simpler with a smaller instruction set compared to x86 chips. Even though you had to execute more instructions to complete a given task, these chips were much more efficient than the x86 chips made by Intel that had a bloated, inefficient instruction set.
 
-This was a good plan, but it ran into problems with he experience curve. As the Intel x86 chips had a huge market share lead over RISC, the cumulative production was doubling very quickly in the Intel world, and was doubling very slowly in the RISC world. So, over a period of years, the Intel platform was improving so rapidly that they had opened up a large gap in price per unit of performance over the RISC architecture.
+This was a good plan, but it ran into problems with the experience curve. As the Intel x86 chips had a huge market share lead over RISC, the cumulative production was doubling very quickly in the Intel world, and was doubling very slowly in the RISC world. So, over a period of years, the Intel platform was improving so rapidly that they had opened up a large gap in price per unit of performance over the RISC architecture.
 
 Apple’s designs and software were elegant, but its customers were paying a premium price for the meagre performance of the RISC architecture. The solution was to convert Apple to the Intel platform. It caused many problems for developers in the short term, but it put Apple on the same experience curve as the Intel-based PCs.
 
 That brings us to today. Intel still has the biggest market share in personal computers, but these days, personal computers are a tiny part of the overall market for silicon chips. Phones and tablets now sell way more units that personal computers. The leading phones and tablets use ARM chips (which are based on RISC), and are currently on a much faster experience curve than Intel and are improving performance and reducing costs at a much faster rate.
 
-With ARM CPUs closing in on x86 performance, and Intel completely dropping the ball on their newer chips[^1], Apple has decided to phase out its use of Intel CPUs for ARM hardware in its Macs over the next two years.
+With ARM CPUs closing in on x86 performance, and Intel completely dropping the ball on their newer chips[^2], Apple has decided to phase out its use of Intel CPUs for ARM hardware in its Macs over the next two years.
 
 These are exciting times. I feel that this industry, much more than others, has always had to live with the mistakes of the past out of an inability to disrupt the space. Moving from x86 to ARM is no easy feat and will probably cause a lot of pain for a lot of developers as it did before, but I applaud Apple for being the first one to make such a change in the personal computer scene.
 
@@ -57,12 +57,14 @@ Most of these features including the new OS features in the upcoming macOS Big S
 
 Of course, I still have some issues. I would have much preferred them to adopt RISC-V instead of ARM because it's a more open platform. Although I admit it would be a mistake to do so right now, RISC-V is simply not ready but even so, everything that is making ARM attractive right now is applicable to RISC-V especially since it is so much easier to add custom logic.
 
-Like with Bootcamp there could also be problems with visualization. It is very likely that ARM-based Macs will lack a performant hypervisor upon release. Apple has `Hypervisor.framework`[^2] which has been updated for ARM Mac, but it's still up to vendors like VMware and Docker to respond and start using it.
+Like with Bootcamp there could also be problems with visualization. It is very likely that ARM-based Macs will lack a performant hypervisor upon release. Apple has `Hypervisor.framework`[^3] which has been updated for ARM Mac, but it's still up to vendors like VMware and Docker to respond and start using it.
 
 We'll have to wait and see until the first Macs come with Apple silicon to see if it was truly worth it, but it will be nice to finally not have to deal with an x86 ISA.
 
 ---
 
-[^1]: https://www.pcgamer.com/intel-skylake-why-apple-left/
+[^1]: https://en.wikipedia.org/wiki/Experience\_curve\_effects
 
-[^2]: https://developer.apple.com/documentation/hypervisor/apple_silicon
+[^2]: https://www.pcgamer.com/intel-skylake-why-apple-left/
+
+[^3]: https://developer.apple.com/documentation/hypervisor/apple\_silicon
