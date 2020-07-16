@@ -73,7 +73,7 @@ When our ship bottoms out it's going to be hitting the mag-plate, wearing it out
 
 ### The Power Unit
 
-How is the mag-plate going to be powered? You're going to need a whole heap of electric current to run through the coils of the mag plate in order to get it to stick.
+How is the mag-plate going to be powered? You're going to need a whole heap of electric current to run through the coils of the plate in order to get it to stick.
 
 The answer to that is nuclear fusion of course! Each ship will need a power plant to supply it with energy. They consume and fuse fuel (hydrogen atoms) to release the energy in the form of heat. This energy is converted into electricity. Like in real life, power plants are not 100% efficient at converting fusion heat into electricity, so some energy will be lost as waste heat and must be exhausted through radiation panels.
 
