@@ -96,9 +96,9 @@ Something else to think about is what about when you are side-by-side with someo
 
 And with only six side thrusters, there's something thing I've been thinking about: what if we could control these individually? When racing with a controller you'd use the thumbsticks to turn the vehicle. Applying this to our ship would mean that when you hold the thumbstick right it would spin the ship by using the front left and rear right thrusters, and to strafe maybe you'd use the other thumbstick or have a button to press to go into "strafe mode".
 
-But what if you only want to use the front left because the corner isn't that sharp? But how would you even map that do a controller? I'm looking at my DS4 controller right now and it looks like each side has four face buttons. Hmm.
+But what if you only want to use the front left because the corner isn't that sharp? But how would you even map that to a controller? I'm looking at my DS4 controller right now and it seems like each side has four face buttons. Hmm.
 
-So here's the idea: (on a DS4 controller) we map: up, left, and down to the front left, middle left, and rear left thrusters and triangle, circle, and X to the front right, middle right, and rear right thrusters respectively. This leaves us with the left and square buttons free for us to use for other purposes.
+So here's the idea, (on a DS4 controller) we map: up, left, and down to the front left, middle left, and rear left thrusters and triangle, circle, and X to the front right, middle right, and rear right thrusters respectively. This leaves us with the left and square buttons free for us to use for other purposes.
 
 A control scheme like this is probably going to be very alien to many people, but I'm incredibly curious as to how it would actually feel while playing. I'm pretty certain that if you could master it, it would make you a faster pilot simply because you get so much more control of the ship.
 
@@ -112,7 +112,7 @@ First let's look at what we have so far. We have our mag-plate and several thrus
 
 So instead of solely relying on our mag-plate to keep the ship stuck to the track we can supplement it with some downforce. With the correct amount of aerodynamic downforce, as the ship speeds up, enough downforce will be made to lessen the need to supply power to the mag-plate. This gives the thursters more power, which makes the ship faster, which produces more downforce, etc... I think you get the idea.
 
-Again, this changes the dynamics of cornering. As you slow down for a corner there's going to be less downforce so your thrusters will get less power as power get directed to the mag-plate. This could also mean that we'll start seeing aero bits pop on on the sides and rear of the ship to help keep downforce as it spins.
+Again, this changes the dynamics of cornering. As you slow down for a corner there's going to be less downforce so your thrusters will get less power as power gets directed to the mag-plate. This could also mean that we'll start seeing aero bits pop on on the sides and rear of the ship to help keep downforce as it spins.
 
 ### The Cockpit (or lack thereof)
 
