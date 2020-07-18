@@ -5,8 +5,8 @@
   "license": "MIT",
   "author": "Justin Duch <justin@justinduch.com>",
   "scripts": {
-    "build": "sapper build --legacy",
-    "export": "sapper export --legacy",
+    "build": "sapper build",
+    "export": "sapper export",
     "start": "node __sapper__/build",
     "start:dev": "sapper dev",
     "cy:run": "cypress run",
