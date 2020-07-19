@@ -301,7 +301,7 @@ With that, we are done. Normally I'd say to go onto the site to check if it work
 
 This was very straightforward and to be honest, I would not have called doing this to have been filled with pain and suffering. It only took a weekend to do, one to read up on all the concepts and another to implement them.
 
-I don't know how much of it was because of MicroK8s, but I've looked at how to do it normally and the biggest different was just in adding the nodes to the cluster. Although, I can definitely see how this could become too much if the scope was larger.
+I don't know how much of it was because of MicroK8s, but I've looked at how to do it normally and the biggest difference was just in adding the nodes to the cluster. Although, I can definitely see how this could become too much if the scope was larger.
 
 Even though the servers I put this on are pretty bad, I'm curious to see if the performance has been improved in any way. But I can't really be bothered to do any load testing now.
 
