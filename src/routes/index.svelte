@@ -139,6 +139,10 @@
       width: auto;
     }
   }
+
+  .no-break {
+    word-break: keep-all;
+  }
 </style>
 
 <svelte:head>
@@ -167,7 +171,7 @@
           <h4>{post.title}</h4>
           <div class="space-yo">
             <small>{post.readtime}</small>
-            <small>from {post.category} on {post.date}</small>
+            <small class="no-break">from {post.category} on {post.date}</small>
           </div>
         </div>
       </div>
