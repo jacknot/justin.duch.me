@@ -7,7 +7,7 @@ tags: kubernetes
 description:
 ---
 
-One cold winter night, I was looking at the CPU and bandwidth graphs DigitalOcean gives for the VPS' I rent from them. Suddenly I say a huge spike lasting about 10 minutes. And by huge, I mean kinda small (but not normal, I don't get a lot of traffic on this blog). It was about the same as I get from pushing a new deployment. The blog was completely unharmed and still running fine, but I wanted to see what was doing it.
+One cold winter night, I was looking at the CPU and bandwidth graphs DigitalOcean gives for the VPS' I rent from them. Suddenly, I saw a huge spike lasting about 10 minutes. And by huge, I mean kinda small (but not normal, I don't get a lot of traffic on this blog). It was about the same as I get from pushing a new deployment. The blog was completely unharmed and still running fine, but I wanted to see what was doing it.
 
 A quick look at the Nginx logs, I found hundreds of requests from ~20-50 IP addresses. Checking those IP addresses showed that they came from other servers (and most of them were also TOR nodes). So I didn't accidentally get famous, and instead I was a witness to one of the most pathetic DDoS attempts I've ever seen.
 
@@ -78,7 +78,7 @@ root@master-0:~$ microk8s.enable dns storage ingress
 
 Do this for `node-0` and `node-1`.
 
-## Create Cluster
+## Create The Cluster
 
 Now that we have installed MicroK8s, we create a cluster for our three machines using the `microk8s add-node` and `microk8s join` commands. SSH onto master-0 and run the following:
 
