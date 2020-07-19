@@ -7,6 +7,8 @@ RUN yarn install
 
 COPY . .
 
+RUN yarn build
+
 ENV NODE_ENV production
 ENV PORT 3000
 
