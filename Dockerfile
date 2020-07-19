@@ -5,10 +5,6 @@ WORKDIR "/app"
 COPY package.json yarn.lock ./
 RUN yarn install
 
-# Only copy over the Node pieces we need
-FROM mhart/alpine-node:10.21
-
-COPY --from=0 /app .
 COPY . .
 
 ENV NODE_ENV production
