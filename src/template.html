@@ -60,7 +60,14 @@ body{margin:0;font-family:Roboto, -apple-system, BlinkMacSystemFont, Helvetica N
     </script>
 
     <script>
-        window.goatcounter = {no_onload: true}
+        var pushState = history.pushState;
+
+        history.pushState = function () {
+            pushState.apply(history, arguments);
+            window.goatcounter.count({
+                path: location.pathname + location.search + location.hash,
+            });
+        };
     </script>
     <script data-goatcounter="https://stats.justinduch.com/count" async src="//stats.justinduch.com/count.js"></script>
 </body>
