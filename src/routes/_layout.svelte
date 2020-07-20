@@ -1,5 +1,6 @@
 <script>
   import { stores } from "@sapper/app";
+  import { onMount } from "svelte";
 
   import Nav from "../components/Nav.svelte";
   import Footer from "../components/Footer.svelte";
@@ -8,6 +9,12 @@
   export let segment;
 
   const { preloading } = stores();
+
+  onMount(() => {
+    window.goatcounter.count({
+      path: location.pathname + location.search + location.hash
+    });
+  });
 </script>
 
 <style>

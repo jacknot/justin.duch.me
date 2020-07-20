@@ -8,7 +8,7 @@ const { json } = require('body-parser');
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV !== 'production';
 
-polka() // You can also use Express
+polka()
   .use(
     json(),
     compression({ threshold: 0 }),

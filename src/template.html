@@ -1,62 +1,67 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<meta name="theme-color" content="#333333">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="theme-color" content="#333333">
 
-	%sapper.base%
+    %sapper.base%
 
-	<link href="manifest.json" rel="manifest">
-	<link href="favicon.ico" rel="icon" type="image/icon">
+    <link href="manifest.json" rel="manifest">
+    <link href="favicon.ico" rel="icon" type="image/icon">
 
-	<!-- Web sign in links -->
-	<link href="https://github.com/beanpuppy" rel="me" />
-	<link href="https://twitter.com/beanpup_py" rel="me" />
-	<link href="mailto:justin@justinduch.com" rel="me" />
-	<link href="/publickey.txt" rel="pgpkey authn" />
-	<link href="https://eldritch.cafe/@beanpup_py" rel="me" />
+    <!-- Web sign in links -->
+    <link href="https://github.com/beanpuppy" rel="me" />
+    <link href="https://twitter.com/beanpup_py" rel="me" />
+    <link href="mailto:justin@justinduch.com" rel="me" />
+    <link href="/publickey.txt" rel="pgpkey authn" />
+    <link href="https://eldritch.cafe/@beanpup_py" rel="me" />
 
-	<link rel="preconnect" href="https://cdn.halcyonnouveau.xyz" crossorigin>
-	<link rel="dns-prefetch" href="//cdn.halcyonnouveau.xyz">
+    <link rel="preconnect" href="https://cdn.halcyonnouveau.xyz" crossorigin>
+    <link rel="dns-prefetch" href="//cdn.halcyonnouveau.xyz">
 
-	<style>
+    <style>
 body{margin:0;font-family:Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif !important;font-size:16px;line-height:1.3;color:#333}input{font-family:Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif !important}h1,h2,h3,h4,h5,h6{margin:0 0 0.5em;color:#222;font-style:normal;letter-spacing:0.1em;text-transform:uppercase;font-weight:300}h1{font-size:2em;font-weight:700}.darkmode--activated .darkmode-background{background: #f2f2f2;}.darkmode--activated h1,.darkmode--activated h2,.darkmode--activated h3,.darkmode--activated h4,.darkmode--activated h5,.darkmode--activated h6{color:#fff}a{color:inherit;font-weight:100;text-decoration:underline;text-decoration-color:#ccc;padding:1px}a:hover{color: #484848;background-color: #ddd;}.darkmode--activated a,.darkmode--activated li,.darkmode--activated p{color:#ddd;text-decoration-color:#333}.darkmode--activated a:hover{color:#111;background-color:#ddd}button{border:none;background-color:#fff;cursor:pointer;padding:0}small{color:rgb(124, 124, 124)}code{font-family:menlo, inconsolata, monospace;font-size:calc(1em - 2px);color:#555;background-color:#f0f0f0;padding:0.2em 0.4em;border-radius:2px}.space-yo{display:flex;justify-content:space-between;width:100%;align-items: center;}
-	</style>
+    </style>
 
-	<!-- Defer non-critical css -->
-	<link href="/css/roboto.css" rel="stylesheet" media="print" onload="this.media='all'">
-	<link href="/css/font-awesome.min.css" rel="stylesheet" media="print" onload="this.media='all'">
-	<link href="/css/github.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <!-- Defer non-critical css -->
+    <link href="/css/roboto.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="/css/font-awesome.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="/css/github.min.css" rel="stylesheet" media="print" onload="this.media='all'">
 
-	<!-- Load anyway if JS is disabled -->
-	<noscript>
-		<link href="/css/roboto..css" rel="stylesheet">
-		<link href="/css/font-awesome.min.css" rel="stylesheet">
-		<link href="/css/github.min.css" rel="stylesheet">
-	</noscript>
+    <!-- Load anyway if JS is disabled -->
+    <noscript>
+        <link href="/css/roboto..css" rel="stylesheet">
+        <link href="/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/css/github.min.css" rel="stylesheet">
+    </noscript>
 
-	<!-- Sapper generates a <style> tag containing critical CSS
-	     for the current page. CSS for the rest of the app is
-	     lazily loaded when it precaches secondary pages -->
-	%sapper.styles%
+    <!-- Sapper generates a <style> tag containing critical CSS
+         for the current page. CSS for the rest of the app is
+         lazily loaded when it precaches secondary pages -->
+    %sapper.styles%
 
-	<!-- This contains the contents of the <svelte:head> component, if
-	     the current page has one -->
-	%sapper.head%
+    <!-- This contains the contents of the <svelte:head> component, if
+         the current page has one -->
+    %sapper.head%
 </head>
 <body>
-	<!-- The application will be rendered inside this element,
-	     because `src/client.js` references it -->
-	<div id="sapper">%sapper.html%</div>
+    <!-- The application will be rendered inside this element,
+         because `src/client.js` references it -->
+    <div id="sapper">%sapper.html%</div>
 
-	<script>
-	class Darkmode{constructor(options){const bottom=(options&&options.bottom)||'32px';const right=(options&&options.right)||'32px';const left=(options&&options.left)||'unset';const time=(options&&options.time)||'0.3s';const mixColor=(options&&options.mixColor)||'#fff';const backgroundColor=(options&&options.backgroundColor)||'#fff';const buttonColorDark=(options&&options.buttonColorDark)||'#000';const buttonColorLight=(options&&options.buttonColorLight)||'#fff';const label=(options&&options.label)||'';const autoMatchOsTheme=options&&options.autoMatchOsTheme===false?false:true;const css=`.darkmode-layer { position: fixed; pointer-events: none; background: ${ mixColor }; transition: all ${ time } ease; mix-blend-mode: difference; } .darkmode-layer--button { width: 2.9rem; height: 2.9rem; border-radius: 50%; right: ${ right }; bottom: ${ bottom }; left: ${ left }; } .darkmode-layer--simple { width: 100%; height: 100%; top: 0; left: 0; transform: scale(1) !important; } .darkmode-layer--expanded { transform: scale(100); border-radius: 0; } .darkmode-layer--no-transition { transition: none; } .darkmode-toggle { background: ${ buttonColorDark }; z-index: 1337; width: 3rem; height: 3rem; position: fixed; border-radius: 50%; right: ${ right }; bottom: ${ bottom }; left: ${ left }; cursor: pointer; transition: all 0.5s ease; display: flex; justify-content: center; align-items: center; } .darkmode-toggle--white { background: ${ buttonColorLight }; } .darkmode-background { background: ${ backgroundColor }; position: fixed; pointer-events: none; z-index: -10; width: 100%; height: 100%; top: 0; left: 0; } img, .darkmode-ignore { isolation: isolate; display: inline-block; } @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { .darkmode-toggle {display: none !important} } @supports (-ms-ime-align:auto), (-ms-accelerator:true) { .darkmode-toggle {display: none !important} }`;const layer=document.createElement('div');const button=document.createElement('div');const background=document.createElement('div');button.innerHTML=label;layer.classList.add('darkmode-layer');background.classList.add('darkmode-background');const darkmodeActivated=window.localStorage.getItem('darkmode')==='true';const preferedThemeOs=autoMatchOsTheme&&window.matchMedia('(prefers-color-scheme: dark)').matches;const darkmodeNeverActivatedByAction=window.localStorage.getItem('darkmode')===null;if((darkmodeActivated===true)||(darkmodeNeverActivatedByAction&&preferedThemeOs)){layer.classList.add('darkmode-layer--expanded','darkmode-layer--simple','darkmode-layer--no-transition');button.classList.add('darkmode-toggle--white');document.body.classList.add('darkmode--activated')}document.body.insertBefore(button,document.body.firstChild);document.body.insertBefore(layer,document.body.firstChild);document.body.insertBefore(background,document.body.firstChild);this.addStyle(css);this.button=button;this.layer=layer;this.time=time}addStyle(css){const linkElement=document.createElement('link');linkElement.setAttribute('rel','stylesheet');linkElement.setAttribute('type','text/css');linkElement.setAttribute('href','data:text/css;charset=UTF-8,'+encodeURIComponent(css));document.head.appendChild(linkElement)}showWidget(){const button=this.button;const layer=this.layer;const time=parseFloat(this.time)*1000;button.classList.add('darkmode-toggle');layer.classList.add('darkmode-layer--button');button.addEventListener('click',()=>{const isDarkmode=this.isActivated();if(!isDarkmode){layer.classList.add('darkmode-layer--expanded');setTimeout(()=>{layer.classList.add('darkmode-layer--no-transition');layer.classList.add('darkmode-layer--simple')},time)}else{layer.classList.remove('darkmode-layer--simple');setTimeout(()=>{layer.classList.remove('darkmode-layer--no-transition');layer.classList.remove('darkmode-layer--expanded')},1)}button.classList.toggle('darkmode-toggle--white');document.body.classList.toggle('darkmode--activated');window.localStorage.setItem('darkmode',!isDarkmode)})}toggle(){const layer=this.layer;const isDarkmode=this.isActivated();layer.classList.toggle('darkmode-layer--simple');document.body.classList.toggle('darkmode--activated');window.localStorage.setItem('darkmode',!isDarkmode)}isActivated(){return document.body.classList.contains('darkmode--activated')}}(function(){new Darkmode().showWidget()})();
-	</script>
+    <!-- Sapper creates a <script> tag containing `src/client.js`
+         and anything else it needs to hydrate the app and
+         initialise the router -->
+    %sapper.scripts%
 
-	<!-- Sapper creates a <script> tag containing `src/client.js`
-	     and anything else it needs to hydrate the app and
-	     initialise the router -->
-	%sapper.scripts%
+    <script>
+    class Darkmode{constructor(options){const bottom=(options&&options.bottom)||'32px';const right=(options&&options.right)||'32px';const left=(options&&options.left)||'unset';const time=(options&&options.time)||'0.3s';const mixColor=(options&&options.mixColor)||'#fff';const backgroundColor=(options&&options.backgroundColor)||'#fff';const buttonColorDark=(options&&options.buttonColorDark)||'#000';const buttonColorLight=(options&&options.buttonColorLight)||'#fff';const label=(options&&options.label)||'';const autoMatchOsTheme=options&&options.autoMatchOsTheme===false?false:true;const css=`.darkmode-layer { position: fixed; pointer-events: none; background: ${ mixColor }; transition: all ${ time } ease; mix-blend-mode: difference; } .darkmode-layer--button { width: 2.9rem; height: 2.9rem; border-radius: 50%; right: ${ right }; bottom: ${ bottom }; left: ${ left }; } .darkmode-layer--simple { width: 100%; height: 100%; top: 0; left: 0; transform: scale(1) !important; } .darkmode-layer--expanded { transform: scale(100); border-radius: 0; } .darkmode-layer--no-transition { transition: none; } .darkmode-toggle { background: ${ buttonColorDark }; z-index: 1337; width: 3rem; height: 3rem; position: fixed; border-radius: 50%; right: ${ right }; bottom: ${ bottom }; left: ${ left }; cursor: pointer; transition: all 0.5s ease; display: flex; justify-content: center; align-items: center; } .darkmode-toggle--white { background: ${ buttonColorLight }; } .darkmode-background { background: ${ backgroundColor }; position: fixed; pointer-events: none; z-index: -10; width: 100%; height: 100%; top: 0; left: 0; } img, .darkmode-ignore { isolation: isolate; display: inline-block; } @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { .darkmode-toggle {display: none !important} } @supports (-ms-ime-align:auto), (-ms-accelerator:true) { .darkmode-toggle {display: none !important} }`;const layer=document.createElement('div');const button=document.createElement('div');const background=document.createElement('div');button.innerHTML=label;layer.classList.add('darkmode-layer');background.classList.add('darkmode-background');const darkmodeActivated=window.localStorage.getItem('darkmode')==='true';const preferedThemeOs=autoMatchOsTheme&&window.matchMedia('(prefers-color-scheme: dark)').matches;const darkmodeNeverActivatedByAction=window.localStorage.getItem('darkmode')===null;if((darkmodeActivated===true)||(darkmodeNeverActivatedByAction&&preferedThemeOs)){layer.classList.add('darkmode-layer--expanded','darkmode-layer--simple','darkmode-layer--no-transition');button.classList.add('darkmode-toggle--white');document.body.classList.add('darkmode--activated')}document.body.insertBefore(button,document.body.firstChild);document.body.insertBefore(layer,document.body.firstChild);document.body.insertBefore(background,document.body.firstChild);this.addStyle(css);this.button=button;this.layer=layer;this.time=time}addStyle(css){const linkElement=document.createElement('link');linkElement.setAttribute('rel','stylesheet');linkElement.setAttribute('type','text/css');linkElement.setAttribute('href','data:text/css;charset=UTF-8,'+encodeURIComponent(css));document.head.appendChild(linkElement)}showWidget(){const button=this.button;const layer=this.layer;const time=parseFloat(this.time)*1000;button.classList.add('darkmode-toggle');layer.classList.add('darkmode-layer--button');button.addEventListener('click',()=>{const isDarkmode=this.isActivated();if(!isDarkmode){layer.classList.add('darkmode-layer--expanded');setTimeout(()=>{layer.classList.add('darkmode-layer--no-transition');layer.classList.add('darkmode-layer--simple')},time)}else{layer.classList.remove('darkmode-layer--simple');setTimeout(()=>{layer.classList.remove('darkmode-layer--no-transition');layer.classList.remove('darkmode-layer--expanded')},1)}button.classList.toggle('darkmode-toggle--white');document.body.classList.toggle('darkmode--activated');window.localStorage.setItem('darkmode',!isDarkmode)})}toggle(){const layer=this.layer;const isDarkmode=this.isActivated();layer.classList.toggle('darkmode-layer--simple');document.body.classList.toggle('darkmode--activated');window.localStorage.setItem('darkmode',!isDarkmode)}isActivated(){return document.body.classList.contains('darkmode--activated')}}(function(){new Darkmode().showWidget()})();
+    </script>
+
+    <script>
+        window.goatcounter = {no_onload: true}
+    </script>
+    <script data-goatcounter="https://stats.justinduch.com/count" async src="//stats.justinduch.com/count.js"></script>
 </body>
 </html>
