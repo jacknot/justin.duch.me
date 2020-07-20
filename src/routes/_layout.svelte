@@ -8,12 +8,10 @@
 
   export let segment;
 
-  const { preloading } = stores();
+  const { page, preloading } = stores();
 
   onMount(() => {
-    window.goatcounter.count({
-      path: location.pathname + location.search + location.hash
-    });
+    page.subscribe(window.goatcounter.count);
   });
 </script>
 
