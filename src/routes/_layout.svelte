@@ -11,7 +11,9 @@
   const { page, preloading } = stores();
 
   onMount(() => {
-    page.subscribe(window.goatcounter.count);
+    page.subscribe(() => {
+      if (window.goatcounter) window.goatcounter.count();
+    });
   });
 </script>
 
