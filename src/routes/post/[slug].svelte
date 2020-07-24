@@ -158,11 +158,6 @@
     margin-right: auto;
   }
 
-  .content :global(a):hover {
-    color: #484848;
-    background-color: #eeeeee;
-  }
-
   .content :global(table) {
     border-collapse: collapse;
     width: 100%;

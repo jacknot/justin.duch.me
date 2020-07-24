@@ -25,11 +25,6 @@
     padding-top: 1em;
   }
 
-  a:hover {
-    color: #484848;
-    background-color: #eeeeee;
-  }
-
   .h-card {
     text-decoration: none;
     color: inherit;

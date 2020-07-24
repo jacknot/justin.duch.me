@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Recursive Mono";
+  font-weight: 400;
+  src: url(../webfonts/RecursiveMonoLnrSt-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Recursive";
+  font-weight: 300;
+  src: url(../webfonts/RecursiveSansLnrSt-Light.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Recursive";
+  font-weight: 400;
+  src: url(../webfonts/RecursiveSansLnrSt-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Recursive";
+  font-weight: 500;
+  src: url(../webfonts/RecursiveSansLnrSt-Med.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Recursive";
+  font-weight: 700;
+  src: url(../webfonts/RecursiveSansLnrSt-ExtraBold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Recursive";
+  font-weight: 900;
+  src: url(../webfonts/RecursiveSansLnrSt-Black.woff2) format("woff2");
+}
