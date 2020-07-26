@@ -264,7 +264,7 @@
         </small>
         <small>
           <a
-            href="https://github.com/beanpuppy/blog.justinduch.com/edit/master/_posts/{post.slug}.md">
+            href="https://github.com/beanpuppy/blog.justinduch.com/edit/master/_posts/{post.date}-{post.slug}.md">
             see a mistake? edit it here.
           </a>
         </small>
