@@ -4,5 +4,5 @@
 	"name": "blog",
 	"short_name": "blog",
 	"display": "minimal-ui",
-	"start_url": "/",
+	"start_url": "/"
 }
