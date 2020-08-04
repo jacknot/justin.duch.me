@@ -16,11 +16,11 @@ We’re going to install Open Cobol (GNU Cobol) with the command `brew install g
 
 To test if it works let’s write a “Hello, world!”, something people only started doing 20 years after COBOL was created. Open up your favourite text editor (which is Vim) and put this in:
 
-```
+```plaintext
        IDENTIFICATION DIVISION.
        PROGRAM-ID. hello-world.
        PROCEDURE DIVISION.
-           DISPLAY “Hello, world!”.
+           DISPLAY "Hello, world!".
 ```
 
 Save it as `hello.cob` and run `cobc -x hello.cob`. This will compile it into an executable program called  `hello`. You can run it with `./hello` and should see the string “Hello, world!” displayed. With all that done, now we can actually go into COBOL.
@@ -34,7 +34,7 @@ COBOL programs are written in four separate divisions:
 
 I find the `DATA DIVISION` to be very interesting. It’s basically a way for you to declare your data, which is something you’d use an ORM for (or you’d build some form of it yourself) in a more modern language. Here’s an example of a record I took from Wikipedia:
 
-```
+```plaintext
        01  some-record.
            05  num            PIC 9(10).
            05  the-date.
@@ -53,7 +53,7 @@ This is honestly the easiest and most efficient way of creating user interfaces 
 
 Here’s a very simple program to display two input fields.
 
-```
+```plaintext
         IDENTIFICATION DIVISION.
         PROGRAM-ID. screen-example.
         DATA DIVISION.
