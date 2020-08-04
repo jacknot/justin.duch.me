@@ -152,7 +152,16 @@
   <br />
   Question time is over.
 </p>
-
+<p>
+  <strong>
+    I'm the old man and I'm back with another question. Why don't you underline
+    your hyperlinks? I only go on Hacker News because I want to feel smart but
+    I don't actually have anything to contribute because I'm stupid so I just
+    constantly complain about UX decisions.
+  </strong>
+  <br />
+  Please stop.
+</p>
 <p>
   <small>
     * I don't have a dead man's switch to stop this timer when I die, so it

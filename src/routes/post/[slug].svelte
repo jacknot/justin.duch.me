@@ -199,7 +199,7 @@
   }
 
   /*
-   * .footnote-body is shown when JS is disabled and you can't click on it
+   * .footnote-body is shown when JS is disabled because you can't click on it
    */
   .content :global(.foot-tooltip),
   .content :global(.footnote-body) {
