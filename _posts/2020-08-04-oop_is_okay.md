@@ -54,7 +54,7 @@ It sure does! Let's talk about some of the things that make me hate object-orien
 
 The first thing is how well it modularises programs and manages code reuse. I'm not actually going to talk about any OOP languages because none of them are any good, but we will look at languages that take cues from them.
 
-Keeping with the Elixir circlejerk, let's talk about `use`. In my opinion, Elixir has the best modularity of any functional language (that's not a Lisp) because of it's inspiration from OOP in this regard (Elixir was made by a Ruby developer).
+Keeping with the Elixir circlejerk, let's talk about `use`. In my opinion, Elixir has the best modularity of any functional language (that's not a Lisp) because of its inspiration from OOP in this regard (Elixir was made by a Ruby developer).
 
 The `use` macro is frequently used as an extension point and allows you to inject any code in the current module and bring external functionality into the lexical scope, often other modules.
 
@@ -70,7 +70,7 @@ defmodule AssertionTest do
 end
 ```
 
-Behind the scenes, use requires the given module and then calls the `__using__/1` callback on it allowing the module to inject some code into the current context. Some modules (for example, the above `ExUnit.Case`, but also `Supervisor` and `GenServer`) use this mechanism to populate your module with some basic behaviour, which your module is intended to override or complete.
+Behind the scenes, `use` requires the given module and then calls the `__using__/1` callback on it allowing the module to inject some code into the current context. Some modules (for example, the above `ExUnit.Case`, but also `Supervisor` and `GenServer`) use this mechanism to populate your module with some basic behaviour, which your module is intended to override or complete.
 
 Functionally, this is very similar to the how classes can inherit from each other in a bad language and would be somewhat equivalent to doing this in Python:
 
