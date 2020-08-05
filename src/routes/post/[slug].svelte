@@ -95,9 +95,9 @@
      By default, CSS is locally scoped to the component,
      and any unused styles are dead-code-eliminated.
      In this page, Svelte can't know which elements are
-             going to appear inside the {{{post.html}}} block,
+     going to appear inside the {{{post.html}}} block,
      so we have to use the :global(...) modifier to target
-             all elements inside .content
+     all elements inside .content
  */
   .content :global(pre) {
     background-color: #f9f9f9;
@@ -122,9 +122,9 @@
 
   .content :global(blockquote) {
     background: #f9f9f9;
-    border-left: 10px solid #ccc;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
+    border-left: 1em solid #ccc;
+    margin: 1.5em 1em;
+    padding: 0.5em 1em;
     quotes: "\201C""\201D""\2018""\2019";
   }
 
@@ -166,7 +166,7 @@
   .content :global(th),
   .content :global(td) {
     text-align: left;
-    padding: 8px;
+    padding: 0.8em;
   }
 
   .content :global(tr):nth-child(even) {
@@ -177,7 +177,7 @@
     text-align: center;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
-    margin-top: 40px;
+    margin-top: 3.8em;
   }
 
   .content :global(hr):after {
@@ -206,8 +206,8 @@
     color: #555;
     font-size: smaller;
     background-color: #ddd;
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 0.5em 1em;
+    border-radius: 1em;
     opacity: 0;
     transition: opacity 0.5s;
   }
@@ -228,6 +228,22 @@
   :global(.darkmode--activated) :global(td),
   :global(.darkmode--activated) :global(th) {
     color: #fff;
+  }
+
+  .e-content :global(a):after {
+    position: relative;
+    content: "\FEFF°";
+    margin-left: 0.10em;
+    font-size: 90%;
+    top: -0.10em;
+    color: #933;
+    font-feature-settings: "caps";
+    font-variant-numeric: normal;
+  }
+
+  .e-content :global(.footnote-link):after,
+  .e-content :global(.reference-link):after {
+    display: none;
   }
 </style>
 

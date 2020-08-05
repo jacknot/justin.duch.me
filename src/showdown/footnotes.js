@@ -10,9 +10,9 @@ module.exports = () => [
     type: 'lang',
     filter: text => text.replace(
       /^\[\^([\d\w]+)\]:\s*((\n+(\s{2,4}|\t).+)+)$/mg,
-      (str, name, rawContent, _, padding) => {
+      (_str, name, rawContent, _, padding) => {
         const content = converter.makeHtml(rawContent.replace(new RegExp(`^${padding}`, 'gm'), ''));
-        return `<div class="reference" id="reference-${name}"><a href="#reference-${name}-backlink"><sup>[${name}]</sup></a>:${content}</div>`;
+        return `<div class="reference" id="reference-${name}"><a class="reference-link" href="#reference-${name}-backlink"><sup>[${name}]</sup></a>:${content}</div>`;
       }
     )
   },
@@ -20,15 +20,15 @@ module.exports = () => [
     type: 'lang',
     filter: text => text.replace(
       /^\[\^([\d\w]+)\]:( |\n)((.+\n)*.+)$/mg,
-      (str, name, _, content) =>
-        `<small class="reference" id="reference-${name}"><a href="#reference-${name}-backlink"><sup>[${name}]</sup></a>: ${content}</small>`
+      (_str, name, _, content) =>
+        `<small class="reference" class="reference-link" id="reference-${name}"><a class="reference-link" href="#reference-${name}-backlink"><sup>[${name}]</sup></a>: ${content}</small>`
     )
   },
   {
     type: 'lang',
     filter: text => text.replace(
       /\[\^([\d\w]+)\]/mg,
-      (str, name) => `<a href="#reference-${name}" id="reference-${name}-backlink"><sup>[${name}]</sup></a>`
+      (_str, name) => `<a href="#reference-${name}" class="reference-link" id="reference-${name}-backlink"><sup>[${name}]</sup></a>`
     )
   },
   // Footnotes - E.g:
@@ -39,7 +39,7 @@ module.exports = () => [
     type: 'lang',
     filter: text => text.replace(
       /^\(\^([\d\w]+)\):\s*(.*)$/mg,
-      (str, name, content) => {
+      (_str, name, content) => {
         return `<div class="footnote-body" id="footnote-${name}-body">(${name}) ${content}</div>`;
       }
     )
@@ -48,7 +48,7 @@ module.exports = () => [
     type: 'lang',
     filter: text => text.replace(
       /\(\^([\d\w]+)\)/mg,
-      (str, name) => `<a class="footnote-link" href="#footnote-${name}-body" id="footnote-${name}"><sup>(${name})</sup></a>`
+      (_str, name) => `<a class="footnote-link" href="#footnote-${name}-body" id="footnote-${name}"><sup>(${name})</sup></a>`
     )
   }
 ];
