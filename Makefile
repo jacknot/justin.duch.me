@@ -1,6 +1,6 @@
 HASH := `git rev-parse --short HEAD`
 
-IMAGE := beanpupper/blog:latest
+IMAGE := docker.duch.me/jd/blog:latest
 
 docker:
 	@echo "\n~> building docker image"
@@ -10,5 +10,5 @@ docker:
 
 
 push: 
-	@echo "\n~> push to hub.docker.com"
+	@echo "\n~> push to registry"
 	@docker push $(IMAGE)
