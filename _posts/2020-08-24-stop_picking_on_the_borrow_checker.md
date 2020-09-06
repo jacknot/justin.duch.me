@@ -47,7 +47,7 @@ With `Result/Option` the compiler can follow the normal, relatively straightforw
 
 Result types force you to deal with the errors up front, and if the errors from lower level functions change your program won't compile. That's good, because you need to respond to the errors properly. Again, this is all in the name of local reasoning and correctness.
 
-Okay, so I don't really know how to segway this back to being about the borrow checker. So just remember, next time Ferris tells you that you borrowed wrong, he's doing a good job that's important in order for Rust to be the way it is.
+Okay, so I don't really know how to segue this back to being about the borrow checker. So just remember, next time Ferris tells you that you borrowed wrong, he's doing a good job that's important in order for Rust to be the way it is.
 
 ----
 
