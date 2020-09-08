@@ -5,7 +5,6 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/node:12.9.0
-      - image: cypress/base:12.4.0
         environment:
           # this enables colors in the output
           TERM: xterm
@@ -14,10 +13,6 @@ jobs:
 
     steps:
       - checkout
-
-      # - run:
-      #     name: Cypress Dependencies
-      #     command: sudo apt-get install xvfb libgtk-3-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2
 
       # Download and cache dependencies
       - restore_cache:
@@ -38,9 +33,6 @@ jobs:
 
       # run lint
       - run: yarn lint
-
-      # run tests!
-      # - run: yarn test
 
 workflows:
   version: 2
