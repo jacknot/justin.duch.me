@@ -94,7 +94,7 @@
     title="I drew this horse when I was 14 for a Pokèmon fourm."
     alt="poorly drawn horse icon" />
 
-  <nav class={segment === 'article' ? 'nav-highlight' : ''}>
+  <nav class={segment === 'post' ? 'nav-highlight' : ''}>
     <ul>
       <li>
         <a class={segment === undefined ? 'selected' : ''} href=".">accueil</a>

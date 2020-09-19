@@ -1,5 +1,5 @@
 // This file is called `_posts.js` rather than `posts.js`, because
-// we don't want to create an `/article/posts` route — the leading
+// we don't want to create an `/posts/posts` route — the leading
 // underscore tells Sapper not to do that.
 
 const fs = require("fs");
@@ -26,10 +26,10 @@ function replaceHtml(slug, html) {
   // the base url.
   return html.replace(
     /#reference/g,
-    `article/${slug}/#reference`
+    `post/${slug}/#reference`
   ).replace(
     /#footnote/g,
-    `article/${slug}/#footnote`
+    `post/${slug}/#footnote`
   );
 }
 
