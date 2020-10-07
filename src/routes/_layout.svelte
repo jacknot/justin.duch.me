@@ -9,12 +9,6 @@
   export let segment;
 
   const { page, preloading } = stores();
-
-  onMount(() => {
-    page.subscribe(() => {
-      if (window.goatcounter) window.goatcounter.count();
-    });
-  });
 </script>
 
 <style>
