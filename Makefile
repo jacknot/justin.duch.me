@@ -1,5 +1,3 @@
-HASH := `git rev-parse --short HEAD`
-
 IMAGE := docker.duch.me/jd/blog:latest
 
 docker:
@@ -9,6 +7,6 @@ docker:
 	@docker build . -t $(IMAGE)
 
 
-push: 
+push:
 	@echo "\n~> push to registry"
 	@docker push $(IMAGE)
