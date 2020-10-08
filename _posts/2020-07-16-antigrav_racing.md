@@ -10,9 +10,9 @@ They all suck.
 
 Okay maybe that's a bit much. As arcade games they can be quite fun, but as racing games they lack the depth to be enjoyable. So today, we're going to discuss something I've wanted for a few years now, but have only started to seriously think about it during this lockdown period: what would an anti-gravity racing game with good racing look like?
 
-First of all, what is my problem with the other games? Most ships in these games are very poor in terms of ship control. It very rarely feels like you are actually piloting the ship rather than gently suggesting where it should go. They are generally very understeer-y, and you can only make sharp turns through the use of airbrakes which do the complete opposite and become very oversteer-y. 
+First of all, what is my problem with the other games? Most ships in these games are very poor in terms of ship control. It very rarely feels like you are actually piloting the ship rather than gently suggesting where it should go. They are generally very understeer-y, and you can only make sharp turns through the use of airbrakes which do the complete opposite and become very oversteer-y.
 
-This makes close racing (where two ships are very close together) practically impossible as you will most likely end up hitting the other ship (and is why I'm assuming the ships are often equipped with some sort of shield). On top of all that, there is very little in terms of race strategy. 
+This makes close racing (where two ships are very close together) practically impossible as you will most likely end up hitting the other ship (and is why I'm assuming the ships are often equipped with some sort of shield). On top of all that, there is very little in terms of race strategy.
 
 While driving a racecar (let's use GT3 cars as an example) you have to think of many things: tire wear and track temperature, fuel load, your and your opponents lap times, your opponents race strategy, etc. We can also include things that are setup before the race even starts: break bias and pressure, ECU mapping, suspension, aerodynamics, traction control and ABS (for GT3 cars you can change these during the race), etc.
 
@@ -24,9 +24,9 @@ How do the ships stick to the track and not fall of? ie. How does the anti-gravi
 
 These two problems are more related then you might originally think. A good idea of how the ships could work in real life can create massive changes in how they are controlled, and we'll be discussing all these as I get to them.
 
-A few more things to note: this is a purely hypothetical game, I don't ever intend on making this (not that I could anyway), if an actual game developer is reading this, feel free to steal these ideas. 
+A few more things to note: this is a purely hypothetical game, I don't ever intend on making this (not that I could anyway), if an actual game developer is reading this, feel free to steal these ideas.
 
-This also isn't a "sim" in the sim racing sense, it's pretty hard to simulate technology that doesn't exist. And even if we could, I wouldn't want to. Just because something is accurate to real life doesn't make it good (eg. the dirty air from the wake of F1 cars making them hard to follow each other), it's still a game and I want it to play to the strengths of the medium where we don't always have to abide by the laws of physics. 
+This also isn't a "sim" in the sim racing sense, it's pretty hard to simulate technology that doesn't exist. And even if we could, I wouldn't want to. Just because something is accurate to real life doesn't make it good (eg. the dirty air from the wake of F1 cars making them hard to follow each other), it's still a game and I want it to play to the strengths of the medium where we don't always have to abide by the laws of physics.
 
 On that note, I'd like to talk about inspiration. It's very clear that Redout and BallisticNG take huge inspriation from Wipeout.(^1) However, we are trying to avoid the pitfalls of Wipeout style racing, meaning we shouldn't take cues from any of these games. We're going to start with the premise, "anti-gravity racing", and build the rest from scratch.
 
@@ -56,7 +56,7 @@ According to our current models of general relativity, anti-gravity is impossibl
 
 Oh.
 
-But hey! Remember what I said about not caring about accuracy? What an easy cop-out! HAH! 
+But hey! Remember what I said about not caring about accuracy? What an easy cop-out! HAH!
 
 I'm joking, actually. Having proper anti-gravity opens up a whole bunch of other problems and I don't want to think about them. Instead we can create the illusion of anti-gravity with the most important part of the ship:
 
@@ -103,13 +103,17 @@ Ideally, a perfect controller would have these side thrusters mapped to analog b
 
 ### Aerodynamics
 
-Our ships are going to be raced in Earth atmosphere. Like all vehicles, aerodynamics is an important factor for drag reduction and downforce. Wait... downforce? Why do the ships need downforce if they are stuck to the track with the their mag-plates? 
+Our ships are going to be raced in Earth atmosphere. Like all vehicles, aerodynamics is an important factor for drag reduction and downforce. Wait... downforce? Why do the ships need downforce if they are stuck to the track with the their mag-plates?
 
 First let's look at what we have so far. We have our mag-plate and several thrusters all sharing the same power source. It is very improbable that a small nuclear fusion reactor is going to be able to power both of these at their max potential, something is going to have to get the short-end of the stick.
 
 So instead of solely relying on our mag-plate to keep the ship stuck to the track we can supplement it with some downforce. With the correct amount of aerodynamic downforce, as the ship speeds up, enough downforce will be made to lessen the need to supply power to the mag-plate. This gives the thursters more power, which makes the ship faster, which produces more downforce, etc... I think you get the idea.
 
 Again, this changes the dynamics of cornering. As you slow down for a corner there's going to be less downforce so your thrusters will get less power as power gets directed to the mag-plate. This could also mean that we'll start seeing aero bits pop on on the sides and rear of the ship to help keep downforce as it spins.
+
+**[Correction 2020-10-08]:** Hey pals, it's been three months since I wrote this and I'm now realising that this doesn't make sense (kind of), and the reason for that is gravity. If our ship were the right side up, gravity would pull it down yeah? This would mean that instead of the mag-plate pulling the ship with attraction it would need to push the ship away from the track with repulsion. Magnets are able to do this obviously, but with the downforce on the ship this would mean **more** power would need to go to the plate for repulsion to counteract it.
+
+Thankfully, there's a simple solution to this: active aerodynamics. Currently a banned technology in F1, this would employ moveable panels and wings to control the movement of air in and around the ship. When the ship is right side up, the aero parts would move to generate lift and when upside-down, change to generate downforce. This is a pretty good solution because firstly: active aero is bloody cool, and secondly: I don't have to change anything else in this post.
 
 ### The Cockpit (or lack thereof)
 
@@ -131,14 +135,14 @@ Our anti-gravity racing ship is essentially a spaceship on rails, so why not mak
 
 ### Weather
 
-Unlike racecars, our ships should be able to be piloted in any weather condition (maybe except hurricanes) as we use magnets to stick to the track instead of physically sticking to it with tires, making it impossible to lose control because of rain or snow. 
+Unlike racecars, our ships should be able to be piloted in any weather condition (maybe except hurricanes) as we use magnets to stick to the track instead of physically sticking to it with tires, making it impossible to lose control because of rain or snow.
 
 Although a big reason for why cars don't race in very heavy rain is also because the visibility decreases by a huge amount. We're actually building the technology to solve this right now: [LIDAR](https://en.wikipedia.org/wiki/Lidar). Our ships will come with LIDAR sensors to display an AR overview of the track and other ships to the camera feed, making visibility in the rain manageable.
 
 ## Gimmicks
 
-Real life racing can often have several gimmicks intended to make the sport more enjoyable. E.g DRS in F1 (to help with overtaking), Formula E (all of it), etc. 
+Real life racing can often have several gimmicks intended to make the sport more enjoyable. E.g DRS in F1 (to help with overtaking), Formula E (all of it), etc.
 
 I don't really like DRS, but something like the boost button in LMP1 cars would be cool. There could be a battery in the ship with reserve power, you could then press a button to deploy that power to the mag-plate instead of getting it from the reactor. This would functionally have the same effect as an LMP1 car getting more horsepower from it's hybrid system as we all should know now that: reducing the amount of power going from the reactor to the mag-plate frees up power to go to the thrusters.
 
-That's about it. I think there are some neat ideas here, but I'm neither a game designer nor am I very good at racing, so who knows? 
+That's about it. I think there are some neat ideas here, but I'm neither a game designer nor am I very good at racing, so who knows?
