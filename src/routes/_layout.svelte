@@ -8,7 +8,7 @@
 
   @media screen and (max-width: 724px) {
     main {
-      padding: 5em;
+      padding: 8em 2em 2em 2em;
     }
   }
 </style>
