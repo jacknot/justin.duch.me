@@ -1,5 +1,5 @@
 ---
-title: “My Favourite Shows Are Supernatural, And Star Trek: TNG”
+title: « My Favourite Shows Are Supernatural, And Star Trek: TNG »
 thumbnail: chatbot-p-thumb.png
 category: miscellaneous
 ---
