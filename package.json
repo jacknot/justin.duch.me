@@ -6,7 +6,7 @@
   "author": "Justin Duch <justin@justinduch.com>",
   "scripts": {
     "build": "sapper build",
-    "export": "sapper export",
+    "export": "sapper export --entry '/ /404'",
     "start": "node __sapper__/build",
     "start:dev": "sapper dev",
     "lint": "eslint ."

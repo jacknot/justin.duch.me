@@ -3,7 +3,7 @@ IMAGE := docker.duch.me/jd/blog:latest
 docker:
 	@echo "\n~> building docker image"
 	@yarn install
-	@yarn build
+	@yarn export
 	@docker build . -t $(IMAGE)
 
 
