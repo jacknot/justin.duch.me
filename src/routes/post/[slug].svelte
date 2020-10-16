@@ -200,8 +200,7 @@
   .e-content :global(a):after {
     position: relative;
     content: "\FEFF°";
-    margin-left: 0.10em;
-    font-size: 90%;
+    margin: 0 0.15em;
     top: -0.10em;
     color: #933;
     font-feature-settings: "caps";

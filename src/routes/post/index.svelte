@@ -14,11 +14,11 @@
   .post {
     display: flex;
     flex-direction: column;
-    margin: 2em 0;
+    margin-bottom: 2em;
   }
 
   .post > p {
-    padding: 1em 0;
+    padding-bottom: 1em;
     margin: 0;
   }
 
