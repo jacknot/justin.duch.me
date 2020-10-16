@@ -221,6 +221,8 @@
   <title>{post.title}</title>
 </svelte:head>
 
+<a href="/post">retour</a>
+
 <div class="content h-entry">
   <h1 class="p-name">{post.title}</h1>
   <img
@@ -242,9 +244,7 @@
   </div>
 
   <div class="info-line footer">
-    <small>
-      <a href=".">&#8617 retour à accueil</a>
-    </small>
+    <span></span>
     <small>
       <a
         href="https://github.com/beanpuppy/justin.duch.me/edit/master/_posts/{post.date}-{post.slug}.md">

@@ -31,6 +31,7 @@
   <title>articles</title>
 </svelte:head>
 
+<a href=".">retour</a>
 <h1>articles</h1>
 
 {#each posts as post}

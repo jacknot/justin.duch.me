@@ -5,6 +5,8 @@
   <title>rèsumè</title>
 </svelte:head>
 
+
+<a href=".">retour</a>
 <h1>rèsumè</h1>
 
 <div class="space-yo">

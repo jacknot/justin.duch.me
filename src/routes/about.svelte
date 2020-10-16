@@ -2,6 +2,7 @@
   <title>à propos</title>
 </svelte:head>
 
+<a href=".">retour</a>
 <h1>à propos</h1>
 
 <p>
