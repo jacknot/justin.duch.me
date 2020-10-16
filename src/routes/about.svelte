@@ -9,6 +9,7 @@
   justin@duch.me
   <a href="/publickey.justin@duch.me.txt">(PGP)</a>
 </p>
+<p><strong>Code: </strong><a href="https://github.com/beanpuppy/justin.duch.me">github.com/beanpuppy/justin.duch.me</a></p>
 <p><strong>RSS: </strong><a href="https://justin.duch.me/api/feed">justin.duch.me/api/feed</a></p>
 <p>
   It should go without saying that all opinions are my own and do not reflect

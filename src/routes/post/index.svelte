@@ -18,7 +18,7 @@
   }
 
   .post > p {
-    padding: 0;
+    padding: 1em 0;
     margin: 0;
   }
 
@@ -44,7 +44,7 @@
         {post.title}
       </a>
     </p>
-    <div class="space-yo">
+    <div class="space-yo space-column">
       <small>{post.readtime}</small>
       <small>from {post.category} on {post.date}</small>
     </div>
