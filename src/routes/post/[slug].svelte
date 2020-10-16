@@ -202,7 +202,7 @@
     content: "\FEFF°";
     margin: 0 0.15em;
     top: -0.10em;
-    color: #933;
+    color: #ec53dd;
     font-feature-settings: "caps";
     font-variant-numeric: normal;
   }
