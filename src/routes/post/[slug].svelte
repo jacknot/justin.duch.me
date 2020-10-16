@@ -159,8 +159,12 @@
     padding: 0.8em;
   }
 
+  .content :global(th) {
+    border-bottom: 1px solid;
+  }
+
   .content :global(tr):nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #282828;
   }
 
   .content :global(hr) {
