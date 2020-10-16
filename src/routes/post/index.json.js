@@ -1,14 +1,12 @@
 import { getPosts } from './_posts.js';
 
-export function get(req, res) {
-  let { start, end } = req.query;
-
+export function get(_, res) {
   let posts = getPosts(false).sort(function (a, b) {
     return new Date(b.date) - new Date(a.date);
   });
 
   const data = JSON.stringify({
-    posts: posts.slice(start, end).map(post => {
+    posts: posts.map(post => {
       return {
         title: post.title,
         slug: post.slug,
@@ -18,7 +16,6 @@ export function get(req, res) {
         readtime: post.readtime,
       };
     }),
-    next: posts.length > end,
   });
 
   res.writeHead(200, {

@@ -4,10 +4,10 @@ import { getPosts } from './../post/_posts.js';
 
 export function get(_, res) {
   let feed = new RSS({
-    title: 'blog.justinduch.com',
+    title: 'justin.duch.me',
     description: 'a very good blog',
-    feed_url: 'https://blog.justinduch.com/api/feed',
-    site_url: 'https://blog.justinduch.com',
+    feed_url: 'https://justin.duch.me/api/feed',
+    site_url: 'https://justin.duch.me',
     managingEditor: 'Justin Duch',
     webMaster: 'Justin Duch',
     language: 'en',
@@ -17,7 +17,7 @@ export function get(_, res) {
     feed.item({
       title: p.title,
       description: p.html,
-      url: `https://blog.justinduch.com/post/${p.slug}`,
+      url: `https://justin.duch.me/post/${p.slug}`,
       date: p.date,
     });
   });

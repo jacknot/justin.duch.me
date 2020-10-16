@@ -1,15 +1,10 @@
-# blog.justinduch.com
-
-[![Build status](https://ci.appveyor.com/api/projects/status/t1ljsut41hs52ey1?svg=true)](https://ci.appveyor.com/project/beanpuppy/blog-justinduch-com)
-[![CircleCI](https://circleci.com/gh/beanpuppy/blog.justinduch.com.svg?style=svg)](https://circleci.com/gh/beanpuppy/blog.justinduch.com)
-[![Maintainability](https://api.codeclimate.com/v1/badges/1c68876e520c257b3bd5/maintainability)](https://codeclimate.com/github/beanpuppy/blog.justinduch.com/maintainability)
-[![Docker Image Size (tag)](https://img.shields.io/docker/image-size/beanpupper/blog/latest)](https://hub.docker.com/repository/docker/beanpupper/blog/general)
+# justin.duch.me
 
 Bienvenue.
 
 ## About
 
-Source code for [https://blog.justinduch.com](https://blog.justinduch.com).
+Source code for [https://justin.duch.me](https://justin.duch.me).
 
 ## Development
 
@@ -23,8 +18,8 @@ Source code for [https://blog.justinduch.com](https://blog.justinduch.com).
  To build and run the site locally:
 
 ```
-git clone https://github.com/beanpuppy/blog.justinduch.com
-cd blog.justinduch.com
+git clone https://github.com/beanpuppy/justin.duch.me
+cd justin.duch.me
 yarn install
 yarn start:dev
 ```

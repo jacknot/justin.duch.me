@@ -15,11 +15,9 @@
 
 <script>
   import { onMount } from "svelte";
-  import Scroller from "../../components/Scroller.svelte";
 
   export let post;
 
-  let progress;
   let currentDiv;
   let currentId;
 
@@ -54,9 +52,7 @@
     currentDiv.className = "foot-tooltip";
     parent.insertBefore(currentDiv, this.nextSibling);
 
-    setTimeout(function() {
-      currentDiv.style.opacity = "1";
-    }, 0);
+    setTimeout(() => currentDiv.style.opacity = "1", 0);
   }
 
   onMount(() => {
@@ -100,7 +96,6 @@
      all elements inside .content
  */
   .content :global(pre) {
-    background-color: #f9f9f9;
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
     padding: 0.5em;
     border-radius: 2px;
@@ -108,8 +103,8 @@
   }
 
   .content :global(pre) :global(code) {
-    background-color: transparent;
-    padding: 0;
+    max-width: 100%;
+    overflow-x: auto;
   }
 
   .content :global(ul) {
@@ -121,19 +116,14 @@
   }
 
   .content :global(blockquote) {
-    background: #f9f9f9;
-    border-left: 1em solid #ccc;
+    background: #282828;
+    border-left: 1em solid #484848;
     margin: 1.5em 1em;
     padding: 0.5em 1em;
     quotes: "\201C""\201D""\2018""\2019";
   }
 
-  :global(.darkmode--activated) .content :global(blockquote) {
-    background: #0f0f0f;
-  }
-
   .content :global(blockquote):before {
-    color: #ccc;
     content: open-quote;
     font-size: 4em;
     line-height: 0.1em;
@@ -176,7 +166,7 @@
   .content :global(hr) {
     text-align: center;
     border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
     margin-top: 3.8em;
   }
 
@@ -187,15 +177,7 @@
     top: -0.7em;
     font-size: 1.5em;
     padding: 0 0.25em;
-    background: #fff;
-  }
-
-  :global(.darkmode--activated) .content :global(hr) {
-    border-top: 1px solid rgba(225, 225, 225, 0.2);
-  }
-
-  :global(.darkmode--activated) .content :global(hr):after {
-    background: #0d0d0d;
+    background: #191919;
   }
 
   /*
@@ -203,9 +185,8 @@
    */
   .content :global(.foot-tooltip),
   .content :global(.footnote-body) {
-    color: #555;
     font-size: smaller;
-    background-color: #ddd;
+    background-color: #282828;
     padding: 0.5em 1em;
     border-radius: 1em;
     opacity: 0;
@@ -214,20 +195,6 @@
 
   .content :global(.footnote-body) {
     opacity: 1;
-  }
-
-  :global(.darkmode--activated) .content :global(.foot-tooltip) {
-    color: #bbb;
-    background-color: #222;
-  }
-
-  :global(.darkmode--activated) .content :global(tr):nth-child(even) {
-    background-color: #0f0f0f;
-  }
-
-  :global(.darkmode--activated) :global(td),
-  :global(.darkmode--activated) :global(th) {
-    color: #fff;
   }
 
   .e-content :global(a):after {
@@ -252,39 +219,34 @@
 </svelte:head>
 
 <div class="content h-entry">
+  <h1 class="p-name">{post.title}</h1>
   <img
     src="https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=672&h=410"
     alt="thumbnail"
     class="thumbnail" />
 
-  <Scroller readtime={post.readtime}>
-    <div slot="foreground">
-      <h1 class="p-name">{post.title}</h1>
+  <div class="info-line">
+    <small>{post.readtime}</small>
 
-      <div class="info-line">
-        <small>{post.readtime}</small>
+    <small>
+      from {post.category} on
+      <span class="dt-published">{post.date}</span>
+    </small>
+  </div>
 
-        <small>
-          from {post.category} on
-          <span class="dt-published">{post.date}</span>
-        </small>
-      </div>
+  <div class="e-content">
+    {@html post.html}
+  </div>
 
-      <div class="e-content">
-        {@html post.html}
-      </div>
-
-      <div class="info-line footer">
-        <small>
-          <a href=".">&#8617 retour à accueil</a>
-        </small>
-        <small>
-          <a
-            href="https://github.com/beanpuppy/blog.justinduch.com/edit/master/_posts/{post.date}-{post.slug}.md">
-            see a mistake? edit it here.
-          </a>
-        </small>
-      </div>
-    </div>
-  </Scroller>
+  <div class="info-line footer">
+    <small>
+      <a href=".">&#8617 retour à accueil</a>
+    </small>
+    <small>
+      <a
+        href="https://github.com/beanpuppy/justin.duch.me/edit/master/_posts/{post.date}-{post.slug}.md">
+        see a mistake? edit it here.
+      </a>
+    </small>
+  </div>
 </div>

@@ -1,30 +1,18 @@
-<script>
-  import { stores } from "@sapper/app";
-  import { onMount } from "svelte";
-
-  import Nav from "../components/Nav.svelte";
-  import Footer from "../components/Footer.svelte";
-  import PageLoadingBar from "../components/PageLoadingBar.svelte";
-
-  export let segment;
-
-  const { page, preloading } = stores();
-</script>
-
 <style>
   main {
     position: relative;
-    max-width: 46em;
-    padding: 2em;
-    margin: 0 auto;
+    max-width: 36em;
+    margin: 12em 0 5em 5em;
     box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 724px) {
+    main {
+      margin: 5em 0 5em 5em;
+    }
   }
 </style>
 
-<PageLoadingBar {preloading} />
-
 <main>
-  <Nav {segment} />
   <slot />
-  <Footer />
 </main>

@@ -1,5 +1,5 @@
 ---
-title: Lockdown Thougts: A Worker Cooperative
+title: Lockdown Thoughts: A Worker Cooperative
 thumbnail: worker-coop-thumb.png
 category: miscellaneous
 ---
