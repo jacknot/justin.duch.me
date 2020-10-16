@@ -47,7 +47,7 @@
 </div>
 
 <ul>
-  <li>Built an internal tool for managing resources between the serveral services of a cloud computing company. Required heavy automation of multiple services, system architecture design of overlaying system and server management.</li>
+  <li>Built an internal tool for managing resources between the serveral services of a cloud computing company. Required heavy automation of multiple services, and system architecture design of overlaying system and server management.</li>
 </ul>
 
 <div class="space-yo space-column">
