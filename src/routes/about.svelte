@@ -7,7 +7,7 @@
 
 <p>
   <strong>Mail:</strong>
-  justin@duch.me
+  <a href="mailto:justin@duch.me">justin@duch.me</a>
   <a href="/publickey.justin@duch.me.txt">(PGP)</a>
 </p>
 <p>
