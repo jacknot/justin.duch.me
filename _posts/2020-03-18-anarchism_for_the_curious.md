@@ -128,9 +128,9 @@ Although a failure due to its hopeless military situation, Karl Marx in “The C
 
 As at the time Paris had around 2 million occupants, I find the Commune to be a good example for how an anarcho-communism could work. Even with intense military pressure, they managed achieve a workable society, although short lived.
 
-So that’s all from me. Tune in next time when we talk about the politics of the anime “[That Time I Got Reincarnated as a Slime](https://myanimelist.net/anime/37430/Tensei_shitara_Slime_Datta_Ken)”!(^7)
+So that’s all from me. Tune in next time when we talk about the politics of the anime “[That Time I Got Reincarnated as a Slime](https://myanimelist.net/anime/37430/Tensei_shitara_Slime_Datta_Ken)”!(^5)
 
-(^7): I am actually going to do this. Maybe not next time, but eventually.
+(^5): I am actually going to do this. Maybe not next time, but eventually.
 
 ---
 
