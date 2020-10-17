@@ -18,54 +18,48 @@
 
   export let post;
 
-  let currentDiv;
-  let currentId;
+  function createTooltips() {
+    let links = document.getElementsByClassName("footnote-link");
 
-  function toggleFootnote(event) {
-    event.preventDefault();
+    let foot;
+    let footHtml;
+    let newDiv;
+    let parent;
 
-    let parent = this.parentNode;
-    let footnoteId = this.id;
+    for (let l of links) {
+      parent = l.parentNode;
+      foot = document.getElementById(`${l.id}-body`);
 
-    if (currentDiv) {
-      let currentDivParent = currentDiv.parentNode;
-      currentDivParent.removeChild(currentDiv);
-      currentDiv = null;
+      footHtml = foot.innerHTML;
+
+      newDiv = document.createElement("div");
+      newDiv.innerHTML = footHtml;
+      newDiv.className = "footnote-tooltip";
+      parent.insertBefore(newDiv, l.nextSibling);
+    }
+  }
+
+  function showTooltips() {
+    const widthPoint = 1408;
+    const width = document.body.clientWidth;
+
+    let tooltips = document.getElementsByClassName("footnote-tooltip");
+
+    for (let t of tooltips) {
+      t.style.display = width >= widthPoint ? "block" : "none";
     }
 
-    if (currentId === footnoteId) {
-      currentId = null;
-      return;
+    let bodies = document.getElementsByClassName("footnote-body");
+
+    for (let b of bodies) {
+      b.style.display = width >= widthPoint ? "none" : "block";
     }
-
-    let footHtml = document.getElementById(`${footnoteId}-body`).innerHTML;
-    // Content as "(1) This is a footnote" becuase that's how it's shown with JS disabled
-    // We have JS enabled so we remove the "(1)"
-    footHtml = footHtml.replace(
-      /^\(([\d\w]+)\)\s*(.*)$/gm,
-      (str, name, content) => content
-    );
-
-    currentId = footnoteId;
-    currentDiv = document.createElement("div");
-    currentDiv.innerHTML = footHtml;
-    currentDiv.className = "foot-tooltip";
-    parent.insertBefore(currentDiv, this.nextSibling);
-
-    setTimeout(() => currentDiv.style.opacity = "1", 0);
   }
 
   onMount(() => {
-    let bodies = document.getElementsByClassName("footnote-body");
-    let links = document.getElementsByClassName("footnote-link");
-
-    for (let b of bodies) {
-      b.style.display = "none";
-    }
-
-    for (let l of links) {
-      l.onclick = toggleFootnote;
-    }
+    createTooltips();
+    showTooltips();
+    window.addEventListener("resize", showTooltips);
   });
 </script>
 
@@ -187,25 +181,25 @@
   /*
    * .footnote-body is shown when JS is disabled because you can't click on it
    */
-  .content :global(.foot-tooltip),
+  .content :global(.footnote-tooltip),
   .content :global(.footnote-body) {
     font-size: smaller;
     background-color: #282828;
     padding: 0.5em 1em;
-    border-radius: 1em;
-    opacity: 0;
-    transition: opacity 0.5s;
   }
 
-  .content :global(.footnote-body) {
-    opacity: 1;
+  .content :global(.footnote-tooltip) {
+    position: absolute;
+    margin-left: 42em;
+    margin-top: -2em;
+    width: 30em;
   }
 
   .e-content :global(a):after {
     position: relative;
     content: "\FEFF°";
     margin: 0 0.15em;
-    top: -0.10em;
+    top: -0.1em;
     color: #ec53dd;
     font-feature-settings: "caps";
     font-variant-numeric: normal;
@@ -244,7 +238,7 @@
   </div>
 
   <div class="info-line footer">
-    <span></span>
+    <span />
     <small>
       <a
         href="https://github.com/beanpuppy/justin.duch.me/edit/master/_posts/{post.date}-{post.slug}.md">

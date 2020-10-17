@@ -28,10 +28,10 @@ The site is now available at `http://localhost:3000`.
 
 ## CDN
 
-Currently all images are hosted and linked to my CDN `cdn.halcyonnouveau.xyz`. I also keep a copy of all images in this repository here (under the same file structure), so if the CDN goes offline you can replace the links using `sed`. E.g
+Currently all images are hosted and linked to my CDN `cdn.halcyonnouveau.xyz`. I also keep a copy them in this repository here (under the same file structure), so if the CDN goes offline you can replace the links using `sed`. E.g
 
 ```bash
-sed -i.bak 's/https:\/\/cdn.halcyonnouveau.xyz//g' *.md
+sed -i.bak 's/https:\/\/cdn.halcyonnouveau.xyz\/blog//g' *.md
 ```
 
 ## License
