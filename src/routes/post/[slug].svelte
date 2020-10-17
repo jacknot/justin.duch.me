@@ -14,7 +14,8 @@
 </script>
 
 <script>
-  import { onMount } from "svelte";
+  import { afterUpdate } from "svelte";
+  import { routeHasChanged } from "../../stores/location";
 
   export let post;
 
@@ -56,10 +57,12 @@
     }
   }
 
-  onMount(() => {
-    createTooltips();
-    showTooltips();
-    window.addEventListener("resize", showTooltips);
+  afterUpdate(() => {
+    if (routeHasChanged) {
+      createTooltips();
+      showTooltips();
+      window.addEventListener("resize", showTooltips);
+    }
   });
 </script>
 

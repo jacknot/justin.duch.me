@@ -1,3 +1,8 @@
+<script>
+  import { trackLocation } from "../stores/location";
+  trackLocation();
+</script>
+
 <style>
   main {
     position: relative;
