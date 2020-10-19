@@ -135,11 +135,11 @@ Aether actually gets around this problem by also being on a blockchain (maybe I 
 
 A lot of people have tried to solve the issue of being unhappy with moderators by just cloning the site and moderating it themselves. These clearly all have the same issue, even if the owner is a better moderator, but I'll leave some here in case you're interested. Lobste.rs is actually one such clone of Hacker News, and is open source so anyone can host their own version, such as the French [Journal du hacker](https://www.journalduhacker.net). You would also use a [Postmill](https://postmill.xyz) instance to replace Reddit, like [Raddle](https://raddle.me)(^5).
 
-(^5): Just FYI, I don't visit Raddle very often (if ever), but most members there are very left leaning, probably even more then me, so visit at your own discretion.
+(^5): Just FYI, I don't visit Raddle very often (if ever), but most members there are very left leaning, probably more so than me, so don't visit if you get triggered over political opinions.
 
 [Nanolens](https://www.nanolens.co/) is not exactly a discussion board, but it's focus on community (compared to the vast majority of other social media being focused on individuals) is nice. It allows for anonymous posting which I find to be a good alternative to creating throwaway accounts on Reddit. The purity of it's anonymity is debatable, the server most certainly knows who posted it and it's just that other users don't, but then again, pure anonymity is rarely a good idea if we look at the aforementioned green website as an example.
 
-[Mastodon](https://joinmastodon.org) also probably isn't lesser know to the kind of person who reads my stuff, but I want to pad this post out. Basically it's federated Twitter. You know what federation is right? Oh cool, so I don't have to explain it. [Matrix](https://matrix.org) is another federated communication tool to replace things like Discord or Slack.
+[Mastodon](https://joinmastodon.org) also probably isn't lesser known to the kind of person who reads my stuff, but I want to pad this post out. Basically it's federated Twitter. You know what federation is right? Oh cool, so I don't have to explain it. [Matrix](https://matrix.org) is another federated communication tool to replace things like Discord or Slack.
 
 Anyway, that's all for today.
 
