@@ -49,7 +49,7 @@
 </div>
 
 <ul>
-  <li>Built an internal tool for managing resources between the serveral services of a cloud computing company. Required server management, heavy automation of multiple services, and architecture design of overlaying system.</li>
+  <li>Built an internal tool for managing resources between the services of a cloud computing company. Required orchestraction of servers, heavy automation of multiple services, and architecture design of overlaying system.</li>
 </ul>
 
 <div class="space-yo space-column">
@@ -58,6 +58,6 @@
 </div>
 
 <ul>
-  <li>Developer for an extensive mortgage aggregation platform. Featuring CRM, loan processing, RESTful API, various calculators, assessment tools and reporting functionality.</li>
-  <li>Developed a compliance process management tool for auditing mortgage brokers. Involved analysis of internal processes and regulatory requirements for streamlining, workflow mapping and automation.</li>
+  <li>Developer for an extensive mortgage aggregation CRM. Featuring loan processing, various calculators, assessment tools and reporting functionality.</li>
+  <li>Developed a compliance process management tool for auditing mortgage brokers. Involved analysis of internal processes and regulatory requirements for streamlining and workflow mapping.</li>
 </ul>
