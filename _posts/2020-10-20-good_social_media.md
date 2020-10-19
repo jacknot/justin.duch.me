@@ -85,7 +85,7 @@ I've been going through this entire thing assuming the worst possible thing is e
 
 Let's make a simple threat model for hacking democracy. We start with our threats and look for a solution to each.
 
-- **Threat:** A random neckbeard who wants to take over our beautiful direct democracy with a Sybil attack.
+- **Threat:** A random neckbeard who wants to take over our beautiful democracy with a Sybil attack.
 
 **Solution:** Invitation tree with a chain of responsibility, the neckbeard will never get invited. And if they do, once swiftly banned, the person who invited them will be unable to do it again.
 
