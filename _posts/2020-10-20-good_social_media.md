@@ -141,7 +141,7 @@ A lot of people have tried to solve the issue of being unhappy with moderators b
 
 [Mastodon](https://joinmastodon.org) also probably isn't lesser known to the kind of person who reads my stuff, but I want to pad this post out. Basically it's federated Twitter. You know what federation is right? Oh cool, so I don't have to explain it. [Matrix](https://matrix.org) is another federated communication tool to replace things like Discord or Slack.
 
-[Movim](https://movim.eu) is another decentralised attempt. It's federated like Mastodon and Matrix, but more vertically branched, where the others try to do one thing well, Movim does several things from chatrooms, video, and blogs. The current servers seem to be just named after countries which is cool I think. I've always though that it would be neat if my city spun up their own servers (of any federated service, not just Movim) for the residents to use. This could maintain some amount of connection to the real world while also providing a genuine service. It would feel more like a road or trash pick up service.
+[Movim](https://movim.eu) is another decentralised attempt. It's federated like Mastodon and Matrix, but more vertically branched. Where the others try to do one thing well, Movim does several things from chatrooms, to video, and blogs. The current servers seem to be just named after countries which is cool I think. I've always though that it would be neat if my city spun up their own servers (of any federated service, not just Movim) for the residents to use. This could maintain some amount of connection to the real world while also providing a genuine service. It would feel more like a road or trash pick up service.
 
 Anyway, that's all for today.
 
