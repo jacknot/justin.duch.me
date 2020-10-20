@@ -172,7 +172,7 @@ The [Corruption Perceptions Index 2019](https://www.transparency.org/cpi2019?/ne
 
 [The Haskell IDE Engine and Ghcide teams are joining forces on a single IDE](https://neilmitchell.blogspot.com/2020/01/one-haskell-ide-to-rule-them-all.html). Now that’s some great news, hopefully It’ll be able to help me write Haskell that doesn’t suck.
 
-[“Leaked Documents Expose the Secretive Market for Your Web Browsing Data”](https://www.vice.com/en_us/article/qjdkq7/avast-antivirus-sells-user-browsing-data-investigation) from VICE on January 28, 2020. Don’t use anti-virus software. Seriously don’t do it. But it you “need” it, get one that you **have** to pay for (this applies to VPNs as well).
+[“Leaked Documents Expose the Secretive Market for Your Web Browsing Data”](https://www.vice.com/en_us/article/qjdkq7/avast-antivirus-sells-user-browsing-data-investigation) from VICE on January 28, 2020. Don’t use anti-virus software. Seriously don’t do it. But if you “need” it, get one that you **have** to pay for (this applies to VPNs as well).
 
 [The new Peugeot 508 seems nice](https://www.caranddriver.com/reviews/a30675768/2020-peugeot-508-drive/). Probably wouldn’t buy it, but Peugeot seems to be getting better at making cars I don’t think are garbage. Even though my name is Ouiaboo Mike, I must admit that Alpine is the only French car manufacturer that isn’t complete trash, and that my brother “Weeaboo Jack” is correct when he says Japanese cars are better.
 
