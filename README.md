@@ -34,6 +34,10 @@ Currently all images are hosted and linked to my CDN `cdn.halcyonnouveau.xyz`. I
 sed -i.bak 's/https:\/\/cdn.halcyonnouveau.xyz\/blog//g' *.md
 ```
 
+## Older Versions
+
+Want to see older versions of this site? If you can use Docker, you can run them yourself here: [git.duch.me/justin/old.justin.duch.me](https://git.duch.me/justin/old.justin.duch.me).
+
 ## License
 
 ### Content
