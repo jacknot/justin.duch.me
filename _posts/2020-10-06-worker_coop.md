@@ -28,7 +28,9 @@ What? I'm so confused. Are you allowed to do this? Is this a French thing I'm to
 
 Yeah I'm sure you saw this coming. This post isn't about video games, it's actually communist propaganda. So there you go, the three things I think about: video games, anime, and communism.
 
-Anyway, this is called a "[worker cooperative](https://en.wikipedia.org/wiki/Worker_cooperative)" or "worker co-op" for short, which usually refers to a business that is owned and managed by it's workers. I mean, this is literally just communism, if every business was structured like this then we would have communism (there's a bit more than that but who cares). What I'm a little surprised about is that you can actually do this under our modern capitalist society. I've been reading anarchist theory since I was 16 and not once did I realise this was a thing (or maybe I wasn't paying attention).
+Anyway, this is called a "[worker cooperative](https://en.wikipedia.org/wiki/Worker_cooperative)" or "worker co-op" for short, which usually refers to a business that is owned and managed by it's workers. I mean, this is literally just communism, if every business was structured like this then we would have communism(^2). What I'm a little surprised about is that you can actually do this under our modern capitalist society. I've been reading anarchist theory since I was 16 and not once did I realise this was a thing (or maybe I wasn't paying attention).
+
+(^2): Sort of. This would actually be market socialism, we need a bit more for full on communism.
 
 For some reason, I guess I've just been assuming that there was something stopping people from making worker co-ops in modern times unlike in the past which is why I never saw them. It's a little disappointing that I'm only hearing about this now (and the first one I found is French :/), but in the US there are only 465 verified worker co-ops[^1] so they don't seem to be very widespread.
 
@@ -40,9 +42,9 @@ But back to the topic. Normally to adjust to traditional consumer cooperative la
 
 - **Steward Members** are ecological land managers and share the remaining 50% of voting rights.
 
-But I'm an anarchist and I don't like "classes"(^2) so I'm going to ignore this and pretend it doesn't exist.
+But I'm an anarchist and I don't like "classes"(^3) so I'm going to ignore this and pretend it doesn't exist.
 
-(^2): Is this why I hate object-oriented programming?
+(^3): Is this why I hate object-oriented programming?
 
 Every worker co-op I've looked at seems to all be structured in a variety of ways, and there doesn't seem to be any real standard. CICOPA, the International Organisation of Industrial, Artisanal and Service Producers’ Cooperatives, gives an 8-page definition in their World Declaration on Workers' Cooperatives, which was approved by the International Co-operative Alliance General Assembly in September 2005. They give us a section on the basic characteristics of workers' cooperatives:
 
