@@ -143,6 +143,8 @@ A lot of people have tried to solve the issue of being unhappy with moderators b
 
 [Movim](https://movim.eu) is another decentralised attempt. It's federated like Mastodon and Matrix, but more horizontally branched. Where the others try to do one thing well, Movim does several things from chatrooms, to video, and blogs. The current servers seem to be just named after countries which is cool I think. I've always thought that it would be neat if my city spun up their own servers (of any federated service, not just Movim) for the residents to use. This could maintain some amount of connection to the real world while also providing a genuine service. It would feel more like a road or trash pick up service.
 
+[Mobilizon](https://joinmobilizon.org/en/) is yet another federated tool for managing events, trying to be a replacement for other sites like meetup.com and the Facebook thing for events (I don't know what it's called). It's made by Framasoft who also make [PeerTube](https://joinpeertube.org) which is federated YouTube.
+
 Anyway, that's all for today.
 
 I'm serious, I'm not going to drag this on any more.
