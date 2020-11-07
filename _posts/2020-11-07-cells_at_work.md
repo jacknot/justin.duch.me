@@ -66,7 +66,7 @@ Humans would obviously have a huge cognitive horizon, it's certainly the biggest
 
 However, we can visualise the tiny contribution of a single cell to the projects and talents of the billions of humans working to together to create our modern, "functioning" society. So, instead of treating human "genius" as a sort of black box made of magical smart-stuff, we can reinterpret it as an expansion of cognition of the cells that make us up.
 
-Cells are clearly decision makers, they're much more complicated than any particle. I still don't think particles have consciousness, but if cognition drills all the way down to cells, I'm more inclined to believe the spectrum of "not-conscious" to "conscious" is skewed higher to the latter than I previously though.
+Cells are clearly decision makers, they're much more complicated than any particle. I still don't think particles have consciousness, but if cognition drills all the way down to cells, I'm more inclined to believe that the distribution of things on the spectrum of "not-conscious" to "conscious" is skewed more towards to the latter than I previously though.
 
 ---
 
