@@ -44,7 +44,7 @@ The pond-dwelling protozoa "Stentor roeseli" (S. roeseli) lives in ponds and oth
 
 In 1902, zoologist Herbert Jennings published a paper in which he described the changing behavior of S. roeseli in response to an unpleasant stimulus—the pipetting of carmine (a red dye made from powdered insect shells) into the creature’s general vicinity. According to the paper, S. roeseli’s first avoidance strategy is to bend away from the irritant. If that doesn’t work, the creature alters the direction in which its cilia beat to drive away the particles. Failing that, S. roeseli contracts its body to escape the assault. And, as a last resort, the creature detaches from the object to which it was adhered and swims away.
 
-The paper was discredited after another paper in 1967 failed to reproduce the findings, but recently has been replicated once again over 100 years after the 1902 paper.[^2]
+The paper was discredited after another paper in 1967 failed to reproduce the findings, but recently has been replicated once again over 100 years after the original 1902 paper.[^2]
 
 Here is an excerpt from the review "[Bacterial Microprocessing](http://symposium.cshlp.org/content/55/539.short)" from 1990.
 
@@ -58,7 +58,7 @@ It's cognition all the way down.
 
 Earlier in the year, I wrote a [post](/post/chatbot_panpsychism) talking about panpsychism. Which to reiterate, is "the idea that all matter (animate or inanimate) is conscious, and we are just a bit more conscious than things like trees."
 
-If you remember, or just read it again, I called this "bullshit" that "goes against our understanding of physics" and talked about how particles don't think. The issue with this is that I was only thinking about a good branch of science when reading this stuff, instead of the **worst** branch of science.
+If you remember, or just read it again, I called this "bullshit" that "goes against our understanding of physics" and talked about how particles don't think. The issue with this is that I was only thinking about a good branch of science when reading about this stuff, instead of the **worst** branch of science.
 
 The central point about cognitive systems is what they know how to detect, represent as memories, anticipate, decide among and, crucially, attempt to affect. Call this the system's cognitive horizon. One way to categorise and compare cognitive systems, whether artificial or evolved, simple or complex, is by mapping the size and shape of the goals it can support (represent and work toward).
 
