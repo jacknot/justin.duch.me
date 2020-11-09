@@ -93,7 +93,6 @@
      all elements inside .content
  */
   .content :global(pre) {
-    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
     padding: 0.5em;
     border-radius: 2px;
     overflow-x: auto;

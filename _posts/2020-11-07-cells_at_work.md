@@ -44,29 +44,37 @@ The pond-dwelling protozoa "Stentor roeseli" (S. roeseli) lives in ponds and oth
 
 In 1902, zoologist Herbert Jennings published a paper in which he described the changing behavior of S. roeseli in response to an unpleasant stimulus—the pipetting of carmine (a red dye made from powdered insect shells) into the creature’s general vicinity. According to the paper, S. roeseli’s first avoidance strategy is to bend away from the irritant. If that doesn’t work, the creature alters the direction in which its cilia beat to drive away the particles. Failing that, S. roeseli contracts its body to escape the assault. And, as a last resort, the creature detaches from the object to which it was adhered and swims away.
 
-The paper was discredited after another paper in 1967 failed to reproduce the findings, but recently has been replicated once again over 100 years after the 1902 paper.[^2]
+The paper was discredited after another paper in 1967 failed to reproduce the findings, but recently has been replicated once again over 100 years after the original 1902 paper.[^2]
 
 Here is an excerpt from the review "[Bacterial Microprocessing](http://symposium.cshlp.org/content/55/539.short)" from 1990.
 
 > To someone trying to understand the brain, the bacterium Escherichia coli must be an awesome beast. Its talents are legion, but its size is miniscule. E. coli is a cylindrical organism less than 1 μm in diameter by 2/μm long--20 would fit end-to-end in a single rod cell of the human retina or some 3000 in that of a frog. Yet, it is adept at counting molecules of specific sugars, amino acids, or dipeptides; at integration of similar or dissimilar sensory inputs over space and time; at comparing counts taken over the recent and the not so recent past; at triggering an all-or-nothing response; at swimming in a viscous medium; and as we shall see, even at pattern formation.
 
-I think there must be a fundamental difference between brained and brainless organisms, but a brain did not come out of nothing. The brain is the result of selection pressure placed on organisms with the most basic form of information processing.
+You could argue that cognition can only come from a brain, the electrial networks made of neurons. And I do think there must be a fundamental difference between brained and brainless organisms. But a brain did not come out of nothing and there is little fundamental difference between neurons and other cell types. The brain is the result of selection pressure placed on organisms with the most basic form of information processing.
+
+If you agree that there is some mechanism by which electrically active cells can represent past memories and an anticipated future, there is no reason why non-neural electric networks wouldn't be doing a simplified version of the same thing to accomplish their goals. Neurons evolved from far simpler cell types and some of the brain's tricks were discovered around the time of bacterial biofilms.
 
 It's cognition all the way down.
 
 Earlier in the year, I wrote a [post](/post/chatbot_panpsychism) talking about panpsychism. Which to reiterate, is "the idea that all matter (animate or inanimate) is conscious, and we are just a bit more conscious than things like trees."
 
-If you remember, or just read it again, I called this "bullshit" that "goes against our understanding of physics" and talked about how particles don't think. The issue with this is that I was only thinking about a good branch of science when reading this stuff, instead of the **worst** branch of science.
+If you remember, or just read it again, I called this "bullshit" that "goes against our understanding of physics" and talked about how particles don't think. The issue with this is that I was only thinking about a good branch of science when reading about this stuff, instead of the **worst** branch of science.
 
 The central point about cognitive systems is what they know how to detect, represent as memories, anticipate, decide among and, crucially, attempt to affect. Call this the system's cognitive horizon. One way to categorise and compare cognitive systems, whether artificial or evolved, simple or complex, is by mapping the size and shape of the goals it can support (represent and work toward).
 
 Each agent's mind comprises a kind of shape in a virtual space of possible past and future events. The spatial extent of this shape is determined by how far away the agent can sense and exert actions – does it know, and act to control, events within 1 cm distance, or metres, or miles away? The temporal dimension is set by how far back it can remember, and how far forward it can anticipate – can it work towards things that will happen minutes from now, days from now, or decades from now?
 
-Humans would obviously have a huge cognitive horizon, it's certainly the biggest of any cognitive system we know of. I mean, can a shitty little virus like SARS-CoV-2 make something as smart as a story about spoon genocide? Yeah, didn't think so.
+Humans would obviously have a huge cognitive horizon, sometimes working hard for things that will happen long after they are gone, in places far away. It's certainly the biggest of any cognitive system we know of. I mean, can a shitty little virus like SARS-CoV-2 make something as smart as a story about spoon genocide? Yeah, didn't think so.
 
-However, we can visualise the tiny contribution of a single cell to the projects and talents of the billions of humans working to together to create our modern, "functioning" society. So, instead of treating human "genius" as a sort of black box made of magical smart-stuff, we can reinterpret it as an expansion of cognition of the cells that make us up.
+However, we can visualise the tiny contribution of a single cell to the projects and talents of the billions of humans working to together to create our modern, "functioning society". So, instead of treating human "genius" as a sort of black box made of magical smart-stuff, we can reinterpret it as an expansion of cognition of the cells that make us up.
 
-Cells are clearly decision makers, they're much more complicated than any particle. I still don't think particles have consciousness, but if cognition drills all the way down to cells, I'm more inclined to believe that the distribution of things on the spectrum of "not-conscious" to "conscious" is skewed more towards to the latter than I previously though.
+Cells at Work made this visualistion extremely easy for me because they literally anthropomorphise cells into people with their goals clearly explained, all working together to make sure you don't die(^4). Single cell organisims might not be as complicated as us, but when all their goals are combined into more grandiose ones, it becomes a person doesn't it? Where do the cells stop and the person start?
+
+(^4): Funnily enough, this is my benchmark for "functioning society".
+
+I still don't think particles have consciousness, but if cognition drills all the way down to cells, I'm more inclined to believe that the distribution of things on the spectrum of "not-conscious" to "conscious" is skewed more towards to the latter than I previously though.
+
+My, isn't learning fun?
 
 ---
 
