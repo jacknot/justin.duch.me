@@ -212,6 +212,12 @@
   .e-content :global(.reference-link):after {
     display: none;
   }
+
+  @media screen and (max-width: 648px) {
+    .content :global(blockquote) {
+      margin: 0;
+    }
+  }
 </style>
 
 <svelte:head>
