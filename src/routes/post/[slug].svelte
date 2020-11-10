@@ -76,6 +76,10 @@
     text-decoration: none;
   }
 
+  .thumbnail-container {
+    min-height: 410px;
+  }
+
   .content .thumbnail {
     padding-bottom: 2em;
   }
@@ -227,10 +231,12 @@
 
 <div class="content h-entry">
   <h1 class="p-name">{post.title}</h1>
-  <img
-    src="https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=672&h=410"
-    alt="thumbnail"
-    class="thumbnail" />
+  <div class="thumbnail-container">
+    <img
+      src="https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=672&h=410"
+      alt="thumbnail"
+      class="thumbnail" />
+  </div>
 
   <div class="info-line">
     <small>{post.readtime}</small>
