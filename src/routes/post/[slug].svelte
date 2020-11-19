@@ -77,7 +77,7 @@
   }
 
   .thumbnail-container {
-    min-height: 410px;
+    min-height: 310px;
   }
 
   .content .thumbnail {
