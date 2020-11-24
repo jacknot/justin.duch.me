@@ -70,7 +70,7 @@ There isn't much you can do as an individual can do to help because you aren't t
 
 So, if our capitalist overlords are just going to lie and create propaganda rather than even trying to attempt becoming more sustainable, we're going to have to force them to.
 
-Other better yet, just get rid of them ;)
+Or better yet, just get rid of them ;)
 
 ----
 
