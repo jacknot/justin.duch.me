@@ -30,7 +30,7 @@ Okay so plastics have a bad reputation for being unfriendly to the environment, 
 
 Wow, what a predicament. Obviously you just can't use another material, single use plastic is amazing. It's cheap, it's easy to make, and you can't re-use it. If people are able to re-use their stuff, then that means they won't buy as many things from you! No way are you going to let that happen!
 
-Thankfully, there's an obvious solution that us businessmen have been using for decades: ~~lie~~ uhh I mean **advertise**. We will advertise our way out of a can't-recycle-it problem.
+Thankfully, there's an obvious solution that us businessmen have been using for decades: ~~lie~~ uhh I mean **advertise**. We will advertise our way out of this can't-recycle-it problem.
 
 In an interview by NPR reporter Laura Sullivan, Larry Thomas, a lobbiest for the plastics industry said:[^4]
 
