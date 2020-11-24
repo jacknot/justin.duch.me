@@ -8,7 +8,7 @@ export function get(_, res) {
     description: 'a very good blog',
     feed_url: 'https://justin.duch.me/api/feed',
     site_url: 'https://justin.duch.me',
-    managingEditor: 'Justin Duch',
+    managingEditor: 'justin@duch.me',
     webMaster: 'Justin Duch',
     language: 'en',
   });
