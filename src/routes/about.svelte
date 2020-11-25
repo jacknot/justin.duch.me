@@ -2,8 +2,10 @@
   <title>à propos</title>
 </svelte:head>
 
-<a href=".">retour</a>
-<h1>à propos</h1>
+<div class="space-yo">
+  <h1>à propos</h1>
+  <small><a href=".">&#9166; retour</a></small>
+</div>
 
 <p>
   <strong>Mail:</strong>

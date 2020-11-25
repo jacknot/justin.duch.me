@@ -31,8 +31,10 @@
   <title>articles</title>
 </svelte:head>
 
-<a href=".">retour</a>
-<h1>articles</h1>
+<div class="space-yo">
+  <h1>articles</h1>
+  <small><a href=".">&#9166; retour</a></small>
+</div>
 
 {#each posts as post}
   <!-- we're using the non-standard `rel=prefetch` attribute to

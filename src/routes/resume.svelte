@@ -5,9 +5,10 @@
   <title>rèsumè</title>
 </svelte:head>
 
-
-<a href=".">retour</a>
-<h1>rèsumè</h1>
+<div class="space-yo">
+  <h1>rèsumè</h1>
+  <small><a href=".">&#9166; retour</a></small>
+</div>
 
 <div class="space-yo">
   <p><strong>Justin Duch</strong></p>

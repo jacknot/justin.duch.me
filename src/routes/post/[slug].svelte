@@ -227,10 +227,9 @@
   <title>{post.title}</title>
 </svelte:head>
 
-<a href="/post">retour</a>
-
 <div class="content h-entry">
   <h1 class="p-name">{post.title}</h1>
+
   <div class="thumbnail-container">
     <img
       src="https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=672&h=410"
@@ -252,7 +251,7 @@
   </div>
 
   <div class="info-line footer">
-    <span />
+    <small><a href="/post">&#9166; retour</a></small>
     <small>
       <a
         href="https://github.com/beanpuppy/justin.duch.me/edit/master/_posts/{post.date}-{post.slug}.md">
