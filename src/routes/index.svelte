@@ -22,6 +22,8 @@
 <p>
   <a href="/about">à propos</a>
 </p>
+<!--
 <p>
   <a href="/resume">rèsumè</a>
 </p>
+-->
