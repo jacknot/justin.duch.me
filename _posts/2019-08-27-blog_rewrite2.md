@@ -1,7 +1,7 @@
 ---
 title: Yet Another Blog Rewrite
 thumbnail: rewrite2-thumb.png
-category: development
+category: programming
 ---
 
 Do you remember [seven months ago](/article/blog2_release) when I said

@@ -1,7 +1,7 @@
 ---
 title: Learning COBOL
 thumbnail: learning-cobol-thumb.png
-category: development
+category: programming
 ---
 
 “Over the weekend, New Jersey governor, Phil Murphy, made an unusual public [plea](https://www.northjersey.com/story/news/new-jersey/2020/04/04/coronavirus-nj-40-year-old-system-adds-delay-unemployment-checks/2944985001/) during his daily coronavirus briefing: The state was seeking volunteer programmers who know COBOL, a 60-year old programming language that the state’s unemployment benefits system is built on.”[^1]

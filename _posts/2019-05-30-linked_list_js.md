@@ -1,7 +1,7 @@
 ---
 title: Writing A Linked List In JavaScript
 thumbnail: linked-list-thumb.png
-category: development
+category: programming
 ---
 
 What up idiots, today we're making a linked list in JavaScript. Why you may

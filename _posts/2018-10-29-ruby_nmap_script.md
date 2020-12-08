@@ -1,7 +1,7 @@
 ---
 title: Writing A Simple Ruby Script To Automate Nmap
 thumbnail: ruby-nmap-thumb.png
-category: development
+category: programming
 ---
 
 An nmap scan should always be the first thing to do when you start a box, and since I'm too lazy to write `nmap -sV -sC -oA initial box_ip` (and I want a progress bar instead of having to constantly press a button to see progress), we're just going to write a script to do it for us.

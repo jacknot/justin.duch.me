@@ -1,7 +1,7 @@
 ---
 title: A Basic Deployment Guide For Aiohttp + Gunicorn + Nginx
 thumbnail: aiohttp-deployment-thumb.png
-category: development
+category: programming
 ---
 
 In this guide we will be setting up a basic aiohttp app using Gunicorn and Nginx because the documentation on this I feel is very poor, as it took me a good few hours to figure out. Or maybe it was because I haven't used any of these technologies before... Either way, I didn't understand the documentation so I'm writing my own.

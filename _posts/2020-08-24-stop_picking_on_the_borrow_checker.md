@@ -1,7 +1,7 @@
 ---
 title: Stop Picking On The Borrow Checker ;(
 thumbnail: borrow-checker-thumb.png
-category: development
+category: programming
 ---
 
 Ferris is trying his best to make you write good code okay! Don't be mean to him!

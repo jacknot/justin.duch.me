@@ -1,7 +1,7 @@
 ---
 title: Adding 2FA For CentOS/Ubuntu Servers
 thumbnail: 2fa-thumb.png
-category: development
+category: programming
 ---
 
 This is a quick guide to set up two-factor authentication on CentOS/Ubuntu servers. By quick, I mean that I'm not going to explain much. I'm only writing this because I feel bad that I haven't made a post in over a month.

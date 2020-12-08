@@ -1,7 +1,7 @@
 ---
 title: Spotify Playlist Depression Score
 thumbnail: spds-thumb.png
-category: development
+category: programming
 ---
 
 **Update 2019-01-25:** This is no logner online, I'm too lazy to maintain it, but you can still look at it on GitHub.
