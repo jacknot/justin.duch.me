@@ -11,12 +11,12 @@ const readingTime = require("reading-time");
 
 import footnotes from "./../../showdown/footnotes";
 import prettify from "./../../showdown/prettify";
-import showdownHighlight from "showdown-highlight";
+import highlight from "./../../showdown/highlight";
 
 const converter = new showdown.Converter({
   tables: true,
   strikethrough: true,
-  extensions: ["youtube", footnotes, showdownHighlight, prettify]
+  extensions: ["youtube", footnotes, highlight, prettify]
 });
 
 const postsDir = "_posts";
