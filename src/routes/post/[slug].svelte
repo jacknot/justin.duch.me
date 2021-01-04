@@ -147,6 +147,9 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .content :global(iframe) {
+    width: 100%;
+  }
 
   .content :global(table) {
     border-collapse: collapse;
@@ -251,7 +254,9 @@
   </div>
 
   <div class="info-line footer">
-    <small><a href="/post">&#9166; retour</a></small>
+    <small>
+      <a href="/post">&#9166; retour</a>
+    </small>
     <small>
       <a
         href="https://github.com/beanpuppy/justin.duch.me/edit/master/_posts/{post.date}-{post.slug}.md">
