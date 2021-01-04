@@ -157,7 +157,7 @@ It's because I got my Astolfo figma this week and I wanted to show you all! Look
 
 ![astolfo figma](https://cdn.halcyonnouveau.xyz/blog/img/astolfo-figma.png)
 
-Quel beau garçon !
+Il est tres mignon !
 
 ----
 
