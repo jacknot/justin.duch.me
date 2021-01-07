@@ -1,7 +1,6 @@
 ---
 title: « My Favourite Shows Are Supernatural, And Star Trek: TNG »
 thumbnail: chatbot-p-thumb.png
-category: miscellaneous
 ---
 
 This quote is from an example conversation Google showed in it’s blog post “[Towards a Conversational Agent that Can Chat About… Anything](https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html)” which describes their new chatbot “Meena, a 2.6 billion parameter end-to-end trained [neural conversational model](https://arxiv.org/abs/1506.05869).”

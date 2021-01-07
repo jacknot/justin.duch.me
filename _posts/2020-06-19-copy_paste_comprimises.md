@@ -1,7 +1,6 @@
 ---
 title: Copy-Paste Compromises
 thumbnail: copypaste-compromises-thumb.png
-category: infosec
 ---
 
 Today I woke up to an organisation-wide email telling me that "Australia is currently being hit by a cyber-attack which is targeting all levels of government, political parties and private businesses". Hey that sounds fun, so I look at the news and see this headline: "[Cyber-attack Australia: sophisticated attacks from ‘state-based actor’, PM says](https://www.theguardian.com/australia-news/2020/jun/19/australia-cyber-attack-attacks-hack-state-based-actor-says-australian-prime-minister-scott-morrison)."

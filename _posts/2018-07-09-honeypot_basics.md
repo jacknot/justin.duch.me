@@ -1,7 +1,6 @@
 ---
 title: An Introduction to Honeypots/Honeynets
 thumbnail: honeypot-thumb.png
-category: infosec
 ---
 
 A honeypot or a collection of honeypots (honeynet) is a controlled vulnerable system created to lure attackers. A honeypot appears to be a legitimate part of the site, but is actually isolated and monitored, and that seems to contain information or a resource of value to attackers. This allows honeypots to act as an early warning system, deceiving attackers, perhaps delaying and identifying them, and then ultimately supporting efforts to shut down the attack.

@@ -1,7 +1,6 @@
 ---
 title: Life Is Temporary And So Are Hard Drives
 thumbnail: harddrive-thumb.png
-category: miscellaneous
 ---
 
 Last week I was messing around with my [dotfiles](https://github.com/beanpuppy/dotfiles), and long story short - I `rm -rf`'ed my home directory. So today, we're going to look at backup solutions.

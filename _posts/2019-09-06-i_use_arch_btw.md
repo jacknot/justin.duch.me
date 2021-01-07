@@ -1,7 +1,6 @@
 ---
 title: How To Subtly Include The Fact You Use Arch Linux Into Everyday Conversation
 thumbnail: arch-thumb.png
-category: miscellaneous
 ---
 
 One of the biggest challenges faced by the world in this age is not knowing

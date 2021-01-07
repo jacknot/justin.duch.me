@@ -1,7 +1,6 @@
 ---
 title: Goodbye Google
 thumbnail: gg-thumb.png
-category: programming
 ---
 
 Today I've removed every single trace (I think) of Google from this website

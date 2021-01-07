@@ -1,7 +1,6 @@
 ---
 title: Vim EVERYWHERE
 thumbnail: vim-e-thumb.png
-category: miscellaneous
 ---
 
 For the past week I've been trying make everything in my laptop work with

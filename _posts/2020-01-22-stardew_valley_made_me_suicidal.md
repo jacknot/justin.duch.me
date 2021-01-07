@@ -1,7 +1,6 @@
 ---
 title: Stardew Valley Made Me Suicidal
 thumbnail: stardew-thumb.png
-category: miscellaneous
 ---
 
 Sup nerds. I've been writing posts on this blog for two years now and wow, what a great ride, we've been on all kinds of adventures! Remember when this was an infosec blog? Remember when every post wasn't just me screaming at capitalism? Remember how this website went through three rewrites? Fun times.

@@ -1,7 +1,6 @@
 ---
 title: My Quest To Find Music That Doesn’t Suck
 thumbnail: music-quest-thumb.png
-category: miscellaneous
 ---
 
 **CW:** Lots of swearing (much more than normal).

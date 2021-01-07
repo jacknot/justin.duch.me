@@ -1,7 +1,6 @@
 ---
 title: How The Fuck Do You Write A Calculator?
 thumbnail: calculator-thumb.png
-category: programming
 ---
 
 Yo.

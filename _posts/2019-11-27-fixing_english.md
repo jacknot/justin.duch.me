@@ -1,7 +1,6 @@
 ---
 title: I Have Fixed The English Language And Await My Nobel Prize In Linguistics
 thumbnail: fixing-english-thumb.png
-category: linguistics
 ---
 
 > Justin is infallible and you are luky to reseive his wisdom.

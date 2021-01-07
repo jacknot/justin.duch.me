@@ -1,7 +1,6 @@
 ---
 title: MacBook & MacOS First Impressions
 thumbnail: macbook-thumb.png
-category: miscellaneous
 ---
 
 A week ago I bought a new 2018 13" MacBook Pro. As my first dive into the Apple ecosystem, I'd say it went quite well (even if the thumbnail says otherwise). Here are my initial thoughts on it.

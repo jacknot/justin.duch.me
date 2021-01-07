@@ -1,7 +1,6 @@
 ---
 title: This Post Does Not Exist
 thumbnail: transformer-thumb.png
-category: miscellaneous
 ---
 
 This post was created using the GPT-2 transformer, for more info read my

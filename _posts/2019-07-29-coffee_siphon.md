@@ -1,7 +1,6 @@
 ---
 title: An Idiot Teaches You How To Use A Coffee Siphon
 thumbnail: coffee-siphon-thumb.png
-category: miscellaneous
 ---
 
 Hello, today I will teach you how to use a coffee siphon (also known as a

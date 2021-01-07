@@ -1,7 +1,6 @@
 ---
 title: This Is My 69th Post, Here Is Everything I Know About The Coronavirus
 thumbnail: corona-thumb.png
-category: miscellaneous
 ---
 
 According to `ls -l _posts/ | wc -l` this is my 69th post and I thought it would be fun to finally talk about [Severe acute respiratory syndrome coronavirus 2](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2) (SARS-CoV-2 or COVID-19 or just “Coronavirus”). In doing so, I’ve tried to read up on a bunch of research papers much like a certain relevant [xkcd](https://xkcd.com/2281/).

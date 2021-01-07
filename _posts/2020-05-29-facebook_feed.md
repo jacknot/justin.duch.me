@@ -1,7 +1,6 @@
 ---
 title: I Scroll Through My Facebook Feed For The First Time
 thumbnail: facebook-thumb.png
-category: miscellaneous
 ---
 
 I’ve seen many blog posts documenting people’s journey in leaving social media. The most recent one being “[Asocial? A Life Without Social Media](https://www.justinvollmer.com/2019/10/05/asocial-a-life-without-social-media/)” from Justin Vollmer.

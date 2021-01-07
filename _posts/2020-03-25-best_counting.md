@@ -1,7 +1,6 @@
 ---
 title: Which Language Has The Best Counting?
 thumbnail: counting-thumb.png
-category: linguistics
 ---
 
 [BEST SITE](https://www.languagesandnumbers.com/numbering-systems/en/)

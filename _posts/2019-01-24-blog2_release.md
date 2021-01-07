@@ -1,7 +1,6 @@
 ---
 title: I Finally Finish This Blog's First Production Release
 thumbnail: blog2-thumb.png
-category: programming
 ---
 
 I've been developing this website for just under a year now, with it having a [major revision](/article/how_do_you_write_a_blog) three months in. But now it's finally ready for it's production release, as in, I finished developing every feature a blog needs (or only the ones I wanted). So what was the last feature you ask?

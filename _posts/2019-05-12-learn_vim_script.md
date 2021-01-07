@@ -1,7 +1,6 @@
 ---
 title: Let's Learn About Vim Script And The Ethics Of Capitalism
 thumbnail:vim-script-thumb.png
-category: miscellaneous
 ---
 
 Welcome to this very informative guide on Vim Script from someone who has not

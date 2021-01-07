@@ -1,7 +1,6 @@
 ---
 title: I Teach You, A Person Of The Alt-Right, How To Properly Conceal Your Nazism
 thumbnail: steganography-thumb.png
-category: miscellaneous
 ---
 
 When I was a dumb-ass teenager, like you I used to go on 4chan and think that

@@ -1,7 +1,6 @@
 ---
 title: Can I Get A Tax Deduction On This Skirt By Showing It On This Blog?
 thumbnail: skirt-thumb.png
-category: miscellaneous
 ---
 
 Everyone knows that my favourite thing is capitalism, but do you know what I

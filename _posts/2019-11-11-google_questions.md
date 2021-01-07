@@ -1,7 +1,6 @@
 ---
 title: Things I've Always Wondered About But Was Too Lazy To Google Until Now
 thumbnail: google-questions-thumb.png
-category: miscellaneous
 ---
 
 I'm actually going to DuckDuckGo these questions, putting Google in the title

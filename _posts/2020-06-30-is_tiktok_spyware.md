@@ -1,7 +1,6 @@
 ---
 title: Is TikTok Spyware? And The Value Of Proof
 thumbnail: tiktok-thumb.png
-category: infosec
 ---
 
 If you were here last time, you may have noticed I mentioned that I probably won't  do infosec content anymore.

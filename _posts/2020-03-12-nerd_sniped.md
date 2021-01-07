@@ -1,7 +1,6 @@
 ---
 title: I Nerd Sniped Myself And Wasted A Day On This Useless Post
 thumbnail: nerd-sniped-thumb.png
-category: miscellaneous
 ---
 
 Every week or so I go through random [xkcd](https://xkcd.com) comics because I get bored at work. Today, I read comic 2123: “[Meta Collecting](https://www.xkcd.com/2123/)”, which contains the text:

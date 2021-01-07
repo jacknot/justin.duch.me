@@ -1,7 +1,6 @@
 ---
 title: A Week Where I Check The Sources On Everything I Read
 thumbnail: sauce-thumb.png
-category: miscellaneous
 ---
 
 Welcome back to this collection of loosely related blog posts on the Internet, I’m your host “[Ouiaboo](https://www.urbandictionary.com/define.php?term=ouiaboo) Mike” and today we will be discussing fake news.

@@ -1,7 +1,6 @@
 ---
 title: DNS As A Database
 thumbnail: dnsdb-thumb.png
-category: programming
 ---
 
 Hello, this is the announcement for my new revolutionary database: DNS TXT records.

@@ -1,7 +1,6 @@
 ---
 title: Québec Wants To Preserve The French Language, I Want To Destroy It
 thumbnail: bye-france-thumb.png
-category: linguistics
 ---
 
 The Office québécois de la langue française (OQLF), or the Québec Board of the

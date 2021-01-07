@@ -1,7 +1,6 @@
 ---
 title: Setting up a LAMP Stack on CentOS 7
 thumbnail: lamp-stack-thumb.png
-category: programming
 ---
 
 Welcome to the first post of my blog! This article will teach you how to set up a LAMP Linux(CentOS), Apache, MySQL, Python web server from scratch, just like how I did to get this blog running. This guide will go through everything and not all of it may apply to your circumstance, so feel free to skip ahead using the table of contents.

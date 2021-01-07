@@ -1,7 +1,6 @@
 ---
 title: Thing Of The Decade
 thumbnail: thing-thumb.png
-category: miscellaneous
 ---
 
 Hello readers, as you know the decade is coming to an end so I thought I would give a thing the title of “Best Thing of the Decade” because people seem to like award shows and I want more clicks on this blog.

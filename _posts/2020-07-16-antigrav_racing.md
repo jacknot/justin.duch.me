@@ -1,7 +1,6 @@
 ---
 title: Lockdown Thoughts: An Actually Good Anti-Gravity Racing Game
 thumbnail: antigrav-thumb.png
-category: miscellaneous
 ---
 
 Here's a question for you. What do Wipeout, Redout, and BallisticNG all have in common?

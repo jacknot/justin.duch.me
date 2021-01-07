@@ -1,7 +1,6 @@
 ---
 title: Things I Like About Object-Oriented Programming
 thumbnail: oop-thumb.png
-category: programming
 ---
 
 I hate object-oriented programming and I believe it to be the worst mistake the technology industry has ever made since von Neumann architecture.

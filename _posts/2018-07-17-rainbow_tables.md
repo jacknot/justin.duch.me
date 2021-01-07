@@ -1,7 +1,6 @@
 ---
 title: I Learn To Draw Diagrams and You Learn About Rainbow Tables
 thumbnail: rainbow-thumb.png
-category: infosec
 ---
 
 As most people should know, a Rainbow Table is a way of mapping a plaintext to it's hash by storing the plaintext -> hash combo in a file on the hard drive. However, storing every hash individually takes up an amount of space nobody could ever have. There is much more going under the hood of a Rainbow Table, and today we are going to look at how it attempts to minimise the memory it takes up.

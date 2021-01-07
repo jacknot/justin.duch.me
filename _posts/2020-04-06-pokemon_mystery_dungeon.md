@@ -1,7 +1,6 @@
 ---
 title: Where’s Bidoof? - A Review of Pokèmon Mystery Dungeon: Rescue Team DX
 thumbnail: pokemonmd-thumb.png
-category: miscellaneous
 ---
 
 To prepare for a lockdown in Australia, I bought three games to play and to make content for this blog. Unfortunately, I’ve had to scrap the other two posts because:

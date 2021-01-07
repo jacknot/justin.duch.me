@@ -1,7 +1,6 @@
 ---
 title: Top Ten Fun Things To Do When The Garage Door Opener Is Broken So You Can’t Get Your Car Out, Leaving You Stuck At Home
 thumbnail: garage-door-thumb.png
-category: miscellaneous
 ---
 
 1. Play video games: You know how you have over 500 games on Steam, but have only played 20% of them? You should try to play some… wait, what are you doing? Did you just buy the new Fire Emblem? But you still have 400 games to play! I don’t care if you want more waifus! STOP BUYING MORE GAMES! YOU HAVEN’T EVEN FINISHED DEATH STRANDING!

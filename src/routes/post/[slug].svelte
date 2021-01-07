@@ -241,11 +241,10 @@
   </div>
 
   <div class="info-line">
-    <small>{post.readtime}</small>
+    <small>{post.readtime} min de lecture</small>
 
     <small>
-      from {post.category} on
-      <span class="dt-published">{post.date}</span>
+      publié sur <span class="dt-published">{post.date}</span>
     </small>
   </div>
 

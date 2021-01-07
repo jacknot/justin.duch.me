@@ -1,7 +1,6 @@
 ---
 title: Book Backlog
 thumbnail: book-backlog-thumb.png
-category: miscellaneous
 ---
 
 Did you know that I'm actually the only person in the entire world that reads

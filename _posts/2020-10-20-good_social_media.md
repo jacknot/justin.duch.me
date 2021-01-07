@@ -1,7 +1,6 @@
 ---
 title: Lockdown Thoughts: Social Media That Doesn't Suck
 thumbnail: social-media-thumb.png
-category: miscellaneous
 ---
 
 Previously I stated that the "Lockdown Thoughts" series ended because Sydney hadn't had any new COVID cases in a while. But two days after that we got 8 locally transmitted cases.

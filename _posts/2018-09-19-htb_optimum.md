@@ -1,7 +1,6 @@
 ---
 title: HackTheBox - Optimum (ft. PowerShell)
 thumbnail: optimum-thumb.png
-category: infosec
 ---
 
 Optimum was a fun box with which while the write-up says to use Metasploit, can be done almost entirely with PowerShell. This makes it good practice for someone like me who has never used PowerShell to learn some basic things.

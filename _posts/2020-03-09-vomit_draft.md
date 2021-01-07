@@ -1,7 +1,6 @@
 ---
 title: The Vomit Draft
 thumbnail: vomit-thumb.png
-category: miscellaneous
 ---
 
 Over the years of this blog’s operation, I’ve been looking at ways to write posts more effectively.

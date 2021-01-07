@@ -1,7 +1,6 @@
 ---
 title: Kubernetes Is Not The Post Apocalyptic Hellscape I Was Told It Would Be
 thumbnail: kubernetes-thumb.png
-category: programming
 ---
 
 One cold winter night, I was looking at the CPU and bandwidth graphs DigitalOcean gives for the VPS' I rent from them. Suddenly, I saw a huge spike lasting about 10 minutes. And by huge, I mean kinda small (but not normal, I don't get a lot of traffic on this blog). It was about the same as I get from pushing a new deployment. The blog was completely unharmed and still running fine, but I wanted to see what was doing it.

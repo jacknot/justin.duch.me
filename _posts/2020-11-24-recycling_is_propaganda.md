@@ -1,7 +1,6 @@
 ---
 title: Recycling Is Capitalist Propaganda And Here's Why
 thumbnail: recycling-thumb.png
-category: miscellaneous
 ---
 
 You know what's cool?

@@ -48,8 +48,8 @@
       </a>
     </p>
     <div class="space-yo space-column">
-      <small>{post.readtime}</small>
-      <small>from {post.category} on {post.date}</small>
+      <small>{post.readtime} min de lecture</small>
+      <small>publié sur {post.date}</small>
     </div>
   </div>
 {/each}

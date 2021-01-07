@@ -1,7 +1,6 @@
 ---
 title: Does The Sapir-Whorf Hypothesis Apply To Programming Languages?
 thumbnail: wug-thumb.png
-category: linguistics
 ---
 
 This question came to me from a Medium post from Alvaro Videla called “[Programming Languages are not Languages](https://medium.com/@old_sound/programming-languages-are-not-languages-c6f161a78c44)”. You should read it first as I agree with most of it but I think there's more to add.

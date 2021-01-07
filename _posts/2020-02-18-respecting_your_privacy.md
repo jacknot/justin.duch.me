@@ -1,7 +1,6 @@
 ---
 title: Respecting Your Privacy
 thumbnail: privacy-thumb.png
-category: miscellaneous
 ---
 
 You know that form at the bottom of every post that asks you to enter your email so I can notify you when there’s a new article?

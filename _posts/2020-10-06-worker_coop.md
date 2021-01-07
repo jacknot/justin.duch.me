@@ -1,7 +1,6 @@
 ---
 title: Lockdown Thoughts: A Worker Cooperative
 thumbnail: worker-coop-thumb.png
-category: miscellaneous
 ---
 
 Today is Sydney's [11th day](https://twitter.com/NSWHealth/status/1313269154649047040)(^1) of having no locally transmitted COVID-19 cases, which means this is probably going to be the last post in the "Lockdown Thoughts" series. If you've read any of the previous posts in the series (there's only like two of them, c'mon dude), then you'd probably assume I only think about video games and anime.

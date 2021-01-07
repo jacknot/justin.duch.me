@@ -1,7 +1,6 @@
 ---
 title: Pixel Sorting And Hiding Your Face From Strangers On The Internet
 thumbnail: pixel-sort-thumb.png
-category: miscellaneous
 ---
 
 Pixel sorting is an interesting effect used to make forms of glitch art. It is

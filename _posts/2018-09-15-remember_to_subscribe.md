@@ -1,7 +1,6 @@
 ---
 title: And Remember To SMASH That Subscribe Button
 thumbnail: subscribe-thumb.png
-category: programming
 ---
 
 A few days ago someone asked if I had a subscribe feature for this blog where I would email people every time I posted something, so I told them:

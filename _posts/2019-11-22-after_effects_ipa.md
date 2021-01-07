@@ -1,7 +1,6 @@
 ---
 title: A Written Guide To Adobe After Effects But It's A Phonetic Transcription
 thumbnail: after-effects-ipa-thumb.png
-category: linguistics
 ---
 
 ə waɪl bæk aɪ sɔː ə ʤɒb ˈlɪstɪŋ frɒm preɪgə'juː fɔːr ə ˈməʊʃən ˈgræfɪk ˈɑːtɪst ænd

@@ -1,7 +1,6 @@
 ---
 title: A Reference Of Linux Screen Commands Because I Keep Forgetting Them
 thumbnail: default-thumb.png
-category: miscellaneous
 ---
 
 In Linux `screen` is a command that allows you to:

@@ -1,7 +1,6 @@
 ---
 title: What The Right Gets Wrong About Semantic Drift (And Linguistics In General)
 thumbnail: semantic-drift-thumb.png
-category: linguistics
 ---
 
 Hello everyone, I am feeling a bit down today so I thought it would be a good idea to laugh at low hanging fruit so we can all cheer up somewhat by thinking to ourselves: “At least I’m not **that** stupid”.

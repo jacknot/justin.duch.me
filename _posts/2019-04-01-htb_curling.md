@@ -1,7 +1,6 @@
 ---
 title: HackTheBox Notes - Curling (ft. Anger)
 thumbnail: curling-thumb.png
-category: infosec
 ---
 
 Continuing from [last time](/article/htb_hawk) where I just post my notes,

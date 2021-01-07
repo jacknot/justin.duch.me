@@ -1,7 +1,6 @@
 ---
 title: How The Fuck Do You Write a Blog?
 thumbnail: blog1.0-404-thumb.png
-category: programming
 ---
 
 So far this blog has averaged 0.6 articles per month (including this one) since it was launched in Feburary. Normally you would assume this is just because I'm lazy or that my social anxiety prevents me from writing anything on the internet because of a constant fear of judgement. And normally you'd be right, and you are. But it's also because of something else.

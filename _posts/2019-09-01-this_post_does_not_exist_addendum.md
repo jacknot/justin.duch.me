@@ -1,7 +1,6 @@
 ---
 title: This Post Does Not Exist [Addendum]
 thumbnail: transformer-addendum-thumb.png
-category: programming
 ---
 
 When I first created this blog, I had exactly 39 ideas for posts and

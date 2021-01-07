@@ -1,7 +1,6 @@
 ---
 title: SSL And Encryption
 thumbnail: ssl-enc-thumb.png
-category: programming
 ---
 
 TLS (Transfer Layer Security) / SSL (Secure Socket Layer) are standard, cryptographic protocols that establish security over computer networks, between a web server and a browser. SSL provides a trusted environment where all data being transmitted is encrypted.

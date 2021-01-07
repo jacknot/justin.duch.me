@@ -1,7 +1,6 @@
 ---
 title: Why Apple Silicon Is A Big Deal
 thumbnail: apple-silicon-thumb.png
-category: engineering
 ---
 
 The experience curve is a model expressing the relationship between experience producing a good and efficiency of production[^1]. It refers to the effect that firms learn from doing, which means that the higher the cumulative volume of production, the lower the direct cost per new unit produced.

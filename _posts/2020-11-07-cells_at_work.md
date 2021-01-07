@@ -1,7 +1,6 @@
 ---
 title: An Anime Made Me Rethink My Entire View On Cognition
 thumbnail: cells-thumb.png
-category: miscellaneous
 ---
 
 Personification is one of the most basic literary devices I know. I can still remember the first time I learnt about it, I was in primary school and we were also given homework to write a story which "personified spoons and forks".

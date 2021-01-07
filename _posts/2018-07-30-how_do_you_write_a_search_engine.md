@@ -1,7 +1,6 @@
 ---
 title: How The Fuck Do You Write A Search Engine?
 thumbnail: viperidae-thumb.png
-category: programming
 ---
 
 **Update 2019-01-25:** Much like [SPDS](/article/spds_release) I'm too lazy to maintain this, so it's now offline forever.

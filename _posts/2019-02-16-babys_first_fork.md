@@ -1,7 +1,6 @@
 ---
 title: Baby's First Fork
 thumbnail: fork-thumb.png
-category: programming
 ---
 
 While thinking of new posts to write, I thought of a certain something that I believed I wouldn't be able to due to the fact the my articles are now converted to HTML from markdown now (instead of being written in HTML). But then I thought *'why don't I just write in the functionality myself?'* So I've forked [python-markdown2](https://github.com/trentm/python-markdown2) and today we are going to add iframe support.

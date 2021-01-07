@@ -1,7 +1,6 @@
 ---
 title: Google Hacking For Fun And For Profit
 thumbnail: google-thumb.png
-category: infosec
 ---
 
 Google Hacking (or Google Dorks) can be very useful when gathering information on a business as it is essentially a way to use the search engine to pinpoint websites that have certain flaws, vulnerabilities, and sensitive information that can be taken advantage of. Google offers the opportunity to perform advanced search queries using special operators. Beyond the common operators (AND, OR, +, -, “”) there are more specific filters that you can use.

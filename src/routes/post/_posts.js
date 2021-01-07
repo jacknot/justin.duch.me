@@ -37,7 +37,7 @@ function getPostData(data, getHtml) {
   // Because there is no metadata extension, we need to read the lines
   let lines = data.split("\n");
   let metadataString = lines.slice(1, 4);
-  let body = lines.slice(5, lines.length).join("\n");
+  let body = lines.slice(4, lines.length).join("\n");
 
   return {
     title: metadataString[0]
@@ -46,8 +46,7 @@ function getPostData(data, getHtml) {
       .join(":")
       .trim(),
     thumbnail: metadataString[1].split(":")[1].trim(),
-    category: metadataString[2].split(":")[1].trim(),
-    readtime: readingTime(body).text,
+    readtime: Math.ceil(readingTime(body).minutes),
     html: getHtml ? converter.makeHtml(body) : null,
   };
 }

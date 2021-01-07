@@ -1,7 +1,6 @@
 ---
 title: Nostalgia For Things I’ve Never Experienced (Also Capitalism Is Bad)
 thumbnail: sehnsucht-thumb.png
-category: miscellaneous
 ---
 
 Do you know those 13 year olds who go onto YouTube videos of Queen concerts and comment something like “modern music sucks, I was born in the wrong generation”?

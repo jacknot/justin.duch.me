@@ -1,7 +1,6 @@
 ---
 title: Anarchism For The Curious
 thumbnail: anarchism-thumb.png
-category: miscellaneous
 ---
 
 When I was a wee lad (like 4 years ago), I had a geography teacher who was a very overt libertarian. He’d occasionally(^1) talk about the usual libertarian spiel, about how the free market provides “freedom of choice”, and “incentivises creativity”. The basic stuff you’d expect from a libertarian.

@@ -1,7 +1,6 @@
 ---
 title: Team Trees And The Climate Catastrophe
 thumbnail: team-trees-thumb.png
-category: miscellaneous
 ---
 
 I’m a bit late to the party on this one, I know but gimme a break. I was busy with important stuff, like playing the video games and doing the [bappin’](https://www.youtube.com/watch?v=BwSUjLQvYnw).

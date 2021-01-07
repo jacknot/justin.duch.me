@@ -1,7 +1,6 @@
 ---
 title: Retro Exploits - Cross Site Tracing (XST)
 thumbnail: xst-thumb.png
-category: infosec
 ---
 
 In 2003, Microsoft attempted to protect against one of the most common forms of Cross Site Scripting by introducing the `HttpOnly` flag in Internet Explorer 6, which prevented cookies from being accessed by JavaScript. A common attack was to access the document.cookie object and send it to a web server controlled by the attacker so that they can hijack the victim's session. Tagging a cookie as httpOnly forbids JavaScript to access it, protecting it from being sent to a third party. Cross Site Tracing (XST) was discovered by Jeremiah Grossman in 2003, and is a method used to bypass this protection by using the TRACE HTTP method.

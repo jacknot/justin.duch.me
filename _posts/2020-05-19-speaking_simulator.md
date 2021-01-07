@@ -1,7 +1,6 @@
 ---
 title: How Accurate Is Speaking Simulator?
 thumbnail: speaking-simulator-thumb.png
-category: lingustics
 ---
 
 Speaking Simulator is a video game where you speak with your mouth. This is different to most video games where your stare blankly at dialogue options and press a button to speak.

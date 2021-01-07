@@ -1,7 +1,6 @@
 ---
 title: Please Use This Post As The Related Text For Your English Essay In The HSC
 thumbnail: hsc-english-thumb.png
-category: linguistics
 ---
 
 Welcome to a new year/decade! If you are not a 2019-2020 HSC student please stop reading now because this is not for you.

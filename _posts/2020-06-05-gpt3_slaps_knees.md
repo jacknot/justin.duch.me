@@ -1,7 +1,6 @@
 ---
 title: GPT-3 Slaps Knees
 thumbnail: gpt3-thumb.png
-category: miscellaneous
 ---
 
 Hey friends, these are interesting times huh? Let's ignore all of that for now and talk about something fun instead.

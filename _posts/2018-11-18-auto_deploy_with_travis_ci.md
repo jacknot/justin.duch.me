@@ -1,7 +1,6 @@
 ---
 title: Auto Deploying WIth Travis CI And SSH
 thumbnail: travis-thumb.png
-category: programming
 ---
 
 For the past few days I've been working on getting auto deployment with Travis CI for this website. If you didn't know already, I write these articles on a localhost server and export a SQL dump to the production server. Now all I would need to do is push the dump in the Git commit and it should import it automatically (as long as all the tests succeed). Anyway, here's how to set it up.

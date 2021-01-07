@@ -1,7 +1,6 @@
 ---
 title: Techwear Clothing and How To Live Out Your Dystopian Cyberpunk Dreams
 thumbnail: techwear-thumb.png
-category: miscellaneous
 ---
 
 If you're anything like me, then one of your favorite things is seeing how much tech people can shove into absolutely anything because this leads us to two things: more IoT devices which act as a source of comedy where you laugh at their terrible security practices, and a closer look at our dystopian future where we will buy wiretaps to buy cat food on Amazon (oh wait, we already do that). Thankfully you can't hack clothes as nobody has put the internet inside of them (not giving you any ideas), and all the tech in Techwear is mainly based upon advanced materials and functionality, that is technicality instead of technology. This article should serve as an introduction to the only fashion style where a >$1000 price tag is actually justifiable.
