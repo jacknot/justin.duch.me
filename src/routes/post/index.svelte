@@ -23,6 +23,7 @@
   }
 
   a {
+    font-weight: 300;
     text-transform: lowercase;
   }
 </style>
@@ -47,9 +48,9 @@
         {post.title}
       </a>
     </p>
-    <div class="space-yo space-column">
-      <small>{post.readtime} min de lecture</small>
+    <div class="post-info">
       <small>publié sur {post.date}</small>
+      <small class="readtime">{post.readtime} min de lecture</small>
     </div>
   </div>
 {/each}

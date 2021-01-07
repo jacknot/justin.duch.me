@@ -1,182 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="theme-color" content="#333333" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <meta name="theme-color" content="#333333" />
+    %sapper.base%
 
-  %sapper.base%
+    <link href="manifest.json" rel="manifest" />
+    <link href="favicon.ico" rel="icon" type="image/icon" />
 
-  <link href="manifest.json" rel="manifest" />
-  <link href="favicon.ico" rel="icon" type="image/icon" />
+    <!-- Web sign in links -->
+    <link href="https://github.com/beanpuppy" rel="me" />
+    <link href="https://twitter.com/beanpup_py" rel="me" />
+    <link href="mailto:justin@duch.me" rel="me" />
+    <link href="/publickey.justin@duch.me.txt" rel="pgpkey authn" />
+    <link href="https://eldritch.cafe/@beanpup_py" rel="me" />
 
-  <!-- Web sign in links -->
-  <link href="https://github.com/beanpuppy" rel="me" />
-  <link href="https://twitter.com/beanpup_py" rel="me" />
-  <link href="mailto:justin@duch.me" rel="me" />
-  <link href="/publickey.justin@duch.me.txt" rel="pgpkey authn" />
-  <link href="https://eldritch.cafe/@beanpup_py" rel="me" />
+    <link rel="preconnect" href="https://cdn.halcyonnouveau.xyz" crossorigin />
+    <link rel="dns-prefetch" href="//cdn.halcyonnouveau.xyz" />
 
-  <link rel="preconnect" href="https://cdn.halcyonnouveau.xyz" crossorigin />
-  <link rel="dns-prefetch" href="//cdn.halcyonnouveau.xyz" />
+    <link
+      rel="preload"
+      href="https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Thin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Light.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
 
-  <link rel="preload" href="https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Regular.woff2" as="font"
-    type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Thin.woff2" as="font"
-    type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Light.woff2" as="font"
-    type="font/woff2" crossorigin="anonymous">
-
-  <style>
-    @font-face {
-      font-family: "Signifier";
-      src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Black.woff2") format("woff2"),
-        url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Black.woff") format("woff");
-      font-weight: 900;
-      font-style: normal;
-      font-display: swap;
-    }
-
-    @font-face {
-      font-family: "Signifier";
-      src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Bold.woff2") format("woff2"),
-        url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Bold.woff") format("woff");
-      font-weight: bold;
-      font-style: normal;
-      font-display: swap;
-    }
-
-    @font-face {
-      font-family: "Signifier";
-      src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Light.woff2") format("woff2"),
-        url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Light.woff") format("woff");
-      font-weight: 300;
-      font-style: normal;
-      font-display: swap;
-    }
-
-    @font-face {
-      font-family: "Signifier";
-      src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Extralight.woff2") format("woff2"),
-        url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Extralight.woff") format("woff");
-      font-weight: 200;
-      font-style: normal;
-      font-display: swap;
-    }
-
-    @font-face {
-      font-family: "Signifier";
-      src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Medium.woff2") format("woff2"),
-        url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Medium.woff") format("woff");
-      font-weight: 500;
-      font-style: normal;
-      font-display: swap;
-    }
-
-    @font-face {
-      font-family: "Signifier";
-      src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Regular.woff2") format("woff2"),
-        url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Regular.woff") format("woff");
-      font-weight: normal;
-      font-style: normal;
-      font-display: swap;
-    }
-
-    @font-face {
-      font-family: "Signifier";
-      src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Thin.woff2") format("woff2"),
-        url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Thin.woff") format("woff");
-      font-weight: 100;
-      font-style: normal;
-      font-display: swap;
-    }
-
-    body {
-      margin: 0;
-      font-family: Signifier, Georgia, 'Times New Roman', Times, serif !important;
-      font-size: 1.2rem;
-      font-weight: 300;
-      line-height: 1.4;
-      color: #e1e1e1;
-      background-color: #191919;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      margin: 0 0 0.5em;
-      font-style: normal;
-      letter-spacing: 0.1em;
-      font-weight: 400;
-      text-transform: lowercase;
-    }
-
-    a {
-      color: inherit;
-      font-weight: 100;
-      text-decoration: none;
-      text-decoration-color: #ccc;
-      padding: 1px;
-    }
-
-    a:hover {
-      color: #ec53dd;
-    }
-
-    strong {
-      font-weight: bold;
-    }
-
-    pre, code {
-      font-size: 0.9rem !important;
-    }
-
-    .space-yo {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      align-items: center;
-    }
-
-    @media screen and (max-width: 648px) {
-      .space-column {
-        flex-direction: column;
-        align-items: initial;
+    <style>
+      @font-face {
+        font-family: "Signifier";
+        src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Black.woff2")
+            format("woff2"),
+          url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Black.woff")
+            format("woff");
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
       }
-    }
-  </style>
 
-  <!-- Defer non-critical css -->
-  <link href="/css/tomorrow.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+      @font-face {
+        font-family: "Signifier";
+        src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Bold.woff2")
+            format("woff2"),
+          url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Bold.woff")
+            format("woff");
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+      }
 
-  <!-- Load anyway if JS is disabled -->
-  <noscript>
-    <link href="/css/tomorrow.min.css" rel="stylesheet" />
-  </noscript>
+      @font-face {
+        font-family: "Signifier";
+        src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Light.woff2")
+            format("woff2"),
+          url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Light.woff")
+            format("woff");
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+      }
 
-  <!-- Sapper generates a <style> tag containing critical CSS
+      @font-face {
+        font-family: "Signifier";
+        src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Extralight.woff2")
+            format("woff2"),
+          url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Extralight.woff")
+            format("woff");
+        font-weight: 200;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Signifier";
+        src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Medium.woff2")
+            format("woff2"),
+          url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Medium.woff")
+            format("woff");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Signifier";
+        src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Regular.woff2")
+            format("woff2"),
+          url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Regular.woff")
+            format("woff");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Signifier";
+        src: url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Thin.woff2")
+            format("woff2"),
+          url("https://cdn.halcyonnouveau.xyz/blog/webfonts/Signifier-Thin.woff")
+            format("woff");
+        font-weight: 100;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      body {
+        margin: 0;
+        font-family: Signifier, Georgia, "Times New Roman", Times, serif !important;
+        font-size: 1.2rem;
+        font-weight: 300;
+        line-height: 1.4;
+        color: #e1e1e1;
+        background-color: #191919;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0 0 0.5em;
+        font-style: normal;
+        letter-spacing: 0.1em;
+        font-weight: 400;
+        text-transform: lowercase;
+      }
+
+      a {
+        color: inherit;
+        font-weight: 100;
+        text-decoration: none;
+        text-decoration-color: #ccc;
+        padding: 1px;
+      }
+
+      a:hover {
+        color: #ec53dd;
+      }
+
+      strong {
+        font-weight: bold;
+      }
+
+      pre,
+      code {
+        font-size: 0.9rem !important;
+      }
+
+      .space-yo {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+      }
+
+      .readtime::before {
+        color: #d5d8dc;
+        content: "\2022";
+        padding: 0 0.4rem 0 0.3rem;
+        display: inline-block;
+        line-height: 1;
+      }
+
+      .post-info {
+        font-weight: 100;
+      }
+      @media screen and (max-width: 648px) {
+        .space-column {
+          flex-direction: column;
+          align-items: initial;
+        }
+      }
+    </style>
+
+    <!-- Defer non-critical css -->
+    <link
+      href="/css/tomorrow.min.css"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+
+    <!-- Load anyway if JS is disabled -->
+    <noscript>
+      <link href="/css/tomorrow.min.css" rel="stylesheet" />
+    </noscript>
+
+    <!-- Sapper generates a <style> tag containing critical CSS
          for the current page. CSS for the rest of the app is
          lazily loaded when it precaches secondary pages -->
-  %sapper.styles%
+    %sapper.styles%
 
-  <!-- This contains the contents of the <svelte:head> component, if
+    <!-- This contains the contents of the <svelte:head> component, if
          the current page has one -->
-  %sapper.head%
-</head>
+    %sapper.head%
+  </head>
 
-<body>
-  <!-- The application will be rendered inside this element,
+  <body>
+    <!-- The application will be rendered inside this element,
          because `src/client.js` references it -->
-  <div id="sapper">%sapper.html%</div>
+    <div id="sapper">%sapper.html%</div>
 
-  <!-- Sapper creates a <script> tag containing `src/client.js`
+    <!-- Sapper creates a <script> tag containing `src/client.js`
          and anything else it needs to hydrate the app and
          initialise the router -->
-  %sapper.scripts%
-</body>
-
+    %sapper.scripts%
+  </body>
 </html>

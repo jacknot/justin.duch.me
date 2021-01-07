@@ -80,8 +80,12 @@
     min-height: 310px;
   }
 
-  .content .thumbnail {
-    padding-bottom: 2em;
+  .p-name {
+    margin: 0;
+  }
+
+  .content, .post-info {
+    padding-bottom: 1em;
   }
 
   .footer {
@@ -219,9 +223,17 @@
     display: none;
   }
 
+  .fw-100 {
+    font-weight: 100;
+  }
+
   @media screen and (max-width: 648px) {
     .content :global(blockquote) {
       margin: 0;
+    }
+
+    .thumbnail-container {
+      min-height: 210px;
     }
   }
 </style>
@@ -233,19 +245,28 @@
 <div class="content h-entry">
   <h1 class="p-name">{post.title}</h1>
 
+  <div class="space-yo post-info">
+    <div>
+      <small>
+        publié sur <span class="dt-published">{post.date}</span>
+      </small>
+
+      <small class="readtime">{post.readtime} min de lecture</small>
+    </div>
+
+    <div>
+      <small class="fw-100">
+        <a href="/post">&#9166; retour</a>
+      </small>
+    </div>
+  </div>
+
+
   <div class="thumbnail-container">
     <img
       src="https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=672&h=410"
       alt="thumbnail"
       class="thumbnail" />
-  </div>
-
-  <div class="info-line">
-    <small>{post.readtime} min de lecture</small>
-
-    <small>
-      publié sur <span class="dt-published">{post.date}</span>
-    </small>
   </div>
 
   <div class="e-content">
@@ -254,13 +275,14 @@
 
   <div class="info-line footer">
     <small>
-      <a href="/post">&#9166; retour</a>
-    </small>
-    <small>
       <a
         href="https://github.com/beanpuppy/justin.duch.me/edit/master/_posts/{post.date}-{post.slug}.md">
         see a mistake? edit it here.
       </a>
+    </small>
+
+    <small>
+      <a href="/post">&#9166; retour</a>
     </small>
   </div>
 </div>
