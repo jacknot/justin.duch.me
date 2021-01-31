@@ -133,7 +133,7 @@ Yeah... not looking good huh?
 
 Maybe I should mention that the weeks surrounding Christmas to New Year's are always the worst times of the year for me. They've been a consistent source of panic attacks and normally coincide with a real nice, long depressive episode. But I don't actually think the answers I gave would have changed even if I was feeling slightly better at the current time. It's a test on suicidal behaviour - past, present, and future, and not a test on how sad I am right now.
 
-Ah well, *c'est la vie*! See you next time I guess.
+Ah bon, *c'est la vie*! See you next time I guess.
 
 ---
 
