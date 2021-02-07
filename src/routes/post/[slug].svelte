@@ -41,7 +41,7 @@
   }
 
   function showTooltips() {
-    const widthPoint = 1408;
+    const widthPoint = 1314;
     const width = document.body.clientWidth;
 
     let tooltips = document.getElementsByClassName("footnote-tooltip");
