@@ -111,6 +111,9 @@
     overflow-x: auto;
   }
 
+  .content :global(code.prettyprint) {
+    color: #b9b9b9;
+  }
   .content :global(ul) {
     line-height: 1.5;
   }

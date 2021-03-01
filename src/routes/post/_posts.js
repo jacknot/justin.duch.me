@@ -4,6 +4,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const crypto = require('crypto');
 
 const showdown = require("showdown");
 require("showdown-youtube");
@@ -54,7 +55,16 @@ function getPostData(data, getHtml) {
 
 function parseFilename(file) {
   let f = file.split(".")[0].split('-');
-  return [f.splice(0, 3).join('-'), f.splice(0, 1)[0]]
+  let [date, slug] = [f.splice(0, 3).join('-'), f.splice(0, 1)[0]]
+
+  if (slug == "[cid]") {
+    let file_buffer = fs.readFileSync(path.join(postsDir, file));
+    let sum = crypto.createHash('sha256');
+    sum.update(file_buffer);
+    slug = sum.digest('hex');
+  }
+
+  return [date, slug];
 }
 
 function getPost(snail) {
