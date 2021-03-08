@@ -28,7 +28,7 @@ The site is now available at `http://localhost:3000`.
 
 ## Other Libraries Used
 
-* [dedlnk](https://github.com/beanpuppy/dedlnk) Clojure tool to find dead links.
+* [dedlnk](https://github.com/beanpuppy/dedlnk): Clojure tool to find dead links.
 
 ## CDN
 
