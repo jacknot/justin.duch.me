@@ -179,7 +179,7 @@ With a lot of these more broad items, I think I can get away with specifying the
 And wow! Look at this! There’s only one Radiohead album from 2016, “A Moon Shaped Pool”, which goes for US$17 on [Amazon](https://www.amazon.com.au/MOON-SHAPED-POOL-RADIOHEAD/dp/B01FDF12W6)! How convenient that we don’t need to get an average!
 
 ### 8-Track Tapes
-These seem to go for around US$5 according to “[The Value of Old 8-Track Tapes: How to Price Vintage 8-Tracks](https://kicknode.com/the-value-of-old-8-track-tapes-how-to-price-vintage-8-tracks/)” from Kick Node.
+These seem to go for around US$5 according to “[The Value of Old 8-Track Tapes: How to Price Vintage 8-Tracks](http://web.archive.org/web/20161021074701/http://kicknode.com:80/the-value-of-old-8-track-tapes-how-to-price-vintage-8-tracks/)” from Kick Node.
 
 ### Gramophone Records
 The vinyl for “A Moon Shaped Pool” is US$24.93 on [Amazon](https://www.amazon.com/Moon-Shaped-Pool-2-LP-Download/dp/B01FDF12UI/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=&sr=).
@@ -316,7 +316,7 @@ $125,505,843.36 + (4 x $43.69 (Nice)) + (4 x $85.69 (Nice)) + 4 x Null
 = $24,685,829,505,843.36 + 4 x Null
 ```
 
-Now, what is a “Null”? “In [computing](https://en.wikipedia.org/wiki/Computing), a null pointer or null reference has a value saved for indicating that the [pointer](https://en.wikipedia.org/wiki/Pointer_computer_programming) or [reference](https://en.wikipedia.org/wiki/Reference_computer_science) does not refer to a valid object.”[^6] It was created by Tony Hoare who called it his “billion dollar mistake” that has lead to “innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years.”[^7]
+Now, what is a “Null”? “In [computing](https://en.wikipedia.org/wiki/Computing), a null pointer or null reference has a value saved for indicating that the [pointer](https://en.wikipedia.org/wiki/Pointer_computer_programming) or [reference](https://en.wikipedia.org/wiki/Reference_\(computer_science\)) does not refer to a valid object.”[^6] It was created by Tony Hoare who called it his “billion dollar mistake” that has lead to “innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years.”[^7]
 
 A billion dollars seems like a good number. Plugging in 4 billion (4 x Null) gives us **$24,689,829,505,843.36** (USD), or ~19 Apples.[^8]
 

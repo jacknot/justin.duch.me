@@ -26,6 +26,10 @@ yarn start:dev
 
 The site is now available at `http://localhost:3000`.
 
+## Other Libraries Used
+
+* [dedlnk](https://github.com/beanpuppy/dedlnk) Clojure tool to find dead links.
+
 ## CDN
 
 Currently all images are hosted and linked to my CDN `cdn.halcyonnouveau.xyz`. I also keep a copy them in this repository here (under the same file structure), so if the CDN goes offline you can replace the links using `sed`. E.g

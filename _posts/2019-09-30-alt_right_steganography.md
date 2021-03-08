@@ -63,7 +63,7 @@ knows what you're talking about, but it requires a lot of coordination.
 uses of it like hiding it in pictures and stuff, but I reccommend using one
 based off Natural Language Processing (NLP).
 
-Something like [Stegasuras](https://steganography.live/info) would work really
+Something like [Stegasuras](http://web.archive.org/web/20210116092145/https://steganography.live/info) would work really
 well by using Natural Language as a cover signal which makes it pretty hard to
 detect. It's an impressive piece of work which could have many applications,
 not just for spewing racist shit on the internet. But if you want to use it

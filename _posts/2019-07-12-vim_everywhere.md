@@ -59,7 +59,7 @@ it's configuration in a `tridactlyrc` (just like Vim!). You can peek at [my trid
 for a look at some of the options.
 
 [tridactyl]: https://github.com/tridactyl/tridactyl
-[my tridactylrc]: https://github.com/beanpuppy/dotfiles/blob/master/tridactyl/tridactylrc
+[my tridactylrc]: https://github.com/beanpuppy/dotfiles/blob/98e180785a8d0d12c746e7af5592925e35ef5a14/tridactyl/tridactylrc
 
 ### Everything Else
 
