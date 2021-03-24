@@ -62,11 +62,11 @@ Every natural language is part of a family (eg. English is part of the Indo-Euro
 
 While C++ and Go are in the same family of C, they are completely different languages are require a paradigm shift in thinking (and in the language itself) to learn and use one from the other. Scheme and Clojure, on the other hand are still technically different languages that attempt to do very different things, but they're both dialects of Lisp so it's incredibly easy to go from one to the other.
 
-You could argue that this is a bad thing. That natural languages only have so many dialects because language is an important part of culture and different dialects naturally occur because of that. But bits have no culture, and having so many (too many I would argue) slightly different variations of the same language provides none of the benefits and all of the negatives: like sowing dissent on the "other" and believing you're better than someone just because they use a dialect you don't.(^3)
+You could argue that this is a bad thing. That natural languages only have so many dialects because language is an important part of culture and different dialects naturally occurs because of that. But bytes have no culture, and having so many (too many I would argue) slightly different variations of the same language provides none of the benefits and all of the negatives: like sowing dissent on the "other" and believing you're better than someone just because they use a dialect you don't.(^3)
 
 (^3): There's nothing wrong with liking Clojure okay! ;( Shut up.
 
-Let's not forget The Lisp Curse.
+And let's not forget The Lisp Curse.
 
 > Since making Scheme object-oriented is so easy, many Scheme hackers have done so. More to the point, many *individual* Scheme hackers have done so. In the 1990s, this led to a veritable warehouse inventory list of object-oriented packages for the language. The Paradox of Choice, alone, guaranteed that none of them would become standard.
 
