@@ -4,12 +4,12 @@ thumbnail: lisp-thumb.png
 ---
 
 ```plaintext
-        (What the world needs
-            (I think)
-            (is not
-                (a Lisp (with fewer parentheses))
-                (but (an English
-                    (with more.)))))
+(What the world needs
+    (I think)
+    (is not
+        (a Lisp (with fewer parentheses))
+        (but (an English
+            (with more.)))))
 ```
 
 I think it's about time, as a member of the Lisp cult, to write my obligatory blog post about why Lisp is the best programming language. I've alluded to this in the past when talking about other languages I like.
@@ -70,7 +70,7 @@ And let's not forget The Lisp Curse.
 
 > Since making Scheme object-oriented is so easy, many Scheme hackers have done so. More to the point, many *individual* Scheme hackers have done so. In the 1990s, this led to a veritable warehouse inventory list of object-oriented packages for the language. The Paradox of Choice, alone, guaranteed that none of them would become standard.
 
-And you know what? You're absolutely right, we don't need a thousand different Lisp dialects. But don't you think that the fact that you can even do this is...
+You know what? You're absolutely right, we don't need a thousand different Lisp dialects. But don't you think that the fact that you can even do this is...
 
 **COOL AS FUCK.**
 
