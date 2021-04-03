@@ -14,11 +14,11 @@ thumbnail: lisp-thumb.png
 
 I think it's about time, as a member of the Lisp cult, to write my obligatory blog post about why Lisp is the best programming language. I've alluded to this in the past when talking about other languages I like.
 
-> * [things i like about object-oriented programming](/post/oop_is_okay)
+> * [Things I Like About Object-Oriented Programming](/post/oop_is_okay)
 >
 > [...] Elixir has the best modularity of any functional language (that's not a Lisp) [...]
 >
-> * [stop picking on the borrow checker ;(](/post/stop_picking_on_the_borrow_checker)
+> * [Stop Picking On The Borrow Checker ;(](/post/stop_picking_on_the_borrow_checker)
 >
 > [...] Rust is the most well designed language for developer UX (that isn't a Lisp) [...]
 
