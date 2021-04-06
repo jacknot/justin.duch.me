@@ -26,9 +26,15 @@ yarn start:dev
 
 The site is now available at `http://localhost:3000`.
 
-## Other Libraries Used
+## Archiving Tools
 
-* [dedlnk](https://github.com/beanpuppy/dedlnk): Clojure tool to find dead links.
+* [dedlnk](https://github.com/beanpuppy/dedlnk)
+
+Clojure tool to find dead links in `.md` files. Used to fix broken/dead links in every post.
+
+* [scrplnk](https://github.com/beanpuppy/scrplnk)
+
+Clojure tool to scrape all links off a website. Used to create a list of urls to batch process in [archive.org](https://archive.org/services/wayback-gsheets/).
 
 ## CDN
 
