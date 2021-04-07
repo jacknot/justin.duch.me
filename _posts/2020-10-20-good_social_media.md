@@ -80,7 +80,7 @@ And that's actually all I have. I've been thinking about this for years and I go
 
 But...
 
-I've been going through this entire thing assuming the worst possible thing is easy to do and would happen all the time. In computer security, people will often use [threat models](https://github.blog/2020-09-02-how-we-threat-model/) where they evaluate and validate the design and task planning for a new or existing service. This involves structured thinking about potential security vulnerabilities that could adversely affect their service.[^3]
+I've been going through this entire thing assuming the worst possible thing is easy to do and would happen all the time. In computer security, people will often use [threat models](https://en.wikipedia.org/wiki/Threat_model) where they evaluate and validate the design and task planning for a new or existing service. This involves structured thinking about potential security vulnerabilities that could adversely affect their service.[^3]
 
 Let's make a simple threat model for hacking democracy. We start with our threats and look for a solution to each.
 
