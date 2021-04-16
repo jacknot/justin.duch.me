@@ -11,11 +11,11 @@ I don't really know what goes into looking for a good foot pedal for this proces
 
 [Vim Clutch by Aleksandr Levchuk](https://github.com/alevchuk/vim-clutch) is an attempt at using a foot pedal for text editing in Vim. It's a quick read, but in case it ever gets taken down for some reason (who *knows* what the reason could be, the Internet is a wild place these days haha), I'm going to summarise it here.
 
-Basically, she bought 2 cheap $10 programmable pedals and tried to make it so that when the pedal is pressed down, the pedal types `i` which puts Vim in "insert" mode and when it is released, it types `<esc>` putting it back to "normal" mode.(^1)
+Basically, they bought 2 cheap $10 programmable pedals and tried to make it so that when the pedal is pressed down, the pedal types `i` which puts Vim in "insert" mode and when it is released, it types `<esc>` putting it back to "normal" mode.(^1)
 
 (^1): I'm assuming you know how Vim works, so I'm not going to explain modes.
 
-One of the problems she had was that only the "pedal down" event could be programmed, so she then took both pedals apart and used **incredibly complicated electrical engineering that no mere mortal could possibly understand** to take the sensor out of one pedal and put it into the other, giving her one pedal that can be programmed on the press+release and some junk plastic.
+One of the problems was that only the "pedal down" event could be programmed, so they then took both pedals apart and used **incredibly complicated electrical engineering that no mere mortal could possibly understand** to take the sensor out of one pedal and put it into the other, giving her one pedal that can be programmed on the press+release and some junk plastic.
 
 This is all well and good. It seems like it could be pretty useful, like with how transcribers use them.
 
@@ -45,9 +45,9 @@ Don't ask how much they cost and ignore the cables.
 
 Since I have three pedals, this means I can map them to more Vim commands, which means I can write better, and that makes me a better person (in general).
 
-If you disagree, at the end of her document, Levchuk says something about ordering a "triple version" of the pedal, but she hasn't done it yet and it's been over 9 years, so I don't think it's going to happen. This makes me pretty confident in my statement.
+If you disagree, at the end of her document, Levchuk says something about ordering a "triple version" of the pedal, but they haven't done it yet and it's been over 9 years, so I don't think it's going to happen. This makes me pretty confident in my statement.
 
-But since we're here, let's see what she wanted to do with three pedals.
+But since we're here, let's see what Levchuk wanted to do with three pedals.
 
 > PC Sensor also has a triple version of the pedal. I will order two of those as well. I will program:
 >
@@ -57,7 +57,7 @@ But since we're here, let's see what she wanted to do with three pedals.
 
 I am so mad right now, I'm actually **shaking**.
 
-Not only did she have the **nerve** to call the "clutch", "break", and "throttle" pedals "left", "middle", and "right" instead, **all** of them are for going into normal mode (which we **all**(^3) agreed is analogous to accelerating). So these pedals would all be throttles! I'm going to cry.
+Not only did they have the **nerve** to call the "clutch", "break", and "throttle" pedals "left", "middle", and "right" instead, **all** of them are for going into normal mode (which we **all**(^3) agreed is analogous to accelerating). So these pedals would all be throttles! I'm going to cry.
 
 (^3): Yeah, we all did. I saw you agreeing back there!
 
