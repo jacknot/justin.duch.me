@@ -99,7 +99,7 @@ Pressing the throttle scrolls the cursor to the right, and wraps to the next lin
 
 The character selected by you wheel is inserted automatically every few seconds (depending on your RPM), so you use your break pedal to completely stop the insertion. Once again, with the 16 bit resolution of the Loadcell Brake extension for your Fanatec CSL Elite Pedals, you get even more options on how much breaking force you can apply.
 
-You can change modes with your Fanatec ClubSport Shifter SQ, when the clutch is pressed in. Vim only has three modes, but the Fanatec ClubSport Shifter SQ uses a 7 gear H-pattern layout, which means we can have 8 modes (including reverse)!
+You can change modes with your Fanatec ClubSport Shifter SQ when the clutch is pressed in. Vim only has three modes, but the Fanatec ClubSport Shifter SQ uses a 7 gear H-pattern layout, which means we can have 8 modes (including reverse)!
 
 Does this make any sense? No. But, if the sim-racing community has taught me anything, if I can become a better driver by buying more expensive gear, then surely I'll get better at text editing too! And besides, now you can [heel-toe](https://en.wikipedia.org/wiki/Heel-and-toe_shifting) in your text editor.
 
