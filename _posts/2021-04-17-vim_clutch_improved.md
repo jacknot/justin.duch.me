@@ -97,7 +97,7 @@ The carbon fibre construction of the ClubSport wheel, will make those rotations 
 
 Pressing the throttle scrolls the cursor to the right, and wraps to the next line when it gets to the end of the current line (and back to the top of the document when it gets to the end). With the 12 bit resolution of the Fanatec CSL Elite Pedals, you'd even be able to granularly change how fast it moves.
 
-The character selected by you wheel is inserted automatically every few seconds (depending on your RPM), so you use your break pedal to completely stop the insertion. Once again, with the 16 bit resolution of the Loadcell Brake extension for your Fanatec CSL Elite Pedals, you get even more options on how much breaking force you can apply.
+The character selected by your wheel is inserted automatically every few seconds (depending on your RPM), so you use your break pedal to completely stop the insertion. Once again, with the 16 bit resolution of the Loadcell Brake extension for your Fanatec CSL Elite Pedals, you get even more options on how much breaking force you can apply.
 
 You can change modes with your Fanatec ClubSport Shifter SQ when the clutch is pressed in. Vim only has three modes, but the Fanatec ClubSport Shifter SQ uses a 7 gear H-pattern layout, which means we can have 8 modes (including reverse)!
 
