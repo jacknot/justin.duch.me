@@ -45,7 +45,7 @@ Don't ask how much they cost and ignore the cables.
 
 Since I have three pedals, this means I can map them to more Vim commands, which means I can write better, and that makes me a better person (in general).
 
-If you disagree, at the end of her document, Levchuk says something about ordering a "triple version" of the pedal, but they haven't done it yet and it's been over 9 years, so I don't think it's going to happen. This makes me pretty confident in my statement.
+If you disagree, at the end of their document, Levchuk says something about ordering a "triple version" of the pedal, but they haven't done it yet and it's been over 9 years, so I don't think it's going to happen. This makes me pretty confident in my statement.
 
 But since we're here, let's see what Levchuk wanted to do with three pedals.
 
