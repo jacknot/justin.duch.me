@@ -1,16 +1,13 @@
 <script context="module">
-  export async function preload({ params, query }) {
-    // the `slug` parameter is available because
-    // this file is called [slug].svelte
-    const res = await this.fetch(`post/${params.slug}.json`);
-    const data = await res.json();
-
-    if (res.status === 200) {
-      return { post: data };
-    } else {
-      this.error(res.status, data.message);
+  export const load = async ({ page, fetch }) => {
+    const res = await fetch(`/post/${page.params.slug}.json`);
+    if (res.ok) {
+      const post = await res.json();
+      return {
+        props: { post }
+      };
     }
-  }
+  };
 </script>
 
 <script>
@@ -66,6 +63,56 @@
   });
 </script>
 
+<svelte:head>
+  <title>{post.title}</title>
+</svelte:head>
+
+<div class="content h-entry">
+  <h1 class="p-name">{post.title}</h1>
+
+  <div class="space-yo post-info">
+    <div>
+      <small>
+        publié sur <span class="dt-published">{post.date}</span>
+      </small>
+
+      <small class="readtime">{post.readtime} min de lecture</small>
+    </div>
+
+    <div>
+      <small class="fw-100">
+        <a href="/post">&#9166; retour</a>
+      </small>
+    </div>
+  </div>
+
+  <div class="thumbnail-container">
+    <img
+      src="https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=672&h=410"
+      alt="thumbnail"
+      class="thumbnail"
+    />
+  </div>
+
+  <div class="e-content">
+    {@html post.html}
+  </div>
+
+  <div class="info-line footer">
+    <small>
+      <a
+        href="https://github.com/beanpuppy/justin.duch.me/edit/master/_posts/{post.date}-{post.slug}.md"
+      >
+        see a mistake? edit it here.
+      </a>
+    </small>
+
+    <small>
+      <a href="/post">&#9166; retour</a>
+    </small>
+  </div>
+</div>
+
 <style>
   .content .info-line {
     display: flex;
@@ -84,7 +131,8 @@
     margin: 0;
   }
 
-  .content, .post-info {
+  .content,
+  .post-info {
     padding-bottom: 1em;
   }
 
@@ -194,9 +242,6 @@
     background: #191919;
   }
 
-  /*
-   * .footnote-body is shown when JS is disabled because you can't click on it
-   */
   .content :global(.footnote-tooltip),
   .content :global(.footnote-body) {
     font-size: smaller;
@@ -240,52 +285,3 @@
     }
   }
 </style>
-
-<svelte:head>
-  <title>{post.title}</title>
-</svelte:head>
-
-<div class="content h-entry">
-  <h1 class="p-name">{post.title}</h1>
-
-  <div class="space-yo post-info">
-    <div>
-      <small>
-        publié sur <span class="dt-published">{post.date}</span>
-      </small>
-
-      <small class="readtime">{post.readtime} min de lecture</small>
-    </div>
-
-    <div>
-      <small class="fw-100">
-        <a href="/post">&#9166; retour</a>
-      </small>
-    </div>
-  </div>
-
-
-  <div class="thumbnail-container">
-    <img
-      src="https://cdn.halcyonnouveau.xyz/blog/thumbnails/{post.thumbnail}?w=672&h=410"
-      alt="thumbnail"
-      class="thumbnail" />
-  </div>
-
-  <div class="e-content">
-    {@html post.html}
-  </div>
-
-  <div class="info-line footer">
-    <small>
-      <a
-        href="https://github.com/beanpuppy/justin.duch.me/edit/master/_posts/{post.date}-{post.slug}.md">
-        see a mistake? edit it here.
-      </a>
-    </small>
-
-    <small>
-      <a href="/post">&#9166; retour</a>
-    </small>
-  </div>
-</div>

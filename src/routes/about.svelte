@@ -22,6 +22,4 @@
   <strong>RSS:</strong>
   <a href="/api/feed">justin.duch.me/api/feed</a>
 </p>
-<p>
-  All opinions are my own and do not reflect those of anyone I work for.
-</p>
+<p>All opinions are my own and do not reflect those of anyone I work for.</p>

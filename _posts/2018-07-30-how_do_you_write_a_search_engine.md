@@ -3,9 +3,9 @@ title: How The Fuck Do You Write A Search Engine?
 thumbnail: viperidae-thumb.png
 ---
 
-**Update 2019-01-25:** Much like [SPDS](/article/spds_release) I'm too lazy to maintain this, so it's now offline forever.
+**Update 2019-01-25:** Much like [SPDS](/post/spds_release) I'm too lazy to maintain this, so it's now offline forever.
 
-Following on with my previous article where we look at [old, shitty code and rebuild it](/article/how_do_you_write_a_blog), today we are looking at code I made for a school assignment. It was a search engine called 'viperidae' (I don't know how you are supposed to pronounce it) and was the first big software project I've ever done. You could even say that it was a MAJOR project... because it was. It was for my SDD Year 12 major project. But before we begin, I'll just get the question that everyone has right now out of the way.
+Following on with my previous article where we look at [old, shitty code and rebuild it](/post/how_do_you_write_a_blog), today we are looking at code I made for a school assignment. It was a search engine called 'viperidae' (I don't know how you are supposed to pronounce it) and was the first big software project I've ever done. You could even say that it was a MAJOR project... because it was. It was for my SDD Year 12 major project. But before we begin, I'll just get the question that everyone has right now out of the way.
 
 **What mark did you get?**
 

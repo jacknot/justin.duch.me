@@ -7,13 +7,13 @@ To prepare for a lockdown in Australia, I bought three games to play and to make
 
 I have nothing to say about “Persona 5: Dancing Star Night”. It’s a dancing rhythm game, and I don’t know how to talk about that. It’s a good game, and seeing the Phantoms Thieves dance in silly costumes is funny. That’s literally all I have to say about it.
 
-I also thought “Animal Crossing: New Horizons” would make good content. I could even make reference to that time “[Stardew Valley Made Me Suicidal](/article/stardew_valley_made_me_suicidal)” and see if this game would make me want to kill myself as well. But it became very clear that this is a game you're supposed to play with friends, given by how much they try to emphasise the online features. This causes a problem for me because **I don't have friends**.
+I also thought “Animal Crossing: New Horizons” would make good content. I could even make reference to that time “[Stardew Valley Made Me Suicidal](/post/stardew_valley_made_me_suicidal)” and see if this game would make me want to kill myself as well. But it became very clear that this is a game you're supposed to play with friends, given by how much they try to emphasise the online features. This causes a problem for me because **I don't have friends**.
 
 So I gave up on that game, and now we’re just left with one.
 
 I’ve never played a Pokèmon Mystery Dungeon game before so when deciding which game to buy, I looked at the back of the box, saw you played as a Pokèmon and went: “**WOAH** hold on! Can you play **AS** Bidoof in this?”
 
-I know when I talked about his [last time](/article/pokemon_x), I never stated playing as Bidoof as a requirement for my perfect Pokèmon game. But that was because I never thought I was possible to be able to catch Bidoof’s pure majesty, his **elegance**, **HIS PERFECTION** in a first person perspective. I assumed we would have to be forever stuck as a spectator to this god-like entity, but could this game really do it?
+I know when I talked about his [last time](/post/pokemon_x), I never stated playing as Bidoof as a requirement for my perfect Pokèmon game. But that was because I never thought I was possible to be able to catch Bidoof’s pure majesty, his **elegance**, **HIS PERFECTION** in a first person perspective. I assumed we would have to be forever stuck as a spectator to this god-like entity, but could this game really do it?
 
 I had to find out.
 

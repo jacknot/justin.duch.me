@@ -1,8 +1,7 @@
-const RSS = require('rss');
-
+import RSS from 'rss';
 import { getPosts } from './../post/_posts.js';
 
-export function get(_, res) {
+export const get = async (request) => {
   let feed = new RSS({
     title: 'justin.duch.me',
     description: 'a very good blog',
@@ -22,9 +21,11 @@ export function get(_, res) {
     });
   });
 
-  res.writeHead(200, {
-    'Content-Type': 'application/rss+xml'
-  });
-
-  res.end(feed.xml());
+  return {
+    body: feed.xml(),
+    headers: {
+      'Cache-Control': `max-age=0, s-max-age=${600}`, // 10 minutes
+      'Content-Type': 'application/rss+xml'
+    }
+  };
 }

@@ -3,11 +3,11 @@ title: I Finally Finish This Blog's First Production Release
 thumbnail: blog2-thumb.png
 ---
 
-I've been developing this website for just under a year now, with it having a [major revision](/article/how_do_you_write_a_blog) three months in. But now it's finally ready for it's production release, as in, I finished developing every feature a blog needs (or only the ones I wanted). So what was the last feature you ask?
+I've been developing this website for just under a year now, with it having a [major revision](/post/how_do_you_write_a_blog) three months in. But now it's finally ready for it's production release, as in, I finished developing every feature a blog needs (or only the ones I wanted). So what was the last feature you ask?
 
 It was that search bar on the top right.
 
-That's right, the search bar hasn't worked for the past year even though it looks so inviting, and looking at my Google Analytics report, it has fooled a few of you. Anyway, even though [I've made a search engine](/article/how_do_you_write_a_search_engine) in the past, I thought it was too much of a bother to do, so the bar just turns it into a Google search. Literally five lines of HTML.
+That's right, the search bar hasn't worked for the past year even though it looks so inviting, and looking at my Google Analytics report, it has fooled a few of you. Anyway, even though [I've made a search engine](/post/how_do_you_write_a_search_engine) in the past, I thought it was too much of a bother to do, so the bar just turns it into a Google search. Literally five lines of HTML.
 
 ## the future
 

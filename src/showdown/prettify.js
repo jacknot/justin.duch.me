@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = () => [
+export const prettify = () => [
   {
     type: "output",
     filter: function (source) {

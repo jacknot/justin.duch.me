@@ -7,7 +7,7 @@ This is going to be a very short penetration test mainly focusing on low hanging
 
 ### 0x100: SPDS
 
-[Spotfiy Playlist Depression Score (SPDS)](/article/spds_release) is an application that rates how depressing your Spotify playlist is. This was my first foray into the JavaScript framework world with AngularJS, so let's start off with some basic XSS.
+[Spotfiy Playlist Depression Score (SPDS)](/post/spds_release) is an application that rates how depressing your Spotify playlist is. This was my first foray into the JavaScript framework world with AngularJS, so let's start off with some basic XSS.
 
 The only field we can enter any inputs is this one here, where you can manually enter a playlist.
 

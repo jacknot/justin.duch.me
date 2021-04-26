@@ -8,11 +8,6 @@ Source code for [https://justin.duch.me](https://justin.duch.me).
 
 ## Development
 
-### Requirements
-
-* NodeJS 13.1.0+
-* Yarn 1.19.1+
-
 ### Building
 
  To build and run the site locally:
@@ -20,8 +15,8 @@ Source code for [https://justin.duch.me](https://justin.duch.me).
 ```
 git clone https://github.com/beanpuppy/justin.duch.me
 cd justin.duch.me
-yarn install
-yarn start:dev
+npm i
+npm run dev
 ```
 
 The site is now available at `http://localhost:3000`.

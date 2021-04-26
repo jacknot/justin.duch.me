@@ -5,7 +5,7 @@ thumbnail: ssl-enc-thumb.png
 
 TLS (Transfer Layer Security) / SSL (Secure Socket Layer) are standard, cryptographic protocols that establish security over computer networks, between a web server and a browser. SSL provides a trusted environment where all data being transmitted is encrypted.
 
-This article is technically a continuation of my [last article](/article/lamp_stack_on_centos) where we set up a CentOs7 server with Apache, and will go through explaining SSL aswell as setting it up our sever.
+This article is technically a continuation of my [last article](/post/lamp_stack_on_centos) where we set up a CentOs7 server with Apache, and will go through explaining SSL aswell as setting it up our sever.
 
 ### 0x100: TLS/SSL?
 

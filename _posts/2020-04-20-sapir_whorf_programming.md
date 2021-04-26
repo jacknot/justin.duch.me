@@ -29,7 +29,7 @@ If you’re thinking that it’s unfair to compare loanwords to taking entire pr
 
 With all that done, let’s get back to asking “does the Sapir-Whorf hypothesis apply to programming languages?”
 
-I’ve mentioned what the Sapir-Whorf hypothesis was [before](/article/hsc_english), but I like to pad out my posts so I’m going to do it again.
+I’ve mentioned what the Sapir-Whorf hypothesis was [before](/post/hsc_english), but I like to pad out my posts so I’m going to do it again.
 
 The Sapir-Whorf hypothesis “is a principle claiming that the structure of a language affects its speakers’ world view or cognition, and thus people’s perceptions are relative to their spoken language.”
 
