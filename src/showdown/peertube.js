@@ -37,7 +37,7 @@ function parseDimensions(rest) {
   };
 }
 
-module.exports = () => [
+export const peertube = () => [
   {
     type: "output",
     filter: (text) => {

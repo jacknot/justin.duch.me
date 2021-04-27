@@ -39,6 +39,6 @@ I'm coming clean here: I've forgotten almost all of Visual Basic so I don't know
 
 This is the function for when you press `=`. It could be better, but it could also be **a lot** worse.
 
-Now previously on ["How The Fuck Do You Write A Search Engine"](/article/how_do_you_write_a_search_engine) and [the other one](/article/how_do_you_write_a_blog), I attempted the project again to see if I could make it any better with more experience. I've done the same here:
+Now previously on ["How The Fuck Do You Write A Search Engine"](/post/how_do_you_write_a_search_engine) and [the other one](/post/how_do_you_write_a_blog), I attempted the project again to see if I could make it any better with more experience. I've done the same here:
 
 ![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/cal_good.png)

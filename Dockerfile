@@ -1,12 +1,15 @@
-FROM mhart/alpine-node:10.21
+FROM mhart/alpine-node:16.0.0
 
-COPY package.json yarn.lock ./
-RUN yarn install
+WORKDIR /app
+COPY package.json package-lock.json svelte.config.cjs ./
+RUN npm i
 
-COPY . .
-RUN yarn export
+COPY src ./src
+COPY static ./static
+COPY _posts ./_posts
+RUN npm run export
 
 FROM nginx:alpine
 
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
-COPY --from=0 __sapper__/export/. /usr/share/nginx/html
+COPY --from=0 /app/build/. /usr/share/nginx/html

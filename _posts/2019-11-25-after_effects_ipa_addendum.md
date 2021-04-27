@@ -4,7 +4,7 @@ thumbnail: after-effects-ipa-addendum-thumb.png
 ---
 
 This is an addendum to my previous post which you can read
-[here](article/after_effects_ipa).
+[here](/post/after_effects_ipa).
 
 ----
 

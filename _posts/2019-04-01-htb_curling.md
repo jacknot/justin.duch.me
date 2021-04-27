@@ -3,7 +3,7 @@ title: HackTheBox Notes - Curling (ft. Anger)
 thumbnail: curling-thumb.png
 ---
 
-Continuing from [last time](/article/htb_hawk) where I just post my notes,
+Continuing from [last time](/post/htb_hawk) where I just post my notes,
 today is `Curling`. Also note that today is the first of April, and my April
 fools joke is that this is not an April fools joke… or is it? I jest of
 course, these notes are already enough of a joke.

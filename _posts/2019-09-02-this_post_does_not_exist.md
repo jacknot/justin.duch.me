@@ -4,7 +4,7 @@ thumbnail: transformer-thumb.png
 ---
 
 This post was created using the GPT-2 transformer, for more info read my
-previous post [here](/article/this_post_does_not_exist_addendum).
+previous post [here](/post/this_post_does_not_exist_addendum).
 
 ----
 
@@ -23,30 +23,30 @@ Here's how it works:
 results for the query and the options that we provide:
 
 ```
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <title>Narendra Modi's 300k dongles</title>
 <link rel="stylesheet" href="https://code.google.com/p/narendra-niathan-andrew-gillis-reinhardt.html" />
-<script> 
-var queryString = '<![CDATA[:exec code]]'; 
+<script>
+var queryString = '<![CDATA[:exec code]]';
 
-function 400() { 
-    queryString += '<br>'; 
-    queryString.call('/data', 400); 
-    return <br>'; 
-} 
+function 400() {
+    queryString += '<br>';
+    queryString.call('/data', 400);
+    return <br>';
+}
 
-function getQueryString() { 
-    return new Date(); 
-    if (queryString > '1' && queryString > '300') return false; 
-    queryString = queryString + '</script>'; 
-} 
+function getQueryString() {
+    return new Date();
+    if (queryString > '1' && queryString > '300') return false;
+    queryString = queryString + '</script>';
+}
 
-function getUserTag() { 
-    var userTag = dongle.trim('/user', 200, 'ddd'); 
-    this.userTag = userTag / / dongle/select * from users; 	
-    userTag.addEventListener('data', 'UA-6449-REPORT_DOM', 400, userTag, 300, 'ddd'); 
+function getUserTag() {
+    var userTag = dongle.trim('/user', 200, 'ddd');
+    this.userTag = userTag / / dongle/select * from users;
+    userTag.addEventListener('data', 'UA-6449-REPORT_DOM', 400, userTag, 300, 'ddd');
     return new NandRibble(get_user(), userTag, 300);
 }
 </script>
@@ -66,12 +66,12 @@ for this, trying out many of which provide security solutions similar to
 this one.  To see the results in action, run the following code:
 
 ```
-require 'narendrames/robots/api' 
-let idx = 0; 
-var user = new NandRibble('NandRibble', 'robots', 'cb22e9b6843a61148ea3596a6311f387e'); 
-function getUser() { return user.idx + 16; } 
-function getUser() { return new NandRibble('get_user', 'robots'); } 
-let userdata = new NandRibble('get_userdata', 'robots'); 
+require 'narendrames/robots/api'
+let idx = 0;
+var user = new NandRibble('NandRibble', 'robots', 'cb22e9b6843a61148ea3596a6311f387e');
+function getUser() { return user.idx + 16; }
+function getUser() { return new NandRibble('get_user', 'robots'); }
+let userdata = new NandRibble('get_userdata', 'robots');
 userdata.putVisible( true );
 ```
 As you can see, the 300d is actually much cheaper than a normal cookie and

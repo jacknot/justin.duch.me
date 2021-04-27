@@ -23,7 +23,7 @@ Each language counts in their own different way, they all have unique quirks and
 
 But that would make this post too short, so instead we’re going to base it off string length. For each language(^1), we’re going to find the biggest string we can make (E.g. In English “seventy-five” is 12 characters long) and compare it with the other languages. The language with the shortest string wins and is crowned “Language with the Best Counting (along with all the other languages who count just a good, but this one has the shortest string length in our scoring system)”.
 
-(^1): Only the ones I’m interested in instead of doing all of them. Not going to make that <a href="/article/nerd_sniped">mistake</a> again.
+(^1): Only the ones I’m interested in instead of doing all of them. Not going to make that <a href="/post/nerd_sniped">mistake</a> again.
 
 Although, we’re only going to compare [Indo-European](https://en.wikipedia.org/wiki/Indo-European_languages) languages because most of them have similar alphabets and I don’t think it’s fair to compare the length of the letter “g” to whatever this: “सौ” is.
 

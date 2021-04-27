@@ -3,7 +3,7 @@ title: Yet Another Blog Rewrite
 thumbnail: rewrite2-thumb.png
 ---
 
-Do you remember [seven months ago](/article/blog2_release) when I said
+Do you remember [seven months ago](/post/blog2_release) when I said
 development of this blog was finished and I was just going to make small
 changes from now on? Turns out that was a hecking lie.
 

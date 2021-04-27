@@ -44,7 +44,7 @@ No.
 
 Yes.
 
-[Source](/article/google_questions)
+[Source](/post/google_questions)
 
 ## What are a cat's whiskers used for?
 

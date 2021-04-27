@@ -5,7 +5,7 @@ thumbnail: spds-thumb.png
 
 **Update 2019-01-25:** This is no logner online, I'm too lazy to maintain it, but you can still look at it on GitHub.
 
-[Spotify Playlist Depression Score](https://playlistdepressionscore.com) is a web application I built to determine how depressing a playlist is from it's songs. This article explains how I built it and how it works. As of writing, SPDS is on it's 1.0 release, so keep in mind that there are a lot of improvement to be made, and that this article may not always be up to date. To view the most up to date changes, go through the [changelog on GitHub](https://github.com/beanpuppy/spds/releases) or view all SPDS articles through the [#SPDS tag.](/tag/spds)
+[Spotify Playlist Depression Score](https://playlistdepressionscore.com) is a web application I built to determine how depressing a playlist is from it's songs. This article explains how I built it and how it works. As of writing, SPDS is on it's 1.0 release, so keep in mind that there are a lot of improvement to be made, and that this article may not always be up to date. To view the most up to date changes, go through the [changelog on GitHub](https://github.com/beanpuppy/spds/releases) or view all SPDS articles through the #SPDS tag.
 
 ### 0x100: The Architecture
 

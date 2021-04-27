@@ -20,8 +20,9 @@
 </p>
 <p>
   <strong>RSS:</strong>
-  <a href="/api/feed">justin.duch.me/api/feed</a>
+  <a href="/rss">justin.duch.me/rss</a>
+  |
+  <strong>Atom:</strong>
+  <a href="/atom">justin.duch.me/atom</a>
 </p>
-<p>
-  All opinions are my own and do not reflect those of anyone I work for.
-</p>
+<p>All opinions are my own and do not reflect those of anyone I work for.</p>

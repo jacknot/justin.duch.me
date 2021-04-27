@@ -1,8 +1,9 @@
 'use strict';
 
-const converter = new (require('showdown').Converter)();
+import showdown from 'showdown';
+const converter = new showdown.Converter();
 
-module.exports = () => [
+export const footnotes = () => [
   // References - E.g:
   // I am the text in the body[^1].
   // [^1]: I am a reference
