@@ -33,7 +33,9 @@ Our new user has been set up, but it only has regular user privilages. If we eve
 
 To do this we will add our user to the wheel group. By default, on CentOS, members of the wheel group have sudo privileges.
 
-    [root@okserver]# usermod -aG wheel USER_NAME #### 0x202: configuring ssh
+    [root@okserver]# usermod -aG wheel USER_NAME
+
+#### 0x202: configuring ssh
 
 To make our server more secure we will configure the SSH daemon to disallow remote SSH access from root and change the deafult SSH port. Changing the default port from 22 to someting more unique will help to stop many automated attacks, and make it harder to guess which port SSH is accessible from. You can enter any port number from 1024 to 32,767.
 
