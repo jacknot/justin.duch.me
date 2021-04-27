@@ -31,16 +31,16 @@
 </script>
 
 <svelte:head>
-  <title>articles</title>
+  <title>article chronologie</title>
 </svelte:head>
 
 <div class="space-yo">
-  <h1>articles</h1>
+  <h1>article chronologie</h1>
   <small><a href=".">&#9166; retour</a></small>
 </div>
 
 {#each posts as post}
-  <div style="width: 100%; height: {distanceFromPrev(post)}em; padding: 1em 0.5em 1em 4em;">
+  <div style="max-width: 100%; height: {distanceFromPrev(post)}em; padding: 1em 0.5em 1em 4em;">
     <div class="divider"></div>
   </div>
 
@@ -50,6 +50,11 @@
         {post.title}
       </a>
     </p>
+
+    <div class="bottom-border">
+      <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.2); max-width: 100%; width: {post.readtime}em;"></div>
+    </div>
+
     <div class="post-info">
       <small>publié sur {post.date}</small>
       <small class="readtime">{post.readtime} min de lecture</small>
@@ -60,7 +65,12 @@
 <style>
   .divider {
     height: 100%;
-    border-left: dashed 1px #8a8a8a;
+    border-left: 1px dashed rgba(255, 255, 255, 0.2);
+  }
+
+  .bottom-border {
+    margin-top: 0.2em;
+    width: 100%;
   }
 
   .post {

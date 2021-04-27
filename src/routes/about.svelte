@@ -21,6 +21,7 @@
 <p>
   <strong>RSS:</strong>
   <a href="/rss">justin.duch.me/rss</a>
+  |
   <strong>Atom:</strong>
   <a href="/atom">justin.duch.me/atom</a>
 </p>

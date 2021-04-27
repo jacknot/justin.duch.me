@@ -12,5 +12,7 @@
   export let title;
 </script>
 
-<small><a href=".">&#9166; retour</a></small>
-<h1>error : {title}</h1>
+<div class="space-yo">
+  <h1>error : {title}</h1>
+  <small><a href=".">&#9166; retour</a></small>
+</div>
