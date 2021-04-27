@@ -4,7 +4,7 @@
 
 <div class="space-yo">
   <h1>à propos</h1>
-  <small><a href=".">&#9166; retour</a></small>
+  <small><a href="/">&#9166; retour</a></small>
 </div>
 
 <p>
