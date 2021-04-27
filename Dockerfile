@@ -1,7 +1,7 @@
 FROM mhart/alpine-node:16.0.0
 
 WORKDIR /app
-COPY package.json svelte.config.cjs ./
+COPY package.json package-lock.json svelte.config.cjs ./
 RUN npm i
 
 COPY src ./src
