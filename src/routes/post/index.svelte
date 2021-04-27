@@ -17,7 +17,7 @@
 
   export let posts;
 
-  const current_build = DateTime.now();
+  const current_build = DateTime.now().setZone("Australia/Sydney");;
 
   function distanceFromPrev(post) {
     const index = posts.map(p => p.date).indexOf(post.date);
