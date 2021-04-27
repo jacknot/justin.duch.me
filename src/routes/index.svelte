@@ -1,3 +1,7 @@
+<script context="module">
+  export const hydrate = false;
+</script>
+
 <svelte:head>
   <title>accueil</title>
 </svelte:head>

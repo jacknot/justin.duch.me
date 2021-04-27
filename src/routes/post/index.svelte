@@ -1,4 +1,6 @@
 <script context="module">
+  export const hydrate = false;
+
   export const load = async ({ fetch }) => {
     const res = await fetch('/post.json');
     if (res.ok) {
@@ -52,7 +54,7 @@
 
   <div class="post">
     <p>
-      <a sveltekit:prefetch href="/post/{post.slug}" class="no-underline">
+      <a href="/post/{post.slug}" class="no-underline">
         {post.title}
       </a>
     </p>
