@@ -31,11 +31,11 @@
 </script>
 
 <svelte:head>
-  <title>article chronologie</title>
+  <title>chronologie</title>
 </svelte:head>
 
 <div class="space-yo">
-  <h1>article chronologie</h1>
+  <h1>chronologie</h1>
   <small><a href=".">&#9166; retour</a></small>
 </div>
 

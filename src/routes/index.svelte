@@ -10,7 +10,7 @@
 <h1>accueil</h1>
 
 <p>
-  <a href="/post">article chronologie</a>
+  <a href="/post">chronologie</a>
 </p>
 <p>
   <a href="/about">à propos</a>
