@@ -15,18 +15,22 @@
 
   export let posts;
 
+  const current_build = DateTime.now();
+
   function distanceFromPrev(post) {
     const index = posts.map(p => p.date).indexOf(post.date);
     const prev_post = posts[index - 1];
 
+    let end;
+    const start = DateTime.fromISO(post.date);
+
     if (prev_post === undefined) {
-      return '0';
+      end = current_build;
+    } else {
+      end = DateTime.fromISO(prev_post.date);
     }
 
-    const start = DateTime.fromISO(post.date);
-    const end = DateTime.fromISO(prev_post.date);
-
-    return Math.ceil(Interval.fromDateTimes(start, end).length('weeks') * 2);
+    return Math.ceil(Interval.fromDateTimes(start, end).length('days') / 2);
   }
 </script>
 
@@ -38,6 +42,8 @@
   <h1>chronologie</h1>
   <small><a href="/">&#9166; retour</a></small>
 </div>
+
+<code>dernière compile: {current_build}</code>
 
 {#each posts as post}
   <div style="max-width: 100%; height: {distanceFromPrev(post)}em; padding: 1em 0.5em 1em 4em;">
@@ -52,7 +58,7 @@
     </p>
 
     <div class="bottom-border">
-      <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.2); max-width: 100%; width: {post.readtime}em;"></div>
+      <div style="border-bottom: 0.5em solid rgba(255, 255, 255, 0.2); max-width: 100%; width: {post.readtime}em;"></div>
     </div>
 
     <div class="post-info">
@@ -65,7 +71,7 @@
 <style>
   .divider {
     height: 100%;
-    border-left: 1px dashed rgba(255, 255, 255, 0.2);
+    border-left: 2px dotted rgba(255, 255, 255, 0.2);
   }
 
   .bottom-border {
@@ -87,5 +93,9 @@
   a {
     font-weight: 300;
     text-transform: lowercase;
+  }
+
+  code {
+    font-size: 0.7rem !important;
   }
 </style>
