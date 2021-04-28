@@ -17,19 +17,19 @@
 
   export let posts;
 
-  const current_build = DateTime.now().setZone("Australia/Sydney");;
+  const current_build = DateTime.now().setZone("Australia/Sydney");
 
   function distanceFromPrev(post) {
     const index = posts.map(p => p.date).indexOf(post.date);
     const prev_post = posts[index - 1];
 
     let end;
-    const start = DateTime.fromISO(post.date);
+    const start = DateTime.fromISO(post.date).setZone("Australia/Sydney");
 
     if (prev_post === undefined) {
       end = current_build;
     } else {
-      end = DateTime.fromISO(prev_post.date);
+      end = DateTime.fromISO(prev_post.date).setZone("Australia/Sydney");
     }
 
     return Math.ceil(Interval.fromDateTimes(start, end).length('days') / 2);
