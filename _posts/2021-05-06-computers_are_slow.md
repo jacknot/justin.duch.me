@@ -14,10 +14,10 @@ Times have changed, and there are many more elements that go into a computer, bu
 So with our simplified example, here's how a computer executes a program (which sits in memory):
 
 1. The CPU fetches the next instruction of the program from memory.
-2. It executes the instruction:
-  - If the instruction requires a piece of data, it fetches the data from memory.
-  - If the instruction creates data it will need later, it gives the data to memory.
-3. If its the last instruction, it's finished, otherwise go to 1.
+2. It executes the instruction.
+4. If the instruction requires a piece of data, it fetches the data from memory.
+5. If the instruction creates data it will need later, it gives the data to memory.
+6. If its the last instruction, it's finished, otherwise go to 1.
 
 The task of any program is to change the contents of the memory in some major way, which means endlessly passing data back and forth through the bus. This shared bus between the CPU and memory leads to the "von Neumann bottleneck" as the work that the CPU can do is limited by the data transfer rate of the bus. This can seriously limit the effective processing speed when the CPU is required to perform minimal processing on large amounts of data. The CPU is continually forced to wait for needed data to move to or from memory.
 

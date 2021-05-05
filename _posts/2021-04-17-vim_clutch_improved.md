@@ -15,7 +15,7 @@ Basically, they bought 2 cheap $10 programmable pedals and tried to make it so t
 
 (^1): I'm assuming you know how Vim works, so I'm not going to explain modes.
 
-One of the problems was that only the "pedal down" event could be programmed, so they then took both pedals apart and used **incredibly complicated electrical engineering that no mere mortal could possibly understand** to take the sensor out of one pedal and put it into the other, giving her one pedal that can be programmed on the press+release and some junk plastic.
+One of the problems was that only the "pedal down" event could be programmed, so they then took both pedals apart and used **incredibly complicated electrical engineering that no mere mortal could possibly understand** to take the sensor out of one pedal and put it into the other, giving them one pedal that can be programmed on the press+release and some junk plastic.
 
 This is all well and good. It seems like it could be pretty useful, like with how transcribers use them.
 
