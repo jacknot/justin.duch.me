@@ -16,7 +16,7 @@ export const highlight = () => [
 
       let replacement = (wholeMatch, match, left, right) => {
         match = decode(match);
-        let lang = (left.match(/class=\'([^ \']+)/) || [])[1];
+        let lang = (left.match(/class="(\w+)/) || [])[1];
 
         if (left.includes(classAttr)) {
           let attrIndex = left.indexOf(classAttr) + classAttr.length;
