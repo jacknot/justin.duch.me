@@ -90,15 +90,27 @@ So actually, I've changed my mind, the only problem Lisp has is that people don'
 
 **Cough, cough.**
 
----
+----
 
 If you want recommendations with Lisp:
 
 * Start with learning [Clojure.](https://clojure.org)(^6)
     * Maybe watch Rich Hickey's (creator of Clojure) talk, ["Simple Made Easy".](https://www.infoq.com/presentations/Simple-Made-Easy/) It isn't about Clojure but it is a very good introduction to many of Clojures' concepts.
-* For fellow Vimmers, [conjure](https://github.com/Olical/conjure) and [parinfer-rust](https://github.com/eraserhd/parinfer-rust) are great plugins to use.
-    * [Parinfer](https://shaunlebron.github.io/parinfer/) is especially important as it makes writing Lisp a thousand times easier.
+* Or read the [Scheme book.](https://www.scheme.com/tspl4/) Most people start learning Lisp with Scheme because it's a small language.
+* For fellow Vimmers:
+    * [conjure](https://github.com/Olical/conjure) helps with REPL development for evaluating code within your running program.
+    * [clj-kondo](https://github.com/clj-kondo/clj-kondo) (Clojure only) is an almost required linter to help identify silly mistakes.
+    * [Parinfer](https://shaunlebron.github.io/parinfer/) and its Vim plugin [parinfer-rust](https://github.com/eraserhd/parinfer-rust) is especially important as it makes writing Lisp a thousand times easier.
 
 (^6): PLEASE! IF THERE ARE MORE OF US, THEY WON'T BE ABLE TO MAKE FUN OF EVERYONE.
+
+Once you're comfortable with your Lisp dialect of choice, make sure you start a blog where the only content is:
+
+* A post describing the static site generator you made in Lisp(^7) that your blog uses and;
+* A post describing why Lisp is the best language.
+
+(^7): Unfortunately, this blog uses a static site generator written in SvelteJS.
+
+With that, the cycle of the Lisp cult can continue.
 
 Also, the quote at the start is from Brian Hayes, ["The Semicolon Wars"](https://web.archive.org/web/20060616171535/http://www.americanscientist.org/template/AssetDetail/assetid/51982/page/5) and the thumbnail is [xkcd 297.](https://xkcd.com/297/)
