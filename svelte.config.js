@@ -1,6 +1,6 @@
-const adapter = require('@sveltejs/adapter-static');
+import adapter from '@sveltejs/adapter-static';
 
-module.exports = {
+const config = {
   kit: {
     target: '#svelte',
     adapter: adapter(),
@@ -8,3 +8,5 @@ module.exports = {
     hydrate: true,
   }
 };
+
+export default config;
