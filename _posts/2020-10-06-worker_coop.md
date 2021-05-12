@@ -97,7 +97,5 @@ But whatever, good bye. Au revoir.
 ---
 
 [^1]: https://institute.coop/what-worker-cooperative
-
 [^2]: https://www.macrotrends.net/stocks/charts/AAPL/apple/net-income
-
 [^3]: https://www.macrotrends.net/stocks/charts/AAPL/apple/number-of-employees

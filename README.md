@@ -10,7 +10,7 @@ Source code for [https://justin.duch.me](https://justin.duch.me).
 
 ### Building
 
- To build and run the site locally:
+To build and run the site locally:
 
 ```
 git clone https://github.com/beanpuppy/justin.duch.me
@@ -23,11 +23,11 @@ The site is now available at `http://localhost:3000`.
 
 ## Archiving Tools
 
-* [dedlnk](https://github.com/beanpuppy/dedlnk)
+- [dedlnk](https://github.com/beanpuppy/dedlnk)
 
 Clojure tool to find dead links in `.md` files. Used to fix broken/dead links in every post.
 
-* [scrplnk](https://github.com/beanpuppy/scrplnk)
+- [scrplnk](https://github.com/beanpuppy/scrplnk)
 
 Clojure tool to scrape all links off a website. Used to create a list of urls to batch process in [archive.org](https://archive.org/services/wayback-gsheets/).
 
@@ -52,7 +52,6 @@ This includes images, text shown on pages, and other page content.
 ![cc-by-sa-4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0).
-
 
 ### Code
 

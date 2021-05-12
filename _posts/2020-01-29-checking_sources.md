@@ -12,6 +12,7 @@ Oh and also: January 31st is [National nix News Corp day](https://www.saynotonew
 One more thing: this is probably going to become **very political** (if it hasn’t already), so here’s a trigger warning for you snowflakes.
 
 ## January 23, 2020
+
 First is [“World’s consumption of materials hits record 100bn tonnes a year”](https://www.theguardian.com/environment/2020/jan/22/worlds-consumption-of-materials-hits-record-100bn-tonnes-a-year) from The Guardian on January 22, 2020
 
 Wow wee, what a fun start. I’ll be providing a summary if you are too lazy to read it:
@@ -34,9 +35,9 @@ The [report](https://www.circularity-gap.world/2020#interactive) they site is an
 
 “In a circular economy, economic activity builds and rebuilds overall system health”[^1]. Underpinned by a transition to renewable energy sources, the circular model builds economic, natural, and social capital. It is based on three principles:
 
-* Design out waste and pollution
-* Keep products and materials in use
-* Regenerate natural systems
+- Design out waste and pollution
+- Keep products and materials in use
+- Regenerate natural systems
 
 The report states that “Today, the global economy is only 8.6% circular — just two years ago it was 9.1%”. This is the underlying problem that the report tries to address with its “100 billion tonnes” number, which it says we reached in 2017 (p 12).
 
@@ -51,6 +52,7 @@ That took me a bit under an hour to read through everything. But I, Ouiaboo Mike
 In case you were wondering, I won’t actually cover **every** article I read. Because some things don’t really need their sources to be checked. Like, do I really need to go out and clarify that [U.S. airlines will limit service animals on planes to trained dogs](https://www.reuters.com/article/us-usa-airlines-pets/no-turkeys-no-possums-u-s-to-let-airlines-limit-service-animals-on-planes-to-trained-dogs-idUSKBN1ZL22K)? Sometimes the news is the source itself, so we’re going to mainly look at articles that cite statistics.
 
 ## January 24, 2020
+
 Okie, next is [“Homes with higher energy ratings sell for more. Here’s how Australian owners could cash in”](https://theconversation.com/homes-with-higher-energy-ratings-sell-for-more-heres-how-australian-owners-could-cash-in-128548) from The Conversation on January 23, 2020.
 
 > An energy performance rating is one way to show how “Energy hungry” a home could be.
@@ -68,6 +70,7 @@ Okie, next is [“Homes with higher energy ratings sell for more. Here’s how A
 Oh look here, they say they reviewed **27** studies! And reading through [the review](http://builtbetter.org/node/8139) it looks like, yep 27 studies are in fact cited! A lot of those studies are behind a paywall so I’m not going to read them and trust the reviewers when they say the majority (23) “found more energy-efficient homes fetch higher prices than less energy-efficient, but otherwise comparable, homes”. Because it seems kinda obvious that they would sell for higher prices anyway.
 
 ## January 25, 2020
+
 Now let’s look at [“Exclusive Poll: 80% of Young Voters Think ‘Global Warming Is a Major Threat to Life as We Know It’”](https://www.vice.com/en_us/article/xgqymn/exclusive-poll-80-of-young-voters-think-global-warming-is-a-major-threat-to-life-as-we-know-it) from VICE on January 24, 2020.
 
 > President Donald Trump’s response to climate change may be, “I don’t believe it,” but a new poll shows just how dramatically out of step that leaves him with young Americans.
@@ -91,6 +94,7 @@ Anyway the [poll](https://www.documentcloud.org/documents/6670126-USCM-National-
 I’d actually recommended to go and read the report, it’s not too long (unlike the other ones), and is somewhat interesting. Page 23 asks “Which of the following news sources do you trust in covering the 2020 Presidential election?” And I was surprised to see that Fox News and CNN were so high up compared to other (arguably better) outlets like NYT or even NPR. Also interesting (but not surprising) was how whites were the only ones with Fox News in their top 3.
 
 ## January 26, 2020
+
 Here’s our "not about climate change” report: [“The NDIS leaves workers behind”](https://independentaustralia.net/business/business-display/the-ndis-leaves-workers-behind,13526) from Independent Australia on January 24, 2020.
 
 > Under the NDIS, the Federal Government makes an open-ended commitment to fund people on the basis of need. The years-long waiting lists of the old systems are gone.
@@ -121,13 +125,14 @@ As stated in the article, “it replaces the fragmented and financially constrai
 
 This is were our first issue arrises. The source to explain how “the currency issuer’s [spending is constrained](http://bilbo.economicoutlook.net/blog/?p=32938) by real resource availability, not by finance” is just a blog post. Worse yet, that post also does not provide any form of evidence to back up their point. But whatever it’s fine, these first paragraphs admittedly don’t have much to do with the main point the report will attempt to make.
 
-The next source is the “[162,000 full-time equivalent workers](https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/BudgetReview201718/NDIS) in the disability sector”, and yep, that comes straight from Parliament so we can say it's reliable. The following points on how “the NDIS has made disability support work more [casualised](https://www.futurework.org.au/reports_from_the_front_lines_of_the_ndis)“ and “the Productivity Commission was clearly not convinced that disability support is or should be a skilled occupation” are also sourced from reputable origins (a report from The Centre for Future Work at the Australia Institute and the other by the  Productivity Commission).
+The next source is the “[162,000 full-time equivalent workers](https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/BudgetReview201718/NDIS) in the disability sector”, and yep, that comes straight from Parliament so we can say it's reliable. The following points on how “the NDIS has made disability support work more [casualised](https://www.futurework.org.au/reports_from_the_front_lines_of_the_ndis)“ and “the Productivity Commission was clearly not convinced that disability support is or should be a skilled occupation” are also sourced from reputable origins (a report from The Centre for Future Work at the Australia Institute and the other by the Productivity Commission).
 
 Although I find it weird to use a blog post as one of the sources, the report is trustworthy enough.
 
 Reading all this stuff is actually really tiring. The amount of material I have to read to get through one article is pretty much tripled, and my goodness I don’t really have the time for that. But so far I haven’t found anything I’ve been skeptical of, so let’s go to some publications I don’t trust as much for funsies.
 
 ## January 27, 2020
+
 I’ve decided to browse news.com.au for the first time in my life because I see a lot of people on the train read it so it can’t be that bad can it?
 
 Nope.
@@ -163,6 +168,7 @@ While [“Building watchdog doubles number of industry investigations”](https:
 So in summary, the general story - that the ABCC unfairly focuses on unions and ignores employers seems to be correct, but there isn’t very much information (or information I know the origin of) on the exact amount.
 
 ## January 28, 2020
+
 For the penultimate day I’m going to take a break from all this depressing news and instead we’re going to look at some fun stuff.
 
 The [Corruption Perceptions Index 2019](https://www.transparency.org/cpi2019?/news/feature/cpi-2019) from Transparency International was released today and Australia is still in the top 20, so that’s good.
@@ -184,6 +190,7 @@ You know what? I’m going to stop using the Oxford comma in this post from now 
 According to the survey: “100% of people who do not care about Sir Philip Pullman’s 50p boycott over the Oxford comma do not care about Sir Philip Pullman’s 50p boycott over the Oxford comma.” So you know for **FACT** that I do not care.
 
 ## January 29, 2020
+
 “This trip sure was fun wasn’t it? So much happened I swear… These last ~~50~~ 7 days were truly fun” — Joseph Joestar, 1988.
 
 Haha what a nice quote. My brother told me to put that in, I’m not sure where it’s from, but I hope it’s not anything sad.
@@ -217,5 +224,4 @@ Eh, I dunno. I’m tired of this shit, make up your own mind.
 ---
 
 [^1]: https://www.ellenmacarthurfoundation.org/circular-economy/concept
-
 [^2]: https://www.ndis.gov.au/understanding/what-ndis

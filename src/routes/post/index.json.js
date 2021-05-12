@@ -5,16 +5,18 @@ export const get = async (request) => {
     return new Date(b.date) - new Date(a.date);
   });
 
-  const data = JSON.stringify(posts.map(post => {
-    return {
-      title: post.title,
-      slug: post.slug,
-      date: post.date,
-      thumbnail: post.thumbnail,
-      category: post.category,
-      readtime: post.readtime,
-    };
-  }));
+  const data = JSON.stringify(
+    posts.map((post) => {
+      return {
+        title: post.title,
+        slug: post.slug,
+        date: post.date,
+        thumbnail: post.thumbnail,
+        category: post.category,
+        readtime: post.readtime
+      };
+    })
+  );
 
   return {
     body: data

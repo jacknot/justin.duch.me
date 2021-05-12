@@ -7,7 +7,7 @@ If you're anything like me, then one of your favorite things is seeing how much 
 
 ### 0x100: Construction
 
-The most important part of Techwear is obviously: the tech. This section will go through the main parts of what makes Techwear so... techy. While there are many innovations currently being made such as Volleback's jacket made out of *HECKING GRAPHENE* (no seriously look it up, it's amazing), we will mainly be focusing on the more common parts of Techware you will see - waterproof breathable fabrics.
+The most important part of Techwear is obviously: the tech. This section will go through the main parts of what makes Techwear so... techy. While there are many innovations currently being made such as Volleback's jacket made out of _HECKING GRAPHENE_ (no seriously look it up, it's amazing), we will mainly be focusing on the more common parts of Techware you will see - waterproof breathable fabrics.
 
 #### Layers
 
@@ -61,7 +61,7 @@ Heavily centered on protecting you from your environment wherever you may be: hi
 
 #### Athletic
 
- Primarily made for sporting gear, athletic clothing is a easy way to obtain base layers, shells, footwear, made with simple functionality when shopping for the basic brands such as Adidas and Nike. Although kind of iffy in the community whether wearing all athletic gear should even be considered Techwear look at more designer gear like Adidas and Yohji Yamamoto's Y-3, and divisions of Nike that produce more technical clothing like Nike Gyakusou and ACG.
+Primarily made for sporting gear, athletic clothing is a easy way to obtain base layers, shells, footwear, made with simple functionality when shopping for the basic brands such as Adidas and Nike. Although kind of iffy in the community whether wearing all athletic gear should even be considered Techwear look at more designer gear like Adidas and Yohji Yamamoto's Y-3, and divisions of Nike that produce more technical clothing like Nike Gyakusou and ACG.
 
 **General Price:** 2 Kidneys
 
@@ -85,7 +85,7 @@ For the enthusiasts, and those with deep pockets who might want to chase after b
 
 #### Fashion-Over
 
- Opposing tech-focused brands, these brands are form first and functionality second. Brands such as North Face Purple Label, Y-3, and White Mountaineering choose to incorporate experimental technologies and construction in new and exciting ways and because of this, their function is never fully guaranteed, at least not on the level of other brands.
+Opposing tech-focused brands, these brands are form first and functionality second. Brands such as North Face Purple Label, Y-3, and White Mountaineering choose to incorporate experimental technologies and construction in new and exciting ways and because of this, their function is never fully guaranteed, at least not on the level of other brands.
 
 **General Price:** 3 Kidneys
 

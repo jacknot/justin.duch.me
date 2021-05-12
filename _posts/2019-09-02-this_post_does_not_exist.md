@@ -6,7 +6,7 @@ thumbnail: transformer-thumb.png
 This post was created using the GPT-2 transformer, for more info read my
 previous post [here](/post/this_post_does_not_exist_addendum).
 
-----
+---
 
 Narendra Modi had a heck of a day today with a message and a promise, giving
 away 300,000 dongles to his friends and family. On January 6th at 1pm ET, you
@@ -15,12 +15,11 @@ can read an in-depth look at how the test works at this link.
 You can also find the source code at this repo here:
 [https://github.com/michael-hutchinson/Narendra-Raj/blob/master/release/narendrames.tar.gz](https://github.com/michael-hutchinson/Narendra-Raj/blob/master/release/narendrames.tar.gz)
 
-
 Here's how it works:
 
-* Get a small set of data from a search engine.
-* To get a keyword, we use the index.html method on the page. Here are the
-results for the query and the options that we provide:
+- Get a small set of data from a search engine.
+- To get a keyword, we use the index.html method on the page. Here are the
+  results for the query and the options that we provide:
 
 ```
 <!DOCTYPE html>
@@ -63,7 +62,7 @@ However, using the public key for authentication causes a security
 vulnerability. So, we want to prevent accidental use. Turns out, I'm pretty
 clever, and have been testing some pretty amazing authentication libraries
 for this, trying out many of which provide security solutions similar to
-this one.  To see the results in action, run the following code:
+this one. To see the results in action, run the following code:
 
 ```
 require 'narendrames/robots/api'
@@ -74,6 +73,7 @@ function getUser() { return new NandRibble('get_user', 'robots'); }
 let userdata = new NandRibble('get_userdata', 'robots');
 userdata.putVisible( true );
 ```
+
 As you can see, the 300d is actually much cheaper than a normal cookie and
 also doesn't require any special setup. Although it's still quite a few jigs
 from me.

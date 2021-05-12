@@ -9,4 +9,4 @@ export const get = async (request) => {
       'Content-Type': 'application/atom+xml'
     }
   };
-}
+};

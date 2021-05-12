@@ -107,13 +107,13 @@ The Commune decreed the separation of the Church from the State and the confisca
 
 Other decrees included:
 
-* Remission of rents owed for the entire period of the siege (during which payment had been suspended).
-* Abolition of child labour and night work in bakeries.
-* Granting of pensions to the unmarried companions and children of national guardsmen killed in active service.
-* Free return by pawnshops of all workmen’s tools and household items, valued up to 20 francs, pledged during the siege.
-* Postponement of commercial debt obligations, and the abolition of interest on the debts.
-* Right of employees to take over and run an enterprise if it were deserted by its owner; the Commune, nonetheless, recognised the previous owner’s right to compensation.
-* Prohibition of fines imposed by employers on their workmen.
+- Remission of rents owed for the entire period of the siege (during which payment had been suspended).
+- Abolition of child labour and night work in bakeries.
+- Granting of pensions to the unmarried companions and children of national guardsmen killed in active service.
+- Free return by pawnshops of all workmen’s tools and household items, valued up to 20 francs, pledged during the siege.
+- Postponement of commercial debt obligations, and the abolition of interest on the debts.
+- Right of employees to take over and run an enterprise if it were deserted by its owner; the Commune, nonetheless, recognised the previous owner’s right to compensation.
+- Prohibition of fines imposed by employers on their workmen.
 
 The Commune lasted 71 days. The final week of the Commune (21–28 May), “the Bloody Week,” witnessed atrocities on both sides.
 
@@ -134,5 +134,4 @@ So that’s all from me. Tune in next time when we talk about the politics of th
 ---
 
 [^1]: https://en.wikipedia.org/wiki/Anarchism
-
 [^2]: https://en.wikipedia.org/wiki/State_capitalism

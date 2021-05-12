@@ -35,17 +35,17 @@ refresher].
 
 Now, I don't know what made you think talking like children would make people
 take you seriously or whether you actually believed that no one would catch on
-to how you called a certain group of people *'long nose frens'*, but holy fuck
+to how you called a certain group of people _'long nose frens'_, but holy fuck
 this is just awful, like you aren't even trying. And I can't tell what's
 worse, if you actually aren't trying or if you are and this is the best you
 have.
 
-Okay enough ranting, you must be thinking now: *'I GET IT, TELL ME HOW TO DO
-IT BETTER ALREADY!'* First of all, you are WAY to close to me so STEP BACK and
+Okay enough ranting, you must be thinking now: _'I GET IT, TELL ME HOW TO DO
+IT BETTER ALREADY!'_ First of all, you are WAY to close to me so STEP BACK and
 secondly, that's what I'm going to do now.
 
 The following sentence will explain the easiest and most effective way to hide
-your hatred of minorities. No one will ever know that you hate *'the gays'* or
+your hatred of minorities. No one will ever know that you hate _'the gays'_ or
 that you think black people are genetically inferior. It's a very simple
 method that anyone could do:
 
@@ -54,14 +54,14 @@ method that anyone could do:
 If that's too hard (I don't see how it could be, but whatever) here are some
 other things you could try:
 
-* Cryptography: Encyrpt your messages! You could even use something like the
-Engima code for extra irony (I actually think this would be hilarious and
-implore you to do it). This is probably the safest way to make sure no one
-knows what you're talking about, but it requires a lot of coordination.
+- Cryptography: Encyrpt your messages! You could even use something like the
+  Engima code for extra irony (I actually think this would be hilarious and
+  implore you to do it). This is probably the safest way to make sure no one
+  knows what you're talking about, but it requires a lot of coordination.
 
-* Actual good steganography: The Wikipedia page I linked above has some decent
-uses of it like hiding it in pictures and stuff, but I reccommend using one
-based off Natural Language Processing (NLP).
+- Actual good steganography: The Wikipedia page I linked above has some decent
+  uses of it like hiding it in pictures and stuff, but I reccommend using one
+  based off Natural Language Processing (NLP).
 
 Something like [Stegasuras](http://web.archive.org/web/20210116092145/https://steganography.live/info) would work really
 well by using Natural Language as a cover signal which makes it pretty hard to

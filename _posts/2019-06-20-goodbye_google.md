@@ -7,7 +7,6 @@ Today I've removed every single trace (I think) of Google from this website
 because... I shouldn't need to explain this right? I'm sure you know the
 reason.
 
-
 It wasn't that hard, there were only four things I was using, and in
 some cases there was an improvement in functionality when switching to a
 different provider. Lets go through all four of them now:
@@ -53,16 +52,16 @@ doesn't matter now anyway. I've switched to Sendmail, and while I don't really
 like Twilo (Sendmail's parent company) either, there's a few advantages to
 this:
 
-* I can use my propery domain; Where previously I would send emails from
-`noreply@noreply.justinduch.com` because Google requires domain verification
-and my MX records for `justinduch.com` point to Protonmail, meaning I needed
-to use a different subdomain. Now I can use `noreply@justinduch.com` because
-Sendmail doesn't required domain verification.
+- I can use my propery domain; Where previously I would send emails from
+  `noreply@noreply.justinduch.com` because Google requires domain verification
+  and my MX records for `justinduch.com` point to Protonmail, meaning I needed
+  to use a different subdomain. Now I can use `noreply@justinduch.com` because
+  Sendmail doesn't required domain verification.
 
-* It's free for the first 100 emails a day, so as long as I don't get over 100
-subscribers, I won't need to pay.
+- It's free for the first 100 emails a day, so as long as I don't get over 100
+  subscribers, I won't need to pay.
 
-* Not Google.
+- Not Google.
 
 Also GSuite seems to have a few [issues][].
 

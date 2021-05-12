@@ -6,14 +6,10 @@
  *
  */
 
-"use strict";
+'use strict';
 
 function parseDimensions(rest) {
-  var width,
-    height,
-    d,
-    defaultWidth,
-    defaultHeight;
+  var width, height, d, defaultWidth, defaultHeight;
 
   defaultWidth = 560;
   defaultHeight = 315;
@@ -39,23 +35,25 @@ function parseDimensions(rest) {
 
 export const peertube = () => [
   {
-    type: "output",
+    type: 'output',
     filter: (text) => {
       const imgRegex = /(?:<p>)?<img.*?src="(.+?)"(.*?)\/?>(?:<\/p>)?/gi;
       const regex = /https:\/\/videos\.duch\.me\/videos\/watch\/(.*)/i;
-      let tag = '<iframe src="%1" width="%2" height="%3" sandbox="allow-same-origin allow-scripts allow-popups" frameborder="0" allowfullscreen></iframe>';
+      let tag =
+        '<iframe src="%1" width="%2" height="%3" sandbox="allow-same-origin allow-scripts allow-popups" frameborder="0" allowfullscreen></iframe>';
       return text.replace(imgRegex, function (match, url, rest) {
         let d = parseDimensions(rest),
-          m, fUrl = '';
+          m,
+          fUrl = '';
 
-        if (m = regex.exec(url)) {
+        if ((m = regex.exec(url))) {
           fUrl = 'https://videos.duch.me/videos/embed/' + m[1];
         } else {
           return match;
         }
 
-        return tag.replace(/%1/g, fUrl).replace('%2', d.width).replace('%3', d.height);;
+        return tag.replace(/%1/g, fUrl).replace('%2', d.width).replace('%3', d.height);
       });
     }
-  },
+  }
 ];

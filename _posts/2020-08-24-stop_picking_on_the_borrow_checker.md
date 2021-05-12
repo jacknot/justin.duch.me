@@ -33,7 +33,7 @@ Hey does that sound familiar? I know Rust doesn't have objects so you might need
 
 Rust also enforces values to be "aliasable XOR mutable". Values can be mutated only if they are not aliased, and there is no way to introduce unsynchronized aliased mutation. It enforces a clear separation at all times between sequential state mutation on the one hand and references to shared (and generally immutable, except as provided for by explicit mutability mechanisms) state on the other. The only way to get this is through ownership and borrowing, the distinction between borrows and mutable borrows, and the aliasing rules between them.
 
-In pure functional programming, you never have to bother your mind with unexpected side effects because there are no side effects. Rust instead gives you the vocabulary to carefully articulate *intended side effects*, preventing all other, unexpected side effects at the same time. And for this, you get to skip the overhead of treating everything as immutable. Not that this is an indisputable improvement for every use-case, but it's a novel trade-off and one that is definitely preferable in many domains.
+In pure functional programming, you never have to bother your mind with unexpected side effects because there are no side effects. Rust instead gives you the vocabulary to carefully articulate _intended side effects_, preventing all other, unexpected side effects at the same time. And for this, you get to skip the overhead of treating everything as immutable. Not that this is an indisputable improvement for every use-case, but it's a novel trade-off and one that is definitely preferable in many domains.
 
 To be clear, the borrow checker isn't the **only** reason Rust works. Many conscious design decisions have been made to help with local reasoning. Things like limiting type inference, and how exceptions are handled. And oh boy, I sure do love how exceptions are handled in Rust. I won't talk about it right now because it has nothing to do with the borrow che... no actually, I want to talk about it.
 
@@ -48,6 +48,6 @@ Result types force you to deal with the errors up front, and if the errors from 
 
 Okay, so I don't really know how to segue this back to being about the borrow checker. So just remember, next time Ferris tells you that you borrowed wrong, he's doing a good job that's important in order for Rust to be the way it is.
 
-----
+---
 
 [^1]: https://en.wikipedia.org/wiki/Resource\_acquisition\_is\_initialization

@@ -12,23 +12,23 @@ through them all.
 But first here are the books that I've started reading a while ago, but never
 bothered to finish:
 
-* **George Orwell - 1894**: This was one of the first book I've ever bought
-with my own money (it was like $5 and I was 14). I know you might be mad at me
-for not ever finishing such a classic, but I only read it in preparation for
-Metal Gear Solid V and I already knew the ending, so I got kinda bored.
+- **George Orwell - 1894**: This was one of the first book I've ever bought
+  with my own money (it was like $5 and I was 14). I know you might be mad at me
+  for not ever finishing such a classic, but I only read it in preparation for
+  Metal Gear Solid V and I already knew the ending, so I got kinda bored.
 
-* **Kurt Vonnegut - Player Piano**: I like this book. I don't have much to say
-about it, I was about halfway through it but then I started wathcing JoJo's
-Bizzare Adventure and I gave up on every other piece of media because I didn't
-believe anything could top it.
+- **Kurt Vonnegut - Player Piano**: I like this book. I don't have much to say
+  about it, I was about halfway through it but then I started wathcing JoJo's
+  Bizzare Adventure and I gave up on every other piece of media because I didn't
+  believe anything could top it.
 
-* **Brian Kernighan and Dennis Ritchie - The C Programming Language**: C is
-actually a very easy language, I didn't really need a book for it.
+- **Brian Kernighan and Dennis Ritchie - The C Programming Language**: C is
+  actually a very easy language, I didn't really need a book for it.
 
-* **Guy Debord - The Society of the Spectacle**: This is a political theory
-book. I also don't understand any of it. It was originally written in French
-and it's English translation is ***very*** literal. I'm probably just going to
-buy the French version and read that instead.
+- **Guy Debord - The Society of the Spectacle**: This is a political theory
+  book. I also don't understand any of it. It was originally written in French
+  and it's English translation is **_very_** literal. I'm probably just going to
+  buy the French version and read that instead.
 
 Anyway time to talk about the books I've never read. Now I just realised that
 I won't actually have that much to say about these books because, you know...
@@ -41,7 +41,7 @@ sound interesting to you, I invite you to read them instead of me.
 "HIDDEN FEATURE: The inside of this book has words and pictures."
 
 This is a book by the author of the only good webcomic on the internet:
-[xkcd][].  It's just Randall Munroe answering questions sent in by readers.
+[xkcd][]. It's just Randall Munroe answering questions sent in by readers.
 Here's an example of a question I found by opening a random page: "What would
 happen if you made a periodic table out of cube-shaped bricks, where each
 brick was made of the corresponding element?" There's also a new book being

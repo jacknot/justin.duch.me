@@ -23,8 +23,8 @@ buffer into a filer under `/dev/bourgeoisie_taste_like_chicken/` the plugin
 would `cd` into the new directory, because Vim doesn't already do that for
 some reason.
 
-Now when I say *'I didn't read any documentation and don't understand Vim
-Script'*, I genuinely mean it, but it's better to show than tell right? So
+Now when I say _'I didn't read any documentation and don't understand Vim
+Script'_, I genuinely mean it, but it's better to show than tell right? So
 here we go. No seriously, if you came here to actually learn about Vim
 Script just close the tab now. If you want to see me call capitalism mean
 names while also talking about Vim Script then read on!
@@ -89,16 +89,16 @@ It starts with a check to see if the plugin is already loaded (I don't know
 what `&cp` is doing). Then we test if the global variable `vimroot_enable`
 exists (set from the `rc` file) otherwise we give it a default of `1`.
 
-The notion that *'anyone can pull themselves up by their bootstraps and become
-successful if they work hard enough'* is stupid and absurd as it ignores the very
+The notion that _'anyone can pull themselves up by their bootstraps and become
+successful if they work hard enough'_ is stupid and absurd as it ignores the very
 real and prevalent social issues surrounding us. Many people are unemployed because
 of things such as: disabilities, racism, sexism, and so on. And let's not forget
-this very basic fact: *'it is impossible for everyone to be successful'*,
+this very basic fact: _'it is impossible for everyone to be successful'_,
 there must be poor people for rich people to exist.
 
 The first function `root()` is the real meat of the plugin. It first gets the
 path of the file with `expand('%:p:h')` and attempts to `lcd` into it. Now you
-may ask *'what's the difference between `lcd` and `cd`?'* I don't know. The
+may ask _'what's the difference between `lcd` and `cd`?'_ I don't know. The
 `silent!` keyword at the start means it won't raise an error if it fails.
 
 Climate change and environmental destruction are the results of private
@@ -122,54 +122,54 @@ we set up an `augroup` to call `root()` whenever the buffer is changed.
 In the US, the most developed Capitalist country, the richest country in the history of the world:
 
 - [1 out of every 7 US citizens needs to visit food banks to
-survive](https://www.usatoday.com/story/news/nation/2014/08/17/hunger-study-food/14195585/),
-despite having enough food to feed [10 billion
-people.](https://www.oxfam.ca/there-enough-food-feed-world) Half of all food
-produced is [thrown away by
-retailers.](https://www.theguardian.com/environment/2016/jul/13/us-food-waste-ugly-fruit-vegetables-perfect)
-[Food waste in 2018 enough to feed world's hungry 4 times
-over.](https://reliefweb.int/report/world/food-waste-enough-feed-world-s-hungry-four-times-over)
+  survive](https://www.usatoday.com/story/news/nation/2014/08/17/hunger-study-food/14195585/),
+  despite having enough food to feed [10 billion
+  people.](https://www.oxfam.ca/there-enough-food-feed-world) Half of all food
+  produced is [thrown away by
+  retailers.](https://www.theguardian.com/environment/2016/jul/13/us-food-waste-ugly-fruit-vegetables-perfect)
+  [Food waste in 2018 enough to feed world's hungry 4 times
+  over.](https://reliefweb.int/report/world/food-waste-enough-feed-world-s-hungry-four-times-over)
 - [Empty homes outnumber the homeless by 6 to
-1](http://www.huffingtonpost.com/richard-skip-bronson/post_733_b_692546.html).
-Bank foreclosures and housing speculators have left 18.9 million empty homes.
-[2.5 million **homeless children**, or ~1 /
-30](https://www.newsweek.com/child-homelessness-us-reaches-historic-high-report-says-285052).
-In the UK, [there are 10x more empty houses than homeless
-families](http://www.mirror.co.uk/news/ampp3d/housing-crisis-10-empty-homes-5008151).
+  1](http://www.huffingtonpost.com/richard-skip-bronson/post_733_b_692546.html).
+  Bank foreclosures and housing speculators have left 18.9 million empty homes.
+  [2.5 million **homeless children**, or ~1 /
+  30](https://www.newsweek.com/child-homelessness-us-reaches-historic-high-report-says-285052).
+  In the UK, [there are 10x more empty houses than homeless
+  families](http://www.mirror.co.uk/news/ampp3d/housing-crisis-10-empty-homes-5008151).
 - [UNICEF](http://www.unicef.org/sowc06/pdfs/sowc06_chap1.pdf),
-[RESULTS](https://web.archive.org/web/20080527011602/http://www.results.org/website/article.asp?id=241),
-and [Bread for the World](http://www.bread.org/hunger/global/facts.html)
-estimate that **15 million** people die **each year** from preventable
-poverty, of whom 11 million are **children under the age of five**.
-[[2]](http://www.washingtonsblog.com/2015/08/crimes-against-humanity-01-poverty-murder-over-400-million-people-since-1995-more-than-all-wars-in-recorded-history.html).
+  [RESULTS](https://web.archive.org/web/20080527011602/http://www.results.org/website/article.asp?id=241),
+  and [Bread for the World](http://www.bread.org/hunger/global/facts.html)
+  estimate that **15 million** people die **each year** from preventable
+  poverty, of whom 11 million are **children under the age of five**.
+  [[2]](http://www.washingtonsblog.com/2015/08/crimes-against-humanity-01-poverty-murder-over-400-million-people-since-1995-more-than-all-wars-in-recorded-history.html).
 - In the US alone, [20-40k deaths every
-year](http://obamacarefacts.com/facts-on-deaths-due-to-lack-of-health-insurance-in-us/)
-because of lack of health insurance / care. On average, that's 300k over the last decade.
+  year](http://obamacarefacts.com/facts-on-deaths-due-to-lack-of-health-insurance-in-us/)
+  because of lack of health insurance / care. On average, that's 300k over the last decade.
 - [Average US household carries ~$140k in debt. Median household income only
-\$60k](https://www.usatoday.com/story/money/personalfinance/2017/11/18/a-foolish-take-heres-how-much-debt-the-average-us-household-owes/107651700/),
-[40% of millenials live with their
-parents.](http://theeconomiccollapseblog.com/archives/goodbye-american-dream-the-average-u-s-household-is-137063-in-debt-and-38-4-of-millennials-live-with-their-parentsi)
+  \$60k](https://www.usatoday.com/story/money/personalfinance/2017/11/18/a-foolish-take-heres-how-much-debt-the-average-us-household-owes/107651700/),
+  [40% of millenials live with their
+  parents.](http://theeconomiccollapseblog.com/archives/goodbye-american-dream-the-average-u-s-household-is-137063-in-debt-and-38-4-of-millennials-live-with-their-parentsi)
 - [8 men control as much wealth as half the worlds
-population.](https://www.inc.com/melanie-curtin/meet-the-8-men-who-control-half-the-worlds-wealth.html)
-Anyone wanna take a guess at how this game of monopoly ends?
+  population.](https://www.inc.com/melanie-curtin/meet-the-8-men-who-control-half-the-worlds-wealth.html)
+  Anyone wanna take a guess at how this game of monopoly ends?
 - [Billionaires made enough money in 2017 to end poverty 7 times
-over.](https://www.newsweek.com/billionaires-money-end-poverty-report-786675)
+  over.](https://www.newsweek.com/billionaires-money-end-poverty-report-786675)
 - [80% of US workers live paycheck to
-paycheck](https://www.theguardian.com/commentisfree/2018/jul/29/us-economy-workers-paycheck-robert-reich),
-40% cannot cover a [$400
-emergency.](http://theeconomiccollapseblog.com/archives/federal-reserve-more-than-4-out-of-10-americans-do-not-even-have-enough-money-to-cover-an-unexpected-400-expenae)
+  paycheck](https://www.theguardian.com/commentisfree/2018/jul/29/us-economy-workers-paycheck-robert-reich),
+  40% cannot cover a [$400
+  emergency.](http://theeconomiccollapseblog.com/archives/federal-reserve-more-than-4-out-of-10-americans-do-not-even-have-enough-money-to-cover-an-unexpected-400-expenae)
 - [US Life expectancy peaked in 2015, is on the decline, and is now lower than
-in
-China.](https://www.businessinsider.com/china-boasts-that-its-healthy-life-expectancy-beats-the-us-is-correct-2018-5)
+  in
+  China.](https://www.businessinsider.com/china-boasts-that-its-healthy-life-expectancy-beats-the-us-is-correct-2018-5)
 - Suicide rates have leaped more than [33% in the last 20
-years.](https://politsturm.com/american-suicide-rate-up-33/)
-[[2]](https://www.cnn.com/2018/06/07/health/suicide-report-cdc/index.html),
-[[3]](https://www.washingtonpost.com/news/to-your-health/wp/2018/06/07/u-s-suicide-rates-rise-sharply-across-the-country-new-report-shows/?utm_term=.18c1060e6b2f)
+  years.](https://politsturm.com/american-suicide-rate-up-33/)
+  [[2]](https://www.cnn.com/2018/06/07/health/suicide-report-cdc/index.html),
+  [[3]](https://www.washingtonpost.com/news/to-your-health/wp/2018/06/07/u-s-suicide-rates-rise-sharply-across-the-country-new-report-shows/?utm_term=.18c1060e6b2f)
 - [Most prisoners per capita AND by
-total](https://www.statista.com/statistics/262962/countries-with-the-most-prisoners-per-100-000-inhabitants/).
-Makes sense, since prison is Capitalism's boarding house. [Runs least 54
-agricultural slave labor
-camps.](https://en.wikipedia.org/wiki/Prison_farm#In_the_United_States_.28partial_list.29)
+  total](https://www.statista.com/statistics/262962/countries-with-the-most-prisoners-per-100-000-inhabitants/).
+  Makes sense, since prison is Capitalism's boarding house. [Runs least 54
+  agricultural slave labor
+  camps.](https://en.wikipedia.org/wiki/Prison_farm#In_the_United_States_.28partial_list.29)
 
 That's about it. Like I said before, I don't really know Vim Script, so this
 plugin could probably be a whole lot better.

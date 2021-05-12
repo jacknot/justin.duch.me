@@ -19,15 +19,15 @@ Do you remember [GeoCities](https://en.wikipedia.org/wiki/Yahoo!_GeoCities)? I d
 
 For the past week, I’ve been scouring through a few [archived GeoCities](https://geocities.restorativland.org). Here are a few of my favourites:
 
-* [Dolphins and my family by I Love Dolphins-ChristineRogers](https://geocities.restorativland.org/Baja/Mesa/6381/)
-* [dodge caravan sucks plymouth voyager chrysler minivan transmissions](https://geocities.restorativland.org/Baja/Mesa/7135/)
-* [Rob and Cathy’s Homepage](https://geocities.restorativland.org/Athens/Troy/2071/)[^1]
+- [Dolphins and my family by I Love Dolphins-ChristineRogers](https://geocities.restorativland.org/Baja/Mesa/6381/)
+- [dodge caravan sucks plymouth voyager chrysler minivan transmissions](https://geocities.restorativland.org/Baja/Mesa/7135/)
+- [Rob and Cathy’s Homepage](https://geocities.restorativland.org/Athens/Troy/2071/)[^1]
 
 I’m not sure why, but I feel ["sehnsucht"](https://en.wikipedia.org/wiki/Sehnsucht) from going through these pages. They feel so endearing, you can tell they were made from labours of love. Where the owners were just trying to make something cool for their friends or to show to their family. It feels a lot more personal than just having a social media page on Instagram or something. They had to put actual work into it, they chose where the pictures go, what content is displayed, how it’s styled, etc.
 
 I really like this quote from Matthias Ott[^2].
 
-> Personal websites are called personal websites because they are just that: personal. Thus, the primary objective still is to have a place to express ourselves, to explore ourselves, a place that lasts while the daily storms pass by. A place of consideration, and yes, a place of proudly sharing what we do, what we think, and what we care about. A place to contribute your voice and help others. A home on the internet. A place to tell *your* story.
+> Personal websites are called personal websites because they are just that: personal. Thus, the primary objective still is to have a place to express ourselves, to explore ourselves, a place that lasts while the daily storms pass by. A place of consideration, and yes, a place of proudly sharing what we do, what we think, and what we care about. A place to contribute your voice and help others. A home on the internet. A place to tell _your_ story.
 
 I know personal websites aren’t dead obviously, you’re on one right now. But It feels like everyone who has a personal website now are kinda into the same things. As in, most of the are into technology. Look at the dude I just quoted, he’s a UX designer, look at the [IndieWeb Directory](https://indieweb-directory.glitch.me), they’re all nerds who have GitHub profiles.
 
@@ -57,14 +57,14 @@ Reddit needs a lot of views for advertising to pay its investors. A lot of views
 
 Thank you Reddit, I love how you let hate speech fester on your site for years unchecked, and when you’re finally called out in a way that may affect advertising, you don’t EVEN BAN THEM. They’re just under quarantine!
 
-Trying to keep people in their communities (that you own) of hate speech is profitable. Faking numbers to get you to migrate your services so that you become reliant on them is profitable.  Capitalism has centralised the Internet into a mindless, impersonal game of chasing metrics and “user engagement”.
+Trying to keep people in their communities (that you own) of hate speech is profitable. Faking numbers to get you to migrate your services so that you become reliant on them is profitable. Capitalism has centralised the Internet into a mindless, impersonal game of chasing metrics and “user engagement”.
 
 **Further reading**:
-* [Will Spotify Ruin Podcasting? - BIG by Matt Stoller](https://mattstoller.substack.com/p/will-spotify-ruin-podcasting)
+
+- [Will Spotify Ruin Podcasting? - BIG by Matt Stoller](https://mattstoller.substack.com/p/will-spotify-ruin-podcasting)
 
 ---
+
 [^1]: I don’t know who these people are. I just think it’s neat that they have a web page.
-
 [^2]: https://matthiasott.com/articles/into-the-personal-website-verse
-
 [^3]: They say they’re not incels, but come on… they’re totally incels.

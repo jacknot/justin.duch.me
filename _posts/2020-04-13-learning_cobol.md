@@ -22,14 +22,14 @@ To test if it works let’s write a “Hello, world!”, something people only s
            DISPLAY "Hello, world!".
 ```
 
-Save it as `hello.cob` and run `cobc -x hello.cob`. This will compile it into an executable program called  `hello`. You can run it with `./hello` and should see the string “Hello, world!” displayed. With all that done, now we can actually go into COBOL.
+Save it as `hello.cob` and run `cobc -x hello.cob`. This will compile it into an executable program called `hello`. You can run it with `./hello` and should see the string “Hello, world!” displayed. With all that done, now we can actually go into COBOL.
 
 COBOL programs are written in four separate divisions:
 
-* IDENTIFICATION DIVISION: Identifies the following code entity and contains the definition of a class or interface.
-* ENVIRONMENT DIVISION: Contains the configuration section and the input-output section. The configuration section is used to specify variable features such as currency signs, locales and character sets.
-* DATA DIVISION: Six sections which declare different items: the file section, for file records; the working-storage section, for static variables; the local-storage section, for automatic variables; the linkage section, for parameters and the return value; the report section and the screen section, for text-based user interfaces.
-* PROCEDURE DIVISION: Where the actual code goes. You can split these up into “paragraphs” which are just simple subroutines.
+- IDENTIFICATION DIVISION: Identifies the following code entity and contains the definition of a class or interface.
+- ENVIRONMENT DIVISION: Contains the configuration section and the input-output section. The configuration section is used to specify variable features such as currency signs, locales and character sets.
+- DATA DIVISION: Six sections which declare different items: the file section, for file records; the working-storage section, for static variables; the local-storage section, for automatic variables; the linkage section, for parameters and the return value; the report section and the screen section, for text-based user interfaces.
+- PROCEDURE DIVISION: Where the actual code goes. You can split these up into “paragraphs” which are just simple subroutines.
 
 I find the `DATA DIVISION` to be very interesting. It’s basically a way for you to declare your data, which is something you’d use an ORM for (or you’d build some form of it yourself) in a more modern language. Here’s an example of a record I took from Wikipedia:
 
@@ -42,7 +42,7 @@ I find the `DATA DIVISION` to be very interesting. It’s basically a way for yo
                10  the-day    PIC 99.
 ```
 
-“Data items in COBOL are declared hierarchically through the use of level-numbers which indicate if a data item is part of another. An item with a higher level-number is subordinate to an item with a lower one. Top-level data items, with a level-number of 1, are called *records*. Items that have subordinate aggregate data are called *group items*; those that do not are called *elementary items*. Level-numbers used to describe standard data items are between 1 and 49.”[^2]
+“Data items in COBOL are declared hierarchically through the use of level-numbers which indicate if a data item is part of another. An item with a higher level-number is subordinate to an item with a lower one. Top-level data items, with a level-number of 1, are called _records_. Items that have subordinate aggregate data are called _group items_; those that do not are called _elementary items_. Level-numbers used to describe standard data items are between 1 and 49.”[^2]
 
 COBOL has built-in support for accessing flat file databases with either sequential or indexed organisation. COBOL doesn’t support any form of SQL-like “querying”, but you could still manually iterate through every record in a sequential file to find matching records. There are also extensions for accessing relational databases if you’d prefer that.
 
@@ -80,17 +80,17 @@ Copy it to a new file and try it out for yourself. You should the fields “Cust
 
 Admittedly, it’s probably only easy because it’s limited to a terminal (and doesn’t have to deal with the hell-scape of internet browsers) but I still think it’s neat.
 
-So far I’ve had a lot of praise for COBOL, much more than I expected. But does this mean I’ll join a COBOL cabal and disavow Rust? Nope, the only cabal I’m into is Haskell’s build system. And in COBOL, memory management is non existent because the memory layout is fixed at runtime.   Due to my Stockholm Syndrome from years of dealing with Rust’s borrow checker, I think this is bad and prefer being yelled at from my compiler.
+So far I’ve had a lot of praise for COBOL, much more than I expected. But does this mean I’ll join a COBOL cabal and disavow Rust? Nope, the only cabal I’m into is Haskell’s build system. And in COBOL, memory management is non existent because the memory layout is fixed at runtime. Due to my Stockholm Syndrome from years of dealing with Rust’s borrow checker, I think this is bad and prefer being yelled at from my compiler.
 
 There is a very big problem I have with COBOL, and that’s how code is structured itself (in the `PROCEDURE DIVISION`).
 
 The `PROCEDURE DIVISION` is divided into paragraphs that start with a paragraph name and have a group of statements within the paragraph. A program starts at the first paragraph and continues sequentially through multiple paragraphs until a `STOP RUN` statement is executed or it executes the last statement in the last paragraph.
 
-You can also  `PERFORM` on a paragraph which is sort of like a function call, but with no local variables. Or you can `PERFORM A THRU B` to jump to paragraph “A”, continuing sequentially until the end of paragraph “B”. Or you can `PERFORM A THRU B VARYING X FROM 1 BY 1 UNTIL C`, which is sort of like a for loop.
+You can also `PERFORM` on a paragraph which is sort of like a function call, but with no local variables. Or you can `PERFORM A THRU B` to jump to paragraph “A”, continuing sequentially until the end of paragraph “B”. Or you can `PERFORM A THRU B VARYING X FROM 1 BY 1 UNTIL C`, which is sort of like a for loop.
 
 The nasty thing about all this is that when looking at a paragraph, you can’t tell anything about how it gets executed. Does it fall through to the next paragraph? You can’t tell. That’s determined dynamically at runtime. Is it a loop? Can’t tell. This is one of the things that makes large COBOL programs really hard to understand.
 
-But wait there’s more! You know the `GO TO` statement right? Well, COBOL having it wouldn’t be that big a deal since lots of old languages have it. That’s until you read about the `ALTER` statement, which changes the target of a `GO TO` paragraph. So now on top of all the dumb stuff `GO TO` can lead to, when you  `GO TO A`, it can go to some other place based on a previous `ALTER` statement! Very cool, I love when I don’t know what my program does!
+But wait there’s more! You know the `GO TO` statement right? Well, COBOL having it wouldn’t be that big a deal since lots of old languages have it. That’s until you read about the `ALTER` statement, which changes the target of a `GO TO` paragraph. So now on top of all the dumb stuff `GO TO` can lead to, when you `GO TO A`, it can go to some other place based on a previous `ALTER` statement! Very cool, I love when I don’t know what my program does!
 
 I think that’s all I needed to learn before I went: “yeah I don’t really want to use this language”. I can just **imagine** the horror of the legacy systems built with COBOL. I’ve had to do a bit of maintenance of an old Perl system and that was bad enough, a COBOL system would probably make it look like… uhhh… I actually can’t think of any large system I would consider well made and designed.
 
@@ -107,5 +107,4 @@ Learn electrical engineering instead.
 ---
 
 [^1]: https://onezero.medium.com/our-government-runs-on-a-60-year-old-coding-language-and-now-its-falling-apart-61ec0bc8e121
-
 [^2]: https://en.wikipedia.org/wiki/COBOL

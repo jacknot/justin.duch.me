@@ -22,7 +22,7 @@ the closet bridge?"
 For context here's the sentence[^1]:
 
 > once upon a midnight dreary, while i pron surfed, weak and weary, over many a strange and spurious
-> site of ' hot  xxx galore'. While i clicked my fav'rite bookmark, suddenly there came a warning,
+> site of ' hot xxx galore'. While i clicked my fav'rite bookmark, suddenly there came a warning,
 > and my heart was filled with mourning, mourning for my dear amour, " 'Tis not possible!", i muttered,
 > " give me back my free hardcore!"..... quoth the server, 404.
 
@@ -49,24 +49,24 @@ with either 'k' or 's'. Other letters such as 'q' which can also be replaced wit
 
 Examples:
 
-* 'Cake' becomes '**K**ake'.
-* 'Sentence' becomes 'Senten**s**e'.
-* 'Quebec' becomes '**K**uebec'.
+- 'Cake' becomes '**K**ake'.
+- 'Sentence' becomes 'Senten**s**e'.
+- 'Quebec' becomes '**K**uebec'.
 
 Next up is silent letters. Get rid of them, this isn't French.
 
 Examples:
 
-* 'Knife' becomes '**N**ife'.
-* 'Queue' becomes '**K**ue'.
+- 'Knife' becomes '**N**ife'.
+- 'Queue' becomes '**K**ue'.
 
-Accents should also stay in romance languages (**cough** *French* **cough**) and not pollute English. We can
+Accents should also stay in romance languages (**cough** _French_ **cough**) and not pollute English. We can
 substitute them with normal letters.
 
 Examples:
 
-* 'Rèsumè' becomes 'Resum**ey**'.
-* 'Façade' becomes 'Fa**s**ade'.
+- 'Rèsumè' becomes 'Resum**ey**'.
+- 'Façade' becomes 'Fa**s**ade'.
 
 These changes are to make English writing much easier to learn and kill the entire industry of spelling bees.
 
@@ -149,8 +149,7 @@ You simpletons might close the tab too quickly if this post was in SAKE, I need 
 
 Not a question.
 
-----
+---
 
 [^1]: http://bash.org/?120296
-
 [^2]: https://www.archives.gov/founding-docs/constitution-transcript

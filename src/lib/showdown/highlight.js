@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 import showdown from 'showdown';
 import hljs from 'highlight.js';
@@ -32,13 +32,7 @@ export const highlight = () => [
         }
       };
 
-      return showdown.helper.replaceRecursiveRegExp(
-        text,
-        replacement,
-        left,
-        right,
-        flags
-      );
-    },
-  },
+      return showdown.helper.replaceRecursiveRegExp(text, replacement, left, right, flags);
+    }
+  }
 ];

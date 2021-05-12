@@ -8,9 +8,10 @@ today is `Curling`. Also note that today is the first of April, and my April
 fools joke is that this is not an April fools joke… or is it? I jest of
 course, these notes are already enough of a joke.
 
-- - - -
+---
 
 ### Nmap Scan
+
 ```
 Starting Nmap 7.70 ( https://nmap.org ) at 2018-11-05 09:58 AEDT
 Nmap scan report for 10.10.10.150
@@ -31,97 +32,116 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 23.14 seconds
 ```
+
 ### Joomla! Site
+
 `http://10.10.10.150`
 
-* Has upload button at bottom of all pages
-* `http://10.10.10.150/administrator/manifests/files/joomla.xml` shows version is `3.8.8`. Released May 22 2018
-* Page `/secret.txt` displays `Q3VybGluZzIwMTgh`. Tried this as password on `/administrator` with user `admin` but nope.
-	* It’s actually base64. Decodes into `Curling2018!`. Still doesn’t work with `admin`
-	* Found username `Floris` in one of the articles. Worked with `Curling2018!`
-* Looked at
-[this](http://www.thehackerstore.net/2015/01/how-to-upload-shell-in-joomla-via-admin.html)
-to upload a PHP shell from [this](https://github.com/pentestmonkey/php-reverse-shell)
-	* Created new file in templates `hello.php` and put shellcode there
-	* Run `nc -lvpn <port_number>`
-	* Go to `10.10.10.150/templates/beez3/hello.php`
-	* Got shell as user `www-data`
+- Has upload button at bottom of all pages
+- `http://10.10.10.150/administrator/manifests/files/joomla.xml` shows version is `3.8.8`. Released May 22 2018
+- Page `/secret.txt` displays `Q3VybGluZzIwMTgh`. Tried this as password on `/administrator` with user `admin` but nope.
+  - It’s actually base64. Decodes into `Curling2018!`. Still doesn’t work with `admin`
+  - Found username `Floris` in one of the articles. Worked with `Curling2018!`
+- Looked at
+  [this](http://www.thehackerstore.net/2015/01/how-to-upload-shell-in-joomla-via-admin.html)
+  to upload a PHP shell from [this](https://github.com/pentestmonkey/php-reverse-shell)
+  _ Created new file in templates `hello.php` and put shellcode there
+  _ Run `nc -lvpn <port_number>`
+  _ Go to `10.10.10.150/templates/beez3/hello.php`
+  _ Got shell as user `www-data`
 
 ### PHP Reverse Shell
-* Can’t get `user.txt` because we don’t have permissions for `~/floris` but we
-can view another file `password_backup`[^1]. It’s a hexdump for something…
-* This [list of file
-signatures](https://en.wikipedia.org/wiki/List_of_file_signatures) tells us the file is a `bz2` file because it has the signature `42 5A 68` at the start
-* Went to `/var/www/html/bin` because the user has write permissions there
-* Copied `/home/floris/password_backup`
-* Reversed the hexdump back to a `bz2` file with `xxd -r password_backup password_backup.bz2`
-* Decompressed the file `bzip2 -d password_backup.bz2`
-* Contains the string
+
+- Can’t get `user.txt` because we don’t have permissions for `~/floris` but we
+  can view another file `password_backup`[^1]. It’s a hexdump for something…
+- This [list of file
+  signatures](https://en.wikipedia.org/wiki/List_of_file_signatures) tells us the file is a `bz2` file because it has the signature `42 5A 68` at the start
+- Went to `/var/www/html/bin` because the user has write permissions there
+- Copied `/home/floris/password_backup`
+- Reversed the hexdump back to a `bz2` file with `xxd -r password_backup password_backup.bz2`
+- Decompressed the file `bzip2 -d password_backup.bz2`
+- Contains the string
+
 ```
 l[passwordrBZh91AY&SY6@@Pt t"dhhOPIS@68ET>P@#I |3x(*N&Hk1x"{]B@6m
 ```
+
 What is this
 
-* Did a `file` on it
-`password_backup: gzip compressed data, was "password", last modified: Tue May 22 19:16:20 2018, from Unix`
-Oh it’s zipped again
+- Did a `file` on it
+  `password_backup: gzip compressed data, was "password", last modified: Tue May 22 19:16:20 2018, from Unix`
+  Oh it’s zipped again
 
-* Added `.gz` as a file extension and unzipped it
+- Added `.gz` as a file extension and unzipped it
+
 ```bash
 $ gunzip password_backup.gz
 $ cat password_backup
 BZh91AY&SY6@@Pt t"dhhOPIS@68ET>P@#I |3x(*N&Hk1x"{]B@6
 ```
+
 WHAT THE FUCK IS THIS
 
-* Checked `file` again
+- Checked `file` again
+
 ```bash
 $ file password_backup
 password_backup: bzip2 compressed data, block size = 900k
 ```
+
 This is getting really annoying
 
-* OK
+- OK
+
 ```bash
 $ mv password_backup password_backup.bz2
 $ bzip2 -d password_backup.bz2
 $ cat password_backup
 password.txt0000644000000000000000000000002313301066143012147 0ustar  rootroot5d<wdCbdZu)|hChXll
 ```
+
 Fucks sake
+
 ```bash
 $ type password_backup
 password_backup: POSIX tar archive (GNU)
 ```
+
 Ugh
 
-* Maybe this will be the last time…
+- Maybe this will be the last time…
+
 ```bash
 $ mv password_backup password_backup.tar
 $ tar -xvf password_backup.tar
 password.txt
 ```
+
 THIS IS IT!!!
+
 ```bash
 $ cat password.txt
 5d<wdCbdZu)|hChXll
 ```
 
 ### SSH Server
+
 `ssh://10.10.10.150:22`
 
-* Logged in `floris@10.10.10.150` with password `5d<wdCbdZu)|hChXll`
-* Get user `cat user.txt`. What a fucking pain
-- - - -
-* Folder `~/admin-area` has files `input` and `report`
-	* Whenever one is edited it is reverted back a while later by something
-	* `ls -al` shows it’s being edited every minute. I’m, pretty sure we’re dealing with cron here
-* Had a guess that a cron job was calling `curl` with a url from the file `input` and redirecting the result to `report`
-	* Changed the url in input from `http://127.0.0.1` to `file:///home/floris/user.txt`
-	* Wait for the start of the next minute and `report` now has the user hash. So yep, i’m right
-* Changed url  to `file:///root/root.txt` (probably should have done this as
-the first test)
-* And now we wait…
+- Logged in `floris@10.10.10.150` with password `5d<wdCbdZu)|hChXll`
+- Get user `cat user.txt`. What a fucking pain
+
+---
+
+- Folder `~/admin-area` has files `input` and `report`
+  - Whenever one is edited it is reverted back a while later by something
+  - `ls -al` shows it’s being edited every minute. I’m, pretty sure we’re dealing with cron here
+- Had a guess that a cron job was calling `curl` with a url from the file `input` and redirecting the result to `report`
+  - Changed the url in input from `http://127.0.0.1` to `file:///home/floris/user.txt`
+  - Wait for the start of the next minute and `report` now has the user hash. So yep, i’m right
+- Changed url to `file:///root/root.txt` (probably should have done this as
+  the first test)
+- And now we wait…
 
 ```bash
 floris@curling:~/admin-area$ date
@@ -139,7 +159,9 @@ floris@curling:~/admin-area$ cat report
 There must have been a way to find out that cron was using curl instead of pure guesswork, but oh well.
 
 ### Footnotes
+
 [^1]:
+
 ```
 00000000: 425a 6839 3141 5926 5359 819b bb48 0000  BZh91AY&SY...H..
 00000010: 17ff fffc 41cf 05f9 5029 6176 61cc 3a34  ....A...P)ava.:4

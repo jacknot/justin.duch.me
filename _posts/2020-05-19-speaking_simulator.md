@@ -21,30 +21,30 @@ The sounds of all languages fall into two classes: consonants and vowels. Conson
 
 ![mouth](https://cdn.halcyonnouveau.xyz/blog/img/mouth.jpg)
 
-| Name | Obstruction | IPA Examples |
-| ---- | ----------- | ------------ |
-| Bilabial | Both lips together | [p], [b], [m] |
-| Labiodental | Touching the bottom lip to the upper teeth | [f], [v] |
-| Dental | Tongue against the teeth |[θ], [ð] |
-| Alveolar | Tongue behind the teeth | [s], [z], [t], [d] |
-| Palatal | Tongue touching the top of the palate | [ʃ], [ʒ] |
-| Velar | Back of the tongue against the back of the mouth | [k], [g], [ŋ] |
-| Uvular | Tongue compressing way back in the mouth | [ʀ] |
-| Glottal | Constricting the throat | [h], [ʔ] |
+| Name        | Obstruction                                      | IPA Examples       |
+| ----------- | ------------------------------------------------ | ------------------ |
+| Bilabial    | Both lips together                               | [p], [b], [m]      |
+| Labiodental | Touching the bottom lip to the upper teeth       | [f], [v]           |
+| Dental      | Tongue against the teeth                         | [θ], [ð]           |
+| Alveolar    | Tongue behind the teeth                          | [s], [z], [t], [d] |
+| Palatal     | Tongue touching the top of the palate            | [ʃ], [ʒ]           |
+| Velar       | Back of the tongue against the back of the mouth | [k], [g], [ŋ]      |
+| Uvular      | Tongue compressing way back in the mouth         | [ʀ]                |
+| Glottal     | Constricting the throat                          | [h], [ʔ]           |
 
 Speech sounds also vary in the way the airstream is affected as it flows from the lungs up and out the mouth and nose. It may be blocked or partially blocked; the vocal cords may or may not vibrate. This is the **manner of articulation** and is what separates sounds in each class from one another. Here are some of the common ones:
 
-| Name | Closure | IPA Examples |
-| ---- | ------- | ------------ |
-| Stops (or Plosives) | Complete closure | [p], [b], [d] |
-| Fricatives | Impeded, enough to create a hissing sound | [ʃ], [ʒ], [x] |
-| Affricates | A stop that releases into a fricative | [tʃ], [dʒ] |
-| Approximants | Slightly impeded, no hissing sound | [r], [l], [j] |
+| Name                | Closure                                   | IPA Examples  |
+| ------------------- | ----------------------------------------- | ------------- |
+| Stops (or Plosives) | Complete closure                          | [p], [b], [d] |
+| Fricatives          | Impeded, enough to create a hissing sound | [ʃ], [ʒ], [x] |
+| Affricates          | A stop that releases into a fricative     | [tʃ], [dʒ]    |
+| Approximants        | Slightly impeded, no hissing sound        | [r], [l], [j] |
 
 These can be further separated with voicing. Sounds are **voiceless** when the vocal cords are apart so that air flows freely through the glottis. Sounds are **voiced** when the vocal cords are together and airstream forces its way through causing them to vibrate. The voiced/voiceless distinction is very imporant in English and distinguishes the words in pairs like the following:
 
-| Voiceless | Voiced |
-| --------- | ------ |
+| Voiceless            | Voiced               |
+| -------------------- | -------------------- |
 | ro**p**e (/ro**p**/) | ro**b**e (/ro**b**/) |
 | fa**t**e (/fe**t**/) | fa**d**e (/fe**d**/) |
 
@@ -66,9 +66,9 @@ But for fun let’s go through a simple example. Here’s my guy trying to say �
 
 Oh deary me! They’ve got it completely wrong. All he did was move his jaw up and down! The transcription for ”Knock. Knock” is /nɒk nɒk/. Now let’s go through each character:
 
-* [n] is a voiceless alveolar (used in **kn**ock).
-* [ɒ] an open back vowel and I’m just realising that I haven’t told you what ”open” or ”back” means so we’re going to ignore it.
-* [k] is a voiceless velar (used in knoc**k**).
+- [n] is a voiceless alveolar (used in **kn**ock).
+- [ɒ] an open back vowel and I’m just realising that I haven’t told you what ”open” or ”back” means so we’re going to ignore it.
+- [k] is a voiceless velar (used in knoc**k**).
 
 With these, we see that our lips shouldn’t close **at all** and our tongue should start somewhere behind the teeth and end at the back of the mouth.
 

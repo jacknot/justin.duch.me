@@ -51,7 +51,7 @@ It's why there are two R's before recycling in "Reduce, Reuse, Recycle".
 
 And this just isn't just for plastics but for "things" in general. Shifting the environmental responsibilities from business to the consumer is a global phenomenon.
 
-America's anti litter campaigns like "Keep America Beautiful" is propaganda to rail against bad environmental habits on the part of *individuals* rather than businesses.
+America's anti litter campaigns like "Keep America Beautiful" is propaganda to rail against bad environmental habits on the part of _individuals_ rather than businesses.
 
 "In essence, Keep America Beautiful managed to shift the entire debate about America's garbage problem. No longer was the focus on regulating production—for instance, requiring can and bottle makers to use refillable containers, which are vastly less profitable. Instead, the “litterbug” became the real villain, and KAB supported fines and jail time for people who carelessly tossed out their trash, despite the fact that, clearly, “littering” is a relatively tiny part of the garbage problem in this country (not to mention the resource damage and pollution that comes with manufacturing ever more junk in the first place). Environmental groups that worked with KAB early on didn't realize what was happening until years later."[^6]
 
@@ -71,18 +71,12 @@ So, if our capitalist overlords are just going to lie and create propaganda rath
 
 Or better yet, just get rid of them ;)
 
-----
+---
 
 [^1]: https://www.upi.com/Top_News/US/2019/08/27/Microplastics-in-rain-snow-drinking-water-heighten-concerns/7041566590679/
-
 [^2]: https://www.upi.com/Science_News/2019/04/16/Airborne-microplastic-particles-found-falling-on-remote-mountain-peaks/7541555381979/
-
 [^3]: https://www.cbc.ca/documentaries/the-passionate-eye/recycling-was-a-lie-a-big-lie-to-sell-more-plastic-industry-experts-say-1.5735618
-
 [^4]: https://www.npr.org/2020/09/11/912150085/waste-land
-
 [^5]: https://www.plasticsoupfoundation.org/en/2018/02/pet-bottles-made-100-recycled-plastic/
-
 [^6]: https://www.motherjones.com/politics/2006/05/origins-anti-litter-campaigns/
-
 [^7]: https://www.npr.org/2020/05/21/858374823/our-pandemic-habits-cut-carbon-emissions-but-its-not-clear-they-ll-last

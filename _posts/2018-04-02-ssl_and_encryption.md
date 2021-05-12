@@ -33,9 +33,9 @@ Whether a 128-bit or 256-bit key is used depends on the encryption capabilities 
 
 An SSL encrypted connection is generated through both asymmetric and symmetric cryptography through an SSL handshake. In SSL communications, the server’s SSL Certificate contains an asymmetric public and private key pair. The session key that the server and the browser create during the SSL Handshake is symmetric. In essence:
 
-* The handshake begins when a client connects to an SSL-enabled server requesting a secure connection.
-* The server then provides identification in the form of a digital certificate. The certificate contains the server name, the trusted certificate authority (CA) that vouches for the authenticity of the certificate, and the server's public encryption key.
-* The client confirms the validity of the certificate before proceeding and then creates a symmetric session key and encrypts it with the server's asymmetric public key. Then sends it to the server.
+- The handshake begins when a client connects to an SSL-enabled server requesting a secure connection.
+- The server then provides identification in the form of a digital certificate. The certificate contains the server name, the trusted certificate authority (CA) that vouches for the authenticity of the certificate, and the server's public encryption key.
+- The client confirms the validity of the certificate before proceeding and then creates a symmetric session key and encrypts it with the server's asymmetric public key. Then sends it to the server.
 
 This concludes the handshake and begins the secured connection, which is encrypted and decrypted with the session key until the connection closes. If any one of the above steps fails, then the SSL handshake fails and the connection is not created.
 

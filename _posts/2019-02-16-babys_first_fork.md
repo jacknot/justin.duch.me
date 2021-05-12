@@ -3,7 +3,7 @@ title: Baby's First Fork
 thumbnail: fork-thumb.png
 ---
 
-While thinking of new posts to write, I thought of a certain something that I believed I wouldn't be able to due to the fact the my articles are now converted to HTML from markdown now (instead of being written in HTML). But then I thought *'why don't I just write in the functionality myself?'* So I've forked [python-markdown2](https://github.com/trentm/python-markdown2) and today we are going to add iframe support.
+While thinking of new posts to write, I thought of a certain something that I believed I wouldn't be able to due to the fact the my articles are now converted to HTML from markdown now (instead of being written in HTML). But then I thought _'why don't I just write in the functionality myself?'_ So I've forked [python-markdown2](https://github.com/trentm/python-markdown2) and today we are going to add iframe support.
 
 Looking at the code, it seems to be a pretty simple task. We just need to add an options to `self.extras` for iframes and call the function if it is passed.
 

@@ -9,7 +9,7 @@ Oil's EROEI has been steadily decreasing from about 35:1 in 1999 to 18:1 in 2006
 
 Solar photovoltaics (PV) have a much more contested EROEI. Calculations on PV EROEI can have wildly different assumptions and methodologies employed and the EROEI values calculated. But Bhandari et al.[^5] calculated the mean value using data from 231 articles and gave PVs an EROEI of around 11:1.
 
-Anyway, a rapidly declining EROEI for oil is obviously bad news for oil companies. This is all compounded with a sharp decrease in oil demand due to *[waves arms in the general direction of 2020]*, where at its worst, global demand dropped by 29 million barrels a day[^6].
+Anyway, a rapidly declining EROEI for oil is obviously bad news for oil companies. This is all compounded with a sharp decrease in oil demand due to _[waves arms in the general direction of 2020]_, where at its worst, global demand dropped by 29 million barrels a day[^6].
 
 We've hit peak oil.
 
@@ -29,9 +29,9 @@ EROEIs are calculated over the lifespan of the resource (for PVs, a common measu
 
 > Let’s say that our nation (or world) uses 100 units of fossil fuel energy one year, and expects to get only 98 units the following year. We need to come up with 2 units of replacement energy within a year’s time to fill the gap. If, for example, the replacement:
 >
-> * has an EROEI of 10:1;
-> * requires most of the energy investment up front (solar panel or wind turbine manufacture, nuclear plant construction, etc.);
-> * and will last 40 years,
+> - has an EROEI of 10:1;
+> - requires most of the energy investment up front (solar panel or wind turbine manufacture, nuclear plant construction, etc.);
+> - and will last 40 years,
 >
 > then we need an up-front energy investment amounting to 4 year’s worth of the new source’s output energy. Since we require an output of 2 units of energy to fill the gap, we will need 8 units of energy to bring the resource into use.
 >
@@ -99,24 +99,15 @@ Besides, us RICH people are going to SOMEHOW save you from all this anyway even 
 
 Screw GME, all my mates invest in OIL.
 
-----
+---
 
 [^1]: https://www.mdpi.com/1996-1073/2/3/490/htm
-
 [^2]: https://www.nature.com/articles/s41560-019-0425-z
-
 [^3]: https://www.sciencedirect.com/science/article/pii/S0301421513006447
-
 [^4]: https://www.sciencedirect.com/science/article/abs/pii/S096014810900055X
-
 [^5]: https://www.sciencedirect.com/science/article/abs/pii/S136403211500146X
-
 [^6]: https://www.iea.org/reports/oil-market-report-april-2020
-
 [^7]: https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/pdfs/energy-economics/energy-outlook/bp-energy-outlook-2020.pdf
-
 [^8]: https://cnbc.com/2020/04/21/the-oil-industry-shakeout-is-just-beginning-with-more-production-cuts-and-bankruptcies-ahead.html
-
 [^9]: https://www.nrel.gov/docs/fy04osti/35489.pdf
-
 [^10]: https://www.mdpi.com/2071-1050/6/5/2601/htm

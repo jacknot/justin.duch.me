@@ -9,7 +9,7 @@ This means you can use keystrokes for standard typing and not have to worry abou
 
 I don't really know what goes into looking for a good foot pedal for this process, but I've seen several pedals go over $100 like the [Philips ACC2330](https://www.pacifictranscription.com.au/product/philips-acc2330-usb-4-pedal-foot-switch/) which is $195. This probably means that there must be some very small but vocal community of transcribers out there somewhere, so I'm going to stop talking about this before I get something wrong and they start cancelling me.
 
-[Vim Clutch by Aleksandr Levchuk](https://github.com/alevchuk/vim-clutch) is an attempt at using a foot pedal for text editing in Vim. It's a quick read, but in case it ever gets taken down for some reason (who *knows* what the reason could be, the Internet is a wild place these days haha), I'm going to summarise it here.
+[Vim Clutch by Aleksandr Levchuk](https://github.com/alevchuk/vim-clutch) is an attempt at using a foot pedal for text editing in Vim. It's a quick read, but in case it ever gets taken down for some reason (who _knows_ what the reason could be, the Internet is a wild place these days haha), I'm going to summarise it here.
 
 Basically, they bought 2 cheap $10 programmable pedals and tried to make it so that when the pedal is pressed down, the pedal types `i` which puts Vim in "insert" mode and when it is released, it types `<esc>` putting it back to "normal" mode.(^1)
 

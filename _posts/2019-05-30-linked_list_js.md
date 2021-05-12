@@ -25,17 +25,17 @@ This is the start. Self-explanatory.
 
 Look at those `push` and `pop` methods! I even added comments so your stupid
 monkey brain can understand it. This is already technically a linked list, but
-while I'm here educating your dumb ass, let's go even ***FURTHER***.
+while I'm here educating your dumb ass, let's go even **_FURTHER_**.
 
 ![linkedlist](https://cdn.halcyonnouveau.xyz/blog/img/linked-list3.png)
 
 Now there's a `tail` attribute and we can `append` and `popBack` the tail!
-What!? *HOW FAR WILL THIS MAN GO!?*
+What!? _HOW FAR WILL THIS MAN GO!?_
 
 ![linkedlist](https://cdn.halcyonnouveau.xyz/blog/img/linked-list4.png)
 
-Look I even added tests!! *are you haPPY NOW?!!! **HUH `<Name Redacted>`, ARE YOU
-HAPPY!!?* LOOK AT WHAT YOU'VE DONE. THIS IS YOUR FAULT. YOU MADE ME DO THIS.**
+Look I even added tests!! _are you haPPY NOW?!!! \*\*HUH `<Name Redacted>`, ARE YOU
+HAPPY!!?_ LOOK AT WHAT YOU'VE DONE. THIS IS YOUR FAULT. YOU MADE ME DO THIS.\*\*
 NOW DON'T YOU EVER DARE TO COME INTO MY HOUSE AND CHALLENGE ME AGAIN.
 
 **P.S.** Give back my dolphin plushie to me or I will burn down your house.

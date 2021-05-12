@@ -15,9 +15,9 @@ So with our simplified example, here's how a computer executes a program (which 
 
 1. The CPU fetches the next instruction of the program from memory.
 2. It executes the instruction.
-4. If the instruction requires a piece of data, it fetches the data from memory.
-5. If the instruction creates data it will need later, it gives the data to memory.
-6. If its the last instruction, it's finished, otherwise go to 1.
+3. If the instruction requires a piece of data, it fetches the data from memory.
+4. If the instruction creates data it will need later, it gives the data to memory.
+5. If its the last instruction, it's finished, otherwise go to 1.
 
 The task of any program is to change the contents of the memory in some major way, which means endlessly passing data back and forth through the bus. This shared bus between the CPU and memory leads to the "von Neumann bottleneck" as the work that the CPU can do is limited by the data transfer rate of the bus. This can seriously limit the effective processing speed when the CPU is required to perform minimal processing on large amounts of data. The CPU is continually forced to wait for needed data to move to or from memory.
 
@@ -125,7 +125,7 @@ CAM is a memory device that uses a technology similar to the one used in RAMs to
 
 Valid descriptions of memory words usually include combinations of the following properties: matching a binary pattern, being smaller or larger than a value, being in a range of values, being the largest value stored, and being the smallest value stored within a CAM. These comparisons are performed in parallel with the time required to execute the operation essentially independent from the number of words stored in memory.[^1]
 
-Ahh, content addressing, [what can't you do?](/post/6e323b301ea87614bfd06b4e476ddee98a783e0c88d93260da74397ab5c878c2)
+Ahh, content addressing, [what can't you do?](/post/645dfc8b4b80108a9270468514a1d6b0492ea7ec1da1115668620e540f2a0516)
 
 Obviously this doesn't solve the von Neumann bottleneck as there's still a bus to transfer data, it's just faster. But isn't faster good enough? I'm pretty content with the speed of my M1 MacBook, so why do I keep railing on von Neumann architecture?
 
@@ -169,8 +169,7 @@ The most high-level programming languages hide their abstractions and suffer fro
 
 Have some imagination, use Lisp, and one day, maybe we'll be able to write Haskell without monads.
 
-----
+---
 
 [^1]: https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=5186&context=open\_access\_etds
-
 [^2]: https://ieeexplore.ieee.org/document/209312

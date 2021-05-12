@@ -2,8 +2,8 @@
   export function load({ error, status }) {
     return {
       props: {
-        title: status,
-      },
+        title: status
+      }
     };
   }
 </script>

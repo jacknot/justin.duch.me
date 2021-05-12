@@ -36,7 +36,7 @@ clients for the terminal, but one of my favourites is [aerc][] which as Vim
 bindings build it. Unfortunately, I haven't managed to get Protonmail Bridge
 to work with it, so I still need to use Apple Mail ;(
 
-***Disclaimer:*** I'm a Patreon supporter for the aerc's author (Drew
+**_Disclaimer:_** I'm a Patreon supporter for the aerc's author (Drew
 DeVault).
 
 [aerc]: https://git.sr.ht/~sircmpwn/aerc
@@ -48,7 +48,7 @@ TUI, or you can use something like [itunes-cli][] which allows you to control
 iTunes from the terminal. Personally, I use itunes-cli because I find it
 easier.
 
-[ViTunes]: https://github.com/ryanflannery/vitunes
+[vitunes]: https://github.com/ryanflannery/vitunes
 [itunes-cli]: https://github.com/ktr0731/itunes-cli
 
 ### Firefox
@@ -76,5 +76,5 @@ trigger key pressed while moving around. Same goes for visual mode but with
 something between 200-300 for this to work better.
 
 [vim-anywhere]: https://github.com/cknadler/vim-anywhere
-[Karabiner-Elements]: https://github.com/tekezo/Karabiner-Elements
+[karabiner-elements]: https://github.com/tekezo/Karabiner-Elements
 [vi-mode]: https://pqrs.org/osx/karabiner/complex_modifications/#vi_mode

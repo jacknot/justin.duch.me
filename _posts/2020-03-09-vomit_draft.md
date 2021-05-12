@@ -15,9 +15,9 @@ Generally when I come up with an idea for a post, I’ll write down a sentence (
 
 Normally, the post is in a pretty bad shape. It’ll probably be really confusing where I haven’t explained my points very well, so I’ll work on fixing it. This also takes a few days as I’ll weigh up the worth of the post. There have been a few instances of posts that I’ve tried to fix up but have stayed as “vomit” no matter how much work goes into it. If that happens, then the idea of the post is probably flawed and I’ll scrap it. Here’s some examples of posts I couldn’t fix:
 
-* A Post About Video Games As Art
-* I Have Fixed Timekeeping And Await My Nobel Prize In Mathematics
-* You Suck At Python
+- A Post About Video Games As Art
+- I Have Fixed Timekeeping And Await My Nobel Prize In Mathematics
+- You Suck At Python
 
 These are all **technically** completed as the entire post has been written, but I don’t think they are of good quality so they will will never see the light of day[^1].
 

@@ -60,7 +60,5 @@ We'll have to wait and see until the first Macs come with Apple silicon to see i
 ---
 
 [^1]: https://en.wikipedia.org/wiki/Experience\_curve\_effects
-
 [^2]: https://www.pcgamer.com/intel-skylake-why-apple-left/
-
 [^3]: https://developer.apple.com/documentation/hypervisor/apple\_silicon

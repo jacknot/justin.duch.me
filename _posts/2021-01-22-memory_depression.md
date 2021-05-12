@@ -133,7 +133,7 @@ Yeah... not looking good huh?
 
 Maybe I should mention that the weeks surrounding Christmas to New Year's are always the worst times of the year for me. They've been a consistent source of panic attacks and normally coincide with a real nice, long depressive episode. But I don't actually think the answers I gave would have changed even if I was feeling slightly better at the current time. It's a test on suicidal behaviour - past, present, and future, and not a test on how sad I am right now.
 
-Ah bon, *c'est la vie*! See you next time I guess.
+Ah bon, _c'est la vie_! See you next time I guess.
 
 ---
 
@@ -147,10 +147,10 @@ The alt title is absolutely the better title, which is why I wanted to keep it, 
 
 Hopefully this should be enough, but here is just a list of some other things I like:
 
-* Astolfo
-* Saber Astolfo
-* Saber Astolfo with bunny ears
-* Astolfo in casual clothes
+- Astolfo
+- Saber Astolfo
+- Saber Astolfo with bunny ears
+- Astolfo in casual clothes
 
 Hey have I mentioned that I'm bi? I think I had it in the about me page, but I trimmed that down to be barely anything. Don't think I've ever said it outright in a blog post and have only made some hints to it. Yeah, I guess this is me saying it then.
 
@@ -158,18 +158,12 @@ Hey have I mentioned that I'm bi? I think I had it in the about me page, but I t
 
 What a fucking weird turn this post has taken. Can't wait until next year when I'll think writing this was also a mistake.
 
-----
+---
 
 [^1]: https://www.brainfacts.org/diseases-and-disorders/mental-health/2019/depressions-impact-on-memory-022119
-
 [^2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5835184/
-
 [^3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1737771/pdf/v072p00400.pdf
-
 [^4]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC60045/
-
 [^5]: https://pubmed.ncbi.nlm.nih.gov/17099603/
-
 [^6]: https://pubmed.ncbi.nlm.nih.gov/17696704/
-
 [^7]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4459161/

@@ -11,13 +11,13 @@
 </script>
 
 <script>
-  import { afterUpdate } from "svelte";
-  import { routeHasChanged } from "../../stores/location";
+  import { afterUpdate } from 'svelte';
+  import { routeHasChanged } from '$lib/stores/location';
 
   export let post;
 
   function createTooltips() {
-    let links = document.getElementsByClassName("footnote-link");
+    let links = document.getElementsByClassName('footnote-link');
 
     let foot;
     let footHtml;
@@ -30,9 +30,9 @@
 
       footHtml = foot.innerHTML;
 
-      newDiv = document.createElement("div");
+      newDiv = document.createElement('div');
       newDiv.innerHTML = footHtml;
-      newDiv.className = "footnote-tooltip";
+      newDiv.className = 'footnote-tooltip';
       parent.insertBefore(newDiv, l.nextSibling);
     }
   }
@@ -41,16 +41,16 @@
     const widthPoint = 1314;
     const width = document.body.clientWidth;
 
-    let tooltips = document.getElementsByClassName("footnote-tooltip");
+    let tooltips = document.getElementsByClassName('footnote-tooltip');
 
     for (let t of tooltips) {
-      t.style.display = width >= widthPoint ? "block" : "none";
+      t.style.display = width >= widthPoint ? 'block' : 'none';
     }
 
-    let bodies = document.getElementsByClassName("footnote-body");
+    let bodies = document.getElementsByClassName('footnote-body');
 
     for (let b of bodies) {
-      b.style.display = width >= widthPoint ? "none" : "block";
+      b.style.display = width >= widthPoint ? 'none' : 'block';
     }
   }
 
@@ -58,7 +58,7 @@
     if (routeHasChanged) {
       createTooltips();
       showTooltips();
-      window.addEventListener("resize", showTooltips);
+      window.addEventListener('resize', showTooltips);
     }
   });
 </script>
@@ -175,7 +175,7 @@
     border-left: 1em solid #484848;
     margin: 1.5em 1em;
     padding: 0.5em 1em;
-    quotes: "\201C""\201D""\2018""\2019";
+    quotes: '\201C''\201D''\2018''\2019';
   }
 
   .content :global(blockquote):before {
@@ -233,7 +233,7 @@
   }
 
   .content :global(hr):after {
-    content: "§";
+    content: '§';
     display: inline-block;
     position: relative;
     top: -0.7em;
@@ -258,11 +258,11 @@
 
   .e-content :global(a):after {
     position: relative;
-    content: "\FEFF°";
+    content: '\FEFF°';
     margin: 0 0.15em;
     top: -0.1em;
     color: #ec53dd;
-    font-feature-settings: "caps";
+    font-feature-settings: 'caps';
     font-variant-numeric: normal;
   }
 

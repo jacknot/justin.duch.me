@@ -14,11 +14,11 @@ thumbnail: lisp-thumb.png
 
 I think it's about time, as a member of the Lisp cult, to write my obligatory blog post about why Lisp is the best programming language. I've alluded to this in the past when talking about other languages I like.
 
-> * [Things I Like About Object-Oriented Programming](/post/oop_is_okay)
+> - [Things I Like About Object-Oriented Programming](/post/oop_is_okay)
 >
 > [...] Elixir has the best modularity of any functional language (that's not a Lisp) [...]
 >
-> * [Stop Picking On The Borrow Checker ;(](/post/stop_picking_on_the_borrow_checker)
+> - [Stop Picking On The Borrow Checker ;(](/post/stop_picking_on_the_borrow_checker)
 >
 > [...] Rust is the most well designed language for developer UX (that isn't a Lisp) [...]
 
@@ -68,15 +68,15 @@ You could argue that this is a bad thing. That natural languages only have so ma
 
 And let's not forget The Lisp Curse.
 
-> Since making Scheme object-oriented is so easy, many Scheme hackers have done so. More to the point, many *individual* Scheme hackers have done so. In the 1990s, this led to a veritable warehouse inventory list of object-oriented packages for the language. The Paradox of Choice, alone, guaranteed that none of them would become standard.
+> Since making Scheme object-oriented is so easy, many Scheme hackers have done so. More to the point, many _individual_ Scheme hackers have done so. In the 1990s, this led to a veritable warehouse inventory list of object-oriented packages for the language. The Paradox of Choice, alone, guaranteed that none of them would become standard.
 
 You know what? You're absolutely right, we don't need a thousand different Lisp dialects. But don't you think that the fact that you can even do this is...
 
 **COOL AS FUCK.**
 
-Okay, okay, I'll admit, it's not all sunshine and rainbows here in the Lisp cult. Don't tell the other members I'm saying this because they might get mad and lock me up, but there are *some* downsides to Lisp.
+Okay, okay, I'll admit, it's not all sunshine and rainbows here in the Lisp cult. Don't tell the other members I'm saying this because they might get mad and lock me up, but there are _some_ downsides to Lisp.
 
-The first is that since Lisp is still a relatively niche language, the ecosystem isn't *quite* there compared to the big boys. The tooling is good, but still a bit lacking. I blame this on most Lisp programmers using Emacs(^4) and hogging all the good tools, leaving us Vimmers with our sub-standard scripting language to rot. This isn't an issue with Lisp but with people, but it's still important.
+The first is that since Lisp is still a relatively niche language, the ecosystem isn't _quite_ there compared to the big boys. The tooling is good, but still a bit lacking. I blame this on most Lisp programmers using Emacs(^4) and hogging all the good tools, leaving us Vimmers with our sub-standard scripting language to rot. This isn't an issue with Lisp but with people, but it's still important.
 
 (^4): Emacs is written in Lisp, which is also why it is highly extensible.
 
@@ -90,24 +90,24 @@ So actually, I've changed my mind, the only problem Lisp has is that people don'
 
 **Cough, cough.**
 
-----
+---
 
 If you want recommendations with Lisp:
 
-* Start with learning [Clojure.](https://clojure.org)(^6)
-    * Maybe watch Rich Hickey's (creator of Clojure) talk, ["Simple Made Easy".](https://www.infoq.com/presentations/Simple-Made-Easy/) It isn't about Clojure but it is a very good introduction to many of Clojures' concepts.
-* Or read the [Scheme book.](https://www.scheme.com/tspl4/) Most people start learning Lisp with Scheme because it's a small language.
-* For fellow Vimmers:
-    * [conjure](https://github.com/Olical/conjure) helps with REPL development for evaluating code within your running program.
-    * [clj-kondo](https://github.com/clj-kondo/clj-kondo) (Clojure only) is an almost required linter to help identify silly mistakes.
-    * [Parinfer](https://shaunlebron.github.io/parinfer/) and its Vim plugin [parinfer-rust](https://github.com/eraserhd/parinfer-rust) is especially important as it makes writing Lisp a thousand times easier.
+- Start with learning [Clojure.](https://clojure.org)(^6)
+  - Maybe watch Rich Hickey's (creator of Clojure) talk, ["Simple Made Easy".](https://www.infoq.com/presentations/Simple-Made-Easy/) It isn't about Clojure but it is a very good introduction to many of Clojures' concepts.
+- Or read the [Scheme book.](https://www.scheme.com/tspl4/) Most people start learning Lisp with Scheme because it's a small language.
+- For fellow Vimmers:
+  - [conjure](https://github.com/Olical/conjure) helps with REPL development for evaluating code within your running program.
+  - [clj-kondo](https://github.com/clj-kondo/clj-kondo) (Clojure only) is an almost required linter to help identify silly mistakes.
+  - [Parinfer](https://shaunlebron.github.io/parinfer/) and its Vim plugin [parinfer-rust](https://github.com/eraserhd/parinfer-rust) is especially important as it makes writing Lisp a thousand times easier.
 
 (^6): PLEASE! IF THERE ARE MORE OF US, THEY WON'T BE ABLE TO MAKE FUN OF EVERYONE.
 
 Once you're comfortable with your Lisp dialect of choice, make sure you start a blog where the only content is:
 
-* A post describing the static site generator you made in Lisp(^7) that your blog uses and;
-* A post describing why Lisp is the best language.
+- A post describing the static site generator you made in Lisp(^7) that your blog uses and;
+- A post describing why Lisp is the best language.
 
 (^7): Unfortunately, this blog uses a static site generator written in SvelteJS.
 

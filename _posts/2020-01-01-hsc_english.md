@@ -49,10 +49,9 @@ The speaker stated that he was monolingual with English and I know that being mu
 
 I may have gotten a bit off track here, but this seems like a good place to stop. I’ve given you some interesting things to think about. Is it good enough for an entire essay? I don’t fucking know, I almost failed English, why are you asking me?
 
-By the way, I’m pretty sure you could actually use this entire blog as a related text *wink* *wink*.
+By the way, I’m pretty sure you could actually use this entire blog as a related text _wink_ _wink_.
 
 ---
 
 [^1]: https://en.wikipedia.org/wiki/Metalanguage
-
 [^2]: https://en.wikipedia.org/wiki/Linguistic_relativity

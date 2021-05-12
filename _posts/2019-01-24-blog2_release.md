@@ -11,7 +11,7 @@ That's right, the search bar hasn't worked for the past year even though it look
 
 ## the future
 
-Now, to celebrate this ***momentous*** achievement, here's a look into notes I have of future blog developments.
+Now, to celebrate this **_momentous_** achievement, here's a look into notes I have of future blog developments.
 
 ![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/blog2-future.png)
 

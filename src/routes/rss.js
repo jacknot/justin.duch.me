@@ -9,28 +9,32 @@ export const makeFeed = () => {
     link: 'https://justin.duch.me',
     author: {
       name: 'Justin Duch',
-      email: 'justin@duch.me',
+      email: 'justin@duch.me'
     },
     feedLinks: {
       json: 'https://justin.duch.me/rss',
       atom: 'https://justin.duch.me/atom'
     },
-    language: 'en',
+    language: 'en'
   });
 
-  getPosts().sort((a, b) => new Date(b.date) - new Date(a.date)).forEach(p => {
-    feed.addItem({
-      title: p.title,
-      content: p.html,
-      id: `https://justin.duch.me/post/${p.slug}`,
-      date: new Date(p.date),
-      author: [{
-        name: 'Justin Duch',
-        email: 'justin@duch.me',
-        link: 'https://justin.duch.me'
-      }]
+  getPosts()
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .forEach((p) => {
+      feed.addItem({
+        title: p.title,
+        content: p.html,
+        id: `https://justin.duch.me/post/${p.slug}`,
+        date: new Date(p.date),
+        author: [
+          {
+            name: 'Justin Duch',
+            email: 'justin@duch.me',
+            link: 'https://justin.duch.me'
+          }
+        ]
+      });
     });
-  });
 
   return feed;
 };
@@ -44,4 +48,4 @@ export const get = async (request) => {
       'Content-Type': 'application/rss+xml'
     }
   };
-}
+};

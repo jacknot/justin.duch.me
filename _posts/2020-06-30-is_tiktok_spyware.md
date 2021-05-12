@@ -3,7 +3,7 @@ title: Is TikTok Spyware? And The Value Of Proof
 thumbnail: tiktok-thumb.png
 ---
 
-If you were here last time, you may have noticed I mentioned that I probably won't  do infosec content anymore.
+If you were here last time, you may have noticed I mentioned that I probably won't do infosec content anymore.
 
 That did not last very long.
 
@@ -25,7 +25,7 @@ The other one is report by [Penetrum](https://penetrum.com/research) and is actu
 
 Because this is the worst "research paper" I have ever read in my entire life. After reading all 21 pages of this pure, unfiltered garbage I actually became **angry**. How could something be this bad?
 
-First of all, let's get all the "nitpicking" about presentation out of the way.(^1) On the page I linked look at the "TikTok Research" box and press the "details" button and download "Penetrum\_TikTok\_Security\_Analysis\_whitepaper.pdf". Okay, open it and tell me what the first thing you see is.
+First of all, let's get all the "nitpicking" about presentation out of the way.(^1) On the page I linked look at the "TikTok Research" box and press the "details" button and download "Penetrum_TikTok_Security_Analysis_whitepaper.pdf". Okay, open it and tell me what the first thing you see is.
 
 (^1): Presentation is actually really important in a report, I'm only calling it nitpicking to be nice.
 
@@ -35,20 +35,20 @@ Next, scroll down **one** page. Now what is it?
 
 It's a typographic mess, that's what it is. Haha yes, center aligned titles! GOOD IDEA! On page 6 there's even a title at the bottom of the page where the actual content is on the next page! FUN! Why are the margins and font sizes so large? Could it be because there's no actual information and they're just padding? Spoiler: **it is**.
 
-With all that done, we can actually get into it. The introduction has this line: "What if I told you that TikTok harvests an excessive amount of data and that this can all be proven right now?" Note the fact that this is the type of language you'd see in, I dunno... **this blog** and **not** a professional whitepaper/report. But I am interested in how all of this can be "proven right now". So yeah, maybe we should  "buckle up folks, it's about to get pretty wild", but for a different reason than they were probably hoping for.
+With all that done, we can actually get into it. The introduction has this line: "What if I told you that TikTok harvests an excessive amount of data and that this can all be proven right now?" Note the fact that this is the type of language you'd see in, I dunno... **this blog** and **not** a professional whitepaper/report. But I am interested in how all of this can be "proven right now". So yeah, maybe we should "buckle up folks, it's about to get pretty wild", but for a different reason than they were probably hoping for.
 
 Next page is the overview. I'm going to show all of the points here:
 
 - 37.70% of known ip addresses linked to TikTok that were found inside of APK source code are linked to Alibaba.com; a Chinese sanctioned ISP located in Hangzhou.
 - Alibaba’s privacy policy states that they share and distribute personal information of its users
 - TikTok in itself is a security risk due to the following reasons;
-	- Webview, and remote webview enabled by default
-	- Application appears to take commands over text and receives them piping themdirectly into Java as an OS command
-	- The application that uses Java reflection while decreasing VM load time can also be taken advantage of by malicious users and has a CVE score of 8.8
-	- This application has been observed to log sensitive information such as;
-		- Device information
-		- User GEO location
-		- Monitors user activity
+  - Webview, and remote webview enabled by default
+  - Application appears to take commands over text and receives them piping themdirectly into Java as an OS command
+  - The application that uses Java reflection while decreasing VM load time can also be taken advantage of by malicious users and has a CVE score of 8.8
+  - This application has been observed to log sensitive information such as;
+    - Device information
+    - User GEO location
+    - Monitors user activity
 
 This... this is not proof. We don't even have to read the rest of the report to know (but we will) that this tells us nothing.
 
@@ -66,7 +66,7 @@ We're given a question: "when does extracting data hit the threshold of too much
 
 Personally, I think "extracting data" hits the threshold of "too much" the moment you start extracting data.
 
-They then go on and talk about some of the APIs TikTok uses. There is a tracker named "AppsFlyer", which uses location data to produce location based advertisments and requiring the permission: `android.permission.ACCESS_FINE_LOCATION`. They look at the code which  "collects everything from the current OS version to running network events (WiFiSSID changes, etc), and even the IMEI number of the associated phone."
+They then go on and talk about some of the APIs TikTok uses. There is a tracker named "AppsFlyer", which uses location data to produce location based advertisments and requiring the permission: `android.permission.ACCESS_FINE_LOCATION`. They look at the code which "collects everything from the current OS version to running network events (WiFiSSID changes, etc), and even the IMEI number of the associated phone."
 
 As they state, "the IMEI when used by trackers is usually used to determine whether an application is re-installed on a phone and give an analysis of other applications that are installed on the phone. Essentially, it creates an extremely realistic and graphic fingerprint of your phone which can be used to determine everything you have installed."
 
@@ -88,7 +88,7 @@ Yes actually! Kind of. They talk about "hard coding API tokens in code [as] plai
 
 Next is use of webview and reflection. Gotta be honest here, I know nothing about Android development so I'm not going to be able to disagree with them when they say it's a big problem. Apparently there is "insecure use of SSL/TLS like ignoring SSL/TLS errors all together, reflection, or `REMOTE_DEBUGGING`."
 
-That's all of it then. So what have we learned? An older version of TikTok (au fait,  they looked at versions 10.0.8-15.2.3) has some security issues and harvests as much data as everybody else.
+That's all of it then. So what have we learned? An older version of TikTok (au fait, they looked at versions 10.0.8-15.2.3) has some security issues and harvests as much data as everybody else.
 
 Let me be clear, I don't like TikTok. This is not a defence of TikTok. The issue here is that, with such shitty proof, you could totally turn it into a defence of TikTok. It makes it a prime candidate for whataboutisms. You've seen me do them on this very post.
 

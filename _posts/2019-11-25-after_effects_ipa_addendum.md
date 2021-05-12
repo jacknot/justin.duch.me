@@ -6,7 +6,7 @@ thumbnail: after-effects-ipa-addendum-thumb.png
 This is an addendum to my previous post which you can read
 [here](/post/after_effects_ipa).
 
-----
+---
 
 Fun fact: The post was actually going to be a serious guide to After Effects
 but I got bored a quarter of the way in and decided to practice memorising the
@@ -31,13 +31,13 @@ layers.
 
 Anyway let's get into the transcription for PragerU /preɪgə'juː/:
 
-* Plosive, bilabial: /p/ (**p**ut)
-* Trill, alveolar: /r/ (**r**ay)
-* Diphthong: /eɪ/ (b**ai**t)
-* Plosive, velar: /g/ (**g**ot)
-* Schwa: /ə/ (**a**bout)
-* Approximant, palatal: /j/ (**y**acht)
-* Close, back: /uː/ (b**oo**t)
+- Plosive, bilabial: /p/ (**p**ut)
+- Trill, alveolar: /r/ (**r**ay)
+- Diphthong: /eɪ/ (b**ai**t)
+- Plosive, velar: /g/ (**g**ot)
+- Schwa: /ə/ (**a**bout)
+- Approximant, palatal: /j/ (**y**acht)
+- Close, back: /uː/ (b**oo**t)
 
 This is all pretty basic stuff, the phoneme is between the slashes (/) and the pronunciation
 is the bold parts of the words in the parentheses. One thing I wasn't too sure on was the syllable

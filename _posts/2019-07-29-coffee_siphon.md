@@ -27,11 +27,11 @@ Here's what you need:
 
 ![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/coffee-01.png)
 
-* Coffee siphon + filter.
-* Butane burner.
-* Coffee beans + grinder.
-* Water.
-* Spoon.
+- Coffee siphon + filter.
+- Butane burner.
+- Coffee beans + grinder.
+- Water.
+- Spoon.
 
 First you need to grind the coffee beans (I don't know how much you need to
 grind). Then you boil some water, I also don't know how much to boil but you

@@ -39,7 +39,7 @@ That’s all. Turns out we don’t actually know very much. I’d also like to t
 
 I think the paper brings up very important points such as calling for “information scientists to examine: (a) how information science might assist the use of trustworthy social media information while avoiding misinformation/ disinformation, (b) systematic ways to automatically detect and stop the spread of misinformation/disinformation on mass media and social media, and (c) strategies to help authoritative organizations in using social media to communicate with individuals and intervene when health misinformation/disinformation spreads.”
 
-I’ve seen a lot of misinformation on social media **cough** *Reddit* **cough**, so this is certainly an issue that needs more research.
+I’ve seen a lot of misinformation on social media **cough** _Reddit_ **cough**, so this is certainly an issue that needs more research.
 
 Now with all that boring stuff over, it is time to talk about etymology! YAY!
 
@@ -49,24 +49,14 @@ Ok bye bye! Remember to wash your hands!
 
 ---
 
-[^1]: He, Feng, et al. “Coronavirus Disease 2019 (COVID‐19): What We Know?” *J Med Virol*. *Wiley*, doi:10.1002/jmv.25766.
-
-[^2]: Hunter, Philip. “The Spread of the COVID ‐19 Coronavirus.” *EMBO Rep*. *EMBO*, doi:10.15252/embr.202050334.
-
-[^3]: Zhou, Peng, et al. “A Pneumonia Outbreak Associated with a New Coronavirus of Probable Bat Origin.” *Nature*, vol. 579, no. 7798, 2020, pp. 270–73. *Springer Science and Business Media LLC*, doi:10.1038/s41586-020-2012-7.
-
-[^4]: Xia, Jianhua, et al. “Evaluation of Coronavirus in Tears and Conjunctival Secretions of Patients with SARS‐CoV‐2 Infection.” *J Med Virol*. *Wiley*, doi:10.1002/jmv.25725.
-
-[^5]: Tang, Xiaolu, et al. *On the Origin and Continuing Evolution of SARS-CoV-2*. *Oxford University Press (OUP)*, doi:10.1093/nsr/nwaa036.
-
-[^6]: Li, Qun, et al. “Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia.” *N Engl J Med*. *Massachusetts Medical Society*, doi:10.1056/NEJMoa2001316.
-
-[^7]: Stein, Richard. “COVID‐19 and Rationally Layered Social Distancing.” *Int J Clin Pract*. *Wiley*, doi:10.1111/ijcp.13501.
-
-[^8]: Wang, Dawei, et al. “Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China.” *JAMA*, vol. 323, no. 11, 2020, p. 1061. *American Medical Association (AMA)*, doi:10.1001/jama.2020.1585.
-
-[^9]: Chen, Nanshan, et al. “Epidemiological and Clinical Characteristics of 99 Cases of 2019 Novel Coronavirus Pneumonia in Wuhan, China: A Descriptive Study.” *The Lancet*, vol. 395, no. 10223, 2020, pp. 507–13. *Elsevier BV*, doi:10.1016/s0140-6736(20)30211-7.
-
-[^10]: Xie, Bo, et al. “Global Health Crises Are Also Information Crises: A Call to Action.” *J Assoc Inf Sci Technol*. *Wiley*, doi:10.1002/asi.24357.
-
+[^1]: He, Feng, et al. “Coronavirus Disease 2019 (COVID‐19): What We Know?” _J Med Virol_. _Wiley_, doi:10.1002/jmv.25766.
+[^2]: Hunter, Philip. “The Spread of the COVID ‐19 Coronavirus.” _EMBO Rep_. _EMBO_, doi:10.15252/embr.202050334.
+[^3]: Zhou, Peng, et al. “A Pneumonia Outbreak Associated with a New Coronavirus of Probable Bat Origin.” _Nature_, vol. 579, no. 7798, 2020, pp. 270–73. _Springer Science and Business Media LLC_, doi:10.1038/s41586-020-2012-7.
+[^4]: Xia, Jianhua, et al. “Evaluation of Coronavirus in Tears and Conjunctival Secretions of Patients with SARS‐CoV‐2 Infection.” _J Med Virol_. _Wiley_, doi:10.1002/jmv.25725.
+[^5]: Tang, Xiaolu, et al. _On the Origin and Continuing Evolution of SARS-CoV-2_. _Oxford University Press (OUP)_, doi:10.1093/nsr/nwaa036.
+[^6]: Li, Qun, et al. “Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia.” _N Engl J Med_. _Massachusetts Medical Society_, doi:10.1056/NEJMoa2001316.
+[^7]: Stein, Richard. “COVID‐19 and Rationally Layered Social Distancing.” _Int J Clin Pract_. _Wiley_, doi:10.1111/ijcp.13501.
+[^8]: Wang, Dawei, et al. “Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China.” _JAMA_, vol. 323, no. 11, 2020, p. 1061. _American Medical Association (AMA)_, doi:10.1001/jama.2020.1585.
+[^9]: Chen, Nanshan, et al. “Epidemiological and Clinical Characteristics of 99 Cases of 2019 Novel Coronavirus Pneumonia in Wuhan, China: A Descriptive Study.” _The Lancet_, vol. 395, no. 10223, 2020, pp. 507–13. _Elsevier BV_, doi:10.1016/s0140-6736(20)30211-7.
+[^10]: Xie, Bo, et al. “Global Health Crises Are Also Information Crises: A Call to Action.” _J Assoc Inf Sci Technol_. _Wiley_, doi:10.1002/asi.24357.
 [^11]: https://www.etymonline.com/word/corona#etymonline_v_19090

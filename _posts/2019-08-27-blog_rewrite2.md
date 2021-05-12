@@ -12,10 +12,10 @@ this site in an entirely different technology stack. I've had a bit of
 deliberation on what the new stack will be but the basic jist of things that
 are changing is this:
 
-* Svelte + NodeJS instead of jQuery + Python for client/server side code.
-* Redis instead of MariaDB for storing emails and caching articles.
-* Dokku for deployment instead of a bunch of garbage Shell scripts.
-* Images are going to go through a CDN instead of me serving them myself.
+- Svelte + NodeJS instead of jQuery + Python for client/server side code.
+- Redis instead of MariaDB for storing emails and caching articles.
+- Dokku for deployment instead of a bunch of garbage Shell scripts.
+- Images are going to go through a CDN instead of me serving them myself.
 
 #### Why are you using a JS framework?
 

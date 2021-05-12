@@ -9,7 +9,7 @@ So that was short lived.
 
 This isn't technically a "Lockdown Thought" because I've actually been thinking about it for years, but eh. Who cares? Today we're going to go through some ideas for a "perfect" social media site.
 
-First let's get a little into what I want to get out of social media. A little fact about me is that I frequented random hacker forums from my early to late teens, which probably explains a lot about why I have these... [certain](/post/worker_coop) [opinions](/post/astolfo). I believe that these forums had a huge influence on my development as a person, and if we ignore all the terrible ideas I've been exposed to and internalised as my own(^1), the trait they implanted in me that I value the most was *curiosity*.
+First let's get a little into what I want to get out of social media. A little fact about me is that I frequented random hacker forums from my early to late teens, which probably explains a lot about why I have these... [certain](/post/worker_coop) [opinions](/post/astolfo). I believe that these forums had a huge influence on my development as a person, and if we ignore all the terrible ideas I've been exposed to and internalised as my own(^1), the trait they implanted in me that I value the most was _curiosity_.
 
 (^1): There are a lot of anarchist weeaboo hackers out there.
 
@@ -76,7 +76,7 @@ Bad idea. I don't want this to turn into certain green website. "In order to mai
 
 And that's actually all I have. I've been thinking about this for years and I got nothing.
 
-----
+---
 
 But...
 
@@ -124,7 +124,7 @@ Yeah nah. Still doesn't work, a direct democracy isn't going solve people not ca
 
 So that's it, I guess. I give up. I don't know how to make social media good.
 
-----
+---
 
 However, I don't like leaving my non-rant posts on a depressing end, so I'm going to go through some of the lesser known social medias that bring some interesting ideas.
 
@@ -146,7 +146,7 @@ Anyway, that's all for today.
 
 I'm serious, I'm not going to drag this on any more.
 
-----
+---
 
 Wait what's that? You want to know why Astolfo is in the thumbnail at the top?
 
@@ -158,10 +158,8 @@ It's because I got my Astolfo figma this week and I wanted to show you all! Look
 
 Il est tres mignon !
 
-----
+---
 
 [^1]: https://en.wikipedia.org/wiki/Sybil_attack
-
 [^2]: https://en.wikipedia.org/wiki/Paradox\_of\_tolerance
-
 [^3]: https://github.blog/2020-09-02-how-we-threat-model/

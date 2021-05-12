@@ -139,13 +139,12 @@ spec:
         app: blog
     spec:
       containers:
-      - name: blog
-        image: beanpupper/blog:latest
-        ports:
-        - containerPort: 3000
+        - name: blog
+          image: beanpupper/blog:latest
+          ports:
+            - containerPort: 3000
 
 ---
-
 apiVersion: v1
 kind: Service
 metadata:
@@ -154,10 +153,10 @@ metadata:
     app: blog
 spec:
   ports:
-  - port: 80
-    targetPort: 3000
-    protocol: TCP
-    name: http
+    - port: 80
+      targetPort: 3000
+      protocol: TCP
+      name: http
   selector:
     app: blog
 ```
@@ -242,9 +241,9 @@ spec:
     privateKeySecretRef:
       name: letsencrypt
     solvers:
-    - http01:
-        ingress:
-          class: nginx
+      - http01:
+          ingress:
+            class: nginx
 ```
 
 And apply it:
@@ -265,16 +264,16 @@ metadata:
     cert-manager.io/cluster-issuer: letsencrypt
 spec:
   tls:
-  - hosts:
-    - blog.justinduch.com
-    secretName: tls-secret
+    - hosts:
+        - blog.justinduch.com
+      secretName: tls-secret
   rules:
-  - host: blog.justinduch.com
-    http:
-      paths:
-      - backend:
-          serviceName: blog-svc
-          servicePort: 80
+    - host: blog.justinduch.com
+      http:
+        paths:
+          - backend:
+              serviceName: blog-svc
+              servicePort: 80
 ```
 
 Apply it again:

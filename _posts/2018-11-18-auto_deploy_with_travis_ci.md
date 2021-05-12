@@ -7,14 +7,14 @@ For the past few days I've been working on getting auto deployment with Travis C
 
 This is the process we will have to go through:
 
-* Set up SSH keys.
-* Add the server's copy of the repository as a Git remote.
-* Push to the remote.
-* SSH into the server and import the SQL dump.
+- Set up SSH keys.
+- Add the server's copy of the repository as a Git remote.
+- Push to the remote.
+- SSH into the server and import the SQL dump.
 
 ### A Quick Note On Security And Sensitive Information
 
-Connecting from a Travis build box (or any CI system really) to a remote host implies to have the private SSH key on the CI box (_rsa files) and its associated public SSH key on the remote host end (_rsa.pub files). We need to make sure our private key is never seen in the Git repo or in the build logs. Thankfully, the Travis CLI client supports file encryption, so make sure to [install it](https://github.com/travis-ci/travis.rb#installation) so we can encrypt it before pushing it to the repo.
+Connecting from a Travis build box (or any CI system really) to a remote host implies to have the private SSH key on the CI box (\_rsa files) and its associated public SSH key on the remote host end (\_rsa.pub files). We need to make sure our private key is never seen in the Git repo or in the build logs. Thankfully, the Travis CLI client supports file encryption, so make sure to [install it](https://github.com/travis-ci/travis.rb#installation) so we can encrypt it before pushing it to the repo.
 
 Git also recommends using a separate git user for remote interactions. However, your repositories might be under a separate user (apps, for example), so you'll need to add both those users to a group (deploy, for example). [Here's a guide on how to do that.](https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server)
 
@@ -85,6 +85,4 @@ ssh apps@$IP -p $PORT <<EOF
 EOF
 ```
 
-Once you're done with the deploy script, push it to your repository and enable Travis integration for it. The next step is to add environment variables to Travis to keep your IP, SSH port, and deploy directory secret. In the Travis menu, select your repository, click "More options", and click "Settings". Scroll down until you see the list of environment variables. There should be some already there that were added by the Travis CLI in the form encrypted_[hex string]_iv/key. Leave those alone. Add `IP`, `PORT`, and `DEPLOY_DIR` as well as `DB_USER` and `DB_PASS` (if you need them) as variables with their corresponding values. For full security, do not display these values in the build log. Once you've finished that, you're done!
-
-
+Once you're done with the deploy script, push it to your repository and enable Travis integration for it. The next step is to add environment variables to Travis to keep your IP, SSH port, and deploy directory secret. In the Travis menu, select your repository, click "More options", and click "Settings". Scroll down until you see the list of environment variables. There should be some already there that were added by the Travis CLI in the form encrypted\_[hex string]\_iv/key. Leave those alone. Add `IP`, `PORT`, and `DEPLOY_DIR` as well as `DB_USER` and `DB_PASS` (if you need them) as variables with their corresponding values. For full security, do not display these values in the build log. Once you've finished that, you're done!

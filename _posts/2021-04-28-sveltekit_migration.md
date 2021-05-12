@@ -23,7 +23,7 @@ I hate this, this is a static site and a client side router makes it feels too S
 
 (^2): Also having the navigation done on the client side implies that JavaScript is being used, and I'd prefer to keep my JS usage hidden ;)
 
-With SvelteKit's SSR, it always [hydrates](https://en.wikipedia.org/wiki/Hydration_\(web_development\)) server-rendered HTML into an interactive page. I found that it was adding JS to pages where it wasn't being used at all on the client side, like `/post` and `/about`. Thankfully, you can add `export const hydrate = false;` to each of your pages where JS isn't being used to disable hydration.
+With SvelteKit's SSR, it always [hydrates](<https://en.wikipedia.org/wiki/Hydration_(web_development)>) server-rendered HTML into an interactive page. I found that it was adding JS to pages where it wasn't being used at all on the client side, like `/post` and `/about`. Thankfully, you can add `export const hydrate = false;` to each of your pages where JS isn't being used to disable hydration.
 
 You could also use the `hydrate` option in the `svelte.config.cjs` file, but that will disable JavaScript for every page (because the router is also disabled) and that was a no-no since I use JS on this page,(^3) and will use JS for the aforementioned "far future plans".
 

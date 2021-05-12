@@ -21,7 +21,7 @@ Natural languages are for communication between humans (because we are the only 
 
 Programming languages are also much more than the “language”, you have the compiler or interpreter, build tools, and configuration files.(^3) Videla also notes how these are often in a variety of different languages. Many people would also say that the community and ecosystem are part of the language too.
 
-(^3): You may disagree with this, but I simply don’t see how you could have a Rust without a  `rustc` and `cargo`. They’re both a part of Rust and why you’d use it.
+(^3): You may disagree with this, but I simply don’t see how you could have a Rust without a `rustc` and `cargo`. They’re both a part of Rust and why you’d use it.
 
 With natural languages you can literally just take things from other languages and have it work. Think of all the French, German, and Spanish loanwords (and phrases) we have in English. In comparison, it would be impossible to put Python’s whitespace rules into Java without breaking “over 6 billion programs”.
 
@@ -41,7 +41,7 @@ Not everybody “categorises” the world in a language. [Visual images often in
 
 While never explicitly mentioning Sapir-Whorf, Paul Graham’s “[Beating the Averages](http://www.paulgraham.com/avg.html)” inadvertently argues in favour of it.
 
-The so-called [blub paradox](https://en.wikipedia.org/wiki/Blub_paradox) (after a hypothetical programming language of average complexity called “Blub”) says that anyone preferentially using some particular programming language will know that it is more powerful than some, but not that it is less powerful than others.  Hence the paradox, because typically programmers are “satisfied with whatever language they happen to use, because it dictates the way they think about programs”.
+The so-called [blub paradox](https://en.wikipedia.org/wiki/Blub_paradox) (after a hypothetical programming language of average complexity called “Blub”) says that anyone preferentially using some particular programming language will know that it is more powerful than some, but not that it is less powerful than others. Hence the paradox, because typically programmers are “satisfied with whatever language they happen to use, because it dictates the way they think about programs”.
 
 I find this deeply flawed. Here’s one thing that natural and programming languages share: there is no **best** language. But they share this for different reasons.
 

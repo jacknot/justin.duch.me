@@ -5,10 +5,10 @@ thumbnail: default-thumb.png
 
 In Linux `screen` is a command that allows you to:
 
-* Use multiple shell windows from a single SSH session.
-* Keep a shell active even through network disruptions.
-* Disconnect and re-connect to a shell sessions from multiple locations.
-* Run a long running process without maintaining an active shell session.
+- Use multiple shell windows from a single SSH session.
+- Keep a shell active even through network disruptions.
+- Disconnect and re-connect to a shell sessions from multiple locations.
+- Run a long running process without maintaining an active shell session.
 
 ### Starting Linux Screen
 

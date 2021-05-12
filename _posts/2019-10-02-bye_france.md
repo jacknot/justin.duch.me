@@ -41,8 +41,7 @@ eat very much and it was pretty big, but I ate the entire thing in an
 afternoon completely by itself. This is why I learnt French and I'm sure it's
 many other people's reason too.
 
-France has shipped US$568.4 billion worth of goods around the globe in
-2018.[^4] This is terrible if we want people to think France is the worst.
+France has shipped US$568.4 billion worth of goods around the globe in 2018.[^4] This is terrible if we want people to think France is the worst.
 That is at least OVER 600 baguettes!!
 
 **600 PEOPLE WHO NOW WANT TO LEARN FRENCH BECAUSE THE DICK BREAD TASTED SO
@@ -57,8 +56,8 @@ any nukes. Unless...?
 
 Unfortunately, wikiHow doesn't have a article on becoming a world leader so
 I'm kinda in the dark here. However, I've thought of a loophole! Do you
-remember this famous quote from the book Dune: *"He who controls the spice
-controls the universe"*? Herbert was of course referencing to LATE-STAGE
+remember this famous quote from the book Dune: _"He who controls the spice
+controls the universe"_? Herbert was of course referencing to LATE-STAGE
 CAPITALISM.
 
 THAT'S RIGHT! THIS IS JUST ANOTHER POST OF ME SHITTING ON CAPITALISM!
@@ -96,14 +95,10 @@ Now we can sit back in our Mars habitat (for rich people only) and watch a new
 Earth grateful it has been rid of the French language. Go suck a baguette
 Québec.
 
-----
+---
 
 [^1]: http://bilan.usherbrooke.ca/bilan/pages/evenements/1419.html
-
 [^2]: https://twitter.com/BeWaterHKG/status/1171156739493961728?s=20
-
 [^3]: https://shanghai.ist/2019/09/05/this-group-of-scholars-have-concluded-that-english-is-actually-a-chinese-dialect
-
 [^4]: http://www.worldstopexports.com/frances-top-10-exports/
-
 [^5]: http://www.bbc.com/future/story/20181207-how-ai-could-help-us-with-ancient-languages-like-sumerian

@@ -36,20 +36,22 @@ Alright(^2), let’s start with English as a warm-up.
 (^2): That’s four paragraphs in a row that start with “A”. Completely unintentional, but I searched for things with the acronym “AAAA” in case it meant something. One of which was the “Anonymous Acronym Abuse Association”. Just something to think about.
 
 ## English
+
 It should be obvious, but our limit does not make the largest string because the start of the number: “nine hundred and ninety-nine million” (36) is shorter than “nine hundred and ninety-seven million” (37). We can be sure however, that it will be in the hundreds of millions as a bigger number would mean more words.
 
 In English, all the three-digit numbers are constructed by stating the hundreds, then adding the “and” word, then the tens and the digits. E.g. 111 is “one hundred and eleven” (22). We can the add the multiplier of “thousand”, “million”, etc. to make “one hundred and eleven thousand”, “one hundred and eleven million”, etc. This means we just need to find the biggest three-digit string and repeat it three times.
 
 The hundreds in our three-digit number is always spelt as a singular unit from 1-9. The biggest one is tied between “seven”, “eight”, and “three” which are all 5 characters. I’m going with “eight” because that’s the day I was born.
 
-Next, The tens are formed by adding the “-(t)y” suffix at the end of the multiplier digit root, with the exception of ten. From twenty-one to ninety-nine, the tens and units are joined with a hyphen. So, we can ignore any number below 21 because they are all only one word, and I’m not sure if you know this, but *two* is bigger than *one*. The more you know, yeah?
+Next, The tens are formed by adding the “-(t)y” suffix at the end of the multiplier digit root, with the exception of ten. From twenty-one to ninety-nine, the tens and units are joined with a hyphen. So, we can ignore any number below 21 because they are all only one word, and I’m not sure if you know this, but _two_ is bigger than _one_. The more you know, yeah?
 
 The biggest tens is actually just “seventy” (7) this time. So combined with our unit, it makes “seventy-eight” (13).
 
 Now putting it all together, we get 878,878,878 or “**eight hundred and seventy-eight million, eight hundred and seventy-eight thousand, eight hundred and seventy-eight**” (114). We also could have done 777,777,777 or 373,373,373 to get the same length.
 
 ## French
-I’m going to *try* and summarise the explanations, so there will probably be a lot missing. If you get confused just go to the website and check for yourself.
+
+I’m going to _try_ and summarise the explanations, so there will probably be a lot missing. If you get confused just go to the website and check for yourself.
 
 Digits and numbers from zero to sixteen are specific words and the biggest one is 4: “quatre” (6).
 
@@ -68,6 +70,7 @@ With that we can add the multipliers for a million: “millions”, and a thousa
 Surprisingly, that’s only two characters more then our English string. But with English we had to put in commas and add the word “and” after our hundreds. Out of curiosity, I checked what the string would be like without those things, and it came up with a nice round length of 100.
 
 ## German
+
 This is where the real challenge starts, as we’ve run out of languages I already know how to count in, meaning you should probably expect some mistakes (but hopefully not).
 
 We’re doing German first because I’ve never really had a close look at a Germanic language (besides English, but that doesn’t count), so I think it would be interesting.
@@ -83,6 +86,7 @@ Hundred (“hundert”) and thousand (“tausend”) are not separated from the 
 Millions (et al) are like hundreds and thousands but they **are** separated by a space. So now we can make 797,797,797: “**siebenhundertsiebenundneunzig Millionen siebenhundertsiebenundneunzigtausendsiebenhundertsiebenundneunzig**” (105).
 
 ## Finnish
+
 Finnish is actually an [Uralic](https://en.wikipedia.org/wiki/Uralic_languages) language instead of Indo-European. But I’m the one who created the rules, so I’m the one who can break them. And fun fact: no numbers are written with a space in Finnish, so if German made you squint you better get your glasses.
 
 The largest units are 7: “seitsemän” (9) and 8: “kahdeksan” (9).
@@ -100,6 +104,7 @@ Now we can make 888,888,888: “**kahdeksansataakahdeksankymmentäkahdeksanmiljo
 Not only is that the longest string (or single word) so far, but it’s also the biggest number.
 
 ## Welsh
+
 The traditional counting system used in the Welsh language is vigesimal, i.e. based on twenties as in the French numerals for 60-99. It is still used to express age and years, but is replaced by the decimal system for its ease to learn for English-speaking people, so we are going to use that.
 
 There are also some syntactically and phonologically triggered variation in the form of numerals, which I think are interesting so we’ll go through them.
@@ -119,6 +124,7 @@ Anyway, our largest hundreds is 400: “pedwar cant” (11) and we put it before
 Now we can add the thousands (“mil”) and millions (“miliynau”) to make 444,444,446: “**pedwar cant pedwar deg pedwar miliynau pedwar cant pedwar deg pedwar mil pedwar cant pedwar deg chwech**” (102).
 
 ## Czech
+
 Our last language is Czech. I’ve tried to pick a few languages that I don’t think my readers would have any experience in so you can’t nitpick me.
 
 The largest units are 1: “jedna” (5), 4: “čtyři” (5), or 9: “devět” (5). The digits one and two also have gendered forms: “jeden/jedna/jedno” and “dva/dvě/dvě” (masculine/feminine/neuter).
@@ -127,9 +133,9 @@ Tens are formed by adding ten (“cet/desát”) to the end of the multiplier di
 
 Hundreds “sto/stě/sta/set”, thousands, “tisíc/tisíce” and millions “milión/miliony/milionů” all follow the same rule, and are put after the multiplier.
 
-This makes 919,919,919: “**devět set devatenáct milionů devět set devatenáct tisíc devět set devatenáct**”  (76).
+This makes 919,919,919: “**devět set devatenáct milionů devět set devatenáct tisíc devět set devatenáct**” (76).
 
-----
+---
 
 That’s every language I can be bothered to learn how to count in. But before we wrap things up, I’d like to talk about character encoding.
 

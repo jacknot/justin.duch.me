@@ -7,7 +7,7 @@ Optimum was a fun box with which while the write-up says to use Metasploit, can 
 
 ![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/optimum-nmap.png)
 
-Our initial nmap scans only show one port open running HttpFileServer (HFS) version 2.3, which is vulnerable to [CVE-2014-6287](https://www.cvedetails.com/cve/CVE-2014-6287/). From the description it *"allows remote attackers to execute arbitrary programs via a %00 sequence in a search action."* Basically this just allows us to execute HFS template macros by just sending a null byte (%00) to the search item. Metasploit has the module **exploit/windows/http/rejetto_hfs_exec** to exploit this vulnerability and get a meterpreter shell, but to get a reverse shell in PowerShell, we are going to do it manually.
+Our initial nmap scans only show one port open running HttpFileServer (HFS) version 2.3, which is vulnerable to [CVE-2014-6287](https://www.cvedetails.com/cve/CVE-2014-6287/). From the description it _"allows remote attackers to execute arbitrary programs via a %00 sequence in a search action."_ Basically this just allows us to execute HFS template macros by just sending a null byte (%00) to the search item. Metasploit has the module **exploit/windows/http/rejetto_hfs_exec** to exploit this vulnerability and get a meterpreter shell, but to get a reverse shell in PowerShell, we are going to do it manually.
 
 Using [this reference guide](http://www.rejetto.com/wiki/index.php?title=HFS:_scripting_commands), we can see that the command we want is `{.exec | A.}`, where `A` is the file to run. In order to get a reverse shell, our script will want to look something like: `{exec | powershell.exe ReverseShell.ps1}`, which will run the "ReverseShell.ps1" script in PowerShell. The reverse shell script we will be using comes from [Nishang](https://github.com/samratashok/nishang), which is a collection of PowerShell scripts used for pen testing. Specifically we want to use [Invoke-PowerShellTcp.ps1](https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1). Download it and add this line to the bottom of the file to make the `Invoke-PowerShellTcp` function run when the script is executed without any arguments:
 
@@ -41,7 +41,7 @@ You can see at the start we use the null terminator (%00) then execute our comma
 
 We can now get `user.txt` from the current directory.
 
-Normally to get root with Metasploit you could use **local\_exploit\_suggester**. But we will use [Sherlock](https://github.com/rasta-mouse/Sherlock), which is a script to find missing software patches for privesc. Download it and add this line to the bottom of the script:
+Normally to get root with Metasploit you could use **local_exploit_suggester**. But we will use [Sherlock](https://github.com/rasta-mouse/Sherlock), which is a script to find missing software patches for privesc. Download it and add this line to the bottom of the script:
 
     Find-AllVulns
 

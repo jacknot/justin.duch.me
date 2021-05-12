@@ -12,6 +12,7 @@ I find both of these to be incredibly overplayed by now, so instead I’m going 
 First, let’s go through some things that aren’t quite the “Best Thing of the Decade” but are pretty close (in no particular order).
 
 ## JoJo’s Bizarre Adventure - Anime (2012)
+
 Good anime. I don’t know how to talk about TV shows without spoiling them.
 
 Also, Part 4 Jotaro is really hot and I have fantasies that he’d spit on me and call me a bitch…
@@ -32,14 +33,17 @@ Actually, I’ve been meaning to do a top ten waifus/husbandos for a while now s
 Hmm… I’ve never actually written it down before and it’s seems to be very clear that I have a “type”. This definitely won’t help me convince you that I’m not a weirdo.
 
 ## The Time I Got 20/20 For A History Essay On “Why Australia Joined the Vietnam War” (2015)
+
 Oh this is one of my favourite things that happened during High School. History was my worst subject and on the previous essay I got a 5/20, so this was quite the surprise. Unfortunately, I didn’t keep it up and ended the year with a “C” grade.
 
 I was also going to explain a bit about “Why Australia Joined the Vietnam War” here, but as it turns out, I’ve completely forgotten it.
 
 ## This Blog (2018)
+
 I was thinking about it, but I wouldn’t actually make this blog the “Best Thing of the Decade”. I’m not that narcissistic.
 
 ## Attention Is All You Need (2017)
+
 During work I like to open up a random arXiv.org paper on my second monitor because reading research papers makes you look smart. This was not one of those times however, I actually sought out and **read** it!
 
 Here’s the abstract if you don’t know what it’s about:
@@ -49,9 +53,11 @@ Here’s the abstract if you don’t know what it’s about:
 NLP is a field I’m very interested in, so I’ve been trying to read papers to get a better understanding of it. I didn’t understand all of it, but just searching up new terms was enough for me to be able to get through it.
 
 ---
+
 Wow! It’s now time to reveal what the “Best Thing of the Decade” is!
 
 ## Pokemon Bidoof Version (2019)
+
 [I don’t know what you expected](https://www.gbahacks.com/2019/04/bidoof-version.html). The waifu list was a rouse, my real love is for Bidoof.
 
 Incidentally, this is also the best thing of the year so that's pretty cool.

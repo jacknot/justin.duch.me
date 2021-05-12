@@ -9,7 +9,7 @@ Generating a Rainbow Table uses two key functions: a hash function and a reducti
 
 ![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/hash.png)
 
-While the reduction function maps a hash to a plaintext. The reduction function obviously does not generate the original plaintext of the hash, it is not an *inverse* hashing function because that should be impossible. What the reduction function does is create a new plaintext from the hash. The reduction function is a key part of the Rainbow Table and is very complicated. So for the purposes of this article, we will keep it simple. In our case we will have a reduction function that takes the first 7 characters of a hash.
+While the reduction function maps a hash to a plaintext. The reduction function obviously does not generate the original plaintext of the hash, it is not an _inverse_ hashing function because that should be impossible. What the reduction function does is create a new plaintext from the hash. The reduction function is a key part of the Rainbow Table and is very complicated. So for the purposes of this article, we will keep it simple. In our case we will have a reduction function that takes the first 7 characters of a hash.
 
 ![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/reduction.png)
 
@@ -24,5 +24,3 @@ Now that we have our table of chains. We can start looking for an unknown plaint
 In this way you check through the hashes in the chains, which aren't actually stored anywhere on disk, by iterating column by column through the table of chains, backwards from the last column in the chain, to the starting plaintext.
 
 The reason they're called Rainbow Tables is because each column uses a different reduction function. If each reduction function was a different color, and you have starting plaintexts at the top and final hashes at the bottom, it would look like a rainbow (a very vertically long and thin one).
-
-

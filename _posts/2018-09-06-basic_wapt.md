@@ -47,9 +47,9 @@ Viperidae was supposed to have two parts to it's API, the main part being one us
 
 This is going to be a very quick test since the app is so small. In fact I can sum it up in bullet points.
 
-* **XSS:** No. The JS framework I was learning this time (React) sanitises everything.
-* **SQLi:** No. It doesn't use SQL (the public version doesn't, the developer version would).
-* **Session Hijacking:** No. It doesn't use sessions.
+- **XSS:** No. The JS framework I was learning this time (React) sanitises everything.
+- **SQLi:** No. It doesn't use SQL (the public version doesn't, the developer version would).
+- **Session Hijacking:** No. It doesn't use sessions.
 
 However, there is one part I been concerned about for a while and just haven't been bothered to check if it was actually a concern. If you look at the code for the crawler you will see [these three lines](https://github.com/beanpuppy/viperidae/blob/canary/api/crawl.py#L202-L204).
 
@@ -61,7 +61,7 @@ Spider.cache = {} # I actually have no idea, should probably test it
 
 As you can see from the comments, I am concerned about the cache causing a memory leak, as the crawler saves every page it requests into this cache. Since Spider.cache is a class attribute, it is shared between all instances of classes. I was unsure if this was ever cleared so I manually did it myself. Now I am finally going to test this.
 
-We will do two tests - one with the *'fix'* and one without. I will be using the script below which requests several sites for the API to index and then monitor the memory usage.
+We will do two tests - one with the _'fix'_ and one without. I will be using the script below which requests several sites for the API to index and then monitor the memory usage.
 
 ```python
 import requests
@@ -96,7 +96,7 @@ Here is the memory usage before we start.
 
 ![image-alternative](https://cdn.halcyonnouveau.xyz/blog/img/wapt-viperidae-memory.png)
 
-Now we will run the script with the *'fix'* implemented.
+Now we will run the script with the _'fix'_ implemented.
 
 There was no difference, the graph is exactly the same. I even looked at the memory usage from the server itself with free -m before and after, and also found no difference. So maybe the fix really is a fix? Okay so now let's remove it and run the test again.
 
@@ -108,9 +108,9 @@ Again no difference except from a small decrease, which is probably just from me
 
 Considering this is the only web app I still maintain, I'm going to put a little more effort in trying to find vulnerabilities. However, we still have to start with the basics.
 
-* **XSS:** No. There is nowhere to do it (the search bar doesn't work).
-* **SQLi** No. The article IDs in the URL are actually used in a SQL query, but those are sanitised by peewee.
-* **Session Hijacking:** No. There are no sessions being used.
+- **XSS:** No. There is nowhere to do it (the search bar doesn't work).
+- **SQLi** No. The article IDs in the URL are actually used in a SQL query, but those are sanitised by peewee.
+- **Session Hijacking:** No. There are no sessions being used.
 
 With those out of the way, let's look at 'path file traversal'. If you look at the URLs for any of the images shown here, you will see that they are all from `/article/static/img/` which is the real path from the file structure of the app. The web framework I use is very determent on directory structure to act as individual pages. Looking at the code, we can see that the framework just serves the file by the filename straight from the specified directory without doing anything to it.
 

@@ -71,13 +71,13 @@ pip install -r requirements.txt
 You may also need to do some extra steps as it didn't work out of the box for
 me.
 
-* Install more packages:
+- Install more packages:
 
 ```bash
 pip install numpy tensorflow
 ```
 
-* Fix module linking (optional):
+- Fix module linking (optional):
 
 Because the module linking is kinda messed up I will prepend all my python
 commands with `PYTHONPATH='./src'` to add the `src` directory to the path. If
@@ -128,18 +128,19 @@ Training...
 [10 | 207.01] loss=3.18 avg=3.32
 [11 | 225.60] loss=3.34 avg=3.32
 ```
+
 We can decipher the output `[6 | 130.92] loss=3.26 avg=3.26` as follows:
 
-* 6: Refers to the number of training step. Think of it as a counter that will
-increase by 1 after each run.
+- 6: Refers to the number of training step. Think of it as a counter that will
+  increase by 1 after each run.
 
-* 130.92: Time elapsed since the start of training in seconds. You can use the
-first step as reference to determine how long does it take to run one step.
+- 130.92: Time elapsed since the start of training in seconds. You can use the
+  first step as reference to determine how long does it take to run one step.
 
-* loss and avg: Both of them refers to the cross-entropy (log loss) and the
-average loss. You can use this to determine the performance of your model. In
-theory, as training steps increases, the loss should decrease until it
-converge at certain value. The lower, the better.
+- loss and avg: Both of them refers to the cross-entropy (log loss) and the
+  average loss. You can use this to determine the performance of your model. In
+  theory, as training steps increases, the loss should decrease until it
+  converge at certain value. The lower, the better.
 
 You can stop training at any time with `Ctrl-c` and resume with the same
 command.

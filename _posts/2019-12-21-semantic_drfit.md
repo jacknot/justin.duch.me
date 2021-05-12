@@ -5,7 +5,7 @@ thumbnail: semantic-drift-thumb.png
 
 Hello everyone, I am feeling a bit down today so I thought it would be a good idea to laugh at low hanging fruit so we can all cheer up somewhat by thinking to ourselves: “At least I’m not **that** stupid”.
 
- Here are some comments I found on a post from subreddit “r/Ask_TheDonald” called [“Looking for the worst abuses of language destruction”](https://web.archive.org/web/20191205050657/https://old.reddit.com/r/AskThe_Donald/comments/e3g7be/looking_for_the_worst_abuses_of_language/):
+Here are some comments I found on a post from subreddit “r/Ask_TheDonald” called [“Looking for the worst abuses of language destruction”](https://web.archive.org/web/20191205050657/https://old.reddit.com/r/AskThe_Donald/comments/e3g7be/looking_for_the_worst_abuses_of_language/):
 
 > The worst things progressivism does to language is says there are no real rules, or definitions, and that the usage of the word can change it over time. The word literally for example comes from liter, meaning by the word. Most people know that, and use it to mean the opposite of its definition as a joke, ie I literally died laughing, so now dictionaries say literally can mean its Latin root or “a hyperbolic exaggeration” The word “irony” is the same, so many idiots think it means a funny coincidence that leftist librarians accepted that as a true definition.
 
@@ -35,7 +35,7 @@ Language is a living tree, eternally sprouting new shoots as other branches with
 
 Also what the fuck even is “language destruction”? Seriously, that’s not a thing! Do you really think you can destroy a language by just changing the meanings of some words? Please take a linguistics course before you spout such garbage on the Internet you idiots. How can you go through your entire life speaking a language and not know anything about how it works?
 
-Don’t even get me started on “gender”, which comes from Old French and has meant “kind, sort, class, a class or kind of persons or things sharing certain traits”[^3] since the 13th century and was only used as a replacement for “sex” in the 15th century. Seriously, your “collection of dictionaries” that show that it used to be “one of the two sexes” belong in a dumpster and  ~~set aflame~~ recycled in an environmentally friendly way.
+Don’t even get me started on “gender”, which comes from Old French and has meant “kind, sort, class, a class or kind of persons or things sharing certain traits”[^3] since the 13th century and was only used as a replacement for “sex” in the 15th century. Seriously, your “collection of dictionaries” that show that it used to be “one of the two sexes” belong in a dumpster and ~~set aflame~~ recycled in an environmentally friendly way.
 
 “Google literally modified the definition of fascism to mean right wing people.” Holy shit how can someone be this stupid? Do I even need to say anything?
 
@@ -58,7 +58,5 @@ If you are curious however, the video essay [“Who’s Afraid of Modern Art: Va
 ---
 
 [^1]: https://en.wikipedia.org/wiki/Semantic_change
-
 [^2]: https://en.wikipedia.org/wiki/Etymology
-
 [^3]: https://www.etymonline.com/word/gender

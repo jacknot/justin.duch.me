@@ -9,11 +9,7 @@ import * as crypto from 'crypto';
 import showdown from 'showdown';
 import readingTime from 'reading-time';
 
-import { footnotes } from './../../showdown/footnotes';
-import { prettify } from './../../showdown/prettify';
-import { highlight } from './../../showdown/highlight';
-import { peertube } from './../../showdown/peertube';
-import { youtube } from './../../showdown/youtube';
+import { footnotes, prettify, highlight, peertube, youtube } from '$lib/showdown';
 
 const converter = new showdown.Converter({
   tables: true,
@@ -26,13 +22,9 @@ const postsDir = '_posts';
 function replaceHtml(slug, html) {
   // replace reference tags will full path because I don't know how to change
   // the base url.
-  return html.replace(
-    /#reference/g,
-    `post/${slug}/#reference`
-  ).replace(
-    /#footnote/g,
-    `post/${slug}/#footnote`
-  );
+  return html
+    .replace(/#reference/g, `post/${slug}/#reference`)
+    .replace(/#footnote/g, `post/${slug}/#footnote`);
 }
 
 function getPostData(data, getHtml) {
@@ -42,20 +34,16 @@ function getPostData(data, getHtml) {
   let body = lines.slice(4, lines.length).join('\n');
 
   return {
-    title: metadataString[0]
-      .split(':')
-      .slice(1)
-      .join(':')
-      .trim(),
+    title: metadataString[0].split(':').slice(1).join(':').trim(),
     thumbnail: metadataString[1].split(':')[1].trim(),
     readtime: Math.ceil(readingTime(body).minutes),
-    html: getHtml ? converter.makeHtml(body) : null,
+    html: getHtml ? converter.makeHtml(body) : null
   };
 }
 
 function parseFilename(file) {
   let f = file.split('.')[0].split('-');
-  let [date, slug] = [f.splice(0, 3).join('-'), f.splice(0, 1)[0]]
+  let [date, slug] = [f.splice(0, 3).join('-'), f.splice(0, 1)[0]];
 
   if (slug == '[cid]') {
     let file_buffer = fs.readFileSync(path.join(postsDir, file));
@@ -70,7 +58,7 @@ function parseFilename(file) {
 function getPost(snail) {
   let post = null;
 
-  fs.readdirSync(postsDir).forEach(file => {
+  fs.readdirSync(postsDir).forEach((file) => {
     let filepath = path.join(postsDir, file);
     let [date, slug] = parseFilename(file);
 
@@ -87,7 +75,7 @@ function getPost(snail) {
 function getPosts(getHtml = true) {
   let posts = [];
 
-  fs.readdirSync(postsDir).forEach(file => {
+  fs.readdirSync(postsDir).forEach((file) => {
     let filepath = path.join(postsDir, file);
     let [date, slug] = parseFilename(file);
 

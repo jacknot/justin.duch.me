@@ -6,7 +6,7 @@
     if (res.ok) {
       const posts = await res.json();
       return {
-        props: { posts },
+        props: { posts }
       };
     }
   };
@@ -17,19 +17,19 @@
 
   export let posts;
 
-  const current_build = DateTime.now().setZone("Australia/Sydney");
+  const current_build = DateTime.now().setZone('Australia/Sydney');
 
   function distanceFromPrev(post) {
-    const index = posts.map(p => p.date).indexOf(post.date);
+    const index = posts.map((p) => p.date).indexOf(post.date);
     const prev_post = posts[index - 1];
 
     let end;
-    const start = DateTime.fromISO(post.date).setZone("Australia/Sydney");
+    const start = DateTime.fromISO(post.date).setZone('Australia/Sydney');
 
     if (prev_post === undefined) {
       end = current_build;
     } else {
-      end = DateTime.fromISO(prev_post.date).setZone("Australia/Sydney");
+      end = DateTime.fromISO(prev_post.date).setZone('Australia/Sydney');
     }
 
     return Math.ceil(Interval.fromDateTimes(start, end).length('days') / 2);
@@ -49,7 +49,7 @@
 
 {#each posts as post}
   <div style="max-width: 100%; height: {distanceFromPrev(post)}em; padding: 1em 0.5em 1em 4em;">
-    <div class="divider"></div>
+    <div class="divider" />
   </div>
 
   <div class="post">
@@ -60,7 +60,9 @@
     </p>
 
     <div class="bottom-border">
-      <div style="border-bottom: 0.5em solid rgba(255, 255, 255, 0.2); max-width: 100%; width: {post.readtime}em;"></div>
+      <div
+        style="border-bottom: 0.5em solid rgba(255, 255, 255, 0.2); max-width: 100%; width: {post.readtime}em;"
+      />
     </div>
 
     <div class="post-info">

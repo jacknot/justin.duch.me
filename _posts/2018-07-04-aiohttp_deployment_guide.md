@@ -9,7 +9,7 @@ This guide assumes you are using Python3 and a Linux operating system with Syste
 
 ### 0x100: Python Venv
 
-The first thing everyone should always do everywhere no matter where they are, or who they with, or where they come from, or where they are going, is set up a virtual environment for Python. If you're app doesn't use a virtual environment, you're an idiot and you should create one ***RIGHT NOW.*** Here's how:
+The first thing everyone should always do everywhere no matter where they are, or who they with, or where they come from, or where they are going, is set up a virtual environment for Python. If you're app doesn't use a virtual environment, you're an idiot and you should create one **_RIGHT NOW._** Here's how:
 
 Use the python module `venv` to create a virtual environment called env (or anything else you prefer).
 
@@ -35,7 +35,7 @@ That's all we need to get started for now. You can install any other libraries y
 
 ### 0x200: Aiohttp and Gunicorn
 
-With our new Python environment we are ready to create an aiohttp app! If you don't know, aiohttp is an asynchronous HTTP server/client. It's very useful when you're creating a web crawler that uses asyncio, but when you attempt to call it through a normal web framework, it doesn't work because as it turns out every good framework in existence is a blocking program so nothing works. So then you look for a framework that supports asycnio, then you find aiohttp and you're like *'yeah this seems easy to use'*. But **NOPE**, it turns out the documentation sucks, and the documentation that is there is for a completely different technology stack so you have no idea what to do because you only know Apache and neither aiohttp nor Gunicorn have documentation for it. So then your like ***FUCK IT.*** I'll just buy another web sever, learn Nginx and put my crawler there'. So when you've finished setting it up and it works all nice and good, you've realised that it took way longer than it should have and so you write a blog post to rant about it because you don't like feeling as though it was wasted time.
+With our new Python environment we are ready to create an aiohttp app! If you don't know, aiohttp is an asynchronous HTTP server/client. It's very useful when you're creating a web crawler that uses asyncio, but when you attempt to call it through a normal web framework, it doesn't work because as it turns out every good framework in existence is a blocking program so nothing works. So then you look for a framework that supports asycnio, then you find aiohttp and you're like _'yeah this seems easy to use'_. But **NOPE**, it turns out the documentation sucks, and the documentation that is there is for a completely different technology stack so you have no idea what to do because you only know Apache and neither aiohttp nor Gunicorn have documentation for it. So then your like **_FUCK IT._** I'll just buy another web sever, learn Nginx and put my crawler there'. So when you've finished setting it up and it works all nice and good, you've realised that it took way longer than it should have and so you write a blog post to rant about it because you don't like feeling as though it was wasted time.
 
 For this guide are writing a simple aiohttp application which we will call `myapp.py`.
 

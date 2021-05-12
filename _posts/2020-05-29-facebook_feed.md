@@ -57,8 +57,7 @@ Oh man, I just remembered the Panama Papers! What ever happened to those?!
 
 On second thought, this is straying very far away from what this post was supposed to be about. I think I should call it quits here.
 
-----
+---
 
 [^1]: https://www.eff.org/deeplinks/2016/02/zero-rating-what-it-is-why-you-should-care
-
 [^2]: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge\_Analytica\_data\_scandal

@@ -1,7 +1,11 @@
 <script>
-  import { trackLocation } from "../stores/location";
+  import { trackLocation } from '$lib/stores/location';
   trackLocation();
 </script>
+
+<main>
+  <slot />
+</main>
 
 <style>
   main {
@@ -17,7 +21,3 @@
     }
   }
 </style>
-
-<main>
-  <slot />
-</main>

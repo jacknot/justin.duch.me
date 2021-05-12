@@ -17,7 +17,8 @@ const svg =
     '</svg>' +
     '<div style="text-align:center; padding-top:10px; color:#fff"><a href="%1">%1</a></div>' +
     '</div>',
-  img = '<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" width="%2" height="%3">',
+  img =
+    '<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" width="%2" height="%3">',
   iframe = '<iframe src="%1" width="%2" height="%3" frameborder="0" allowfullscreen></iframe>',
   imgRegex = /(?:<p>)?<img.*?src="(.+?)"(.*?)\/?>(?:<\/p>)?/gi,
   fullYoutubeRegex = /(?:(?:https?:)?(?:\/\/)?)(?:(?:www)?\.)?youtube\.(?:.+?)\/(?:(?:watch\?v=)|(?:embed\/))([a-zA-Z0-9_-]{11})/i,
@@ -25,11 +26,7 @@ const svg =
   vimeoRegex = /(?:(?:https?:)?(?:\/\/)?)(?:(?:www)?\.)?vimeo.com\/(\d+)/;
 
 function parseDimensions(rest, options) {
-  var width,
-    height,
-    d,
-    defaultWidth,
-    defaultHeight;
+  var width, height, d, defaultWidth, defaultHeight;
 
   defaultWidth = options.youtubeWidth ? options.youtubeWidth : 420;
   defaultHeight = options.youtubeHeight ? options.youtubeHeight : 315;
@@ -61,11 +58,12 @@ export const youtube = () => [
     filter: function (text, converter, options) {
       var tag = iframe;
       if (options.smoothLivePreview) {
-        tag = (options.youtubeUseSimpleImg) ? img : svg;
+        tag = options.youtubeUseSimpleImg ? img : svg;
       }
       return text.replace(imgRegex, function (match, url, rest) {
         var d = parseDimensions(rest, options),
-          m, fUrl = '';
+          m,
+          fUrl = '';
         if ((m = shortYoutubeRegex.exec(url)) || (m = fullYoutubeRegex.exec(url))) {
           fUrl = 'https://www.youtube.com/embed/' + m[1] + '?rel=0';
         } else if ((m = vimeoRegex.exec(url))) {

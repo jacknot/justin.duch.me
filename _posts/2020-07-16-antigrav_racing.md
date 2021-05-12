@@ -81,8 +81,8 @@ Not only will the PU make electricity for the mag-plate (and other electrical co
 
 This is probably the part of the ship that is going to be the most different to our other anti-gravity games. To fix a big pet-peeve I have with the others, we will give our ships reverse and side thursters. Reverse thrusters don't really need to be explained but ideally there would be three side thrusters on each side:
 
-* The four at the front and rear of the ship will help turn the ship. E.g to turn left you use the front right and rear left thrusters which would spin the ship left.
-* The two in the middle of the ship will help with strafing, because we can strafe our ships now! E.g to strafe right we'd either use the middle thruster on the left or all the thursters on the left.
+- The four at the front and rear of the ship will help turn the ship. E.g to turn left you use the front right and rear left thrusters which would spin the ship left.
+- The two in the middle of the ship will help with strafing, because we can strafe our ships now! E.g to strafe right we'd either use the middle thruster on the left or all the thursters on the left.
 
 This would actually make piloting a ship much more akin to piloting a ship in a space sim than in another anti-gravity game, which means your current velocity is going to be more important. The fastest way to change the velocity of your ship is to spin the ship in the direction you want to go and fire the forward thrusters (assuming they are the biggest and produce the most thrust). This also makes hitting the apex of corners quite interesting.
 

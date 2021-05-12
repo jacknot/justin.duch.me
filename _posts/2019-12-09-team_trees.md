@@ -5,7 +5,7 @@ thumbnail: team-trees-thumb.png
 
 I’m a bit late to the party on this one, I know but gimme a break. I was busy with important stuff, like playing the video games and doing the [bappin’](https://www.youtube.com/watch?v=BwSUjLQvYnw).
 
-For the uninformed: “*Team Trees*, also known as *TeamTrees* or *#TeamTrees*, is a 2019 collaborative fundraising challenge aiming to raise 20 million U.S. dollars by 2020 to plant 20 million trees. The initiative was started by American YouTubers MrBeast and Mark Rober, and is mostly supported by YouTubers.”[^1] As of me writing this (2019-12-09) **$17,535,090** has been donated, so it doesn’t look like they’re going to achieve their goal, but it’s still a pretty big number either way.
+For the uninformed: “_Team Trees_, also known as _TeamTrees_ or _#TeamTrees_, is a 2019 collaborative fundraising challenge aiming to raise 20 million U.S. dollars by 2020 to plant 20 million trees. The initiative was started by American YouTubers MrBeast and Mark Rober, and is mostly supported by YouTubers.”[^1] As of me writing this (2019-12-09) **$17,535,090** has been donated, so it doesn’t look like they’re going to achieve their goal, but it’s still a pretty big number either way.
 
 To be nice, I’m going in this giving them the benefit of the doubt. The year hasn’t finished so I’ll assume that they are going to achieve the $20 million goal and I don’t know enough about economies of scale to say whether or not they can plant a tree for a dollar so I’ll assume they can.
 
@@ -26,7 +26,5 @@ Of course doing stuff like that would most likely destroy their career. But I do
 ---
 
 [^1]: https://en.wikipedia.org/wiki/Team_Trees
-
 [^2]: https://www.businessinsider.com/so-much-co2-planting-trees-cant-save-us-2017-5?IR=T
-
 [^3]: https://www.news.com.au/technology/environment/nature-group-warns-of-global-tragedy-in-nsw-as-unprecedented-bushfires-rage-on/news-story/c8eb73ab1fa04e17ee9ef4a8b61533bf

@@ -29,9 +29,9 @@ Normally at this point with any other game I would be completely bored. I am not
 
 Okay, before I get into this next part, you’re going to need a little background on me:
 
-* I get hooked easily by games where you just watch numbers go up. Idle games are a particular guilty pleasure of mine.
-* As a person with social anxiety and very few friends, parasocial relationships[^2] can become an issue. I once became somewhat obsessed with the YouTuber “Call Me Kevin”, up to the point where I had a dream where we went on a shoe shopping date (I rarely have dreams, and having ones that don’t induce stress and anxiety are even more rare).
-* I didn’t like high school because it was boring and I especially didn’t enjoy standardised tests that equate for 50% of your ATAR as they make me stressed. As such, I was constantly looking for things to do to keep me distracted from school.
+- I get hooked easily by games where you just watch numbers go up. Idle games are a particular guilty pleasure of mine.
+- As a person with social anxiety and very few friends, parasocial relationships[^2] can become an issue. I once became somewhat obsessed with the YouTuber “Call Me Kevin”, up to the point where I had a dream where we went on a shoe shopping date (I rarely have dreams, and having ones that don’t induce stress and anxiety are even more rare).
+- I didn’t like high school because it was boring and I especially didn’t enjoy standardised tests that equate for 50% of your ATAR as they make me stressed. As such, I was constantly looking for things to do to keep me distracted from school.
 
 That weekend I spent 39 hours on the game. I found a guide online which told you which crops where the best to plant each season, and soon I was rolling in cash. Another guide told you what each person in the town liked for a present, and soon I was loved by everyone. You could say I was cheating, I wouldn’t disagree with it, but does it really matter? It’s a single-player game.
 
@@ -79,7 +79,7 @@ Now let’s compare it to your character in Stardew Valley:
 5. YOU HAVE A GUIDE TO SUCCESS
 6. There are only two gender options
 
-I hope you can see now that when you compare yourself to your character (which you will inevitably do), you will see that your life is pretty miserable.  You should then be able to see how you got so attached to the game that you spent 39 hours playing it in two days. However, realising this and remembering that you had to go back to school led you to completely cut yourself off from the game, never playing it ever again.
+I hope you can see now that when you compare yourself to your character (which you will inevitably do), you will see that your life is pretty miserable. You should then be able to see how you got so attached to the game that you spent 39 hours playing it in two days. However, realising this and remembering that you had to go back to school led you to completely cut yourself off from the game, never playing it ever again.
 
 But you kept the memories. The ideas of how you’re probably never going to be happy because all the happiness is contained in a farming simulator. And that your life will never be a farming simulator. You will die alone in a ditch.
 
@@ -104,7 +104,5 @@ I just need to work on this some more. Having this stuff develop during my teena
 ---
 
 [^1]: I know “neurotypical” used to be applied to anyone who wasn’t on the austism spectrum, but it’s now more common to describe it as anyone who isn’t “neuroatypical” (people with mental or behavioural disorders) so that’s what I’m using.
-
 [^2]: https://en.wikipedia.org/wiki/Parasocial_interaction
-
 [^3]: By the end of the post you may have noticed that I never outright stated that I was/am "depressed", and had only made references to it. I still have problems admitting it due to this even now.
