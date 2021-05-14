@@ -95,12 +95,12 @@ So actually, I've changed my mind, the only problem Lisp has is that people don'
 If you want recommendations with Lisp:
 
 - Start with learning [Clojure.](https://clojure.org)(^6)
-  - Maybe watch Rich Hickey's (creator of Clojure) talk, ["Simple Made Easy".](https://www.infoq.com/presentations/Simple-Made-Easy/) It isn't about Clojure but it is a very good introduction to many of Clojures' concepts.
+    - Maybe watch Rich Hickey's (creator of Clojure) talk, ["Simple Made Easy".](https://www.infoq.com/presentations/Simple-Made-Easy/) It isn't about Clojure but it is a very good introduction to many of Clojures' concepts.
 - Or read the [Scheme book.](https://www.scheme.com/tspl4/) Most people start learning Lisp with Scheme because it's a small language.
 - For fellow Vimmers:
-  - [conjure](https://github.com/Olical/conjure) helps with REPL development for evaluating code within your running program.
-  - [clj-kondo](https://github.com/clj-kondo/clj-kondo) (Clojure only) is an almost required linter to help identify silly mistakes.
-  - [Parinfer](https://shaunlebron.github.io/parinfer/) and its Vim plugin [parinfer-rust](https://github.com/eraserhd/parinfer-rust) is especially important as it makes writing Lisp a thousand times easier.
+    - [conjure](https://github.com/Olical/conjure) helps with REPL development for evaluating code within your running program.
+    - [clj-kondo](https://github.com/clj-kondo/clj-kondo) (Clojure only) is an almost required linter to help identify silly mistakes.
+    - [Parinfer](https://shaunlebron.github.io/parinfer/) and its Vim plugin [parinfer-rust](https://github.com/eraserhd/parinfer-rust) is especially important as it makes writing Lisp a thousand times easier.
 
 (^6): PLEASE! IF THERE ARE MORE OF US, THEY WON'T BE ABLE TO MAKE FUN OF EVERYONE.
 

@@ -42,13 +42,13 @@ Next page is the overview. I'm going to show all of the points here:
 - 37.70% of known ip addresses linked to TikTok that were found inside of APK source code are linked to Alibaba.com; a Chinese sanctioned ISP located in Hangzhou.
 - Alibaba’s privacy policy states that they share and distribute personal information of its users
 - TikTok in itself is a security risk due to the following reasons;
-  - Webview, and remote webview enabled by default
-  - Application appears to take commands over text and receives them piping themdirectly into Java as an OS command
-  - The application that uses Java reflection while decreasing VM load time can also be taken advantage of by malicious users and has a CVE score of 8.8
-  - This application has been observed to log sensitive information such as;
-    - Device information
-    - User GEO location
-    - Monitors user activity
+    - Webview, and remote webview enabled by default
+    - Application appears to take commands over text and receives them piping themdirectly into Java as an OS command
+    - The application that uses Java reflection while decreasing VM load time can also be taken advantage of by malicious users and has a CVE score of 8.8
+      - This application has been observed to log sensitive information such as;
+          - Device information
+          - User GEO location
+          - Monitors user activity
 
 This... this is not proof. We don't even have to read the rest of the report to know (but we will) that this tells us nothing.
 

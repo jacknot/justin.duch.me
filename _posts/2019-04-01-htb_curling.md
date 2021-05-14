@@ -40,15 +40,14 @@ Nmap done: 1 IP address (1 host up) scanned in 23.14 seconds
 - Has upload button at bottom of all pages
 - `http://10.10.10.150/administrator/manifests/files/joomla.xml` shows version is `3.8.8`. Released May 22 2018
 - Page `/secret.txt` displays `Q3VybGluZzIwMTgh`. Tried this as password on `/administrator` with user `admin` but nope.
-  - It’s actually base64. Decodes into `Curling2018!`. Still doesn’t work with `admin`
-  - Found username `Floris` in one of the articles. Worked with `Curling2018!`
-- Looked at
-  [this](http://www.thehackerstore.net/2015/01/how-to-upload-shell-in-joomla-via-admin.html)
+    - It’s actually base64. Decodes into `Curling2018!`. Still doesn’t work with `admin`
+    - Found username `Floris` in one of the articles. Worked with `Curling2018!`
+- Looked at [this](http://www.thehackerstore.net/2015/01/how-to-upload-shell-in-joomla-via-admin.html)
   to upload a PHP shell from [this](https://github.com/pentestmonkey/php-reverse-shell)
-  _ Created new file in templates `hello.php` and put shellcode there
-  _ Run `nc -lvpn <port_number>`
-  _ Go to `10.10.10.150/templates/beez3/hello.php`
-  _ Got shell as user `www-data`
+    - Created new file in templates `hello.php` and put shellcode there
+    - Run `nc -lvpn <port_number>`
+    - Go to `10.10.10.150/templates/beez3/hello.php`
+    - Got shell as user `www-data`
 
 ### PHP Reverse Shell
 
@@ -134,11 +133,11 @@ $ cat password.txt
 ---
 
 - Folder `~/admin-area` has files `input` and `report`
-  - Whenever one is edited it is reverted back a while later by something
-  - `ls -al` shows it’s being edited every minute. I’m, pretty sure we’re dealing with cron here
+    - Whenever one is edited it is reverted back a while later by something
+    - `ls -al` shows it’s being edited every minute. I’m, pretty sure we’re dealing with cron here
 - Had a guess that a cron job was calling `curl` with a url from the file `input` and redirecting the result to `report`
-  - Changed the url in input from `http://127.0.0.1` to `file:///home/floris/user.txt`
-  - Wait for the start of the next minute and `report` now has the user hash. So yep, i’m right
+    - Changed the url in input from `http://127.0.0.1` to `file:///home/floris/user.txt`
+    - Wait for the start of the next minute and `report` now has the user hash. So yep, i’m right
 - Changed url to `file:///root/root.txt` (probably should have done this as
   the first test)
 - And now we wait…

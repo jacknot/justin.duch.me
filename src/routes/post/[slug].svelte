@@ -158,6 +158,8 @@
 
   .content :global(code.prettyprint) {
     color: #b9b9b9;
+    background: #282828;
+    background-color: rgba(41, 41, 41, 0.8);
   }
   .content :global(ul) {
     line-height: 1.5;
