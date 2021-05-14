@@ -91,5 +91,7 @@ Moral of the story: patch your systems and stay in school.
 ---
 
 [^1]: https://theconversation.com/did-the-census-really-suffer-a-denial-of-service-attack-63755
+
 [^2]: https://www.theguardian.com/australia-news/2020/mar/23/incompetence-attack-mygov-website-did-not-crash-because-of-ddos-cyber-assault-as-stuart-robert-claimed
+
 [^3]: https://know.bishopfox.com/research/cve-2019-18935-remote-code-execution-in-telerik-ui

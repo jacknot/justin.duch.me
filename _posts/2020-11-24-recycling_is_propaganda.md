@@ -74,9 +74,15 @@ Or better yet, just get rid of them ;)
 ---
 
 [^1]: https://www.upi.com/Top_News/US/2019/08/27/Microplastics-in-rain-snow-drinking-water-heighten-concerns/7041566590679/
+
 [^2]: https://www.upi.com/Science_News/2019/04/16/Airborne-microplastic-particles-found-falling-on-remote-mountain-peaks/7541555381979/
+
 [^3]: https://www.cbc.ca/documentaries/the-passionate-eye/recycling-was-a-lie-a-big-lie-to-sell-more-plastic-industry-experts-say-1.5735618
+
 [^4]: https://www.npr.org/2020/09/11/912150085/waste-land
+
 [^5]: https://www.plasticsoupfoundation.org/en/2018/02/pet-bottles-made-100-recycled-plastic/
+
 [^6]: https://www.motherjones.com/politics/2006/05/origins-anti-litter-campaigns/
+
 [^7]: https://www.npr.org/2020/05/21/858374823/our-pandemic-habits-cut-carbon-emissions-but-its-not-clear-they-ll-last

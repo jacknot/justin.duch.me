@@ -224,4 +224,5 @@ Eh, I dunno. I’m tired of this shit, make up your own mind.
 ---
 
 [^1]: https://www.ellenmacarthurfoundation.org/circular-economy/concept
+
 [^2]: https://www.ndis.gov.au/understanding/what-ndis

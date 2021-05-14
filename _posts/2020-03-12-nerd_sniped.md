@@ -386,11 +386,19 @@ Vote Bernie.
 ---
 
 [^1]: https://en.wikipedia.org/wiki/Crater_Critters
+
 [^2]: https://en.wikipedia.org/wiki/Disney\_pin_trading
+
 [^3]: https://www.howmuchisit.org/harley-davidson-cost
+
 [^4]: https://en.wikipedia.org/wiki/Railgun
+
 [^5]: https://en.wikipedia.org/wiki/Nice
+
 [^6]: https://en.wikipedia.org/wiki/Null_pointer
+
 [^7]: https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/
+
 [^8]: https://www.investopedia.com/news/apple-now-bigger-these-5-things/
+
 [^9]: https://www.explainxkcd.com/wiki/index.php/Cueball

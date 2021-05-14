@@ -134,4 +134,5 @@ So that’s all from me. Tune in next time when we talk about the politics of th
 ---
 
 [^1]: https://en.wikipedia.org/wiki/Anarchism
+
 [^2]: https://en.wikipedia.org/wiki/State_capitalism

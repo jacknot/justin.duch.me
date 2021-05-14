@@ -66,5 +66,7 @@ Trying to keep people in their communities (that you own) of hate speech is prof
 ---
 
 [^1]: I don’t know who these people are. I just think it’s neat that they have a web page.
+
 [^2]: https://matthiasott.com/articles/into-the-personal-website-verse
+
 [^3]: They say they’re not incels, but come on… they’re totally incels.

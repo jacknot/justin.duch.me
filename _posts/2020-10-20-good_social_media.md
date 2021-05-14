@@ -161,5 +161,7 @@ Il est tres mignon !
 ---
 
 [^1]: https://en.wikipedia.org/wiki/Sybil_attack
+
 [^2]: https://en.wikipedia.org/wiki/Paradox\_of\_tolerance
+
 [^3]: https://github.blog/2020-09-02-how-we-threat-model/

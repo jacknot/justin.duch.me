@@ -102,12 +102,21 @@ Screw GME, all my mates invest in OIL.
 ---
 
 [^1]: https://www.mdpi.com/1996-1073/2/3/490/htm
+
 [^2]: https://www.nature.com/articles/s41560-019-0425-z
+
 [^3]: https://www.sciencedirect.com/science/article/pii/S0301421513006447
+
 [^4]: https://www.sciencedirect.com/science/article/abs/pii/S096014810900055X
+
 [^5]: https://www.sciencedirect.com/science/article/abs/pii/S136403211500146X
+
 [^6]: https://www.iea.org/reports/oil-market-report-april-2020
+
 [^7]: https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/pdfs/energy-economics/energy-outlook/bp-energy-outlook-2020.pdf
+
 [^8]: https://cnbc.com/2020/04/21/the-oil-industry-shakeout-is-just-beginning-with-more-production-cuts-and-bankruptcies-ahead.html
+
 [^9]: https://www.nrel.gov/docs/fy04osti/35489.pdf
+
 [^10]: https://www.mdpi.com/2071-1050/6/5/2601/htm

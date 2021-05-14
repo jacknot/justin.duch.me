@@ -54,4 +54,5 @@ By the way, I’m pretty sure you could actually use this entire blog as a relat
 ---
 
 [^1]: https://en.wikipedia.org/wiki/Metalanguage
+
 [^2]: https://en.wikipedia.org/wiki/Linguistic_relativity

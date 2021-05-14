@@ -26,5 +26,7 @@ Of course doing stuff like that would most likely destroy their career. But I do
 ---
 
 [^1]: https://en.wikipedia.org/wiki/Team_Trees
+
 [^2]: https://www.businessinsider.com/so-much-co2-planting-trees-cant-save-us-2017-5?IR=T
+
 [^3]: https://www.news.com.au/technology/environment/nature-group-warns-of-global-tragedy-in-nsw-as-unprecedented-bushfires-rage-on/news-story/c8eb73ab1fa04e17ee9ef4a8b61533bf

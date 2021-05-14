@@ -107,4 +107,5 @@ Learn electrical engineering instead.
 ---
 
 [^1]: https://onezero.medium.com/our-government-runs-on-a-60-year-old-coding-language-and-now-its-falling-apart-61ec0bc8e121
+
 [^2]: https://en.wikipedia.org/wiki/COBOL

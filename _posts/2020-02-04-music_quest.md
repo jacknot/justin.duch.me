@@ -101,6 +101,9 @@ Okay, bye bye! See you next time where I disprove the idea that the “marketpla
 ---
 
 [^1]: I’m only joshing. I don’t actually hate Coldplay, I just don’t like when they’re ripping off Radiohead[^2]. “X & Y“ is actually a good album.
+
 [^2]: Haha, that was another joke. They don’t always rip off Radiohead. Just most of the time, so maybe I do hate Coldplay.
+
 [^3]: For you normal people “OP“ stands for “opening“. Every anime (I‘m pretty sure) has an opening sequence, they can be quite good and something fans always look forward to watching. It isn‘t enough to just listen to them, so you should probably watch the [accompanying animation too](https://www.youtube.com/watch?v=8-91y7BJ8QA).
+
 [^4]: This isn‘t part of the joke, I actually like pineapple on pizza.

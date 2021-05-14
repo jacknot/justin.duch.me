@@ -58,5 +58,7 @@ If you are curious however, the video essay [“Who’s Afraid of Modern Art: Va
 ---
 
 [^1]: https://en.wikipedia.org/wiki/Semantic_change
+
 [^2]: https://en.wikipedia.org/wiki/Etymology
+
 [^3]: https://www.etymonline.com/word/gender

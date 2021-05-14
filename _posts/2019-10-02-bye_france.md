@@ -98,7 +98,11 @@ Québec.
 ---
 
 [^1]: http://bilan.usherbrooke.ca/bilan/pages/evenements/1419.html
+
 [^2]: https://twitter.com/BeWaterHKG/status/1171156739493961728?s=20
+
 [^3]: https://shanghai.ist/2019/09/05/this-group-of-scholars-have-concluded-that-english-is-actually-a-chinese-dialect
+
 [^4]: http://www.worldstopexports.com/frances-top-10-exports/
+
 [^5]: http://www.bbc.com/future/story/20181207-how-ai-could-help-us-with-ancient-languages-like-sumerian

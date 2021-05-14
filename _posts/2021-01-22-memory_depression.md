@@ -161,9 +161,15 @@ What a fucking weird turn this post has taken. Can't wait until next year when I
 ---
 
 [^1]: https://www.brainfacts.org/diseases-and-disorders/mental-health/2019/depressions-impact-on-memory-022119
+
 [^2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5835184/
+
 [^3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1737771/pdf/v072p00400.pdf
+
 [^4]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC60045/
+
 [^5]: https://pubmed.ncbi.nlm.nih.gov/17099603/
+
 [^6]: https://pubmed.ncbi.nlm.nih.gov/17696704/
+
 [^7]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4459161/

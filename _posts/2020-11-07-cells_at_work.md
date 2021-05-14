@@ -78,4 +78,5 @@ My, isn't learning fun?
 ---
 
 [^1]: https://aeon.co/essays/how-to-understand-cells-tissues-and-organisms-as-agents-with-agendas
+
 [^2]: https://www.the-scientist.com/news-opinion/single-celled-organism-appears-to-make-decisions-66818

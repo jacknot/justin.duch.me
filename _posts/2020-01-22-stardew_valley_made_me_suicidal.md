@@ -104,5 +104,7 @@ I just need to work on this some more. Having this stuff develop during my teena
 ---
 
 [^1]: I know “neurotypical” used to be applied to anyone who wasn’t on the austism spectrum, but it’s now more common to describe it as anyone who isn’t “neuroatypical” (people with mental or behavioural disorders) so that’s what I’m using.
+
 [^2]: https://en.wikipedia.org/wiki/Parasocial_interaction
+
 [^3]: By the end of the post you may have noticed that I never outright stated that I was/am "depressed", and had only made references to it. I still have problems admitting it due to this even now.

@@ -172,4 +172,5 @@ Have some imagination, use Lisp, and one day, maybe we'll be able to write Haske
 ---
 
 [^1]: https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=5186&context=open\_access\_etds
+
 [^2]: https://ieeexplore.ieee.org/document/209312

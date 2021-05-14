@@ -76,5 +76,7 @@ And for the record: my favourite TV show is Mr. Robot and my favourite food is r
 ---
 
 [^1]: [arXiv:2001.09977](https://arxiv.org/abs/2001.09977) [cs.CL]
+
 [^2]: https://en.wikipedia.org/wiki/Panpsychism
+
 [^3]: https://www.theatlantic.com/science/archive/2016/09/panpsychism-is-wrong/500774

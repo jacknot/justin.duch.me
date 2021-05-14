@@ -102,5 +102,7 @@ doing that.
 ---
 
 [^1]: https://www.ato.gov.au/individuals/income-and-deductions/deductions-you-can-claim/clothing,-laundry-and-dry-cleaning-expenses/
+
 [^2]: https://www.ato.gov.au/Business/Income-and-deductions-for-business/Deductions/#whatyoucanclaim
+
 [^3]: https://www.ato.gov.au/Individuals/Income-and-deductions/In-detail/Occupation-and-industry-specific-guides/Adult-industry-workers---income-and-work-related-deductions/?page=2#Advertising
