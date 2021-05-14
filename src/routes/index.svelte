@@ -26,4 +26,8 @@
     height: 65px;
     padding: 0 5px 0 5px;
   }
+
+  a {
+    font-weight: 300;
+  }
 </style>
