@@ -1,8 +1,3 @@
-<script>
-  import { trackLocation } from '$lib/stores/location';
-  trackLocation();
-</script>
-
 <main>
   <slot />
 </main>
