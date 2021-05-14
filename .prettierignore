@@ -1,5 +1,7 @@
 .svelte/**
+.svelte-kit/**
 static/**
 build/**
 node_modules/**
 _posts/**
+_drafts/**
