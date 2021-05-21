@@ -177,7 +177,7 @@
     quotes: '\201C''\201D''\2018''\2019';
   }
 
-  .content :global(blockquote):before {
+  .content :global(blockquote:before) {
     content: open-quote;
     font-size: 4em;
     line-height: 0.1em;
@@ -185,7 +185,7 @@
     vertical-align: -0.6em;
   }
 
-  .content :global(blockquote):after {
+  .content :global(blockquote:after) {
     content: close-quote;
     font-size: 1px;
   }
@@ -231,7 +231,7 @@
     margin-top: 3.8em;
   }
 
-  .content :global(hr):after {
+  .content :global(hr:after) {
     content: '§';
     display: inline-block;
     position: relative;
@@ -255,7 +255,7 @@
     width: 30em;
   }
 
-  .e-content :global(a):after {
+  .e-content :global(a:after) {
     position: relative;
     content: '\FEFF°';
     margin: 0 0.15em;
@@ -265,8 +265,8 @@
     font-variant-numeric: normal;
   }
 
-  .e-content :global(.footnote-link):after,
-  .e-content :global(.reference-link):after {
+  .e-content :global(.footnote-link:after),
+  .e-content :global(.reference-link:after) {
     display: none;
   }
 
