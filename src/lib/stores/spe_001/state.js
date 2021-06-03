@@ -16,10 +16,4 @@ const defaultState = {
 
 const storyState = createPersistStore('spe_001_state', defaultState);
 
-const resetStoryState = () => {
-  storyState.set(defaultState);
-  window.scrollTo({ top: 0 });
-};
-
 export default storyState;
-export { resetStoryState };

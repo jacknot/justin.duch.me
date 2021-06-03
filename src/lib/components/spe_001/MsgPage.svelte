@@ -859,30 +859,61 @@
           <p>- Marjolaine Potura</p>
           <p>- Abigail Cassandra</p>
           <p>And:</p>
-          <p>- GPT-2</p>
           <p>- Red pandas (all of them)</p>
+          <p>- GPT-2</p>
           <p>
             - Everyone who's ever written a SCP (especially whoever wrote the one that gave me
             nightmares as a kid)
           </p>
           <p>- Kalle Rovanperä</p>
-          <p>- Les chansons de geste (but mainly Astolfo)</p>
-          <p>- Karl Marx</p>
+          <p>- All my textbooks on linguistics</p>
           <p>
-            - All the IRC channels that taught me about the bad words (and more) during my critical
+            - The IRC channels that taught me about the bad words (and more) during my critical
             development years
           </p>
+          <p>- Karl Marx</p>
           <p>- The FIA</p>
           <p>- My crippling anxiety</p>
           <p>
-            - That one video of that cat with a lazy eye who's trying to get to the bottom of a bag
-            of chips but they just can't quite seem to get the last chip.
+            - That video of a lazy eyed cat who wants to eat chips, where he tries to dig through
+            the bag, but he's not allowed to eat them
           </p>
-          <p>- The Fate anime (but mainly Astolfo)</p>
           <p>- Rich Harris</p>
           <p>- The people at the cafe I go to who know my order so I don't have to talk to them</p>
+          <p>- Catboy Jerma</p>
           <p>- Getting blocked by Hideki Kamiya on Twitter</p>
           <p>- Income taxes</p>
+          <p>
+            - Finding out that Astolfo from les chansons de geste has been turned into a cute anime
+            femboy by the Japanese
+          </p>
+          <p>
+            - Attempting to watch the Fate anime series to find out what Astolfo's voice sounds like
+          </p>
+          <p>
+            - Thinking Fate/Zero was actually pretty good, and getting excited to see the other
+            animes in the series (especially the one with Astolfo)
+          </p>
+          <p>
+            - Realising that Fate/Zero is the only good Fate anime, and that the others range from
+            mediocre to complete trash
+          </p>
+          <p>
+            - Questioning my life choices as to why I decided to watch Fate from the very beginning
+            instead of just skipping to the anime that Astolfo is in
+          </p>
+          <p>
+            - Finally watching Fate/Apocrypha and hearing Astolfo's voice, but getting mad that Jean
+            d'Arc is in it as well because it puts the French people count to 2 (with Astolfo)
+          </p>
+          <p>
+            - Remembering that Gilles de Rais was in Fate/Zero, so the French count is actually 3
+          </p>
+          <p>
+            - Playing the Fate/EXTELLA LINK video game because Astolfo is in it, but finding out
+            Charlemagne is one of the main characters, putting the French count to 4
+          </p>
+          <p>- WHY ARE THERE ARE TWO CHARLEMAGNES !!???</p>
         </div>
         <div class="message">
           <p class="disabled">You have been kicked from this chat room.</p>

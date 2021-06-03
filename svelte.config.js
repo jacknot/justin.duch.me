@@ -5,7 +5,11 @@ const config = {
     target: '#svelte',
     adapter: adapter(),
     router: false,
-    hydrate: true
+    hydrate: true,
+    prerender: {
+      crawl: true,
+      pages: ['/', '/404']
+    }
   }
 };
 

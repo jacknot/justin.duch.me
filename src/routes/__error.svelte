@@ -14,5 +14,5 @@
 
 <div class="space-yo">
   <h1>error : {title}</h1>
-  <small><a href=".">&#9166; retour</a></small>
+  <small><a href="/">&#9166; retour</a></small>
 </div>

@@ -9,6 +9,12 @@ COPY static ./static
 COPY _posts ./_posts
 RUN npm run export
 
+# Remove data that comes from the exported `load` function in all posts
+# these are already used and rendered server side so they're wastes of bandwidth
+# also, ignore spe_000+ posts.
+RUN find build/post -name '*.html' -not -path 'build/post/spe_*' \
+        -exec sed -i '/type="svelte-data"/d' {} \;
+
 FROM nginx:alpine
 
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf

@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte';
+  import { fade } from 'svelte/transition';
 
   let hasScript;
 
@@ -9,15 +10,18 @@
 </script>
 
 {#if hasScript}
-  <slot />
-{/if}
-
-<noscript>
-  <div class="error">
-    <p>This page does not work without JavaScript, sorry.</p>
-    <small><a href="/post">&#9166; retour</a></small>
+  <div transition:fade>
+    <slot />
   </div>
-</noscript>
+{:else}
+  <div class="error">
+    <p class="loading">Loading</p>
+    <noscript>
+      <p>This page does not work without JavaScript enabled.</p>
+      <small><a href="/post">&#9166; retour</a></small>
+    </noscript>
+  </div>
+{/if}
 
 <style>
   :global(body) {
@@ -51,6 +55,28 @@
   @media screen and (max-width: 724px) {
     .error {
       padding: 8em 2em 2em 2em;
+    }
+  }
+
+  .loading:after {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    -webkit-animation: ellipsis steps(4, end) 900ms infinite;
+    animation: ellipsis steps(4, end) 900ms infinite;
+    content: '\2026'; /* ascii code for the ellipsis character */
+    width: 0px;
+  }
+
+  @keyframes ellipsis {
+    to {
+      width: 1.25em;
+    }
+  }
+
+  @-webkit-keyframes ellipsis {
+    to {
+      width: 1.25em;
     }
   }
 </style>

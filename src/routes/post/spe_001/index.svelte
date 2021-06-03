@@ -1,8 +1,8 @@
 <script>
   import { onMount } from 'svelte';
-  import { PostPage, EntPage, MsgPage } from '$lib/components/spe_001';
+  import { PostPage, EntPage, MsgPage, FakePost } from '$lib/components/spe_001';
   import { fade } from 'svelte/transition';
-  import storyState, { resetStoryState } from '$lib/stores/spe_001/state';
+  import storyState from '$lib/stores/spe_001/state';
 
   let scrollTop;
   let scrollHeights = {
@@ -93,7 +93,7 @@
         window.scrollTo({ top: 0 });
         trans = false;
       });
-    }, 4000);
+    }, 2000);
   }
 </script>
 
@@ -144,21 +144,27 @@
   </div>
 {/if}
 
-<div
-  class="page post-page"
-  class:show-page={$storyState.page === 'post'}
-  class:margin-top={!$storyState.finish && !$storyState.intro}
->
-  <PostPage />
-</div>
+{#if !$storyState.finish}
+  <div
+    class="page post-page"
+    class:margin-top={!$storyState.intro}
+    class:show-page={$storyState.page === 'post'}
+  >
+    <PostPage />
+  </div>
 
-<div class="page ent-page margin-top" class:show-page={$storyState.page === 'ent'}>
-  <EntPage />
-</div>
+  <div class="page ent-page margin-top" class:show-page={$storyState.page === 'ent'}>
+    <EntPage />
+  </div>
 
-<div class="page msg-page margin-top" class:show-page={$storyState.page === 'msg'}>
-  <MsgPage />
-</div>
+  <div class="page msg-page margin-top" class:show-page={$storyState.page === 'msg'}>
+    <MsgPage />
+  </div>
+{/if}
+
+{#if $storyState.showCredits && $storyState.page === 'post'}
+  <FakePost />
+{/if}
 
 <style>
   .trans {
@@ -172,7 +178,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .margin-top {
