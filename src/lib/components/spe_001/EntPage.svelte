@@ -134,7 +134,7 @@
           since.
         </li>
         <li>
-          Ethical concerns have been raised as a result of the research procedures creating entirly
+          Ethical concerns have been raised as a result of the research procedures creating entirely
           new realities to just, as a leaked chat message from board member ████ put it: "[let's]
           see how messed up it can get! It'll be funny! C'mon guys!" These concerns have been
           dismissed and board member ████s' statement has been retracted.
