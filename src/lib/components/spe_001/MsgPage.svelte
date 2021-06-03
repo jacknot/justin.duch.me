@@ -125,7 +125,7 @@
             <h4>milli</h4>
             <small>2018-05-21T15:20:40+10:00</small>
           </div>
-          <p>@DogKicker2003 LUL I just thinking about that xkcd</p>
+          <p>@DogKicker2003: LUL I just thinking about that xkcd</p>
         </div>
 
         <div class="message">
@@ -134,7 +134,7 @@
             <small>2018-05-21T15:22:09+10:00</small>
           </div>
           <p>
-            Yes, there's a relevant xkcd for eveything... And @DogKicker2003, can you change your
+            Yes, there's a relevant xkcd for eveything... And @DogKicker2003: can you change your
             nick? Kinda inapproriate mate. The taxpayers don't pay us to kick dogs.
           </p>
         </div>
@@ -246,8 +246,8 @@
             <small>2018-05-21T15:33:20+10:00</small>
           </div>
           <p>
-            That's a fair point @ESD_Wyrk, but I agree with Matthieu when he says to trust in our
-            sysadmins, they are some of the best in the world.
+            Fair point @ESD_Wyrk, but I agree with Matthieu when he says to trust in our sysadmins,
+            they are some of the best in the world.
           </p>
         </div>
 
@@ -430,7 +430,7 @@
             <h4>milli</h4>
             <small>2020-02-25T09:11:31+10:00</small>
           </div>
-          <p>@D4 be nice to @fyso today.</p>
+          <p>@D4: be nice to @fyso today.</p>
         </div>
 
         <div class="message">
@@ -831,7 +831,7 @@
             ENT#344 came from. We STILL don't know why it can cause a RRE. But we DID create a
             preset for para-realites to help us run this dogshit test that helps NOBODY. What kind
             of troglodyte neanderthal ass motherfucker thinks this is such important work that we
-            need FOUR researchers on it.
+            need FOUR researchers on it?
           </p>
         </div>
 
@@ -841,7 +841,7 @@
             <small>2020-11-28T11:53:01+10:00</small>
           </div>
           <p>
-            @baguette_fan, please stop with the mindless ranting. You need to be a good influence on
+            @baguette_fan: please stop with the mindless ranting. You need to be a good influence on
             your junior, we don't want to reprimand you again.
           </p>
         </div>

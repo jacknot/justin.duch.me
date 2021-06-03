@@ -85,7 +85,7 @@
 
     <div class="info-line footer">
       <small>
-        <a href="https://github.com/beanpuppy/justin.duch.me/src/routes/post/spe_001">
+        <a href="https://github.com/beanpuppy/justin.duch.me/tree/master/src/routes/post/spe_001">
           see a mistake? edit it here.
         </a>
       </small>
