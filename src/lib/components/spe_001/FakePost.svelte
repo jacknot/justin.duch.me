@@ -81,7 +81,7 @@
         it?
       </p>
       <p>
-        Don't look at me like that, I bet you didn't even <strong>notice</strong>.
+        Don't look at me like that, I bet you haven't even <strong>noticed</strong> it.
       </p>
       <p>Yeah, cool. See you next time.</p>
     </div>
