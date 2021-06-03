@@ -903,8 +903,9 @@
             instead of just skipping to the anime that Astolfo is in
           </p>
           <p>
-            - Finally watching Fate/Apocrypha and hearing Astolfo's voice, but getting mad that Jean
-            d'Arc is in it as well because it puts the French people count to 2 (with Astolfo)
+            - Finally watching Fate/Apocrypha and hearing Astolfo's voice, but getting mad that
+            Jeanne d'Arc is in it as well because it puts the French people count to 2 (with
+            Astolfo)
           </p>
           <p>
             - Remembering that Gilles de Rais was in Fate/Zero, so the French count is actually 3
