@@ -533,7 +533,9 @@
             if we just... remove it?
           </p>
 
-          <div style="width: 100%; text-align: center" id="scroll-target">
+          <div class="display: none" id="scroll-target" />
+
+          <div style="width: 100%; text-align: center">
             <img style="width: 70%" src="/resources/spe_001/2020_table_3.png" />
           </div>
 
