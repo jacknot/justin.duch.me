@@ -4,3 +4,9 @@
 .svelte-kit/
 build/
 _drafts/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform
+tfplan
