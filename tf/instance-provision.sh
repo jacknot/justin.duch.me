@@ -20,5 +20,5 @@ dokku apps:create "$APP_NAME"
 dokku domains:add "$APP_NAME" "$APP_DOMAIN"
 dokku config:set "$APP_NAME" DOKKU_PROXY_PORT_MAP="http:80:80"
 
-# Assume the domain is already pointing to it
+# Assume the domain is already pointing to us
 # dokku letsencrypt:enable "$APP_NAME"
