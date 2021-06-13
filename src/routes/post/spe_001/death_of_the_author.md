@@ -30,7 +30,7 @@ All the events I reference actually took place in 1998, I just happened to pick 
 
 The [1998 United States Capitol shooting](https://en.wikipedia.org/wiki/1998_United_States_Capitol_shooting) is obviously supposed to be confused with the [2021 United States Capitol attack](https://en.wikipedia.org/wiki/2021_United_States_Capitol_attack).
 
-The bit on people being anti-vaxers is referencing the [Lancet MMR autism fraud](https://en.wikipedia.org/wiki/Lancet_MMR_autism_fraud), which is the original 1998 "research paper" that gave birth to the anti-vax movement. It's still a problem 30 years later (even more so now), so this was super easy to think of.
+The bit on people being anti-vaxers is referencing the [Lancet MMR autism fraud](https://en.wikipedia.org/wiki/Lancet_MMR_autism_fraud), which is the original 1998 "research paper" that gave birth to the anti-vax movement. It's still a problem 20 years later (even more so now), so this was super easy to think of.
 
 Nineteen European nations agreed to forbid human cloning on January 12th 1998. There is no connection to 2021, I just wanted to put it in, maybe as a clue to what's happening.
 
