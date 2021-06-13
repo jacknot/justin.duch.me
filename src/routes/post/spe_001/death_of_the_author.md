@@ -60,7 +60,7 @@ AARO has found out that it the contents ENT#344 isn't set on the French being go
 
 So, in order to research and experiment on ENT#344, AARO creates "para-realities" that are similar to their world but differ what sport the French are good at.
 
-["Para-realities" could mean something like "alternate universes", but the use of some "computer jargon" when referring to their usage ("forking and modifying", "introduced ... using rsync", "accessed ... using the ... Internet Browser."), implies that they are "computer simulations" of AARO's universe, but with some slight adjustments.]
+["Para-realities" could mean something like "alternate universes", but the use of some "computer jargon" when referring to their usage ("forking and modifying", "introduced ... using rsync", "accessed [using an] Internet Browser."), implies that they are "computer simulations" of AARO's universe, but with some slight adjustments.]
 
 In our world (I'm using "world" and "universe" interchangeably here), the French are really good at rally, or specifically, competing in the WRC. This is what the ENT#344 we read was about, which means that our world and AARO's worlds aren't the same (if that wasn't already obvious enough).
 
