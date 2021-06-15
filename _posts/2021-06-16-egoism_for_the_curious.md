@@ -9,7 +9,7 @@ thumbnail: egoism-thumb.png
 >
 > * [Jack Chick Is Dead but His Horrible, Ridiculous Cartoons Will Never Die,](https://www.vice.com/en/article/avakej/obituary-for-jack-chick-evangelical-cartoonist) Sam Kriss (Vice 2016)
 
-Chick tracts are honestly one of my most read comics, only topped by [xkcd](https://xkcd.com/). They're awful, vile, equal parts hate literature and fire-and-brimstone sermonizing. And I've read so many of them, because just as Kriss says,
+Chick tracts are honestly one of my most read comics, only topped by [xkcd.](https://xkcd.com/) They're awful, vile, equal parts hate literature and fire-and-brimstone sermonizing. And I've read so many of them, because just as Kriss says,
 
 > [they] were entrancing precisely because they seemed so incapable of imagining anyone else's point of view, of even pretending to meet me halfway. They showed a complete, perfect secondary world, one that looked just like this one, but one in which people didn't behave like real people, or talk like them either ("Haw haw haw!"), which was swarming with actual demons, fanged, and ugly—and millions seemed to really think they were living in it.
 
