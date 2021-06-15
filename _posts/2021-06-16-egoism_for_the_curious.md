@@ -23,7 +23,7 @@ Political ideologies are actually a really boring subject - to learn about, disc
 
 But not with Max Stirner.
 
-Developed by an edgy a-moralist German philosopher from the 18th century, "Egoism" is an ideology that emphasizes the individual over any other kind of guiding principle; that is, the individual should do as they please, not bound by any law or moral code. Social constructs like Christianity, nationalism, morality, capitalism, communism, and even society are called "phantasms", or as they are more commonly known, "spooks". This name comes from Stirner to describe the actions of these institutions as similar to that of ghosts. They are immaterial, but can still have an affect on, or even possess the individual.
+Developed by an edgy, a-moralist German philosopher from the 18th century, "Egoism" is an ideology that emphasizes the individual over any other kind of guiding principle; that is, the individual should do as they please, not bound by any law or moral code. Social constructs like Christianity, nationalism, morality, capitalism, communism, and even society are called "phantasms", or as they are more commonly known, "spooks". This name comes from Stirner to describe the actions of these institutions as similar to that of ghosts. They are immaterial, but can still have an affect on, or even possess the individual.
 
 "The Unique and Its Property" is a good book. Certainly better than the book about bread that Kropotkin wrote. Stirner uses straightforward, even fairly simple language, filled with passion and sarcasm, to express ideas that are difficult, though probably more in the fact that very few people would want to accept their implications.
 
