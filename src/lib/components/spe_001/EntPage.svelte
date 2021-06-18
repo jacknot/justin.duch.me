@@ -219,6 +219,17 @@
     padding-bottom: 1em;
   }
 
+  .links > p {
+    margin: 0;
+    color: #57c2b2;
+    padding-right: 1em;
+    text-decoration: none;
+  }
+
+  .links > p:hover {
+    color: #fff;
+  }
+
   .header {
     padding: 0 6em;
     background-color: #002135;
