@@ -38,7 +38,7 @@
         don't need me to explain everything to you.
       </p>
       <p>First up, let's look at YouTube.</p>
-      <img src="https://cdn.halcyonnouveau.xyz/blog/img/bloat-youtube.png" />
+      <img alt="youtube" src="https://cdn.halcyonnouveau.xyz/blog/img/bloat-youtube.png" />
       <p>
         It might be a little hard to see and you may need to zoom in, but at the very bottom, it
         says "11.4 MB" next to an icon that looks like a weight. That's what we're looking for. On
@@ -48,7 +48,7 @@
         to where the website is served from.
       </p>
       <p>11 MB is a little fucked IMO, but let's look at the others before we make up our mind.</p>
-      <img src="https://cdn.halcyonnouveau.xyz/blog/img/bloat-hn.png" />
+      <img alt="hn" src="https://cdn.halcyonnouveau.xyz/blog/img/bloat-hn.png" />
       <p>This is news.ycombinator.com, better known as "Hacker News" (HN), and it's very ugly.</p>
       <p>
         But it's only 50.8 KB! If you need a reminder, 1 Megabyte (MB) is 1000 Kilobytes (KB).
@@ -56,7 +56,7 @@
         YouTube datacenters in Sydney, but HN is only served from San Fransisco. Really goes to show
         how lantency plays a big part of speed.
       </p>
-      <img src="https://cdn.halcyonnouveau.xyz/blog/img/bloat-reddit.png" />
+      <img alt="reddit" src="https://cdn.halcyonnouveau.xyz/blog/img/bloat-reddit.png" />
       <p>Next is Reddit (specifically /r/redpandas). It's 5.95 MB.</p>
       <p>
         If you use Reddit, you may have noticed that I'm using the old site design which uses less
@@ -67,14 +67,14 @@
         old design, I'm quitting Reddit.
       </p>
       <p>Anyway, finally let's look at this site.</p>
-      <img src="https://cdn.halcyonnouveau.xyz/blog/img/bloat-me.png" />
+      <img alt="me" src="https://cdn.halcyonnouveau.xyz/blog/img/bloat-me.png" />
       <p>
         This is the longest post I've ever written and it clocks in at 553.5 KB. Could be a little
         better, considering it's mostly just text, but still decent when compared to everything
         else.
       </p>
       <p>Let's also look at this post for funsies.</p>
-      <img src="https://cdn.halcyonnouveau.xyz/blog/img/bloat-me2.png" />
+      <img alt="me2" src="https://cdn.halcyonnouveau.xyz/blog/img/bloat-me2.png" />
       <p>It's... 2.35 MB?! WHAT? How the feck did that happen? This seems like a big problem.</p>
       <p>
         But it's still better than most websites and I'm <strong>very</strong> lazy, so let's just ignore
@@ -150,12 +150,7 @@
     margin-right: auto;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1 {
     margin: 0 0 0.5em !important;
     font-style: normal !important;
     letter-spacing: 0.1em !important;

@@ -318,7 +318,7 @@
           <div class="label">Point System:</div>
           <select
             bind:value={rallyeTableSettings.scoring[rallyeTableSettings.season].pointSystem}
-            on:change={() => calcSeasonResults(rallyeTableSettings.season)}
+            on:blur={() => calcSeasonResults(rallyeTableSettings.season)}
           >
             {#each Object.keys(pointSystems) as year}
               <option value={year}>{year}</option>
@@ -330,7 +330,7 @@
           <div class="label">Remove Rally:</div>
           <select
             bind:value={rallyeTableSettings.scoring[rallyeTableSettings.season].ignoreRallyes[0]}
-            on:change={() => calcSeasonResults(rallyeTableSettings.season)}
+            on:blur={() => calcSeasonResults(rallyeTableSettings.season)}
           >
             <option value={''}>None</option>
             {#each currentRallyes as rallye}
@@ -345,7 +345,7 @@
           <div class="label">Power Stage System:</div>
           <select
             bind:value={rallyeTableSettings.scoring[rallyeTableSettings.season].powerStageSystem}
-            on:change={() => calcSeasonResults(rallyeTableSettings.season)}
+            on:blur={() => calcSeasonResults(rallyeTableSettings.season)}
           >
             {#each Object.keys(powerStageSystems) as year}
               <option value={year}>{year}</option>
@@ -357,7 +357,7 @@
           <div class="label">Remove Rally:</div>
           <select
             bind:value={rallyeTableSettings.scoring[rallyeTableSettings.season].ignoreRallyes[1]}
-            on:change={() => calcSeasonResults(rallyeTableSettings.season)}
+            on:blur={() => calcSeasonResults(rallyeTableSettings.season)}
           >
             <option value={''}>None</option>
             {#each currentRallyes as rallye}
@@ -372,7 +372,7 @@
           <div class="label">Premier Stage System:</div>
           <select
             bind:value={rallyeTableSettings.scoring[rallyeTableSettings.season].premierStageSystem}
-            on:change={() => calcSeasonResults(rallyeTableSettings.season)}
+            on:blur={() => calcSeasonResults(rallyeTableSettings.season)}
           >
             {#each Object.keys(powerStageSystems) as year}
               <option value={year}>{year}</option>
@@ -427,8 +427,8 @@
     </div>
 
     <div style="width: 100%; display: flex; justify-content: center; margin: 1em 0;">
-      <a
-        href="javascript:void(0);"
+      <p
+        class="not-link"
         on:click={() => (rallyeTableSettings.showTable = !rallyeTableSettings.showTable)}
       >
         {!rallyeTableSettings.showTable ? 'Show Rally Timesheets' : 'Hide Rally Timesheets'}
@@ -463,7 +463,7 @@
             />
           </svg>
         {/if}
-      </a>
+      </p>
     </div>
 
     {#if rallyeTableSettings.showTable}
@@ -482,7 +482,7 @@
             <div class="label">Rallye:</div>
             <select
               bind:value={rallyeTableSettings.rallyeIndex}
-              on:change={() => (rallyeTableSettings.stageIndex = 0)}
+              on:blur={() => (rallyeTableSettings.stageIndex = 0)}
             >
               {#each currentRallyesFiltered as rallye, i}
                 <option value={i}>{rallye.title}</option>
@@ -566,10 +566,6 @@
 {/if}
 
 <style>
-  .center-all > tr > td {
-    text-align: center;
-  }
-
   .label {
     margin-right: 0.3em;
   }
@@ -603,6 +599,15 @@
     display: flex;
     margin-bottom: 0.5em;
     justify-content: space-between;
+  }
+
+  .not-link {
+    color: #2f7de1;
+    cursor: pointer;
+  }
+
+  .not-link:hover {
+    color: #98b6db;
   }
 
   button {
@@ -730,14 +735,5 @@
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
     }
-  }
-
-  a {
-    color: #2f7de1;
-    text-decoration: underline;
-  }
-
-  a:hover {
-    color: #98b6db;
   }
 </style>

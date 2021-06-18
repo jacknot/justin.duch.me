@@ -125,16 +125,25 @@
           <p>You should get to your seat, this is going to be a sight.</p>
           <p>Oh and here they are! The championship leaders! That was quick, so who do you see?</p>
           <p>
-            Ah, it's <img style="width: 20px;" src="/resources/spe_001/finnish_flag.png" /> The Finn.
-            Looking strong. Rally is a Finnish sport after all, I'm not surprised.
+            Ah, it's <img
+              alt="finland flag"
+              style="width: 20px;"
+              src="/resources/spe_001/finnish_flag.png"
+            /> The Finn. Looking strong. Rally is a Finnish sport after all, I'm not surprised.
           </p>
           <p>
-            Now here's <img style="width: 20px;" src="/resources/spe_001/spanish_flag.png" /> The Spainard.
-            I really have no idea how they do this.
+            Now here's <img
+              alt="spain flag"
+              style="width: 20px;"
+              src="/resources/spe_001/spanish_flag.png"
+            /> The Spainard. I really have no idea how they do this.
           </p>
           <p>
-            And finally, <img style="width: 20px;" src="/resources/spe_001/scottish_flag.png" /> The
-            Scottsman. Perfect command of their car, yet somehow seemingly without any control.
+            And finally, <img
+              alt="scotland flag"
+              style="width: 20px;"
+              src="/resources/spe_001/scottish_flag.png"
+            /> The Scottsman. Perfect command of their car, yet somehow seemingly without any control.
           </p>
           <p>The championship is as close as it ever was, and everything is going to be fine.</p>
           <small
@@ -214,22 +223,32 @@
           <p>
             After some time, it's now the final stage of the rally, and it's been quite interesting.
             Although, you did lost some of your excitement after <img
+              alt="finland flag"
               style="width: 20px;"
               src="/resources/spe_001/finnish_flag.png"
             /> The Young Finn you've been rooting for crashed out in the first stage. But it's alright,
             not the end of the world or anything, what do you see now?
           </p>
           <p>
-            Is it <img style="width: 20px;" src="/resources/spe_001/estonian_flag.png" /> The Estonian?
-            No, they've been too slow the entire rally.
+            Is it <img
+              alt="estonia flag"
+              style="width: 20px;"
+              src="/resources/spe_001/estonian_flag.png"
+            /> The Estonian? No, they've been too slow the entire rally.
           </p>
           <p>
-            Is it <img style="width: 20px;" src="/resources/spe_001/welsh_flag.png" /> The Welshman?
-            No, they've made one too many mistakes.
+            Is it <img
+              alt="wales flag"
+              style="width: 20px;"
+              src="/resources/spe_001/welsh_flag.png"
+            /> The Welshman? No, they've made one too many mistakes.
           </p>
           <p>
-            Is it <img style="width: 20px;" src="/resources/spe_001/belgian_flag.png" /> The Belgian?
-            No, a poor strategy early on has taken them out of victory contention.
+            Is it <img
+              alt="belgium flag"
+              style="width: 20px;"
+              src="/resources/spe_001/belgian_flag.png"
+            /> The Belgian? No, a poor strategy early on has taken them out of victory contention.
           </p>
           <p>Oh it's what I think it is, isn't it?</p>
           <p>
@@ -237,12 +256,17 @@
             never even seen a different sight before. You('ve) see(n) something truly horrible.
           </p>
           <p>
-            You see <img style="width: 20px;" src="/resources/spe_001/france_flag.png" /> The French.
+            You see <img
+              alt="france flag"
+              style="width: 20px;"
+              src="/resources/spe_001/france_flag.png"
+            /> The French.
           </p>
           <p>
             Humanity is facing a disaster like no other. A spectre is haunting the world, one that
             if left unchecked will hamper the development of our species until the heat death of the
             universe. To put it bluntly, <img
+              alt="france flag"
               style="width: 20px;"
               src="/resources/spe_001/france_flag.png"
             /> The French are too dominant in the WRC.
@@ -251,11 +275,16 @@
             Please look at this table from Wikipedia which shows the previous years' WRC champions.
           </p>
           <div style="width: 100%; text-align: center">
-            <img style="width: 50%" src="/resources/spe_001/wrc_table.png" />
+            <img
+              alt="wrc points, france is 90% of them"
+              style="width: 50%"
+              src="/resources/spe_001/wrc_table.png"
+            />
           </div>
           <p>This is a complete catastrophe.</p>
           <p>
             I didn't want to have to do this. I thought it would have ended with <img
+              alt="estonia flag"
               style="width: 20px;"
               src="/resources/spe_001/estonian_flag.png"
             /> The Estonian, but it seems I haven't been left a choice.
@@ -398,8 +427,11 @@
           <p>
             As you can see, there have been some pretty big changes in the "curve" of the points
             given to each position. So what would happen if we used an older point system today?
-            Would <img style="width: 20px;" src="/resources/spe_001/france_flag.png" /> The French still
-            be winning?
+            Would <img
+              alt="france flag"
+              style="width: 20px;"
+              src="/resources/spe_001/france_flag.png"
+            /> The French still be winning?
           </p>
 
           <p>
@@ -466,12 +498,13 @@
           <p>
             We're going to be looking at the 2020 season for this example, because that was the
             closest championship by far in recent memory, where <img
+              alt="france flag"
               style="width: 20px;"
               src="/resources/spe_001/france_flag.png"
             />
             Sébastien Ogier (122 points) led
-            <img style="width: 20px;" src="/resources/spe_001/welsh_flag.png" /> Elfyn Evans (115 points)
-            by 7 points.
+            <img alt="wales flag" style="width: 20px;" src="/resources/spe_001/welsh_flag.png" /> Elfyn
+            Evans (115 points) by 7 points.
           </p>
 
           <p>
@@ -483,7 +516,7 @@
           <p>For reference, here it is without any changes.</p>
 
           <div style="width: 100%; text-align: center">
-            <img style="width: 70%" src="/resources/spe_001/2020_table.png" />
+            <img alt="table" style="width: 70%" src="/resources/spe_001/2020_table.png" />
           </div>
 
           <p>
@@ -492,13 +525,13 @@
           </p>
 
           <p>
-            But <img style="width: 20px;" src="/resources/spe_001/france_flag.png" />
+            But <img alt="table" style="width: 20px;" src="/resources/spe_001/france_flag.png" />
             Ogier has more Power Stage points (the numbers between the parentheses), so let's see what
             happends if we change the system back to 2011 which had a smaller curve for winning.
           </p>
 
           <div style="width: 100%; text-align: center">
-            <img style="width: 70%" src="/resources/spe_001/2020_table_1.png" />
+            <img alt="table" style="width: 70%" src="/resources/spe_001/2020_table_1.png" />
           </div>
 
           <p>
@@ -519,7 +552,7 @@
           </p>
 
           <div style="width: 100%; text-align: center">
-            <img style="width: 70%" src="/resources/spe_001/2020_table_2.png" />
+            <img alt="table" style="width: 70%" src="/resources/spe_001/2020_table_2.png" />
           </div>
 
           <p>
@@ -536,11 +569,15 @@
           <div class="display: none" id="scroll-target" />
 
           <div style="width: 100%; text-align: center">
-            <img style="width: 70%" src="/resources/spe_001/2020_table_3.png" />
+            <img alt="table" style="width: 70%" src="/resources/spe_001/2020_table_3.png" />
           </div>
 
           <p>
-            AND WE'VE DONE IT! <img style="width: 20px;" src="/resources/spe_001/france_flag.png" />
+            AND WE'VE DONE IT! <img
+              alt="france flag"
+              style="width: 20px;"
+              src="/resources/spe_001/france_flag.png"
+            />
             THE FRENCH ARE NO MORE AND WORLD PEACE IS UPON US!
           </p>
 
@@ -568,6 +605,7 @@
           </p>
           <p>
             Once you're happy with your new champion who isn't <img
+              alt="france flag"
               style="width: 20px;"
               src="/resources/spe_001/france_flag.png"
             /> The French, press the submit button to send it to me and I might give you a special prize.
@@ -868,13 +906,6 @@
     );
   }
 
-  .paragraph {
-    margin-left: -0.1em;
-    margin-bottom: 1em;
-    display: inline-block;
-    word-wrap: break-word;
-  }
-
   .tr:last-child {
     visibility: hidden;
     opacity: 0;
@@ -893,12 +924,7 @@
     background-color: #191919;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1 {
     margin-bottom: 0.3em;
   }
 

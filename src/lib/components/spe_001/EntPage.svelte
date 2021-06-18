@@ -15,12 +15,12 @@
       </div>
     </div>
     <div class="links">
-      <a href="javascript:void(0);">Home</a>
-      <a href="javascript:void(0);">About</a>
-      <a href="javascript:void(0);">Anomalies</a>
-      <a href="javascript:void(0);">Accountability</a>
-      <a href="javascript:void(0);">Careers</a>
-      <a href="javascript:void(0);">Contact</a>
+      <p class="not-link">Home</p>
+      <p class="not-link">About</p>
+      <p class="not-link">Anomalies</p>
+      <p class="not-link">Accountability</p>
+      <p class="not-link">Careers</p>
+      <p class="not-link">Contact</p>
     </div>
   </div>
   <div class="header other">
@@ -51,11 +51,15 @@
       <p>No other blog post on ENT#344-A appears to have anomalous properties.</p>
       <p>
         The contents of ENT#344 describe the "greatest crisis of our time" to be the French
-        (stylised as "<img style="width: 20px;" src="/resources/spe_001/france_flag.png" /> The French")
-        "near-total" domination of the World Table Tennis Championships (WTTC) organised by the International
-        Table Tennis Federation. ENT#344 will propose methods to solve the "crisis" with varying levels
-        of viability. The most absurd of which is to "use a larger and heavier ping-pong ball (which
-        requires bigger rackets) and scale up the table so that it's big enough to stand on."
+        (stylised as "<img
+          alt="france flag"
+          style="width: 20px;"
+          src="/resources/spe_001/france_flag.png"
+        /> The French") "near-total" domination of the World Table Tennis Championships (WTTC) organised
+        by the International Table Tennis Federation. ENT#344 will propose methods to solve the "crisis"
+        with varying levels of viability. The most absurd of which is to "use a larger and heavier ping-pong
+        ball (which requires bigger rackets) and scale up the table so that it's big enough to stand
+        on."
       </p>
       <p>
         At the end of the post, ENT#344 will attempt a call to action and have the reader submit
@@ -143,11 +147,11 @@
     </div>
     <div class="side">
       <h3 class="title">In this document</h3>
-      <a href="javascript:void(0);">Anomaly class</a>
-      <a href="javascript:void(0);">Anomaly description</a>
-      <a href="javascript:void(0);">Research procedures</a>
-      <a href="javascript:void(0);">Previous experiments</a>
-      <a href="javascript:void(0);">Miscellaneous info</a>
+      <p class="not-link">Anomaly class</p>
+      <p class="not-link">Anomaly description</p>
+      <p class="not-link">Research procedures</p>
+      <p class="not-link">Previous experiments</p>
+      <p class="not-link">Miscellaneous info</p>
     </div>
   </div>
 
@@ -194,7 +198,8 @@
     margin-bottom: 1em;
   }
 
-  a {
+  a,
+  .not-link {
     color: #007976;
     transition: color 0.2s;
     padding-bottom: 1px;
@@ -202,7 +207,8 @@
     cursor: pointer;
   }
 
-  a:hover {
+  a:hover,
+  .not-link:hover {
     color: #002135;
   }
 
@@ -211,16 +217,6 @@
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 1em;
-  }
-
-  .links > a {
-    color: #57c2b2;
-    padding-right: 1em;
-    text-decoration: none;
-  }
-
-  .links > a:hover {
-    color: #fff;
   }
 
   .header {

@@ -15,14 +15,6 @@ const converter = new showdown.Converter({
 
 const postsDir = '_posts';
 
-function replaceHtml(slug, html) {
-  // replace reference tags will full path because I don't know how to change
-  // the base url.
-  return html
-    .replace(/#reference/g, `post/${slug}/#reference`)
-    .replace(/#footnote/g, `post/${slug}/#footnote`);
-}
-
 function getPostData(data, getHtml) {
   // Because there is no metadata extension, we need to read the lines
   let lines = data.split('\n');
@@ -61,7 +53,6 @@ function getPost(snail) {
     if (snail === slug) {
       let data = fs.readFileSync(filepath, { encoding: 'utf-8' });
       post = { ...getPostData(data, true), slug, date };
-      post.html = replaceHtml(slug, post.html);
     }
   });
 
