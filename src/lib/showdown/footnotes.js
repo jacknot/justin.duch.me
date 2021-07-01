@@ -46,7 +46,7 @@ export const footnotes = () => [
     type: 'lang',
     filter: (text) =>
       text.replace(/^\(\^([\d\w]+)\):\s*(.*)$/gm, (_str, name, content) => {
-        return `<div class="footnote-body" id="footnote-${name}-body">(${name}) ${content}</div>`;
+        return `<div class="footnote footnote-body" id="footnote-${name}-body"><sup>(${name})</sup> ${content}</div>`;
       })
   },
   {
@@ -55,7 +55,7 @@ export const footnotes = () => [
       text.replace(
         /\(\^([\d\w]+)\)/gm,
         (_str, name) =>
-          `<span class="footnote-link" id="footnote-${name}"><sup>(${name})</sup></span>`
+          `<span class="footnote footnote-link" id="footnote-${name}"><sup>(${name})</sup></span>`
       )
   }
 ];

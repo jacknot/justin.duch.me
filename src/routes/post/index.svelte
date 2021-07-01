@@ -17,25 +17,30 @@
 
   export let posts;
 
-  const current_build = DateTime.now().setZone('Australia/Sydney');
+  const speClasses = {
+    spe_001: 'glitch'
+  };
+
+  const currentBuild = DateTime.now().setZone('Australia/Sydney');
 
   const distanceFromPrev = (post) => {
-    const index = posts.map((p) => p.date).indexOf(post.date);
-    const prev_post = posts[index - 1];
-
     let end;
+
+    const index = posts.map((p) => p.date).indexOf(post.date);
+    const prevPost = posts[index - 1];
     const start = DateTime.fromISO(post.date).setZone('Australia/Sydney');
 
-    if (prev_post === undefined) {
-      end = current_build;
+    if (prevPost === undefined) {
+      end = currentBuild;
     } else {
-      end = DateTime.fromISO(prev_post.date).setZone('Australia/Sydney');
+      end = DateTime.fromISO(prevPost.date).setZone('Australia/Sydney');
     }
 
     return Math.ceil(Interval.fromDateTimes(start, end).length('days') / 2);
   };
 
   const isSPE = (post) => post.slug.startsWith('spe_');
+  const speClass = (post) => speClasses[post.slug] || '';
 </script>
 
 <svelte:head>
@@ -47,7 +52,7 @@
   <small><a href="/">&#9166; retour</a></small>
 </div>
 
-<code>dernière compile: {current_build}</code>
+<code>dernière compile: {currentBuild}</code>
 
 {#each posts as post}
   <div style="max-width: 100%; height: {distanceFromPrev(post)}em; padding: 1em 0.5em 1em 4em;">
@@ -57,7 +62,7 @@
   <div class="post">
     <div style="display: inherit;">
       <a href="/post/{post.slug}" class="no-underline" class:spe={isSPE(post)}>
-        <p class:glitch={isSPE(post)} title={post.title}>
+        <p class={speClass(post)} title={post.title}>
           {post.title}
         </p>
       </a>
@@ -107,11 +112,16 @@
   }
 
   code {
-    font-size: 0.7rem !important;
+    font-size: 0.8rem !important;
+  }
+
+  .spe {
+    text-transform: initial;
   }
 
   .glitch {
     animation: glitch 1s linear infinite;
+    color: rgba(255, 255, 255, 0.7);
   }
 
   @keyframes glitch {
@@ -133,10 +143,12 @@
     content: attr(title);
     position: absolute;
     left: 0;
+    z-index: -1;
   }
 
   .glitch:before {
     top: 0;
+    color: rgb(123, 199, 241);
     animation: glitchTop 0.8s linear infinite;
     clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
@@ -164,6 +176,7 @@
     height: 1em;
     top: 0;
     animation: glitchBotom 1.5s linear infinite;
+    color: rgb(224, 132, 233);
     clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
     -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   }
@@ -180,9 +193,5 @@
     62% {
       transform: translate(-22px, 0);
     }
-  }
-
-  .spe {
-    text-transform: initial;
   }
 </style>

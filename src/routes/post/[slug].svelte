@@ -137,14 +137,6 @@
     padding-top: 1em;
   }
 
-  /*
-     By default, CSS is locally scoped to the component,
-     and any unused styles are dead-code-eliminated.
-     In this page, Svelte can't know which elements are
-     going to appear inside the {{{post.html}}} block,
-     so we have to use the :global(...) modifier to target
-     all elements inside .content
- */
   .content :global(pre) {
     padding: 0.5em;
     border-radius: 2px;
@@ -161,6 +153,7 @@
     background: #282828;
     background-color: rgba(41, 41, 41, 0.8);
   }
+
   .content :global(ul) {
     line-height: 1.5;
   }
@@ -263,6 +256,14 @@
     color: #ec53dd;
     font-feature-settings: 'caps';
     font-variant-numeric: normal;
+  }
+
+  :global(sup) {
+    font-size: 0.9rem;
+  }
+
+  .e-content :global(.footnote > sup) {
+    font-weight: 100;
   }
 
   .e-content :global(.footnote-link:after),
