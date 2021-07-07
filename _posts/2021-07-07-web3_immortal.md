@@ -60,7 +60,7 @@ This brings more issues however, one is that these services are once again: cent
 
 The answer is blockchain, because **of course** it is. What else were you expecting?
 
-The [Arweave](https://www.arweave.org) blockchain can store and pin files onto IPFS to keep them available permanently. We're going to use an API from [ipfs2arweave](https://ipfs2arweave.com) which is also free, so that's cool. And we're also going to call the Cloudflare and ipfso.io IPFS gateways first to speed up the propagation of our object.
+The [Arweave](https://www.arweave.org) blockchain can store and pin files onto IPFS to keep them available permanently. We're going to use an API from [ipfs2arweave](https://ipfs2arweave.com) which is also free, so that's cool. And we're also going to call the Cloudflare and [ipfs.io](https://ipfs.io) IPFS gateways first to speed up the propagation of our object.
 
 ```
 curl "https://cloudflare-ipfs.com/ipfs/$NEW_CID/" > /dev/null
