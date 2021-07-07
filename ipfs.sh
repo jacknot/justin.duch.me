@@ -25,4 +25,5 @@ export NEW_CID=$(ipfs add -r --cid-version 1 build_ipfs | tail -1 | cut -d' ' -f
 echo "New release CID: $NEW_CID"
 
 curl "https://cloudflare-ipfs.com/ipfs/$NEW_CID/" > /dev/null
+curl "https://ipfs.io/ipfs/$NEW_CID/" > /dev/null
 curl -X POST "https://ipfs2arweave.com/permapin/$NEW_CID"
