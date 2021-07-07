@@ -6,7 +6,7 @@
   "license": "MIT",
   "author": "Justin Duch <justin@duch.me>",
   "scripts": {
-    "export": "svelte-kit build",
+    "export": "rm -rf build/ && svelte-kit build",
     "preview": "svelte-kit preview",
     "dev": "svelte-kit dev",
     "lint": "prettier check . && eslint --ignore-path .gitignore .",

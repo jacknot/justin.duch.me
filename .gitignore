@@ -3,6 +3,7 @@
 .svelte/
 .svelte-kit/
 build/
+build_ipfs/
 _drafts/
 *.tfstate
 *.tfstate.*
@@ -10,3 +11,4 @@ _drafts/
 *.tfvars.json
 .terraform
 tfplan
+ipfs

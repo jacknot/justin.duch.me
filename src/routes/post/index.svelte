@@ -49,7 +49,7 @@
 
 <div class="space-yo">
   <h1>chronologie</h1>
-  <small><a href="/">&#9166; retour</a></small>
+  <small><a href="../">&#9166; retour</a></small>
 </div>
 
 <code>dernière compile: {currentBuild}</code>
@@ -122,6 +122,7 @@
   .glitch {
     animation: glitch 1s linear infinite;
     color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
   }
 
   @keyframes glitch {
