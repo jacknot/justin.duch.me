@@ -94,6 +94,8 @@ Overall, this was a very confusing experience that took me several days to figur
 
 Once the protocol gets faster, I think it would also be a good idea to replace my CDN used for images with IPFS. And I would actually like to find a way to do something like this that allows JS to run though, because that's where the real art on this blog is.
 
+I'd also like to have somewhere that on this site that links to the current IPFS CID, but since that would technically change the contents of the blog, it would make a new CID so it would never actually be up to date.
+
 Here is the entire build script for your reference:
 
 ```bash
@@ -111,19 +113,17 @@ cp -r build/ build_ipfs/
 
 cd build_ipfs
 
-# Remove unused files
 find ./post -name '*.html' -not -path 'build/post/spe_*' -exec gsed -i '/type="svelte-data"/d' {} \;
-find ./post ! -name post -type d -exec rm {}.json \;
-rm post.json
 
 # npm install -g all-relative
 all-relative 1>/dev/null
 
 cd ..
 export NEW_CID=$(ipfs add -r --cid-version 1 build_ipfs | tail -1 | cut -d' ' -f2)
-echo "New release CID: $NEW_CID"
 
 curl "https://cloudflare-ipfs.com/ipfs/$NEW_CID/" > /dev/null
 curl "https://ipfs.io/ipfs/$NEW_CID/" > /dev/null
 curl -X POST "https://ipfs2arweave.com/permapin/$NEW_CID"
+
+echo "New release CID: $NEW_CID"
 ```

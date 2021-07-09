@@ -12,6 +12,8 @@
 </div>
 
 <p class="mono">
+  <a href="https://beanpupper.eth.link">beanpupper.eth.link</a>
+  |
   <a href="mailto:justin@duch.me">justin@duch.me</a>
   <a href="/publickey.justin@duch.me.txt">(PGP)</a>
   |
