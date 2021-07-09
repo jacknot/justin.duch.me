@@ -127,3 +127,5 @@ curl -X POST "https://ipfs2arweave.com/permapin/$NEW_CID"
 
 echo "New release CID: $NEW_CID"
 ```
+
+**Update 2021-07-09:** Okay turns out JS does work, but only through certain IPFS gateways like `ipfs.localhost` and `dweb.link` (and not on `cloudflare-ipfs.com` or `ipfs.io`). Luckily, the ENS domain directs you to `dweb.link` so if you go to [beanpupper.eth.link](https://beanpupper.eth.link), the JS should be running.
