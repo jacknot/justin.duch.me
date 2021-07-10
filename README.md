@@ -31,6 +31,10 @@ Clojure tool to find dead links in `.md` files. Used to fix broken/dead links in
 
 Clojure tool to scrape all links off a website. Used to create a list of urls to batch process in [archive.org](https://archive.org/services/wayback-gsheets/).
 
+- [ipfs.sh](https://github.com/beanpuppy/justin.duch.me/blob/master/ipfs.sh)
+
+Shell script to add build to IPFS and pin on Arweave. IPFS mirror is available at [beanpupper.eth.link](https://beanpupper.eth.link).
+
 ## CDN
 
 Currently all images are hosted and linked to my CDN `cdn.halcyonnouveau.xyz`. I also keep a copy them in this repository here (under the same file structure), so if the CDN goes offline you can replace the links using `sed`. E.g
