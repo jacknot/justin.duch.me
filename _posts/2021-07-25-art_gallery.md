@@ -21,7 +21,7 @@ Ah here it is, the one on the left is the first painting I ever produced. If it'
 
 Another image is that if you look very closely at the top right, you'll see that the sun is **wearing sunglasses**. Such a profound political statement is another thing you'll see very often with my art.
 
-The one of the right is my "unicorn remaster". I made it a smaller image to strip away the unnecessary fluff, and focus on the central images. You'll also notice the sunglasses wearing sun is more prominent with a more noticeable yellow.
+The one of the right is my "unicorn remaster". I made it a smaller image to strip away the unnecessary fluff, and focus on the central images. You'll also notice the sun wearing sunglasses is more prominent with a more noticeable yellow.
 
 ![ART!](https://cdn.halcyonnouveau.xyz/blog/img/art_gallery/Photo_11.jpg)
 
