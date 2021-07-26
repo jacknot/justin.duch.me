@@ -242,6 +242,10 @@
     justify-content: space-between;
   }
 
+  .side > p {
+    margin: 5px 0;
+  }
+
   @media screen and (max-width: 844px) {
     .header > .top {
       flex-direction: column;

@@ -111,7 +111,6 @@
 
   .content {
     position: relative;
-    box-sizing: border-box;
     max-width: 42em;
     padding: 12em 5em 5em 5em;
   }
