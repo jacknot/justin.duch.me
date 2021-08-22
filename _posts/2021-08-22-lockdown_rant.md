@@ -1,5 +1,5 @@
 ---
-title: Lockdown Thoughts: Finland Seems Nice Right Now
+title: Lockdown Thoughts: Finland Seems Nice
 thumbnail: finland-thumb.png
 ---
 
