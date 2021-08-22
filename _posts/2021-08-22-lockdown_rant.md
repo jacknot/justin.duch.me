@@ -94,3 +94,9 @@ Anyway if you want something to make you feel calmer, check out this Reddit post
 ...
 
 Perkele.
+
+---
+
+**Update**: Okay, so I've gotten some sleep and re-read all of this and now I've found something else to lose sleep over - that is; my entire spiel on authoritarians is completely unsupported with anything. I mean yeah, it is a rant, but I'd rather not say stupid things that's not backed up by anything (especially if this is your first time hearing about it).
+
+So I might make another post with actual sources but if that never happens, "The Authoritarians" by Bob Altemeyer is a good book to read (it's short too, only took me a few hours), and you can download it for free [from here.](https://theauthoritarians.org/options-for-getting-the-book/)
