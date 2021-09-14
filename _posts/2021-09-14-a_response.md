@@ -201,7 +201,7 @@ So if the mRNA vaccine is just the "blueprints" to the spike protein, would the 
 >
 > These make me nervous, especially the sticks. This makes me think it is less about the virus and more about control. This looks like authoritarianism to me, and beyond the thought process I made above, I had one big pressing concern: I do not want authoritarianism to take over.
 
-Before I get into this, I want to say something I don't think I heard that many times before. Dying _from_ COVID is not the only way you can die _because of_ COVID. Let's think this through.
+Before I get into this, I want to say something I don't think I heard that many times before. Dying _from_ COVID is not necessarily the same thing as dying _because of_ COVID. Let's think this through.
 
 Many people who get COVID will need to go to the hospital, they won't necessarily die from it (in fact, they probably won't), but there's a decent chance they'll go to the hospital. Right now the CDC is showing 67 thousand new cases(^4) and 11 thousand new hospitalisations for today only.
 
