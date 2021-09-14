@@ -20,6 +20,8 @@ However, keep in mind that I generally dislike this person(^1), so my arguments 
 ---
 
 > The historian owes the dead nothing but the truth.
+>
+> * Jean-Baptiste-Joseph Delambre, _Histoire de l'astronomie moderne_
 
 ---
 
@@ -51,7 +53,7 @@ A long time ago in a post about COBOL, I've briefly mentioned something similar 
 
 Tainter argues that the development of a complex society is predicated on the exploitation of low hanging resources. The investment to acquire these resources is easily outweighed by their benefits. This allows for the support of specialized roles that do not necessarily contribute to the sustainability of the society (aristocrats, priests, etc.). Subsequent resource extraction (be it in the form of new mines, new agricultural lands, or new conquests) have a lower return on energy invested generating a smaller surplus to sustain the complex society.
 
-Eventually a society will reach a point where existing resources or potential new resources cannot maintain the level of complexity the society currently has. The result is a decline in public works/investments, the loss of centralized control and influence, and the loss of the periphery regions of the society (and not always a peaceful or gradual process). Eventually the society will "decline" to a level of lower complexity: more local control, less public works, etc.
+Eventually a society will reach a point where existing resources or potential new resources cannot maintain the level of complexity the society currently has. The result is a decline in public works/investments, the loss of centralised control and influence, and the loss of the periphery regions of the society (which are not always a peaceful or gradual process). Eventually the society will "decline" to a level of lower complexity with more decentralised local control, less public works, etc, at which point it may go far enough to be considered "collapsed".
 
 I've also gone through a few episodes of the "[Fall of Civilizations Podcast](https://www.youtube.com/c/FallofCivilizationsPodcast)" which Howard recommends at the start of his article. And it is quite good, but I have no idea how Howard is able relate the ideas of virtue to it.
 
@@ -91,9 +93,7 @@ As for Howard's idea on how believing in God would allow to resist abandoning yo
 
 But if we look at both Tainter and Howard's ideas, I think there is a clear solution.
 
-The implementation of a sustainable society, not built on a rat-race to wealth and power, and one where people are celebrated and rewarded for helping others.
-
-Such a society would be able to correctly manage the commons and the scarcity of resources as well as prevent people from losing their virtue because of "competition."
+The implementation of a sustainable society, not built on a rat-race to wealth and power, preferably one built around decentralised control instead of rejecting it for complexity, and one where people are celebrated and rewarded for helping others. Such a society would be able to correctly manage the commons and the scarcity of resources as well as prevent people from losing their virtue because of "competition."
 
 As for the witness scenario that Howard described, for me there's a very simple answer. Lying makes me feel bad, so I don't do it. If lying doesn't make **you** feel bad enough so much so that you require yourself to believe in an outer-worldly power that judges you in order to not do it, I think you have other problems.
 
@@ -102,6 +102,8 @@ As for the witness scenario that Howard described, for me there's a very simple 
 > Right where I left it. Right as I remember it.
 >
 > Let's see what old sins lie in wait.
+>
+> * Multiple authors, _SCP 6060_
 
 ---
 
@@ -137,6 +139,8 @@ Wow a document describing how people should act in a community is misused by tho
 ---
 
 > Comme pour le prier de le tirer de l’embarras où il se trouvait.
+>
+> * Alexandre Dumas, _Le Comte de Monte-Cristo_
 
 ---
 
