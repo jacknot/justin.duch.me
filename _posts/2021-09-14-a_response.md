@@ -219,7 +219,7 @@ COVID is a problem bigger than itself, and the vaccine is easiest and most effec
 
 With all that said, I can only speak for what Australia has done but yes, I think some measures can be seen as too authoritarian. But I'm also of the belief that if you want to participate in society, you mustn't be a danger to others. So I believe these measures are sufficiently justified under a concern for public health.
 
-You could then argue that any authoritarian move should be resisted, which I would agree with. But in the grand scheme of awful authoritarian moves being done, why are you protesting so hard the one that would improve public health? I can think a three words from the US that are much more disastrous.
+You could then argue that any authoritarian move should be resisted, which I would agree with. But in the grand scheme of awful authoritarian moves being done, why are you protesting so hard the one that would improve public health? I can think of three words that have recently come from the US which are much more disastrous.
 
 Texas abortion bounty.
 
