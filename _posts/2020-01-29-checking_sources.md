@@ -185,7 +185,7 @@ Last and most definitely least, [“Sir Philip Pullman calls for 50p boycott ove
 
 You know what? I’m going to stop using the Oxford comma in this post from now on in spite of this guy. That’ll show you how much I don’t care, because I really don’t. If there was a list of people who care about this boycott, I would not be on that list. But if there was a list of people who didn’t care, I would be on that list - because I don’t care. And for more proof here’s a survey on people who don’t care:
 
-![survey](/resources/comma_survey.pdf)
+![survey](https://cdn.halcyonnouveau.xyz/blog/img/comma-survey.png)
 
 According to the survey: “100% of people who do not care about Sir Philip Pullman’s 50p boycott over the Oxford comma do not care about Sir Philip Pullman’s 50p boycott over the Oxford comma.” So you know for **FACT** that I do not care.
 
