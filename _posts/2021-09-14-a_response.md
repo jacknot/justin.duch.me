@@ -154,13 +154,13 @@ So she thinks that because there are 33 million cases of COVID in US with a popu
 
 Do you see the problem with this estimation? It's so fucking obvious, I genuinely can't believe she would even think about this, let alone type it down.
 
-This post was published on 27 July almost two months ago from when I'm writing this now. So let's look at that CDC website she link to see the  cases.
+This post was published on 27 July almost two months ago from when I'm writing this now. So let's look at that CDC website she link to see the cases now.
 
 OH WOW LOOK AT THAT IT'S NOW 40 MILLION!
 
-So does that mean the chance to get COVID is now 12%? How could it have gotten higher?
+So does that mean the chance to get COVID is now 12%? It has gotten higher?!
 
-It didn't. That number isn't the chance to get COVID, it's **literally** just the percentage of people who have gotten COVID in the US and that's it, nothing else. Your chance of getting COVID is determined by how you respond to it. If you do nothing on a long enough time scale, then the chance is 100% or close enough to it.
+No, it didn't. That number isn't the chance to get COVID, it's **literally** just the percentage of people who have gotten COVID in the US at this point in time and that's it, **nothing else**. Your chance of getting COVID is determined by how you respond to it. If you do nothing on a long enough time scale, then the chance is 100% or close enough to it.
 
 You can't extrapolate this from previous data because it's completely reliant on the present circumstances.
 
@@ -176,15 +176,32 @@ From "[Vaccines are highly unlikely to cause side effects long after getting the
 
 The active ingredient in the mRNA vaccine degrades after two weeks. Realistically, for a side effect to occur years later when it has left your body two weeks after the injection there would have to be some magic involved.
 
-By the way, there's no long term study on the effect of COVID either(^3), a virus that isn't designed to degrade after two weeks.
+Normally, in regards to medicine having long term effects the key factor here would be dosage. How long are you exposed to it, and how often. If it's a daily medication, or if you're working with something environmentally hazardous, you work with it for a long time and that gives you a high risk of developing any complications.
 
-(^3): We do already know there are long term effects however, it can cause some damage to your lungs.
+Without repeated exposure, short lived medicine will have short-lived effects and short-lived after-effects, and they will either be:
+
+* Damaging, and immediately evident or;
+* Not immediately evident, and either repairable, or with minimal after-effect.
+
+And no, just because the primary effect of vaccines are to provide long term immunisation from a virus doesn't mean the vaccine itself can have long term effects. The purpose of a vaccine is to teach your body to create antibodies by itself, you know the saying: "teach a man to fish..."
+
+So now if you're asking why the antibodies can't harm you, well that's like asking why red blood cells can't harm you. They're a natural part of your body. They _can_ sometimes go wrong, like with [ADE](https://www.chop.edu/centers-programs/vaccine-education-center/vaccine-safety/antibody-dependent-enhancement-and-vaccines), but we know that COVID antibodies don't do that as mentioned in the article.
+
+> Many vaccinated people have been exposed to the virus, and its variants, and most of them have developed no disease or mild symptoms. A very small number have experienced more severe disease (“breakthrough infection”), and these individuals have not shown evidence of ADE.
+>
+> Unfortunately, some people continue to spread misinformation suggesting that ADE is an ongoing concern for COVID-19 vaccines; however, scientists and clinicians are continuing to monitor COVID-19 infections and, to date, no evidence to validate this concern has emerged.
+
+By the way, there's no long term study on the effect of COVID either(^3), and COVID isn't designed to degrade after two weeks. Of our current vaccine technology, the mRNA is the most modern, and most targeted because they do not need to have any of the other genetic material that you would have in the older vaccines (where old vaccines would give you a weakened version of the virus).
+
+So if the mRNA vaccine is just the "blueprints" to the spike protein, would the real thing not be much worse?
+
+(^3): We do already know there are some long term effects however, it can cause some damage to your lungs.
 
 > I see people on Twitter and other public forums shaming others for not getting vaccinated. They also encourage others to do so in real life. (One person I used to follow on Twitter encouraged a follower to, at family gatherings, tail the members of his own extended family that are unvaccinated and yell, “UNVACCINATED!” at others to shame his family members.) I see governments instituting carrot and stick incentives to get the vaccines. The carrots are really insipid (lotteries), and the sticks are excessive (jail or shunning from society).
 >
 > These make me nervous, especially the sticks. This makes me think it is less about the virus and more about control. This looks like authoritarianism to me, and beyond the thought process I made above, I had one big pressing concern: I do not want authoritarianism to take over.
 
-Before I get into this, I want to say something I don't think I heard that many times before. Dying from COVID is not the only way you can die because of COVID. Let's think this through.
+Before I get into this, I want to say something I don't think I heard that many times before. Dying _from_ COVID is not the only way you can die _because of_ COVID. Let's think this through.
 
 Many people who get COVID will need to go to the hospital, they won't necessarily die from it (in fact, they probably won't), but there's a decent chance they'll go to the hospital. Right now the CDC is showing 67 thousand new cases(^4) and 11 thousand new hospitalisations for today only.
 
@@ -193,6 +210,8 @@ Many people who get COVID will need to go to the hospital, they won't necessaril
 Hospitals don't have infinite room and people still need them for other reasons. If people with COVID are taking up all the ICU's, where do the other people go? That was the point of "flattening the curve" with lockdowns, to make sure the hospitals aren't overwhelmed and there aren't more deaths than there needs to be (not that there needs to be any).
 
 Now of course, lockdowns aren't that good a solution (especially without government assistance to help unemployment) and I've heard people say that our lockdowns in Australia (and other countries too I'm guessing) would cause more death because of the decrease in mental health. Well, what do you think happens to someone's mental health when one of their loved one dies?
+
+What about the mental health of all the doctors and nurses who will be (and already are to be honest) overworked, understaffed, and having to deal with whiny assholes who don't want to take a vaccine?
 
 And do you think that all the problems a lockdown causes (low economic activity, general unease, etc) would also not happen if we let a pandemic rip through the population? Because if you do, I have a bridge in Brooklyn to sell to you.
 
