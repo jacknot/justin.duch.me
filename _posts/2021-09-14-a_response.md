@@ -213,9 +213,27 @@ Now of course, lockdowns aren't that good a solution (especially without governm
 
 What about the mental health of all the doctors and nurses who will be (and already are to be honest) overworked, understaffed, and having to deal with whiny assholes who don't want to take a vaccine?
 
+But along with our health infrastructure, what of our "death" infrastructure? Most cemeteries and crematoriums are managed by only one or two people at a time (specifically, the people who actually do the work and not just own the business). What do you think will happen to someone who now has bodies piling up against their door?
+
+"Well the hospitals and crematoriums can just hire more people."
+
+Oh is that what you think will happen? You think a business is going to spend **more** money, when their very existence depends on spending the least amount of money as possible?
+
+No, what will happen... no actually, what **is** happening right now is that the workers are overworked and stressed. The owners are refusing to help them. They are quitting.
+
+"Sure but now the business is forced to replace them, they'll realise their mistake and hire more people then."
+
+How I wish I could live in your little fantasy land.
+
+**If** they get replaced, do you think that they'll actually be "replaced?" Do you think the kid with only a 6 month internship can truly replace the senior with 5 years? Maybe they can at least be useful with some training, but who will do the training? Who will **pay** for the training?
+
+Welcome to Capitalism.(^5)
+
+(^5): Oh fuck I said the "C" word, I'm sorry.
+
 And do you think that all the problems a lockdown causes (low economic activity, general unease, etc) would also not happen if we let a pandemic rip through the population? Because if you do, I have a bridge in Brooklyn to sell to you.
 
-COVID is a problem bigger than itself, and the vaccine is easiest and most effective way to get out with the least amount of consequences.
+COVID is a problem bigger than itself with hundreds of little unseen ripple effects (not helped by our current system of labour organisation). The vaccine is the easiest and most effective way to get out with the least amount of consequences, except there's only one consequence and that is that it's existence turns some people into annoying cry-babies.
 
 With all that said, I can only speak for what Australia has done but yes, I think some measures can be seen as too authoritarian. But I'm also of the belief that if you want to participate in society, you mustn't be a danger to others. So I believe these measures are sufficiently justified under a concern for public health.
 
