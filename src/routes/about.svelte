@@ -41,7 +41,7 @@
 <h2>conditions générales</h2>
 
 <p>
-  En lisant ce site Web, vous acceptez, au nom de votre employeur, de me libérer de toutes les
+  En lisant ce site web, vous acceptez, au nom de votre employeur, de me libérer de toutes les
   obligations et renonciations découlant de tous les accords, licences, conditions de service,
   politiques de confidentialité, de non-divulgation, de non-concurrence et d'utilisation acceptable
   NON NÉGOCIÉS ("ACCORDS BOGUS") que j'ai conclus avec votre employeur, ses partenaires, concédants,
