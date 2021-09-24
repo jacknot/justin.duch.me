@@ -32,9 +32,23 @@
 
 <p>Opinions are those of your employer.</p>
 
-<hr />
+<p>Do not email me for sponsorships/paid promotions, I won't accept.</p>
 
-<p>Don't email me for sponsorships/paid promotions, I won't accept.</p>
+<p>Do email me if you're a Nigerian prince, I will accept.</p>
+
+<div class="line" />
+
+<h2>conditions générales</h2>
+
+<p>
+  En lisant ce site Web, vous acceptez, au nom de votre employeur, de me libérer de toutes les
+  obligations et renonciations découlant de tous les accords, licences, conditions de service,
+  politiques de confidentialité, de non-divulgation, de non-concurrence et d'utilisation acceptable
+  NON NÉGOCIÉS ("ACCORDS BOGUS") que j'ai conclus avec votre employeur, ses partenaires, concédants,
+  agents et cessionnaires, à perpétuité, sans préjudice de mes droits et privilèges actuels. Vous
+  déclarez également que vous avez le pouvoir de me libérer de tout ACCORD ABUSIF au nom de votre
+  employeur.
+</p>
 
 <style>
   a {
@@ -44,5 +58,10 @@
   .mono {
     font-family: Menlo, Monaco, Consolas, monospace;
     font-size: 0.8rem;
+  }
+
+  .line {
+    border-bottom: 1px dashed #717171;
+    margin: 4em 0;
   }
 </style>
