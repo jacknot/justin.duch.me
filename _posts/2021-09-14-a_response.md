@@ -53,7 +53,7 @@ A long time ago in a post about COBOL, I've briefly mentioned something similar 
 
 Tainter argues that the development of a complex society is predicated on the exploitation of low hanging resources. The investment to acquire these resources is easily outweighed by their benefits. This allows for the support of specialized roles that do not necessarily contribute to the sustainability of the society (aristocrats, priests, etc.). Subsequent resource extraction (be it in the form of new mines, new agricultural lands, or new conquests) have a lower return on energy invested generating a smaller surplus to sustain the complex society.
 
-Eventually a society will reach a point where existing resources or potential new resources cannot maintain the level of complexity the society currently has. The result is a decline in public works/investments, the loss of centralised control and influence, and the loss of the periphery regions of the society (which are not always a peaceful or gradual process). Eventually the society will "decline" to a level of lower complexity with more decentralised local control, less public works, etc, at which point it may go far enough to be considered "collapsed".
+Eventually a society will reach a point where existing resources or potential new resources cannot maintain the level of complexity the society currently has. The result is a decline in public works/investments, the loss of centralised control and influence, and the loss of the periphery regions of the society (which are not always a peaceful or gradual process). The society will then start "declining" to a level of lower complexity with more decentralised local control, less public works, etc, at which point it may go far enough to be considered "collapsed."
 
 I've also gone through a few episodes of the "[Fall of Civilizations Podcast](https://www.youtube.com/c/FallofCivilizationsPodcast)" which Howard recommends at the start of his article. And it is quite good, but I have no idea how Howard is able relate the ideas of virtue to it.
 
@@ -81,7 +81,7 @@ In those cases, what do you do? You don’t believe that mankind is accountable 
 >
 > But if you believe in God, and that all mankind is accountable to Him, it’s easier to refuse to abandon your virtue and allow Him to help you and to either stop society’s enemies or to ensure that justice is served in the next life.
 
-So from the second paragraph we find out that people who aren't virtuous compete better than those who are. Compete it what? Judging by the fact that apparently you need to compete in this thing to be able to eat, this sounds really familiar but in order to not say the "C" word, I'm just going to say that it's system of organisation where you compete for money to buy the food to eat. And it is this system that incentivises people to lose their virtues.
+So from the second paragraph we find out that people who aren't virtuous compete better than those who are. Compete in what? Judging by the fact that apparently you need to compete in this thing to be able to eat, this sounds really familiar but in order to not say the "C" word, I'm just going to say that it's system of organisation where you compete for money to buy the food to eat. And it is this system that incentivises people to lose their virtues.
 
 Keep this in mind, I'll get to it later.
 
@@ -134,7 +134,7 @@ That post linked starts with the following quote.
 
 > I don’t like Codes of Conduct. They can be easily misused.
 
-Wow a document describing how people should act in a community is misused by those in power to justify their behaviour? Feels like we were just talked about that, but maybe they should add a few parables to make it easy to digest for the brainless masses.
+Wow a document describing how people should act in a community is misused by those in power to justify their behaviour? Feels like we just talked about that, but maybe they should add a few parables to make it easy to digest for the brainless masses.
 
 ---
 
