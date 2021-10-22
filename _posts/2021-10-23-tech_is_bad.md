@@ -99,4 +99,4 @@ Now that doesn't necessarily mean the destruction of Capitalism, if that's what 
 
 (^3): You are right though.
 
-Again, technology isn't going to be able to solve anything by itself, and sometimes it just distracts from the things that could actually solve things. If you go out to buy a Tesla because you think you'll be helping the environment, maybe think a little harder about the real issues causing ecological collapse.
+Again, technology isn't going to be able to solve anything by itself, and sometimes it just distracts from the things that could actually solve them. If you go out to buy a Tesla because you think you'll be helping the environment, maybe think a little harder about the real issues causing ecological collapse.
