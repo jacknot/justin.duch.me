@@ -73,7 +73,13 @@ I've heard people say smart contracts will allow us to completely revolutionise 
 
 This still requires you to trust the person who wrote the code though, so I have **no** idea why people keep pushing this idea of having no middleman. I've met people who write code, I've seen the code they write, very few of them I would trust with any amount of my money.
 
-Oh yeah, and NFTs. I'd rather not even talk about them.
+At best you can say smart contracts are a more "neutral" middleman, which makes sense if you have no idea how code is written. Forgetting the fact that people can just write the code wrong, any complex codebase is filled with the biases and assumptions of the people who have written it.
+
+The most obvious example is AI, which often times shows more transparent biases as they are only trained on specific things.  But something a little more interesting and less known are the "historically rooted gender divisions of labour that are replicated and even amplified in the digital economy, and particularly work in platform-mediated/online and virtual spaces".
+
+I encourage you to read Bama Athreya's paper, "[Bias In, Bias Out: Gender and Work in the Platform Economy](https://idl-bnc-idrc.dspacedirect.org/handle/10625/60354)."
+
+Oh yeah, there's also NFTs. I'd rather not even talk about them.
 
 Crypto-currencies are a solution looking for a problem. But they can make you a lot of money, the tech-bros are right about that one thing.
 
@@ -99,4 +105,6 @@ Now that doesn't necessarily mean the destruction of Capitalism, if that's what 
 
 (^3): You are right though.
 
-Again, technology isn't going to be able to solve anything by itself, and sometimes it just distracts from the things that could actually solve them. If you go out to buy a Tesla because you think you'll be helping the environment, maybe think a little harder about the real issues causing ecological collapse.
+Again, technology isn't going to be able to solve anything by itself, and sometimes it just distracts from the things that could actually solve them. Our over reliance on using technology to solve societies' woes has given too much power to the people who create it, but mostly - to those who sell it. Because it's the marketers who shape people's perceptions on what is actually possible and how useful it can be.
+
+It's easy to get someone it buy into a new shiny piece of tech by throwing buzzwords and technical jargon at them. It's less easy to actually understand the underlying problems of a complex civilisation and attempt to solve it holistically, where technology may not be needed or is just used to make it more efficient.
