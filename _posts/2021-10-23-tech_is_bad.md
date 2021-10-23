@@ -91,7 +91,7 @@ When a business sells it's ownership as equity to other people, what happens? Th
 
 So, when someone buys Bitcoin, what happens? The price of Bitcoin goes up or down, and the rest of the world is not affected. Well... apart from all the energy consumed by datacenters used to mine the Bitcoin.
 
-One other thing I like about crypto is how you can simulate economy experiments using the funny Internet money. Ponzi scheme? There are plenty of these going on. Want to investigate Harberger's triangle/deadweight tax loss? Create a small game. Prediction markets? See [Auger](https://www.augur.net/).
+One other thing I like about crypto is how you can simulate economy experiments using the funny Internet money. Ponzi scheme? There are plenty of those going on. Want to investigate Harberger's triangle/deadweight tax loss? Create a small game. Prediction markets? See [Auger](https://www.augur.net/).
 
 As long as you approach it from the perspective of "this money is worthless" it's all just a fun learning experience about economic theory. Although, mostly of theories from Austrian school economics, but still worthwhile I think even if it's not the type of theories you personally subscribe to.
 
@@ -105,6 +105,6 @@ Now that doesn't necessarily mean the destruction of Capitalism, if that's what 
 
 (^3): You are right though.
 
-Again, technology isn't going to be able to solve anything by itself, and sometimes it just distracts from the things that could actually solve them. Our over reliance on using technology to solve societies' woes has given too much power to the people who create it, but mostly - to those who sell it. Because it's the marketers who shape people's perceptions on what is actually possible and how useful it can be.
+Again, technology isn't going to be able to solve anything by itself, and sometimes it just distracts from the things that could actually solve them. Our over reliance on using technology to solve societal woes has given too much power to the people who create it, and mostly - to those who sell it. Because it's the marketers who shape people's perceptions on what is actually possible and how useful it can be.
 
 It's easy to get someone it buy into a new shiny piece of tech by throwing buzzwords and technical jargon at them. It's less easy to actually understand the underlying problems of a complex civilisation and attempt to solve it holistically, where technology may not be needed or is just used to make it more efficient.
