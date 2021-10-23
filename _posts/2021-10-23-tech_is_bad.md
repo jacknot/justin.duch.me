@@ -61,7 +61,7 @@ I've seen people invest in Bitcoin thinking that they are investing in a gold-li
 
 Granted, the crypto-currency community seems to have moved away from attempting to use crypto as a currency and more a "store of value" like gold, sort of making it more a commodity, which makes more sense considering it's deflationary characteristics, but I just wanted to get that off my chest.
 
-The core technology behind all cryptos, the "blockchain" is straight garbage. This isn't like self-driving cars where I could see it getting better eventually, **no**, it's a trash idea. Ah yes, how about a linked list where every node contains a hash of all the data of the nodes behind it, and every time you want to add a new node, you need 100,000 computers to say "OK" to it. Simply put, there are no reasons for why you would want a decentralised blockchain over a centralised database apart from ideological reasons.
+The core technology behind all cryptos, the "blockchain" is straight garbage. This isn't like self-driving cars where I could see it getting better eventually, **no**, it's a trash idea. Ah yes, how about a linked list where every node contains a hash of all the data of the nodes behind it, and every time you want to add a new node, you need 100,000 computers to say "OK" to it. Simply put, there are no reasons for why you would want a decentralised blockchain over a centralised database apart from ideological ones.
 
 Ideological reasons like being free from government regulation. But... eh, why do you think government regulation exists? Not everyone will have the ability or will to "be their own bank", how do you prevent them from being scammed, or involved with fraud?
 
