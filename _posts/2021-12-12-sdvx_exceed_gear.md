@@ -77,6 +77,8 @@ The game should ask to start updating (just say "Yes" or "Ok" to any prompts, it
 
 When you're done with that start the game and test it works, you will be on the trial version for now so there will only be a few songs to play. If it doesn't work then... I dunno, worked for me, can't really help you there.
 
+For the next parts you might not be able to get through just with basic understanding of website UX design, so I'll be providing translations (from DeepL because I don't know Japanese as I am not a weeb) of what words you need to press.
+
 Now you'll need to purchase a monthly subscription to the Basic Course, which is done with this [link](https://p.eagate.573.jp/payment/p/select_course.html?course=eac_sdvx_basic) and by clicking 了承する ("Acknowledge"), selecting the payment method and 次へ ("Next"), then entering details as needed. You'll be asked to enter your password to confirm the purchase.(^3)
 
 (^3): FYI: Basic Course subscriptions expire at the end of the month, which means that you'll get more out of it if you subscribe at the start of the month.
