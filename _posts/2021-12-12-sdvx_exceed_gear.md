@@ -77,7 +77,9 @@ The game should ask to start updating (just say "Yes" or "Ok" to any prompts, it
 
 When you're done with that start the game and test it works, you will be on the trial version for now so there will only be a few songs to play. If it doesn't work then... I dunno, worked for me, can't really help you there.
 
-For the next parts you might not be able to get through just with basic understanding of website UX design, so I'll be providing translations (from DeepL because I don't know Japanese as I am not a weeb) of what words you need to press.
+For the next parts you might not be able to get through just with a basic understanding of website UX design, so I'll be providing translations (from deepL as I don't know Japanese because I am not a weeb) of what words you need to press.
+
+Try not to remember what the characters are so you can be sure to not know any Japanese. If you have a good memory and find this too hard, try bad mouthing Japan to your friends and loved ones with things such as the horrific crimes committed by imperial Japan which the modern government still has not apologised for, or the depressing work culture, or the xenophobia, or the stagnating economy, or the... actually that's probably enough to not sound like a weeb.
 
 Now you'll need to purchase a monthly subscription to the Basic Course, which is done with this [link](https://p.eagate.573.jp/payment/p/select_course.html?course=eac_sdvx_basic) and by clicking 了承する ("Acknowledge"), selecting the payment method and 次へ ("Next"), then entering details as needed. You'll be asked to enter your password to confirm the purchase.(^3)
 
