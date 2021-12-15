@@ -28,7 +28,7 @@ As you can see it just sends the header back. Pretty harmless right? Well obviou
   xmlhttp.open('TRACE', url, false);
   xmlhttp.send();
 
-  xmlDoc = xmlHttp.responseText;
+  xmlDoc = xmlhttp.responseText;
   alert(xmlDoc);
 </script>
 ```
